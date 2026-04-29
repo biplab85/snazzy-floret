@@ -1,0 +1,23 @@
+[    5904ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[    6774ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[    6778ms] Error: Function snaptr not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:252)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3386
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3447)
+[  196819ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  256400ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  339308ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  382756ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  439358ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  468811ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  580309ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  588424ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  679703ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  726103ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  749428ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  758285ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  802410ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  883440ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1

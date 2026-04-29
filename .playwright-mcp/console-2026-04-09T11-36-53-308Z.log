@@ -1,0 +1,5 @@
+[     912ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[     927ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)

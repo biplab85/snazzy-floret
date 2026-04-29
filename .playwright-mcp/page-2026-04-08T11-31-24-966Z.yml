@@ -1,0 +1,336 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Free delivery on orders over ৳2,500 | Custom sizing available
+      - button "Close announcement" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - link "Snazzy Floret" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/
+          - img "Snazzy Floret" [ref=e14]
+        - navigation "Primary navigation" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Saree" [ref=e18] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e19]:
+              - link "Regular Wear" [ref=e20] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+            - listitem [ref=e21]:
+              - link "Party Wear" [ref=e22] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e23]:
+              - link "Handmade" [ref=e24] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e25]:
+              - link "Digital Prints" [ref=e26] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+        - generic [ref=e27]:
+          - button "Search" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+          - button "Cart" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - generic [ref=e36]: "4"
+          - link "Account" [ref=e37] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e38]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main [ref=e41]:
+      - article [ref=e43]:
+        - generic [ref=e45]:
+          - navigation "Account pages" [ref=e46]:
+            - generic [ref=e49]:
+              - generic [ref=e50]: Welcome back
+              - strong [ref=e51]: Test Buyer
+            - list [ref=e52]:
+              - listitem [ref=e53]:
+                - link "Dashboard" [ref=e54] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/
+                  - img [ref=e56]
+                  - generic [ref=e61]: Dashboard
+                  - img [ref=e62]
+              - listitem [ref=e64]:
+                - link "Orders" [ref=e65] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/orders/
+                  - img [ref=e67]
+                  - generic [ref=e71]: Orders
+                  - img [ref=e72]
+              - listitem [ref=e74]:
+                - link "Downloads" [ref=e75] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/downloads/
+                  - img [ref=e77]
+                  - generic [ref=e80]: Downloads
+                  - img [ref=e81]
+              - listitem [ref=e83]:
+                - link "Addresses" [ref=e84] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/edit-address/
+                  - img [ref=e86]
+                  - generic [ref=e89]: Addresses
+                  - img [ref=e90]
+              - listitem [ref=e92]:
+                - link "Payment methods" [ref=e93] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/payment-methods/
+                  - img [ref=e95]
+                  - generic [ref=e97]: Payment methods
+                  - img [ref=e98]
+              - listitem [ref=e100]:
+                - link "Account details" [ref=e101] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/edit-account/
+                  - img [ref=e103]
+                  - generic [ref=e106]: Account details
+                  - img [ref=e107]
+              - listitem [ref=e109]:
+                - link "Log out" [ref=e110] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/customer-logout/?_wpnonce=e57ee88b36
+                  - img [ref=e112]
+                  - generic [ref=e115]: Log out
+                  - img [ref=e116]
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - heading "My Orders" [level=2] [ref=e121]
+              - paragraph [ref=e122]: Track every purchase and revisit past orders any time.
+            - table [ref=e124]:
+              - rowgroup [ref=e125]:
+                - row "Order Date Status Total Actions" [ref=e126]:
+                  - columnheader "Order" [ref=e127]
+                  - columnheader "Date" [ref=e128]
+                  - columnheader "Status" [ref=e129]
+                  - columnheader "Total" [ref=e130]
+                  - columnheader "Actions" [ref=e131]
+              - rowgroup [ref=e132]:
+                - row "#88 April 8, 2026 Completed 900.00৳ (1 item) Order actions" [ref=e133]:
+                  - cell "#88" [ref=e134]:
+                    - link "#88" [ref=e135] [cursor=pointer]:
+                      - /url: http://localhost/sklentr/snazzy-floret/my-account/view-order/88/
+                  - cell "April 8, 2026" [ref=e136]:
+                    - time [ref=e137]: April 8, 2026
+                  - cell "Completed" [ref=e138]:
+                    - generic [ref=e140]:
+                      - img [ref=e142]
+                      - generic [ref=e144]: Completed
+                  - cell "900.00৳ (1 item)" [ref=e145]:
+                    - generic [ref=e146]: 900.00৳
+                    - generic [ref=e147]: (1 item)
+                  - cell "Order actions" [ref=e148]:
+                    - generic [ref=e149]:
+                      - button "Order actions" [ref=e150] [cursor=pointer]:
+                        - img [ref=e151]
+                      - menu [ref=e155]:
+                        - menuitem "View" [ref=e156] [cursor=pointer]:
+                          - img [ref=e158]
+                          - text: View
+                - row "#87 April 8, 2026 Processing 1,000.00৳ (1 item) Order actions" [ref=e161]:
+                  - cell "#87" [ref=e162]:
+                    - link "#87" [ref=e163] [cursor=pointer]:
+                      - /url: http://localhost/sklentr/snazzy-floret/my-account/view-order/87/
+                  - cell "April 8, 2026" [ref=e164]:
+                    - time [ref=e165]: April 8, 2026
+                  - cell "Processing" [ref=e166]:
+                    - generic [ref=e168]:
+                      - img [ref=e170]
+                      - generic [ref=e173]: Processing
+                  - cell "1,000.00৳ (1 item)" [ref=e174]:
+                    - generic [ref=e175]: 1,000.00৳
+                    - generic [ref=e176]: (1 item)
+                  - cell "Order actions" [ref=e177]:
+                    - generic [ref=e178]:
+                      - button "Order actions" [ref=e179] [cursor=pointer]:
+                        - img [ref=e180]
+                      - menu [ref=e184]:
+                        - menuitem "View" [ref=e185] [cursor=pointer]:
+                          - img [ref=e187]
+                          - text: View
+                - row "#86 April 8, 2026 Failed Payment attempt failed or was declined. 1,100.00৳ (1 item) Order actions" [ref=e190]:
+                  - cell "#86" [ref=e191]:
+                    - link "#86" [ref=e192] [cursor=pointer]:
+                      - /url: http://localhost/sklentr/snazzy-floret/my-account/view-order/86/
+                  - cell "April 8, 2026" [ref=e193]:
+                    - time [ref=e194]: April 8, 2026
+                  - cell "Failed Payment attempt failed or was declined." [ref=e195]:
+                    - generic [ref=e196]:
+                      - generic [ref=e197]:
+                        - img [ref=e199]
+                        - generic [ref=e201]: Failed
+                      - generic "Payment attempt failed or was declined." [ref=e202]:
+                        - img [ref=e203]
+                  - cell "1,100.00৳ (1 item)" [ref=e205]:
+                    - generic [ref=e206]: 1,100.00৳
+                    - generic [ref=e207]: (1 item)
+                  - cell "Order actions" [ref=e208]:
+                    - generic [ref=e209]:
+                      - button "Order actions" [ref=e210] [cursor=pointer]:
+                        - img [ref=e211]
+                      - menu [ref=e215]:
+                        - menuitem "View" [ref=e216] [cursor=pointer]:
+                          - img [ref=e218]
+                          - text: View
+                        - menuitem "Pay" [ref=e221] [cursor=pointer]:
+                          - img [ref=e223]
+                          - text: Pay
+                        - menuitem "Cancel" [ref=e225] [cursor=pointer]:
+                          - img [ref=e227]
+                          - text: Cancel
+                - row "#84 April 8, 2026 Refunded Payment was refunded to the customer. 0.00৳ (1 item) Order actions" [ref=e231]:
+                  - cell "#84" [ref=e232]:
+                    - link "#84" [ref=e233] [cursor=pointer]:
+                      - /url: http://localhost/sklentr/snazzy-floret/my-account/view-order/84/
+                  - cell "April 8, 2026" [ref=e234]:
+                    - time [ref=e235]: April 8, 2026
+                  - cell "Refunded Payment was refunded to the customer." [ref=e236]:
+                    - generic [ref=e237]:
+                      - generic [ref=e238]:
+                        - img [ref=e240]
+                        - generic [ref=e243]: Refunded
+                      - generic "Payment was refunded to the customer." [ref=e244]:
+                        - img [ref=e245]
+                  - cell "0.00৳ (1 item)" [ref=e247]:
+                    - deletion [ref=e248]: 1,500.00৳
+                    - insertion [ref=e249]:
+                      - generic [ref=e250]: 0.00৳
+                    - generic [ref=e251]: (1 item)
+                  - cell "Order actions" [ref=e252]:
+                    - generic [ref=e253]:
+                      - button "Order actions" [ref=e254] [cursor=pointer]:
+                        - img [ref=e255]
+                      - menu [ref=e259]:
+                        - menuitem "View" [ref=e260] [cursor=pointer]:
+                          - img [ref=e262]
+                          - text: View
+                - row "#83 April 8, 2026 Cancelled Order was cancelled by the customer or admin. 4,800.00৳ (1 item) Order actions" [ref=e265]:
+                  - cell "#83" [ref=e266]:
+                    - link "#83" [ref=e267] [cursor=pointer]:
+                      - /url: http://localhost/sklentr/snazzy-floret/my-account/view-order/83/
+                  - cell "April 8, 2026" [ref=e268]:
+                    - time [ref=e269]: April 8, 2026
+                  - cell "Cancelled Order was cancelled by the customer or admin." [ref=e270]:
+                    - generic [ref=e271]:
+                      - generic [ref=e272]:
+                        - img [ref=e274]
+                        - generic [ref=e278]: Cancelled
+                      - generic "Order was cancelled by the customer or admin." [ref=e279]:
+                        - img [ref=e280]
+                  - cell "4,800.00৳ (1 item)" [ref=e282]:
+                    - generic [ref=e283]: 4,800.00৳
+                    - generic [ref=e284]: (1 item)
+                  - cell "Order actions" [ref=e285]:
+                    - generic [ref=e286]:
+                      - button "Order actions" [ref=e287] [cursor=pointer]:
+                        - img [ref=e288]
+                      - menu [ref=e292]:
+                        - menuitem "View" [ref=e293] [cursor=pointer]:
+                          - img [ref=e295]
+                          - text: View
+            - navigation "Orders pagination" [ref=e298]:
+              - generic "Previous page":
+                - img
+              - generic [ref=e299]: "1"
+              - link "2" [ref=e300] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/my-account/orders/2/
+              - link "3" [ref=e301] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/my-account/orders/3/
+              - link "Next page" [ref=e302] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/my-account/orders/2/
+                - img [ref=e303]
+    - contentinfo [ref=e305]:
+      - generic [ref=e306]:
+        - img "Snazzy Floret" [ref=e307]
+        - generic [ref=e309]:
+          - heading "Get 20% off your first order" [level=2] [ref=e310]
+          - paragraph [ref=e311]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=e312]:
+            - textbox "Enter your email" [ref=e313]
+            - button "Subscribe" [ref=e314] [cursor=pointer]:
+              - img [ref=e315]
+          - generic [ref=e317]: Subscribe
+      - generic [ref=e318]:
+        - generic [ref=e319]:
+          - generic [ref=e320]:
+            - heading "Shop" [level=3] [ref=e321]
+            - list [ref=e322]:
+              - listitem [ref=e323]:
+                - link "Digital Prints" [ref=e324] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+              - listitem [ref=e325]:
+                - link "Handmade" [ref=e326] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+              - listitem [ref=e327]:
+                - link "Saree" [ref=e328] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+              - listitem [ref=e329]:
+                - link "Party wear" [ref=e330] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=e331]:
+                - link "Regular wear" [ref=e332] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - generic [ref=e333]:
+            - heading "Customer Care" [level=3] [ref=e334]
+            - list [ref=e335]:
+              - listitem [ref=e336]:
+                - link "FAQ" [ref=e337] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/faq/
+              - listitem [ref=e338]:
+                - link "Shipping" [ref=e339] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/shipping/
+              - listitem [ref=e340]:
+                - link "Contact" [ref=e341] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/contact/
+              - listitem [ref=e342]:
+                - link "Party wear" [ref=e343] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=e344]:
+                - link "Regular wear" [ref=e345] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - generic [ref=e346]:
+            - heading "Information" [level=3] [ref=e347]
+            - list [ref=e348]:
+              - listitem [ref=e349]:
+                - link "Returns & Refunds" [ref=e350] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+              - listitem [ref=e351]:
+                - link "Privacy policy" [ref=e352] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+              - listitem [ref=e353]:
+                - link "About us" [ref=e354] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/about/
+          - list [ref=e356]:
+            - listitem [ref=e357]:
+              - link "+880 1621-008533" [ref=e358] [cursor=pointer]:
+                - /url: tel:+8801621008533
+                - img [ref=e359]
+                - text: +880 1621-008533
+            - listitem [ref=e361]:
+              - link "snazzyfloret@gmail.com" [ref=e362] [cursor=pointer]:
+                - /url: mailto:snazzyfloret@gmail.com
+                - img [ref=e363]
+                - text: snazzyfloret@gmail.com
+        - generic: SNAZZY FLORET
+      - paragraph [ref=e368]: © 2026 Snazzy Floret. All rights reserved.
+  - status [ref=e369]

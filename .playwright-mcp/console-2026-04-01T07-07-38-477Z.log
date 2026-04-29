@@ -1,0 +1,92 @@
+[     971ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[     998ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[     999ms] Error: Function snaptr not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:252)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3386
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3447)
+[   13461ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[   13645ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[   13646ms] Error: Function snaptr not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:252)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3386
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3447)
+[   21233ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[   21734ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[   21734ms] Error: Function snaptr not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:252)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3386
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3447)
+[   23969ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[   24018ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[   24018ms] Error: Function snaptr not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:252)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3386
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3447)
+[   32278ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[   32307ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[   32307ms] Error: Function snaptr not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:252)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3386
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3447)
+[   40083ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[   40217ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[   40217ms] Error: Function snaptr not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:252)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3386
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3447)
+[   46482ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[   46525ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[   46525ms] Error: Function snaptr not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:252)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3386
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3447)
+[  175932ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  176135ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[  176135ms] Error: Function snaptr not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:252)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3386
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3447)
+[  181583ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  181633ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[  181633ms] Error: Function snaptr not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:252)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3386
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3447)
+[  284659ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  289065ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  434869ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  435548ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:2957
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3109)
+[  435549ms] Error: Function snaptr not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:252)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:2987
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3054)

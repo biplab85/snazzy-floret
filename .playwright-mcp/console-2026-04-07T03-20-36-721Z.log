@@ -1,0 +1,5 @@
+[     951ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[    1603ms] Error: Function snaptr not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:252)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3197
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/snapchat-for-woocommerce/js/build/tracking.js:1:3268)

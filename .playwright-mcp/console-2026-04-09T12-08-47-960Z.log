@@ -1,0 +1,172 @@
+[     945ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[    1480ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[    2041ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[    2661ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[    2744ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[    2830ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[   36174ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[   37170ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[   37779ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[   37846ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[   37898ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[   96173ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[   97152ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[   97730ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[   97798ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[   97846ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  212767ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  213721ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[  214558ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  214633ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  214689ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  214776ms] FetchError: Error fetching https://r.stripe.com/b: Failed to fetch
+    at https://js.stripe.com/v3/fingerprinted/js/shared-e-dbd42093a2a86683c0c1752602264722.js:1:243950
+[  333645ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  334603ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[  335331ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  335403ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  335684ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  335927ms] FetchError: Error fetching https://r.stripe.com/b: Failed to fetch
+    at https://js.stripe.com/v3/fingerprinted/js/shared-e-dbd42093a2a86683c0c1752602264722.js:1:243950
+[  335928ms] FetchError: Error fetching https://r.stripe.com/b: Failed to fetch
+    at https://js.stripe.com/v3/fingerprinted/js/shared-e-dbd42093a2a86683c0c1752602264722.js:1:243950
+[  336175ms] FetchError: Error fetching https://r.stripe.com/b: Failed to fetch
+    at https://js.stripe.com/v3/fingerprinted/js/shared-e-dbd42093a2a86683c0c1752602264722.js:1:243950
+[  336176ms] FetchError: Error fetching https://r.stripe.com/b: Failed to fetch
+    at https://js.stripe.com/v3/fingerprinted/js/shared-e-dbd42093a2a86683c0c1752602264722.js:1:243950
+[  351687ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  352255ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[  352881ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[  352947ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[  352996ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[  353079ms] FetchError: Error fetching https://r.stripe.com/b: Failed to fetch
+    at https://js.stripe.com/v3/fingerprinted/js/shared-ebb6f4c582cd8a4e604e819f13be7886.js:1:244317
+[  383183ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  384221ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[  384805ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  384871ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  384962ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  399727ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  400297ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[  400906ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  400975ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  401060ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  427704ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  429468ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[  430064ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  430127ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  430157ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  458751ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  459824ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[  460569ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[  460635ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[  460821ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[  471626ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  472234ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[  472841ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  472903ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  472955ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[  474944ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[  475554ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[  476212ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[  476296ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[  476330ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0

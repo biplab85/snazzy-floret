@@ -1,0 +1,309 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Free delivery on orders over ৳2,500 | Custom sizing available
+      - button "Close announcement" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - link "Snazzy Floret" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/
+          - img "Snazzy Floret" [ref=e14]
+        - navigation "Primary navigation" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Saree" [ref=e18] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e19]:
+              - link "Regular Wear" [ref=e20] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+            - listitem [ref=e21]:
+              - link "Party Wear" [ref=e22] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e23]:
+              - link "Handmade" [ref=e24] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e25]:
+              - link "Digital Prints" [ref=e26] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+        - generic [ref=e27]:
+          - button "Search" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+          - button "Cart" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - generic [ref=e36]: "0"
+          - link "Account" [ref=e37] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e38]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main [ref=e41]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - img [ref=e47]
+          - generic [ref=e50]: The Journal
+        - heading "Stories, Style, and Thoughtful Wear." [level=1] [ref=e51]:
+          - text: Stories, Style, and
+          - emphasis [ref=e52]: Thoughtful Wear.
+        - paragraph [ref=e53]: Fabric deep-dives, family styling guides, and quiet notes from our Dhaka studio.
+      - generic [ref=e56]:
+        - article [ref=e57]:
+          - link "The Story Behind Snazzy Floret’s First Collection" [ref=e58] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/snazzy-floret-first-collection/
+            - img "The Story Behind Snazzy Floret’s First Collection" [ref=e59]
+            - generic [ref=e60]: Behind the Scenes
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - time [ref=e63]: April 22, 2026
+              - generic [ref=e65]: 1 min read
+            - heading "The Story Behind Snazzy Floret’s First Collection" [level=2] [ref=e66]:
+              - link "The Story Behind Snazzy Floret’s First Collection" [ref=e67] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/snazzy-floret-first-collection/
+            - paragraph [ref=e68]: How a small studio in Dhaka turned a family idea into a brand — and what we learned along the way.
+            - link "Read article" [ref=e69] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/snazzy-floret-first-collection/
+              - generic [ref=e70]: Read article
+              - img [ref=e71]
+        - article [ref=e73]:
+          - link "5 Timeless Mother-Daughter Outfit Ideas" [ref=e74] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/mother-daughter-outfit-ideas/
+            - img "5 Timeless Mother-Daughter Outfit Ideas" [ref=e75]
+            - generic [ref=e76]: Family Style
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - time [ref=e79]: April 22, 2026
+              - generic [ref=e81]: 1 min read
+            - heading "5 Timeless Mother-Daughter Outfit Ideas" [level=2] [ref=e82]:
+              - link "5 Timeless Mother-Daughter Outfit Ideas" [ref=e83] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/mother-daughter-outfit-ideas/
+            - paragraph [ref=e84]: Five mother-daughter pairings that feel considered, not matchy — good for weddings, Eid, and family portraits alike.
+            - link "Read article" [ref=e85] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/mother-daughter-outfit-ideas/
+              - generic [ref=e86]: Read article
+              - img [ref=e87]
+        - article [ref=e89]:
+          - 'link "Custom Tailoring 101: How to Share Your Measurements" [ref=e90] [cursor=pointer]':
+            - /url: http://localhost/sklentr/snazzy-floret/custom-tailoring-measurements/
+            - 'img "Custom Tailoring 101: How to Share Your Measurements" [ref=e91]'
+            - generic [ref=e92]: Fashion Tips
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - time [ref=e95]: April 22, 2026
+              - generic [ref=e97]: 2 min read
+            - 'heading "Custom Tailoring 101: How to Share Your Measurements" [level=2] [ref=e98]':
+              - 'link "Custom Tailoring 101: How to Share Your Measurements" [ref=e99] [cursor=pointer]':
+                - /url: http://localhost/sklentr/snazzy-floret/custom-tailoring-measurements/
+            - paragraph [ref=e100]: A short, practical guide to getting measurements right the first time — no guesswork, no returns.
+            - link "Read article" [ref=e101] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/custom-tailoring-measurements/
+              - generic [ref=e102]: Read article
+              - img [ref=e103]
+        - article [ref=e105]:
+          - 'link "Eid 2026: Building a Family Matching Look That Lasts" [ref=e106] [cursor=pointer]':
+            - /url: http://localhost/sklentr/snazzy-floret/eid-2026-family-matching/
+            - 'img "Eid 2026: Building a Family Matching Look That Lasts" [ref=e107]'
+            - generic [ref=e108]: Occasion Wear
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - time [ref=e111]: April 22, 2026
+              - generic [ref=e113]: 1 min read
+            - 'heading "Eid 2026: Building a Family Matching Look That Lasts" [level=2] [ref=e114]':
+              - 'link "Eid 2026: Building a Family Matching Look That Lasts" [ref=e115] [cursor=pointer]':
+                - /url: http://localhost/sklentr/snazzy-floret/eid-2026-family-matching/
+            - paragraph [ref=e116]: Beyond the first Eid photo — how to choose pieces the family will actually wear again.
+            - link "Read article" [ref=e117] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/eid-2026-family-matching/
+              - generic [ref=e118]: Read article
+              - img [ref=e119]
+        - article [ref=e121]:
+          - 'link "Fabric Spotlight: Why Muslin and Cotton Reign Supreme in Summer" [ref=e122] [cursor=pointer]':
+            - /url: http://localhost/sklentr/snazzy-floret/muslin-cotton-summer/
+            - 'img "Fabric Spotlight: Why Muslin and Cotton Reign Supreme in Summer" [ref=e123]'
+            - generic [ref=e124]: Fabric Guide
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - time [ref=e127]: April 22, 2026
+              - generic [ref=e129]: 1 min read
+            - 'heading "Fabric Spotlight: Why Muslin and Cotton Reign Supreme in Summer" [level=2] [ref=e130]':
+              - 'link "Fabric Spotlight: Why Muslin and Cotton Reign Supreme in Summer" [ref=e131] [cursor=pointer]':
+                - /url: http://localhost/sklentr/snazzy-floret/muslin-cotton-summer/
+            - paragraph [ref=e132]: Dhaka summers aren't forgiving. The right fabric decides whether your outfit carries you through the day — or against it.
+            - link "Read article" [ref=e133] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/muslin-cotton-summer/
+              - generic [ref=e134]: Read article
+              - img [ref=e135]
+        - article [ref=e137]:
+          - 'link "The Art of Family Matching: A Dhaka Guide to Coordinated Looks" [ref=e138] [cursor=pointer]':
+            - /url: http://localhost/sklentr/snazzy-floret/art-of-family-matching/
+            - 'img "The Art of Family Matching: A Dhaka Guide to Coordinated Looks" [ref=e139]'
+            - generic [ref=e140]: Fashion Tips
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - time [ref=e143]: April 22, 2026
+              - generic [ref=e145]: 2 min read
+            - 'heading "The Art of Family Matching: A Dhaka Guide to Coordinated Looks" [level=2] [ref=e146]':
+              - 'link "The Art of Family Matching: A Dhaka Guide to Coordinated Looks" [ref=e147] [cursor=pointer]':
+                - /url: http://localhost/sklentr/snazzy-floret/art-of-family-matching/
+            - paragraph [ref=e148]: Family matching is having a real moment — here's how to do it with elegance, not costume.
+            - link "Read article" [ref=e149] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/art-of-family-matching/
+              - generic [ref=e150]: Read article
+              - img [ref=e151]
+        - article [ref=e153]:
+          - 'link "Eid Fashion Guide 2026: Top Trends from Dhaka" [ref=e154] [cursor=pointer]':
+            - /url: http://localhost/sklentr/snazzy-floret/eid-fashion-guide-2026-top-trends-from-dhaka/
+            - 'img "Eid Fashion Guide 2026: Top Trends from Dhaka" [ref=e155]'
+            - generic [ref=e156]: Uncategorized
+          - generic [ref=e157]:
+            - generic [ref=e158]:
+              - time [ref=e159]: April 1, 2026
+              - generic [ref=e161]: 1 min read
+            - 'heading "Eid Fashion Guide 2026: Top Trends from Dhaka" [level=2] [ref=e162]':
+              - 'link "Eid Fashion Guide 2026: Top Trends from Dhaka" [ref=e163] [cursor=pointer]':
+                - /url: http://localhost/sklentr/snazzy-floret/eid-fashion-guide-2026-top-trends-from-dhaka/
+            - paragraph [ref=e164]: Your complete guide to the hottest Eid fashion trends this season.
+            - link "Read article" [ref=e165] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/eid-fashion-guide-2026-top-trends-from-dhaka/
+              - generic [ref=e166]: Read article
+              - img [ref=e167]
+        - article [ref=e169]:
+          - 'link "The Art of Handmade Fashion: Why It Matters" [ref=e170] [cursor=pointer]':
+            - /url: http://localhost/sklentr/snazzy-floret/the-art-of-handmade-fashion-why-it-matters/
+            - 'img "The Art of Handmade Fashion: Why It Matters" [ref=e171]'
+            - generic [ref=e172]: Uncategorized
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - time [ref=e175]: April 1, 2026
+              - generic [ref=e177]: 1 min read
+            - 'heading "The Art of Handmade Fashion: Why It Matters" [level=2] [ref=e178]':
+              - 'link "The Art of Handmade Fashion: Why It Matters" [ref=e179] [cursor=pointer]':
+                - /url: http://localhost/sklentr/snazzy-floret/the-art-of-handmade-fashion-why-it-matters/
+            - paragraph [ref=e180]: Exploring the beauty and value of handcrafted clothing in modern fashion.
+            - link "Read article" [ref=e181] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/the-art-of-handmade-fashion-why-it-matters/
+              - generic [ref=e182]: Read article
+              - img [ref=e183]
+        - article [ref=e185]:
+          - link "5 Ways to Style Your Family Matching Outfits" [ref=e186] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/5-ways-to-style-your-family-matching-outfits/
+            - img "5 Ways to Style Your Family Matching Outfits" [ref=e187]
+            - generic [ref=e188]: Uncategorized
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - time [ref=e191]: April 1, 2026
+              - generic [ref=e193]: 1 min read
+            - heading "5 Ways to Style Your Family Matching Outfits" [level=2] [ref=e194]:
+              - link "5 Ways to Style Your Family Matching Outfits" [ref=e195] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/5-ways-to-style-your-family-matching-outfits/
+            - paragraph [ref=e196]: Discover creative ways to style family matching outfits for every occasion.
+            - link "Read article" [ref=e197] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/5-ways-to-style-your-family-matching-outfits/
+              - generic [ref=e198]: Read article
+              - img [ref=e199]
+    - contentinfo [ref=e201]:
+      - generic [ref=e202]:
+        - img "Snazzy Floret" [ref=e203]
+        - generic [ref=e205]:
+          - heading "Get 20% off your first order" [level=2] [ref=e206]
+          - paragraph [ref=e207]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=e208]:
+            - textbox "Enter your email" [ref=e209]
+            - button "Subscribe" [ref=e210] [cursor=pointer]:
+              - img [ref=e211]
+          - generic [ref=e213]: Subscribe
+      - generic [ref=e214]:
+        - generic [ref=e215]:
+          - generic [ref=e216]:
+            - heading "Shop" [level=3] [ref=e217]
+            - list [ref=e218]:
+              - listitem [ref=e219]:
+                - link "Digital Prints" [ref=e220] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+              - listitem [ref=e221]:
+                - link "Handmade" [ref=e222] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+              - listitem [ref=e223]:
+                - link "Saree" [ref=e224] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+              - listitem [ref=e225]:
+                - link "Party wear" [ref=e226] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=e227]:
+                - link "Regular wear" [ref=e228] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - generic [ref=e229]:
+            - heading "Customer Care" [level=3] [ref=e230]
+            - list [ref=e231]:
+              - listitem [ref=e232]:
+                - link "FAQ" [ref=e233] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/faq/
+              - listitem [ref=e234]:
+                - link "Shipping" [ref=e235] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/shipping/
+              - listitem [ref=e236]:
+                - link "Contact" [ref=e237] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/contact/
+          - generic [ref=e238]:
+            - heading "Information" [level=3] [ref=e239]
+            - list [ref=e240]:
+              - listitem [ref=e241]:
+                - link "Returns & Refunds" [ref=e242] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+              - listitem [ref=e243]:
+                - link "Privacy policy" [ref=e244] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+              - listitem [ref=e245]:
+                - link "About us" [ref=e246] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/about/
+          - generic [ref=e247]:
+            - heading "Get in Touch" [level=3] [ref=e248]
+            - list [ref=e249]:
+              - listitem [ref=e250]:
+                - link "+880 1621-008533" [ref=e251] [cursor=pointer]:
+                  - /url: tel:+8801621008533
+                  - img [ref=e252]
+                  - text: +880 1621-008533
+              - listitem [ref=e254]:
+                - link "snazzyfloret@gmail.com" [ref=e255] [cursor=pointer]:
+                  - /url: mailto:snazzyfloret@gmail.com
+                  - img [ref=e256]
+                  - text: snazzyfloret@gmail.com
+            - generic [ref=e259]:
+              - link "Facebook" [ref=e260] [cursor=pointer]:
+                - /url: https://www.facebook.com/snazzyfloret
+                - img [ref=e261]
+              - link "Instagram" [ref=e263] [cursor=pointer]:
+                - /url: https://www.instagram.com/snazzyfloret
+                - img [ref=e264]
+              - link "WhatsApp" [ref=e267] [cursor=pointer]:
+                - /url: https://wa.me/8801621008533
+                - img [ref=e268]
+        - generic: SNAZZY FLORET
+      - paragraph [ref=e272]: © 2026 Snazzy Floret. All rights reserved.
+  - status [ref=e273]

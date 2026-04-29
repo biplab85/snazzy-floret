@@ -1,0 +1,1062 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - paragraph [ref=e5]:
+      - text: SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INTERNATIONAL DELIVERY - OFF 50%!
+      - link "SHOP NOW" [ref=e6] [cursor=pointer]:
+        - /url: https://klbtheme.com/clotya/shop
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - button " 3.1M Followers" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: 
+            - generic [ref=e14]: 3.1M Followers
+          - text:    
+        - paragraph [ref=e16]:
+          - text: Free Shipping World wide for all orders over $199.
+          - link "Click and Shop Now." [ref=e17] [cursor=pointer]:
+            - /url: https://klbtheme.com/clotya/shop/?column=4&opt=full-width
+      - navigation [ref=e20]:
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Order Tracking" [ref=e23] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/order-tracking/
+          - listitem [ref=e24]:
+            - link "English " [ref=e25] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e26]:
+            - link "USD " [ref=e27] [cursor=pointer]:
+              - /url: "#"
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - link "" [ref=e33] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e34]: 
+        - link "Clotya – Fashion Store eCommerce Theme" [ref=e36] [cursor=pointer]:
+          - /url: https://klbtheme.com/clotya/
+          - img "Clotya – Fashion Store eCommerce Theme" [ref=e37]
+      - search [ref=e40]:
+        - searchbox "Search your favorite product..." [ref=e41]
+        - combobox [ref=e42] [cursor=pointer]:
+          - option "Select Category" [selected]
+          - option "Men"
+          - option "Women"
+          - option "Bags"
+          - option "Belts"
+          - option "Shoes"
+          - option "Outerwear"
+          - option "Cargo Trousers"
+          - option "Accessories"
+        - button "" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: 
+      - generic [ref=e45]:
+        - link "" [ref=e47] [cursor=pointer]:
+          - /url: https://klbtheme.com/clotya/my-account/
+          - generic [ref=e48]: 
+        - link " 0" [ref=e50] [cursor=pointer]:
+          - /url: https://klbtheme.com/clotya/wishlist/
+          - generic [ref=e51]:
+            - generic [ref=e52]: 
+            - generic [ref=e53]: "0"
+        - link "$0.00  0" [ref=e55] [cursor=pointer]:
+          - /url: https://klbtheme.com/clotya/cart/
+          - generic [ref=e58]: $0.00
+          - generic [ref=e59]:
+            - generic [ref=e60]: 
+            - generic [ref=e61]: "0"
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - link "All Categories 72 " [ref=e67] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e68]: All Categories
+          - generic [ref=e69]: "72"
+          - generic [ref=e71]: 
+        - list [ref=e73]:
+          - listitem [ref=e74]:
+            - link "Men " [ref=e75] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/men/
+          - listitem [ref=e76]:
+            - link "Women " [ref=e77] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/women/
+          - listitem [ref=e78]:
+            - link "Kids" [ref=e79] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/kids/
+          - listitem [ref=e80]:
+            - link "Baby" [ref=e81] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/baby/
+          - listitem [ref=e82]:
+            - link "Shoes HOT" [ref=e83] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/shoes/
+              - text: Shoes
+              - generic [ref=e84]: HOT
+          - listitem [ref=e85]:
+            - link "Bags" [ref=e86] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/bags/
+          - listitem [ref=e87]:
+            - link "Accessories" [ref=e88] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/accessories/
+          - listitem [ref=e89]:
+            - link "Watches" [ref=e90] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/watches/
+          - listitem [ref=e91]:
+            - link "Cargo Trousers NEW" [ref=e92] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/cargo-trousers/
+              - text: Cargo Trousers
+              - generic [ref=e93]: NEW
+          - listitem [ref=e94]:
+            - link "Outerwear" [ref=e95] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/outerwear/
+          - listitem [ref=e96]:
+            - link "Wallets" [ref=e97] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/wallets/
+          - listitem [ref=e98]:
+            - link "Belts" [ref=e99] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/belts/
+          - listitem [ref=e100]:
+            - link "Best Sellers" [ref=e101] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/shop/?orderby=popularity
+          - listitem [ref=e102]:
+            - link "Featured Products" [ref=e103] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya//shop/?featured=yes
+          - listitem [ref=e104]:
+            - link "New Arrivals Save 25%" [ref=e105] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/shop/?ft=load-more
+              - text: New Arrivals
+              - generic [ref=e106]: Save 25%
+          - listitem [ref=e107]:
+            - link "Ready to Wear" [ref=e108] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/shop/?column=4&opt=full-width
+          - listitem [ref=e109]:
+            - link "All For Men" [ref=e110] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/shop/?column=5&opt=full-width
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "Home " [ref=e115] [cursor=pointer]:
+            - /url: https://klbtheme.com/clotya/
+        - listitem [ref=e116]:
+          - link "Shop " [ref=e117] [cursor=pointer]:
+            - /url: https://klbtheme.com/clotya/shop/
+          - list:
+            - listitem:
+              - link "Shop Default":
+                - /url: https://klbtheme.com/clotya/shop/
+            - listitem:
+              - link "Shop Right Sidebar":
+                - /url: https://klbtheme.com/clotya/shop/?opt=right-sidebar
+            - listitem:
+              - link "Shop Wide":
+                - /url: https://klbtheme.com/clotya/shop/?column=5&opt=wide
+            - listitem:
+              - link "Filters Area":
+                - /url: https://klbtheme.com/clotya/shop/?column=5&opt=full-width
+            - listitem:
+              - link "List Left Sidebar":
+                - /url: https://klbtheme.com/clotya/shop/?shop_view=list_view
+            - listitem:
+              - link "Load More Button":
+                - /url: https://klbtheme.com/clotya/shop/?ft=load-more
+            - listitem:
+              - link "Infinite Scrolling":
+                - /url: https://klbtheme.com/clotya/shop/?ft=infinite
+            - listitem:
+              - link "Product Box Variable":
+                - /url: https://klbtheme.com/clotya/shop/?ft=box_variable
+            - listitem:
+              - link "Catalog Mode":
+                - /url: https://klbtheme.com/clotya/shop/?opt=catalogmode
+            - listitem:
+              - link "Product SKU":
+                - /url: https://klbtheme.com/clotya/shop/?ft=box_sku
+            - listitem:
+              - link "Additional Information":
+                - /url: https://klbtheme.com/clotya/shop/?ft=product_attributes
+          - list:
+            - listitem:
+              - link "Product Variable":
+                - /url: https://klbtheme.com/clotya/product/basic-colored-sweatpants-with-elastic-hems/
+            - listitem:
+              - link "Product Default":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/
+            - listitem:
+              - link "Product Grouped":
+                - /url: https://klbtheme.com/clotya/product/brown-mountain-graphic-sweatshirt/
+            - listitem:
+              - link "Product External":
+                - /url: https://klbtheme.com/clotya/product/cotton-and-linen-basic-shirt/
+            - listitem:
+              - link "Product Downloadable":
+                - /url: https://klbtheme.com/clotya/product/corduroy-bucket-hat/
+            - listitem:
+              - link "Produt With Video":
+                - /url: https://klbtheme.com/clotya/product/ripstop-cargo-trousers-with-pockets/
+            - listitem:
+              - link "Without Recently Viewed":
+                - /url: https://klbtheme.com/clotya/product/basic-colored-sweatpants-with-elastic-hems/?ft=recentfalse
+            - listitem:
+              - link "Thumbnails Left":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=vertical
+            - listitem:
+              - link "Gallery 1 Column":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=1column
+            - listitem:
+              - link "Gallery 2 Columns":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=2columns
+            - listitem:
+              - link "Carousel 2 Columns":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=carousel2columns
+          - list:
+            - listitem:
+              - link "Order on WhatsApp":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=orderonwhatsapp
+            - listitem:
+              - link "Buy Now Button":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=buynow
+            - listitem:
+              - link "Sticky Add to Cart":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=stickycart
+            - listitem:
+              - link "Sticky Tab Titles":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=stickytitles
+            - listitem:
+              - link "Reviews Without Tab":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=movereviewtab
+            - listitem:
+              - link "Product Full Width":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?opt=wide
+            - listitem:
+              - link "Vertical Tabs":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=vertical_tab
+            - listitem:
+              - link "Accordion Tabs":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=accordion_tab
+            - listitem:
+              - link "Accordion in Content":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=accordion_tab_content
+            - listitem:
+              - link "Low Stock Alert":
+                - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/
+          - list:
+            - listitem:
+              - link "Cart":
+                - /url: https://klbtheme.com/clotya/cart/
+            - listitem:
+              - link "Checkout":
+                - /url: https://klbtheme.com/clotya/checkout/
+            - listitem:
+              - link "My account":
+                - /url: https://klbtheme.com/clotya/my-account/
+            - listitem:
+              - link "Wishlist":
+                - /url: https://klbtheme.com/clotya/wishlist/
+            - listitem:
+              - link "Order Tracking":
+                - /url: https://klbtheme.com/clotya/order-tracking/
+            - listitem:
+              - link "Best Selling Products":
+                - /url: https://klbtheme.com/furnob/shop/?orderby=popularity
+            - listitem:
+              - link "Terms and Conditions":
+                - /url: https://klbtheme.com/clotya/terms-and-conditions/
+            - listitem:
+              - link "Shop by Brand":
+                - /url: https://klbtheme.com/clotya/shop-by-brand/
+          - list:
+            - listitem:
+              - link "Two Columns":
+                - /url: https://klbtheme.com/clotya/shop/?column=2
+            - listitem:
+              - link "Three Columns":
+                - /url: https://klbtheme.com/clotya/shop/?column=3
+            - listitem:
+              - link "Three Columns Wide":
+                - /url: https://klbtheme.com/clotya/shop/?column=3&opt=wide
+            - listitem:
+              - link "Four Columns":
+                - /url: https://klbtheme.com/clotya/shop/?column=4
+            - listitem:
+              - link "Four Columns Wide":
+                - /url: https://klbtheme.com/clotya/shop/?column=4&opt=wide
+            - listitem:
+              - link "Five Columns Wide":
+                - /url: https://klbtheme.com/clotya/shop/?column=5&opt=wide
+            - listitem:
+              - link "Six Columns Wide":
+                - /url: https://klbtheme.com/clotya/shop/?column=6&opt=wide
+        - listitem [ref=e118]:
+          - link "Women" [ref=e119] [cursor=pointer]:
+            - /url: https://klbtheme.com/clotya/shop/?filter_cat=63
+        - listitem [ref=e120]:
+          - link "Men" [ref=e121] [cursor=pointer]:
+            - /url: https://klbtheme.com/clotya/shop/?filter_cat=42
+        - listitem [ref=e122]:
+          - link "Outerwear" [ref=e123] [cursor=pointer]:
+            - /url: https://klbtheme.com/clotya/shop/?filter_cat=44
+        - listitem [ref=e124]:
+          - link "Blog" [ref=e125] [cursor=pointer]:
+            - /url: https://klbtheme.com/clotya/blog/
+        - listitem [ref=e126]:
+          - link "Contact" [ref=e127] [cursor=pointer]:
+            - /url: https://klbtheme.com/clotya/contact/
+    - text:  
+  - main [ref=e128]:
+    - generic [ref=e130]:
+      - generic [ref=e136]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:   
+      - generic [ref=e146]:
+        - generic [ref=e151]:
+          - generic [ref=e153]: 
+          - generic [ref=e154]:
+            - heading "Free Shipping" [level=4] [ref=e155]
+            - paragraph [ref=e157]: Free Shipping for orders over £130.
+        - generic [ref=e162]:
+          - generic [ref=e164]: 
+          - generic [ref=e165]:
+            - heading "Money Guarantee" [level=4] [ref=e166]
+            - paragraph [ref=e168]: Within 30 days for an exchange.
+        - generic [ref=e173]:
+          - generic [ref=e175]: 
+          - generic [ref=e176]:
+            - heading "Online Support" [level=4] [ref=e177]
+            - paragraph [ref=e179]: Within 30 days for an exchange.
+        - generic [ref=e184]:
+          - generic [ref=e186]: 
+          - generic [ref=e187]:
+            - heading "Flexible Payment" [level=4] [ref=e188]
+            - paragraph [ref=e190]: Pay with Multiple Credit Cards.
+      - generic [ref=e192]:
+        - generic [ref=e197]:
+          - generic [ref=e199]:
+            - heading "NEW SEASON" [level=4] [ref=e200]
+            - heading "Big patterns are back in fashion" [level=2] [ref=e201]
+            - paragraph [ref=e203]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+            - link "Shop Now " [ref=e204] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product/basic-colored-sweatpants-with-elastic-hems/?ft=recentfalse
+              - text: Shop Now
+              - generic [ref=e205]: 
+          - img "banner" [ref=e207]
+          - link [ref=e208] [cursor=pointer]:
+            - /url: https://klbtheme.com/clotya/product/basic-colored-sweatpants-with-elastic-hems/?ft=recentfalse
+        - generic [ref=e210]:
+          - generic [ref=e213]:
+            - generic [ref=e215]:
+              - heading "NEW SEASON" [level=4] [ref=e216]
+              - heading "Tha latest men's trends this season" [level=2] [ref=e217]
+              - paragraph [ref=e219]: Don't miss the opportunity.
+              - link "Shop Now " [ref=e220] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product/ripstop-cargo-trousers-with-pockets/
+                - text: Shop Now
+                - generic [ref=e221]: 
+            - img "banner" [ref=e223]
+            - link [ref=e224] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product/ripstop-cargo-trousers-with-pockets/
+          - generic [ref=e227]:
+            - generic [ref=e229]:
+              - heading "NEW SEASON" [level=4] [ref=e230]
+              - heading "Show your fashion with summer shoes" [level=2] [ref=e231]
+              - paragraph [ref=e233]: Don't miss the opportunity.
+              - link "Shop Now " [ref=e234] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product/basic-colored-sweatpants-with-elastic-hems/
+                - text: Shop Now
+                - generic [ref=e235]: 
+            - img "banner" [ref=e237]
+            - link [ref=e238] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product/basic-colored-sweatpants-with-elastic-hems/
+      - generic [ref=e246]:
+        - heading "Best Seller Products" [level=3] [ref=e247]
+        - paragraph [ref=e249]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+      - generic [ref=e253]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:                                        
+      - generic [ref=e261]:
+        - generic [ref=e265]:
+          - heading "DEAL OF THE WEEK" [level=4] [ref=e266]
+          - heading "Roland Grand White short checkered T-shirt" [level=2] [ref=e267]
+          - paragraph [ref=e269]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+          - generic [ref=e270]:
+            - generic [ref=e271]:
+              - generic [ref=e272]: "00"
+              - generic [ref=e273]: d
+            - generic [ref=e274]: ":"
+            - generic [ref=e275]:
+              - generic [ref=e276]: "00"
+              - generic [ref=e277]: h
+            - generic [ref=e278]: ":"
+            - generic [ref=e279]:
+              - generic [ref=e280]: "00"
+              - generic [ref=e281]: m
+            - generic [ref=e282]: ":"
+            - generic [ref=e283]:
+              - generic [ref=e284]: "00"
+              - generic [ref=e285]: s
+          - link "Shop Now" [ref=e286] [cursor=pointer]:
+            - /url: https://klbtheme.com/clotya/product/check-overshirt-with-pocket-detail/
+          - paragraph [ref=e288]:
+            - text: Limited time offer. The deal will expires on June 10, 2026
+            - strong [ref=e289]: HURRY UP!
+        - img "banner" [ref=e291]
+      - generic [ref=e299]:
+        - heading "Featured Products" [level=3] [ref=e300]
+        - paragraph [ref=e302]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+      - generic [ref=e306]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:                                   
+      - generic [ref=e308]:
+        - generic [ref=e313]:
+          - generic [ref=e315]:
+            - heading "NEW SEASON" [level=4] [ref=e316]
+            - heading "Show your best jewellery of your life" [level=2] [ref=e317]
+            - paragraph [ref=e319]: Don't miss the opportunity.
+            - link "Shop Now " [ref=e320] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/shop/
+              - text: Shop Now
+              - generic [ref=e321]: 
+          - img "banner" [ref=e323]
+          - link [ref=e324] [cursor=pointer]:
+            - /url: https://klbtheme.com/clotya/shop/
+        - generic [ref=e329]:
+          - generic [ref=e331]:
+            - heading "NEW SEASON" [level=4] [ref=e332]
+            - heading "Big patterns are back in fashion" [level=2] [ref=e333]
+            - paragraph [ref=e335]: Don't miss the opportunity.
+            - link "Shop Now " [ref=e336] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/shop/?column=5&opt=full-width
+              - text: Shop Now
+              - generic [ref=e337]: 
+          - img "banner" [ref=e339]
+          - link [ref=e340] [cursor=pointer]:
+            - /url: https://klbtheme.com/clotya/shop/?column=5&opt=full-width
+      - generic [ref=e348]:
+        - heading "Best for your categories" [level=3] [ref=e349]
+        - paragraph [ref=e350]:
+          - strong [ref=e351]: 23 categories
+          - text: belonging to a total of
+          - strong [ref=e352]: 34,592 products
+      - generic [ref=e360]:
+        - heading "Latest Buyers Reviews" [level=3] [ref=e361]
+        - paragraph [ref=e363]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+      - generic [ref=e367]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:                    
+      - generic [ref=e395]:
+        - heading "Don't Miss The Last Deals" [level=3] [ref=e396]
+        - paragraph [ref=e398]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+      - generic [ref=e406]:
+        - generic [ref=e408]:
+          - generic [ref=e409]:
+            - generic [ref=e411]: 26%
+            - generic [ref=e412]:
+              - link " Add to wishlist" [ref=e413] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/wishlist/
+              - link "" [ref=e414] [cursor=pointer]:
+                - /url: "566"
+                - generic [ref=e415]: 
+              - link " Compare" [ref=e416] [cursor=pointer]:
+                - /url: "?add-to-compare=566"
+            - link "Short Nylon-Effect Puffer Jacket" [ref=e417] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product/short-nylon-effect-puffer-jacket/
+              - img "Short Nylon-Effect Puffer Jacket" [ref=e418]
+          - generic [ref=e419]:
+            - heading "Short Nylon-Effect Puffer Jacket" [level=3] [ref=e420]:
+              - link "Short Nylon-Effect Puffer Jacket" [ref=e421] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product/short-nylon-effect-puffer-jacket/
+            - generic [ref=e422]:
+              - generic [ref=e424]: $29.90
+              - text: –
+              - generic [ref=e426]: $39.90
+              - generic [ref=e427]: "Price range: $29.90 through $39.90"
+            - generic [ref=e428]:
+              - img "Rated 4.50 out of 5" [ref=e429]:
+                - text: 
+                - generic [ref=e430]:
+                  - text: Rated
+                  - strong [ref=e431]: "4.50"
+                  - text: out of 5
+              - generic [ref=e432]: 2 reviews
+            - paragraph [ref=e434]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            - generic [ref=e435]:
+              - paragraph [ref=e436]: "Offer end in:"
+              - generic [ref=e437]:
+                - generic [ref=e439]: "00"
+                - generic [ref=e440]: ":"
+                - generic [ref=e442]: "00"
+                - generic [ref=e443]: ":"
+                - generic [ref=e445]: "00"
+                - generic [ref=e446]: ":"
+                - generic [ref=e448]: "00"
+              - paragraph [ref=e450]:
+                - text: "Available: 12 - Sold:"
+                - strong [ref=e451]: "87"
+        - generic [ref=e453]:
+          - generic [ref=e454]:
+            - generic [ref=e456]: 18%
+            - generic [ref=e457]:
+              - link " Add to wishlist" [ref=e458] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/wishlist/
+              - link "" [ref=e459] [cursor=pointer]:
+                - /url: "320"
+                - generic [ref=e460]: 
+              - link " Compare" [ref=e461] [cursor=pointer]:
+                - /url: "?add-to-compare=320"
+            - link "Blue Starter Logo T-shirt" [ref=e462] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product/blue-starter-logo-t-shirt/
+              - img "Blue Starter Logo T-shirt" [ref=e463]
+          - generic [ref=e464]:
+            - heading "Blue Starter Logo T-shirt" [level=3] [ref=e465]:
+              - link "Blue Starter Logo T-shirt" [ref=e466] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product/blue-starter-logo-t-shirt/
+            - generic [ref=e467]:
+              - deletion [ref=e468]:
+                - generic [ref=e470]: $22.70
+              - generic [ref=e471]: "Original price was: $22.70."
+              - insertion [ref=e472]:
+                - generic [ref=e474]: $18.70
+              - generic [ref=e475]: "Current price is: $18.70."
+            - generic [ref=e476]:
+              - img "Rated 5.00 out of 5" [ref=e477]:
+                - text: 
+                - generic [ref=e478]:
+                  - text: Rated
+                  - strong [ref=e479]: "5.00"
+                  - text: out of 5
+              - generic [ref=e480]: 1 review
+            - paragraph [ref=e482]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            - generic [ref=e483]:
+              - paragraph [ref=e484]: "Offer end in:"
+              - generic [ref=e485]:
+                - generic [ref=e487]: "00"
+                - generic [ref=e488]: ":"
+                - generic [ref=e490]: "00"
+                - generic [ref=e491]: ":"
+                - generic [ref=e493]: "00"
+                - generic [ref=e494]: ":"
+                - generic [ref=e496]: "00"
+              - paragraph [ref=e498]:
+                - text: "Available: 71 - Sold:"
+                - strong [ref=e499]: "63"
+      - generic [ref=e507]:
+        - paragraph [ref=e508]:
+          - text: Super discount for your
+          - strong [ref=e509]: first purchase.
+        - generic [ref=e510]: FREE15FIRST
+        - generic [ref=e511]: Use discount code in checkout!
+        - link [ref=e512] [cursor=pointer]:
+          - /url: ""
+      - generic [ref=e520]:
+        - heading "Our Latest News" [level=3] [ref=e521]
+        - paragraph [ref=e523]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra vel facilisis.
+      - generic [ref=e532]:
+        - article [ref=e534]:
+          - figure [ref=e535]:
+            - link "The Best Products That Shape Fashion" [ref=e536] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/blog/the-best-products-that-shape-fashion/
+              - img "The Best Products That Shape Fashion" [ref=e537]
+          - generic [ref=e538]:
+            - generic [ref=e539]:
+              - link "Collection" [ref=e541] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/blog/the-best-products-that-shape-fashion/
+              - link "25 Apr 2022" [ref=e543] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/blog/the-best-products-that-shape-fashion/
+            - heading "The Best Products That Shape Fashion" [level=2] [ref=e544]:
+              - link "The Best Products That Shape Fashion" [ref=e545] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/blog/the-best-products-that-shape-fashion/
+            - paragraph [ref=e547]: Donec rhoncus quis diam sit amet faucibus. Vivamus pellentesque, sem sed convallis ultricies, ante eros
+        - article [ref=e549]:
+          - figure [ref=e550]:
+            - link "New Finds From Tuckernuck" [ref=e551] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/blog/new-finds-from-tuckernuck/
+              - img "New Finds From Tuckernuck" [ref=e552]
+          - generic [ref=e553]:
+            - generic [ref=e554]:
+              - link "Fashion" [ref=e556] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/blog/new-finds-from-tuckernuck/
+              - link "25 Apr 2022" [ref=e558] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/blog/new-finds-from-tuckernuck/
+            - heading "New Finds From Tuckernuck" [level=2] [ref=e559]:
+              - link "New Finds From Tuckernuck" [ref=e560] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/blog/new-finds-from-tuckernuck/
+            - paragraph [ref=e562]: Donec rhoncus quis diam sit amet faucibus. Vivamus pellentesque, sem sed convallis ultricies, ante eros
+        - article [ref=e564]:
+          - figure [ref=e565]:
+            - link "Sunset Sets From Saks" [ref=e566] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/blog/sunset-sets-from-saks/
+              - img "Sunset Sets From Saks" [ref=e567]
+          - generic [ref=e568]:
+            - generic [ref=e569]:
+              - link "Clothing" [ref=e571] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/blog/sunset-sets-from-saks/
+              - link "25 Apr 2022" [ref=e573] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/blog/sunset-sets-from-saks/
+            - heading "Sunset Sets From Saks" [level=2] [ref=e574]:
+              - link "Sunset Sets From Saks" [ref=e575] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/blog/sunset-sets-from-saks/
+            - paragraph [ref=e577]: Donec rhoncus quis diam sit amet faucibus. Vivamus pellentesque, sem sed convallis ultricies, ante eros
+  - contentinfo [ref=e578]:
+    - generic [ref=e581]:
+      - generic [ref=e582]:
+        - heading "Get our emails for info on new items, sales and more." [level=3] [ref=e583]
+        - paragraph [ref=e585]: We'll email you a voucher worth £10 off your first order over £50.
+        - generic [ref=e588]:
+          - textbox "Enter your email address" [ref=e589]
+          - button "Subscribe" [ref=e590] [cursor=pointer]
+          - paragraph [ref=e591]:
+            - text: By subscribing you agree to our
+            - link "Terms & Conditions and Privacy & Cookies Policy." [ref=e592] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=e593]:
+        - heading "Need help? (+800) 1234 5678 90" [level=3] [ref=e594]:
+          - text: Need help?
+          - text: (+800) 1234 5678 90
+        - paragraph [ref=e596]: We are available 8:00am – 7:00pm
+        - generic [ref=e597]:
+          - link "app" [ref=e598] [cursor=pointer]:
+            - /url: https://www.apple.com/app-store/
+            - img "app" [ref=e599]
+          - link "app" [ref=e600] [cursor=pointer]:
+            - /url: https://play.google.com/store
+            - img "app" [ref=e601]
+        - generic [ref=e602]:
+          - strong [ref=e603]: "Shopping App:"
+          - text: Try our View in Your Room feature, manage registries and save payment info.
+    - generic [ref=e607]:
+      - generic [ref=e611]:
+        - paragraph [ref=e612]
+        - paragraph [ref=e613]: Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis in termapol.
+        - paragraph [ref=e614]: (+800) 1234 5678 90 – info@example.com
+      - generic [ref=e616]:
+        - heading "Information" [level=4] [ref=e617]
+        - list [ref=e619]:
+          - listitem [ref=e620]:
+            - link "About Us" [ref=e621] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/about-us/
+          - listitem [ref=e622]:
+            - link "Privacy Policy" [ref=e623] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/privacy-policy/
+          - listitem [ref=e624]:
+            - link "Returns Policy" [ref=e625] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/refund_returns/
+          - listitem [ref=e626]:
+            - link "Shipping Policy" [ref=e627] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/privacy-policy/
+          - listitem [ref=e628]:
+            - link "Dropshipping" [ref=e629] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=e631]:
+        - heading "Account" [level=4] [ref=e632]
+        - list [ref=e634]:
+          - listitem [ref=e635]:
+            - link "Dashboard" [ref=e636] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/my-account/
+          - listitem [ref=e637]:
+            - link "My Orders" [ref=e638] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/my-account/orders/
+          - listitem [ref=e639]:
+            - link "My Wishlist" [ref=e640] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/wishlist/
+          - listitem [ref=e641]:
+            - link "Account details" [ref=e642] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/my-account/edit-account/
+          - listitem [ref=e643]:
+            - link "Track My Orders" [ref=e644] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/order-tracking/
+      - generic [ref=e646]:
+        - heading "Shop" [level=4] [ref=e647]
+        - list [ref=e649]:
+          - listitem [ref=e650]:
+            - link "Affiliate" [ref=e651] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/contact/
+          - listitem [ref=e652]:
+            - link "Bestsellers" [ref=e653] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/shop/?orderby=popularity
+          - listitem [ref=e654]:
+            - link "Discount" [ref=e655] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/shop/?on_sale=onsale
+          - listitem [ref=e656]:
+            - link "Latest Products" [ref=e657] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/shop
+          - listitem [ref=e658]:
+            - link "Sale Products" [ref=e659] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/shop/?on_sale=onsale
+      - generic [ref=e661]:
+        - heading "Categories" [level=4] [ref=e662]
+        - list [ref=e664]:
+          - listitem [ref=e665]:
+            - link "Women" [ref=e666] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/women/
+          - listitem [ref=e667]:
+            - link "Men" [ref=e668] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/men/
+          - listitem [ref=e669]:
+            - link "Bags" [ref=e670] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/bags/
+          - listitem [ref=e671]:
+            - link "Outerwear" [ref=e672] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/outerwear/
+          - listitem [ref=e673]:
+            - link "Shoes" [ref=e674] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/product-category/shoes/
+    - generic [ref=e677]:
+      - paragraph [ref=e679]: Copyright 2026 © Clotya WordPress Theme. All right reserved. Powered by KLBTheme.
+      - link "payment" [ref=e680] [cursor=pointer]:
+        - /url: https://klbtheme.com/clotya/shop/
+        - img "payment" [ref=e681]
+      - navigation [ref=e682]:
+        - list [ref=e683]:
+          - listitem [ref=e684]:
+            - link "Privacy Policy" [ref=e685] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/privacy-policy/
+          - listitem [ref=e686]:
+            - text: "|"
+            - link "Terms and Conditions" [ref=e687] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/terms-and-conditions/
+          - listitem [ref=e688]:
+            - text: "|"
+            - link "Returns Policy" [ref=e689] [cursor=pointer]:
+              - /url: https://klbtheme.com/clotya/refund_returns/
+  - text:    
+  - complementary [ref=e690]:
+    - generic [ref=e691]:
+      - generic [ref=e692]:
+        - link "Clotya – Fashion Store eCommerce Theme" [ref=e694] [cursor=pointer]:
+          - /url: https://klbtheme.com/clotya/
+          - img "Clotya – Fashion Store eCommerce Theme" [ref=e695]
+        - generic [ref=e697] [cursor=pointer]: 
+      - generic [ref=e698]:
+        - generic [ref=e699]: Main Menu
+        - navigation [ref=e700]:
+          - list [ref=e701]:
+            - listitem [ref=e702]:
+              - link "Home" [ref=e703] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/
+              - list:
+                - listitem [ref=e704]:
+                  - link "Home 1" [ref=e705] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/
+                - listitem [ref=e706]:
+                  - link "Home 2" [ref=e707] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/home-2/
+                - listitem [ref=e708]:
+                  - link "Home 3" [ref=e709] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/home-3/
+                - listitem [ref=e710]:
+                  - link "Home 4" [ref=e711] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/home-4/
+                - listitem [ref=e712]:
+                  - link "Home 5" [ref=e713] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/home-5/
+                - listitem [ref=e714]:
+                  - link "Home 6" [ref=e715] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/home-6/
+            - listitem [ref=e716]:
+              - link "Shop" [ref=e717] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/shop/
+              - list:
+                - listitem [ref=e718]:
+                  - link "Shop Lists" [ref=e719] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/shop/
+                  - list:
+                    - listitem [ref=e720]:
+                      - link "Shop Default" [ref=e721] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/
+                    - listitem [ref=e722]:
+                      - link "Shop Right Sidebar" [ref=e723] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?opt=right-sidebar
+                    - listitem [ref=e724]:
+                      - link "Shop Wide" [ref=e725] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?column=5&opt=wide
+                    - listitem [ref=e726]:
+                      - link "Filters Area" [ref=e727] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?column=5&opt=full-width
+                    - listitem [ref=e728]:
+                      - link "List Left Sidebar" [ref=e729] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?shop_view=list_view
+                    - listitem [ref=e730]:
+                      - link "Load More Button" [ref=e731] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?ft=load-more
+                    - listitem [ref=e732]:
+                      - link "Infinite Scrolling" [ref=e733] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?ft=infinite
+                    - listitem [ref=e734]:
+                      - link "Product Box Variable" [ref=e735] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?ft=box_variable
+                    - listitem [ref=e736]:
+                      - link "Catalog Mode" [ref=e737] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?opt=catalogmode
+                    - listitem [ref=e738]:
+                      - link "Product SKU" [ref=e739] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?ft=box_sku
+                    - listitem [ref=e740]:
+                      - link "Additional Information" [ref=e741] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?ft=product_attributes
+                - listitem [ref=e742]:
+                  - link "Product Detail" [ref=e743] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product/basic-colored-sweatpants-with-elastic-hems/
+                  - list:
+                    - listitem [ref=e744]:
+                      - link "Product Variable" [ref=e745] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-colored-sweatpants-with-elastic-hems/
+                    - listitem [ref=e746]:
+                      - link "Product Default" [ref=e747] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/
+                    - listitem [ref=e748]:
+                      - link "Product Grouped" [ref=e749] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/brown-mountain-graphic-sweatshirt/
+                    - listitem [ref=e750]:
+                      - link "Product External" [ref=e751] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/cotton-and-linen-basic-shirt/
+                    - listitem [ref=e752]:
+                      - link "Product Downloadable" [ref=e753] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/corduroy-bucket-hat/
+                    - listitem [ref=e754]:
+                      - link "Produt With Video" [ref=e755] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/ripstop-cargo-trousers-with-pockets/
+                    - listitem [ref=e756]:
+                      - link "Without Recently Viewed" [ref=e757] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-colored-sweatpants-with-elastic-hems/?ft=recentfalse
+                    - listitem [ref=e758]:
+                      - link "Thumbnails Left" [ref=e759] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=vertical
+                    - listitem [ref=e760]:
+                      - link "Gallery 1 Column" [ref=e761] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=1column
+                    - listitem [ref=e762]:
+                      - link "Gallery 2 Columns" [ref=e763] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=2columns
+                    - listitem [ref=e764]:
+                      - link "Carousel 2 Columns" [ref=e765] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=carousel2columns
+                - listitem [ref=e766]:
+                  - link "Product Features" [ref=e767] [cursor=pointer]:
+                    - /url: "#"
+                  - list:
+                    - listitem [ref=e768]:
+                      - link "Order on WhatsApp" [ref=e769] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=orderonwhatsapp
+                    - listitem [ref=e770]:
+                      - link "Buy Now Button" [ref=e771] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=buynow
+                    - listitem [ref=e772]:
+                      - link "Sticky Add to Cart" [ref=e773] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=stickycart
+                    - listitem [ref=e774]:
+                      - link "Sticky Tab Titles" [ref=e775] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=stickytitles
+                    - listitem [ref=e776]:
+                      - link "Reviews Without Tab" [ref=e777] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=movereviewtab
+                    - listitem [ref=e778]:
+                      - link "Product Full Width" [ref=e779] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?opt=wide
+                    - listitem [ref=e780]:
+                      - link "Vertical Tabs" [ref=e781] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=vertical_tab
+                    - listitem [ref=e782]:
+                      - link "Accordion Tabs" [ref=e783] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=accordion_tab
+                    - listitem [ref=e784]:
+                      - link "Accordion in Content" [ref=e785] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/?ft=accordion_tab_content
+                    - listitem [ref=e786]:
+                      - link "Low Stock Alert" [ref=e787] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/product/basic-high-neck-puff-jacket/
+                - listitem [ref=e788]:
+                  - link "Shop Pages" [ref=e789] [cursor=pointer]:
+                    - /url: "#"
+                  - list:
+                    - listitem [ref=e790]:
+                      - link "Cart" [ref=e791] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/cart/
+                    - listitem [ref=e792]:
+                      - link "Checkout" [ref=e793] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/checkout/
+                    - listitem [ref=e794]:
+                      - link "My account" [ref=e795] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/my-account/
+                    - listitem [ref=e796]:
+                      - link "Wishlist" [ref=e797] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/wishlist/
+                    - listitem [ref=e798]:
+                      - link "Order Tracking" [ref=e799] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/order-tracking/
+                    - listitem [ref=e800]:
+                      - link "Best Selling Products" [ref=e801] [cursor=pointer]:
+                        - /url: https://klbtheme.com/furnob/shop/?orderby=popularity
+                    - listitem [ref=e802]:
+                      - link "Terms and Conditions" [ref=e803] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/terms-and-conditions/
+                    - listitem [ref=e804]:
+                      - link "Shop by Brand" [ref=e805] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop-by-brand/
+                - listitem [ref=e806]:
+                  - link "Shop Layouts" [ref=e807] [cursor=pointer]:
+                    - /url: "#"
+                  - list:
+                    - listitem [ref=e808]:
+                      - link "Two Columns" [ref=e809] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?column=2
+                    - listitem [ref=e810]:
+                      - link "Three Columns" [ref=e811] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?column=3
+                    - listitem [ref=e812]:
+                      - link "Three Columns Wide" [ref=e813] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?column=3&opt=wide
+                    - listitem [ref=e814]:
+                      - link "Four Columns" [ref=e815] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?column=4
+                    - listitem [ref=e816]:
+                      - link "Four Columns Wide" [ref=e817] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?column=4&opt=wide
+                    - listitem [ref=e818]:
+                      - link "Five Columns Wide" [ref=e819] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?column=5&opt=wide
+                    - listitem [ref=e820]:
+                      - link "Six Columns Wide" [ref=e821] [cursor=pointer]:
+                        - /url: https://klbtheme.com/clotya/shop/?column=6&opt=wide
+            - listitem [ref=e822]:
+              - link "Women" [ref=e823] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/shop/?filter_cat=63
+            - listitem [ref=e824]:
+              - link "Men" [ref=e825] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/shop/?filter_cat=42
+            - listitem [ref=e826]:
+              - link "Outerwear" [ref=e827] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/shop/?filter_cat=44
+            - listitem [ref=e828]:
+              - link "Blog" [ref=e829] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/blog/
+            - listitem [ref=e830]:
+              - link "Contact" [ref=e831] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/contact/
+        - generic [ref=e832]: Categories
+        - navigation [ref=e833]:
+          - list [ref=e834]:
+            - listitem [ref=e835]:
+              - link "Men" [ref=e836] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product-category/men/
+              - list:
+                - listitem [ref=e837]:
+                  - link "Jackets & coats" [ref=e838] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/men/jackets-coats/
+                - listitem [ref=e839]:
+                  - link "Jeans" [ref=e840] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/men/jeans-man/
+                - listitem [ref=e841]:
+                  - link "Knit" [ref=e842] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/women/knit-woman/
+                - listitem [ref=e843]:
+                  - link "Pants" [ref=e844] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/men/pants/
+                - listitem [ref=e845]:
+                  - link "Shirts" [ref=e846] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/men/shirts/
+                - listitem [ref=e847]:
+                  - link "Shorts" [ref=e848] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/men/shorts/
+                - listitem [ref=e849]:
+                  - link "Sweatshirts & Hoodies" [ref=e850] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/men/sweatshirts-hoodies/
+                - listitem [ref=e851]:
+                  - link "Swimwear" [ref=e852] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/men/swimwear/
+                - listitem [ref=e853]:
+                  - link "T-shirts" [ref=e854] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/men/t-shirts/
+            - listitem [ref=e855]:
+              - link "Women" [ref=e856] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product-category/women/
+              - list:
+                - listitem [ref=e857]:
+                  - link "Blazers" [ref=e858] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/women/blazers/
+                - listitem [ref=e859]:
+                  - link "Blouses & shirts" [ref=e860] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/women/blouses-shirts/
+                - listitem [ref=e861]:
+                  - link "Dresses" [ref=e862] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/women/dresses/
+                - listitem [ref=e863]:
+                  - link "Jackets & coats" [ref=e864] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/women/jackets-coats-woman/
+                - listitem [ref=e865]:
+                  - link "Jeans" [ref=e866] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/women/jeans/
+                - listitem [ref=e867]:
+                  - link "Knit" [ref=e868] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/women/knit-woman/
+                - listitem [ref=e869]:
+                  - link "Pants" [ref=e870] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/women/pants-woman/
+                - listitem [ref=e871]:
+                  - link "Skirts" [ref=e872] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/women/skirts/
+                - listitem [ref=e873]:
+                  - link "Suits" [ref=e874] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/women/suits/
+                - listitem [ref=e875]:
+                  - link "Sweatshirts & Hoodies" [ref=e876] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/women/sweatshirts-hoodies-woman/
+                - listitem [ref=e877]:
+                  - link "T-shirts" [ref=e878] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/women/t-shirts-woman/
+                - listitem [ref=e879]:
+                  - link "Tops & Bodysuits" [ref=e880] [cursor=pointer]:
+                    - /url: https://klbtheme.com/clotya/product-category/women/tops-bodysuits/
+            - listitem [ref=e881]:
+              - link "Kids" [ref=e882] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product-category/kids/
+            - listitem [ref=e883]:
+              - link "Baby" [ref=e884] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product-category/baby/
+            - listitem [ref=e885]:
+              - link "Shoes HOT" [ref=e886] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product-category/shoes/
+                - text: Shoes
+                - generic [ref=e887]: HOT
+            - listitem [ref=e888]:
+              - link "Bags" [ref=e889] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product-category/bags/
+            - listitem [ref=e890]:
+              - link "Accessories" [ref=e891] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product-category/accessories/
+            - listitem [ref=e892]:
+              - link "Watches" [ref=e893] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product-category/watches/
+            - listitem [ref=e894]:
+              - link "Cargo Trousers NEW" [ref=e895] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product-category/cargo-trousers/
+                - text: Cargo Trousers
+                - generic [ref=e896]: NEW
+            - listitem [ref=e897]:
+              - link "Outerwear" [ref=e898] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product-category/outerwear/
+            - listitem [ref=e899]:
+              - link "Wallets" [ref=e900] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product-category/wallets/
+            - listitem [ref=e901]:
+              - link "Belts" [ref=e902] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/product-category/belts/
+            - listitem [ref=e903]:
+              - link "Best Sellers" [ref=e904] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/shop/?orderby=popularity
+            - listitem [ref=e905]:
+              - link "Featured Products" [ref=e906] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya//shop/?featured=yes
+            - listitem [ref=e907]:
+              - link "New Arrivals Save 25%" [ref=e908] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/shop/?ft=load-more
+                - text: New Arrivals
+                - generic [ref=e909]: Save 25%
+            - listitem [ref=e910]:
+              - link "Ready to Wear" [ref=e911] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/shop/?column=4&opt=full-width
+            - listitem [ref=e912]:
+              - link "All For Men" [ref=e913] [cursor=pointer]:
+                - /url: https://klbtheme.com/clotya/shop/?column=5&opt=full-width
+      - paragraph [ref=e916]: Copyright [year] © Clotya WordPress Theme. All right reserved. Powered by KLBTheme.

@@ -1,0 +1,1604 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e9]:
+          - generic [ref=e11]:
+            - list [ref=e12]:
+              - listitem [ref=e13]:
+                - link "USD ":
+                  - /url: "#"
+                - list [ref=e16]:
+                  - listitem [ref=e17] [cursor=pointer]:
+                    - link "USD" [ref=e18]:
+                      - /url: "#"
+                  - listitem [ref=e19] [cursor=pointer]:
+                    - link "EUR" [ref=e20]:
+                      - /url: "#"
+            - list [ref=e21]:
+              - listitem [ref=e22]:
+                - link "Eng ":
+                  - /url: "#"
+                - list [ref=e25]:
+                  - listitem [ref=e26]:
+                    - link "Eng" [ref=e27] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e28]:
+                    - link "Frh" [ref=e29] [cursor=pointer]:
+                      - /url: "#"
+          - generic [ref=e32]: Free Shipping On All Orders • No Minimum Purchase • Free Shipping On All Orders • No Minimum Purchase •
+          - generic [ref=e34]:
+            - generic [ref=e35]:
+              - generic [ref=e38]: 
+              - link "+(123) 4567 890" [ref=e40] [cursor=pointer]:
+                - /url: tel:+1234567890
+                - paragraph [ref=e41]: +(123) 4567 890
+            - link " LOCATIONS" [ref=e42] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e43]:
+                - generic [ref=e46]: 
+                - paragraph [ref=e48]: LOCATIONS
+        - generic [ref=e51]:
+          - link "Site Logo" [ref=e55] [cursor=pointer]:
+            - /url: https://www.portotheme.com/wordpress/porto/shop48/
+            - img "Shop Demo 48" [ref=e56]
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - text: 
+              - generic [ref=e61]:
+                - textbox "Search the Products..." [ref=e63]
+                - button "Search" [ref=e65] [cursor=pointer]:
+                  - generic [ref=e66]: 
+            - generic [ref=e67]:
+              - generic [ref=e70]: 
+              - link "Wishlist" [ref=e72] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/wishlist/
+                - heading "Wishlist" [level=3] [ref=e73]
+            - generic [ref=e74]:
+              - generic [ref=e77]: 
+              - link "Help" [ref=e79] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/faqs/
+                - heading "Help" [level=3] [ref=e80]
+            - generic [ref=e81]:
+              - generic [ref=e84]: 
+              - link "Track Order" [ref=e86] [cursor=pointer]:
+                - /url: "#"
+                - heading "Track Order" [level=3] [ref=e87]
+            - generic [ref=e88]:
+              - generic [ref=e91]: 
+              - link "My Account" [ref=e93] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/my-account/
+                - heading "My Account" [level=3] [ref=e94]
+            - generic [ref=e97] [cursor=pointer]:
+              - generic [ref=e98]: 
+              - generic [ref=e99]: "0"
+          - text:   
+        - generic:
+          - generic:
+            - generic:   
+        - generic [ref=e107]:
+          - list [ref=e108]:
+            - listitem [ref=e109]:
+              - link "Shop All" [ref=e110] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/shop/
+            - listitem [ref=e111]:
+              - link "Anklets" [ref=e112] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/anklets/
+            - listitem [ref=e113]:
+              - link "Bracelets" [ref=e114] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/bracelets/
+            - listitem [ref=e115]:
+              - link "Charms" [ref=e116] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/charms/
+            - listitem [ref=e117]:
+              - link "Earrings" [ref=e118] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/earrings/
+            - listitem [ref=e119]:
+              - link "Necklaces" [ref=e120] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+            - listitem [ref=e121]:
+              - link "Rings" [ref=e122] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/rings/
+          - link "Buy Porto!" [ref=e124] [cursor=pointer]:
+            - /url: https://www.portotheme.com/buynow/portowp/
+    - main [ref=e129]:
+      - article [ref=e130]:
+        - generic [ref=e132]:
+          - generic [ref=e136]:
+            - generic [ref=e139]:
+              - generic [ref=e141]:
+                - heading "pearl collection" [level=3] [ref=e144]
+                - heading "Discover our Latest Collection" [level=2] [ref=e147]:
+                  - text: Discover our
+                  - text: Latest
+                  - generic [ref=e148]: Collection
+                - link "SHOP NOW" [ref=e150] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/shop/
+                  - generic [ref=e152]: SHOP NOW
+                - link "Zoom the image" [ref=e155] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/brand/ron-jones/
+                  - img "Product Brand" [ref=e157]
+              - img [ref=e161]:
+                - generic [ref=e163]: HIGHEST – QUANTITY – HIGHEST – QUANTITY –
+            - generic [ref=e166]:
+              - img "Intro Jewelry" [ref=e172]
+              - generic [ref=e174]:
+                - heading "summer collection" [level=2] [ref=e177]
+                - heading "Porto Long Earrings Rhodium Plated" [level=3] [ref=e180]:
+                  - text: Porto Long Earrings
+                  - text: Rhodium Plated
+                - heading "Only $299" [level=4] [ref=e183]
+                - link "SHOP NOW" [ref=e185] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/shop/
+                  - generic [ref=e187]: SHOP NOW
+          - generic [ref=e193]:
+            - generic [ref=e197]:
+              - generic [ref=e200]: 
+              - generic [ref=e201]:
+                - heading "Free Shipping & Returns" [level=3] [ref=e202]
+                - paragraph [ref=e203]: Free shipping on all orders over $99.
+            - generic [ref=e207]:
+              - generic [ref=e210]: 
+              - generic [ref=e211]:
+                - heading "Money Back Guarantee" [level=3] [ref=e212]
+                - paragraph [ref=e213]: 100% money back guarantee.
+            - generic [ref=e217]:
+              - generic [ref=e220]: 
+              - generic [ref=e221]:
+                - heading "Online Support 24/7" [level=3] [ref=e222]
+                - paragraph [ref=e223]: Lorem ipsum dolor site amet.
+            - generic [ref=e227]:
+              - generic [ref=e230]: 
+              - generic [ref=e231]:
+                - heading "Secure Payment" [level=3] [ref=e232]
+                - paragraph [ref=e233]: Lorem ipsum dolor sit amet.
+          - generic [ref=e239]:
+            - generic [ref=e242]:
+              - heading "For The Bride" [level=3] [ref=e245]
+              - heading "Newest Wedding Jewellery" [level=2] [ref=e248]:
+                - text: Newest Wedding
+                - text: Jewellery
+              - generic [ref=e252] [cursor=pointer]: SHOP NOW
+              - img "shop banner" [ref=e256]
+            - generic [ref=e259]:
+              - img "Shop Sub Bammer" [ref=e263]
+              - heading "New Design" [level=3] [ref=e266]
+              - heading "The Sophisticated Style for You" [level=2] [ref=e269]:
+                - text: The Sophisticated
+                - text: Style for You
+              - generic [ref=e273] [cursor=pointer]: SHOP NOW
+            - generic [ref=e276]:
+              - heading "Classic Collection" [level=3] [ref=e279]
+              - heading "Get the Hightest Quality" [level=2] [ref=e282]:
+                - text: Get the Hightest
+                - text: Quality
+              - generic [ref=e286] [cursor=pointer]: SHOP NOW
+              - img "shop banner" [ref=e290]
+            - generic [ref=e293]:
+              - img "Product Brand" [ref=e297]
+              - img "Shop Banner" [ref=e301]
+              - heading "Premium Collection" [level=3] [ref=e304]
+              - heading "Get the Hightest Quality" [level=2] [ref=e307]:
+                - text: Get the Hightest
+                - text: Quality
+              - generic [ref=e311] [cursor=pointer]: SHOP NOW
+          - generic [ref=e316]:
+            - heading "Shop by Category" [level=2] [ref=e317]
+            - generic [ref=e319]:
+              - generic [ref=e321]:
+                - link "post featured image" [ref=e323] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/anklets/
+                  - img "Product Category" [ref=e324]
+                - paragraph [ref=e325]:
+                  - link "Taxonomy Title" [ref=e326] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/anklets/
+                    - text: Anklets
+              - generic [ref=e328]:
+                - link "post featured image" [ref=e330] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/bracelets/
+                  - img "Product Category" [ref=e331]
+                - paragraph [ref=e332]:
+                  - link "Taxonomy Title" [ref=e333] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/bracelets/
+                    - text: Bracelets
+              - generic [ref=e335]:
+                - link "post featured image" [ref=e337] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/charms/
+                  - img "Product Category" [ref=e338]
+                - paragraph [ref=e339]:
+                  - link "Taxonomy Title" [ref=e340] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/charms/
+                    - text: Charms
+              - generic [ref=e342]:
+                - link "post featured image" [ref=e344] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/earrings/
+                  - img "Product Category" [ref=e345]
+                - paragraph [ref=e346]:
+                  - link "Taxonomy Title" [ref=e347] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/earrings/
+                    - text: Earrings
+              - generic [ref=e349]:
+                - link "post featured image" [ref=e351] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - img "Product Category" [ref=e352]
+                - paragraph [ref=e353]:
+                  - link "Taxonomy Title" [ref=e354] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                    - text: Necklaces
+              - generic [ref=e356]:
+                - link "post featured image" [ref=e358] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/rings/
+                  - img "Product Category" [ref=e359]
+                - paragraph [ref=e360]:
+                  - link "Taxonomy Title" [ref=e361] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/rings/
+                    - text: Rings
+            - heading "New Arrivals" [level=2] [ref=e362]
+            - generic [ref=e364]:
+              - generic [ref=e366]:
+                - generic [ref=e367]:
+                  - link "post featured image" [ref=e368] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vintage-link-bracelet/
+                    - img "Bracelet" [ref=e369]
+                    - img "Bracelet" [ref=e370]
+                  - generic [ref=e371]:
+                    - link "post content" [ref=e372] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vintage-link-bracelet/
+                    - link " Add to wishlist" [ref=e376] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=2691&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e377] [cursor=pointer]:
+                      - generic [ref=e378]: 
+                    - text: 
+                    - generic [ref=e379]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Vintage Link Bracelet”" [ref=e380] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vintage-link-bracelet/
+                      - generic [ref=e381]: 
+                      - text: Select options
+                    - generic [ref=e382]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e383]:
+                  - link "Bracelets" [ref=e385] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/bracelets/
+                  - heading "Post Title" [level=3] [ref=e386]:
+                    - link "Post Title" [ref=e387] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vintage-link-bracelet/
+                      - text: Vintage Link Bracelet
+                  - generic "4.50" [ref=e391] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e392]:
+                      - text: 
+                      - strong [ref=e393]: "4.50"
+                      - text: out of 5
+                  - generic [ref=e395]:
+                    - generic [ref=e397]: $155.00
+                    - text: –
+                    - generic [ref=e399]: $280.00
+                    - generic [ref=e400]: "Price range: $155.00 through $280.00"
+              - generic [ref=e402]:
+                - generic [ref=e403]:
+                  - link "post featured image" [ref=e404] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/disk-charm-anklet-bracelet/
+                    - img "Anklet" [ref=e405]
+                    - img "Anklet" [ref=e406]
+                  - generic [ref=e407]:
+                    - link "post content" [ref=e408] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/disk-charm-anklet-bracelet/
+                    - link " Add to wishlist" [ref=e412] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=2685&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e413] [cursor=pointer]:
+                      - generic [ref=e414]: 
+                    - text: 
+                    - generic [ref=e415]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Disk Charm Anklet Bracelet”" [ref=e416] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/disk-charm-anklet-bracelet/
+                      - generic [ref=e417]: 
+                      - text: Select options
+                    - generic [ref=e418]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e419]:
+                  - link "Anklets" [ref=e421] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/anklets/
+                  - heading "Post Title" [level=3] [ref=e422]:
+                    - link "Post Title" [ref=e423] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/disk-charm-anklet-bracelet/
+                      - text: Disk Charm Anklet Bracelet
+                  - generic "4.50" [ref=e427] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e428]:
+                      - text: 
+                      - strong [ref=e429]: "4.50"
+                      - text: out of 5
+                  - generic [ref=e431]:
+                    - generic [ref=e433]: $265.00
+                    - text: –
+                    - generic [ref=e435]: $325.00
+                    - generic [ref=e436]: "Price range: $265.00 through $325.00"
+              - generic [ref=e438]:
+                - generic [ref=e439]:
+                  - link "post featured image" [ref=e440] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/cupchain-necklace-silver/
+                    - img "Necklace" [ref=e441]
+                    - img "Necklace" [ref=e442]
+                  - generic [ref=e443]:
+                    - link "post content" [ref=e444] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/cupchain-necklace-silver/
+                    - link " Add to wishlist" [ref=e448] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=886&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e449] [cursor=pointer]:
+                      - generic [ref=e450]: 
+                    - text: 
+                    - generic [ref=e451]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Cupchain Necklace Silver”" [ref=e452] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/cupchain-necklace-silver/
+                      - generic [ref=e453]: 
+                      - text: Select options
+                    - generic [ref=e454]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e455]:
+                  - link "Necklaces" [ref=e457] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - heading "Post Title" [level=3] [ref=e458]:
+                    - link "Post Title" [ref=e459] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/cupchain-necklace-silver/
+                      - text: Cupchain Necklace Silver
+                  - generic "4.50" [ref=e463] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e464]:
+                      - text: 
+                      - strong [ref=e465]: "4.50"
+                      - text: out of 5
+                  - generic [ref=e467]:
+                    - generic [ref=e469]: $253.00
+                    - text: –
+                    - generic [ref=e471]: $285.00
+                    - generic [ref=e472]: "Price range: $253.00 through $285.00"
+              - generic [ref=e474]:
+                - generic [ref=e475]:
+                  - link "post featured image" [ref=e476] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/evil-eye-bracelet/
+                    - img "Necklace" [ref=e477]
+                    - img "Necklace" [ref=e478]
+                  - generic [ref=e479]:
+                    - link "post content" [ref=e480] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/evil-eye-bracelet/
+                    - link " Add to wishlist" [ref=e484] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=883&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e485] [cursor=pointer]:
+                      - generic [ref=e486]: 
+                    - text: 
+                    - 'link "Add to cart: “EVIL EYE BRACELET”" [ref=e488] [cursor=pointer]':
+                      - /url: /wordpress/porto/shop48/?add-to-cart=883
+                      - generic [ref=e489]: 
+                      - text: Add to cart
+                - generic [ref=e491]:
+                  - generic [ref=e492]:
+                    - link "Charms" [ref=e493] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/charms/
+                    - text: ","
+                    - link "Necklaces" [ref=e494] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - heading "Post Title" [level=3] [ref=e495]:
+                    - link "Post Title" [ref=e496] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/evil-eye-bracelet/
+                      - text: EVIL EYE BRACELET
+                  - generic "4.00" [ref=e500] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e501]:
+                      - text: 
+                      - strong [ref=e502]: "4.00"
+                      - text: out of 5
+                  - generic [ref=e506]: $164.00
+              - generic [ref=e508]:
+                - generic [ref=e509]:
+                  - link "post featured image" [ref=e510] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/pendant-espressivo/
+                    - img "Necklace" [ref=e511]
+                    - img "Necklace" [ref=e512]
+                  - generic [ref=e513]:
+                    - link "post content" [ref=e514] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/pendant-espressivo/
+                    - link " Add to wishlist" [ref=e518] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=880&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e519] [cursor=pointer]:
+                      - generic [ref=e520]: 
+                    - text: 
+                    - generic [ref=e521]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Pendant Espressivo”" [ref=e522] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/pendant-espressivo/
+                      - generic [ref=e523]: 
+                      - text: Select options
+                    - generic [ref=e524]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e525]:
+                  - generic [ref=e526]:
+                    - link "Charms" [ref=e527] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/charms/
+                    - text: ","
+                    - link "Necklaces" [ref=e528] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - heading "Post Title" [level=3] [ref=e529]:
+                    - link "Post Title" [ref=e530] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/pendant-espressivo/
+                      - text: Pendant Espressivo
+                  - generic "4.50" [ref=e534] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e535]:
+                      - text: 
+                      - strong [ref=e536]: "4.50"
+                      - text: out of 5
+                  - generic [ref=e538]:
+                    - generic [ref=e540]: $350.00
+                    - text: –
+                    - generic [ref=e542]: $390.00
+                    - generic [ref=e543]: "Price range: $350.00 through $390.00"
+              - generic [ref=e545]:
+                - generic [ref=e546]:
+                  - generic [ref=e548]: Hot
+                  - link "post featured image" [ref=e549] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-gold-tone-necklace/
+                    - img "Necklace" [ref=e550]
+                    - img "Necklace" [ref=e551]
+                  - generic [ref=e552]:
+                    - link "post content" [ref=e553] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-gold-tone-necklace/
+                    - link " Add to wishlist" [ref=e557] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=877&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e558] [cursor=pointer]:
+                      - generic [ref=e559]: 
+                    - text: 
+                    - 'link "Add to cart: “Jewelry Gold-Tone Necklace”" [ref=e561] [cursor=pointer]':
+                      - /url: /wordpress/porto/shop48/?add-to-cart=877
+                      - generic [ref=e562]: 
+                      - text: Add to cart
+                - generic [ref=e564]:
+                  - generic [ref=e565]:
+                    - link "Charms" [ref=e566] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/charms/
+                    - text: ","
+                    - link "Necklaces" [ref=e567] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - heading "Post Title" [level=3] [ref=e568]:
+                    - link "Post Title" [ref=e569] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-gold-tone-necklace/
+                      - text: Jewelry Gold-Tone Necklace
+                  - generic "5.00" [ref=e573] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e574]:
+                      - text: 
+                      - strong [ref=e575]: "5.00"
+                      - text: out of 5
+                  - generic [ref=e579]: $208.00
+              - generic [ref=e581]:
+                - generic [ref=e582]:
+                  - link "post featured image" [ref=e583] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-platinum-oval-diamond/
+                    - img "Necklace" [ref=e584]
+                    - img "Necklace" [ref=e585]
+                  - generic [ref=e586]:
+                    - link "post content" [ref=e587] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-platinum-oval-diamond/
+                    - link " Add to wishlist" [ref=e591] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=874&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e592] [cursor=pointer]:
+                      - generic [ref=e593]: 
+                    - text: 
+                    - generic [ref=e594]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Jewelry Platinum Oval Diamond”" [ref=e595] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-platinum-oval-diamond/
+                      - generic [ref=e596]: 
+                      - text: Select options
+                    - generic [ref=e597]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e598]:
+                  - link "Necklaces" [ref=e600] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - heading "Post Title" [level=3] [ref=e601]:
+                    - link "Post Title" [ref=e602] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-platinum-oval-diamond/
+                      - text: Jewelry Platinum Oval Diamond
+                  - generic "4.50" [ref=e606] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e607]:
+                      - text: 
+                      - strong [ref=e608]: "4.50"
+                      - text: out of 5
+                  - generic [ref=e610]:
+                    - generic [ref=e612]: $180.00
+                    - text: –
+                    - generic [ref=e614]: $300.00
+                    - generic [ref=e615]: "Price range: $180.00 through $300.00"
+              - generic [ref=e617]:
+                - generic [ref=e618]:
+                  - link "post featured image" [ref=e619] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/diamond-trio-v-necklace/
+                    - img "Necklace" [ref=e620]
+                    - img "Necklace" [ref=e621]
+                  - generic [ref=e622]:
+                    - link "post content" [ref=e623] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/diamond-trio-v-necklace/
+                    - link " Add to wishlist" [ref=e627] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=871&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e628] [cursor=pointer]:
+                      - generic [ref=e629]: 
+                    - text: 
+                    - 'link "Add to cart: “Diamond Trio V Necklace”" [ref=e631] [cursor=pointer]':
+                      - /url: /wordpress/porto/shop48/?add-to-cart=871
+                      - generic [ref=e632]: 
+                      - text: Add to cart
+                - generic [ref=e634]:
+                  - link "Necklaces" [ref=e636] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - heading "Post Title" [level=3] [ref=e637]:
+                    - link "Post Title" [ref=e638] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/diamond-trio-v-necklace/
+                      - text: Diamond Trio V Necklace
+                  - generic "5.00" [ref=e642] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e643]:
+                      - text: 
+                      - strong [ref=e644]: "5.00"
+                      - text: out of 5
+                  - generic [ref=e648]: $575.00
+              - generic [ref=e650]:
+                - generic [ref=e651]:
+                  - generic [ref=e653]: Hot
+                  - link "post featured image" [ref=e654] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vince-silver-tone-cz-bracelet/
+                    - img "Barcelet" [ref=e655]
+                    - img "Barcelet" [ref=e656]
+                  - generic [ref=e657]:
+                    - link "post content" [ref=e658] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vince-silver-tone-cz-bracelet/
+                    - link " Add to wishlist" [ref=e662] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=866&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e663] [cursor=pointer]:
+                      - generic [ref=e664]: 
+                    - text: 
+                    - generic [ref=e665]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Vince Silver-Tone CZ Bracelet”" [ref=e666] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vince-silver-tone-cz-bracelet/
+                      - generic [ref=e667]: 
+                      - text: Select options
+                    - generic [ref=e668]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e669]:
+                  - link "Bracelets" [ref=e671] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/bracelets/
+                  - heading "Post Title" [level=3] [ref=e672]:
+                    - link "Post Title" [ref=e673] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vince-silver-tone-cz-bracelet/
+                      - text: Vince Silver-Tone CZ Bracelet
+                  - generic "1.50" [ref=e677] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e678]:
+                      - text: 
+                      - strong [ref=e679]: "1.50"
+                      - text: out of 5
+                  - generic [ref=e681]:
+                    - generic [ref=e683]: $530.00
+                    - text: –
+                    - generic [ref=e685]: $560.00
+                    - generic [ref=e686]: "Price range: $530.00 through $560.00"
+              - generic [ref=e688]:
+                - generic [ref=e689]:
+                  - link "post featured image" [ref=e690] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/three-stone-ring/
+                    - img "Bracelet" [ref=e691]
+                    - img "Bracelet" [ref=e692]
+                  - generic [ref=e693]:
+                    - link "post content" [ref=e694] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/three-stone-ring/
+                    - link " Add to wishlist" [ref=e698] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=861&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e699] [cursor=pointer]:
+                      - generic [ref=e700]: 
+                    - text: 
+                    - 'link "Add to cart: “Three Stone Ring”" [ref=e702] [cursor=pointer]':
+                      - /url: /wordpress/porto/shop48/?add-to-cart=861
+                      - generic [ref=e703]: 
+                      - text: Add to cart
+                - generic [ref=e705]:
+                  - link "Rings" [ref=e707] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/rings/
+                  - heading "Post Title" [level=3] [ref=e708]:
+                    - link "Post Title" [ref=e709] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/three-stone-ring/
+                      - text: Three Stone Ring
+                  - generic "3.50" [ref=e713] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e714]:
+                      - text: 
+                      - strong [ref=e715]: "3.50"
+                      - text: out of 5
+                  - generic [ref=e719]: $480.99
+            - heading "Featured Products" [level=2] [ref=e720]
+            - generic [ref=e722]:
+              - generic [ref=e724]:
+                - generic [ref=e725]:
+                  - generic [ref=e727]: Hot
+                  - link "post featured image" [ref=e728] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/black-natural-diamond-earrings/
+                    - img "earring" [ref=e729]
+                    - img "earring" [ref=e730]
+                  - generic [ref=e731]:
+                    - link "post content" [ref=e732] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/black-natural-diamond-earrings/
+                    - link " Add to wishlist" [ref=e736] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=765&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e737] [cursor=pointer]:
+                      - generic [ref=e738]: 
+                    - text: 
+                    - 'link "Add to cart: “Black Natural Diamond Earrings”" [ref=e740] [cursor=pointer]':
+                      - /url: /wordpress/porto/shop48/?add-to-cart=765
+                      - generic [ref=e741]: 
+                      - text: Add to cart
+                - generic [ref=e743]:
+                  - link "Earrings" [ref=e745] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/earrings/
+                  - heading "Post Title" [level=3] [ref=e746]:
+                    - link "Post Title" [ref=e747] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/black-natural-diamond-earrings/
+                      - text: Black Natural Diamond Earrings
+                  - generic "4.00" [ref=e751] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e752]:
+                      - text: 
+                      - strong [ref=e753]: "4.00"
+                      - text: out of 5
+                  - generic [ref=e757]: $1,310.99
+              - generic [ref=e759]:
+                - generic [ref=e760]:
+                  - generic [ref=e762]: Hot
+                  - link "post featured image" [ref=e763] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-gold-tone-necklace/
+                    - img "Necklace" [ref=e764]
+                    - img "Necklace" [ref=e765]
+                  - generic [ref=e766]:
+                    - link "post content" [ref=e767] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-gold-tone-necklace/
+                    - link " Add to wishlist" [ref=e771] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=877&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e772] [cursor=pointer]:
+                      - generic [ref=e773]: 
+                    - text: 
+                    - 'link "Add to cart: “Jewelry Gold-Tone Necklace”" [ref=e775] [cursor=pointer]':
+                      - /url: /wordpress/porto/shop48/?add-to-cart=877
+                      - generic [ref=e776]: 
+                      - text: Add to cart
+                - generic [ref=e778]:
+                  - generic [ref=e779]:
+                    - link "Charms" [ref=e780] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/charms/
+                    - text: ","
+                    - link "Necklaces" [ref=e781] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - heading "Post Title" [level=3] [ref=e782]:
+                    - link "Post Title" [ref=e783] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-gold-tone-necklace/
+                      - text: Jewelry Gold-Tone Necklace
+                  - generic "5.00" [ref=e787] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e788]:
+                      - text: 
+                      - strong [ref=e789]: "5.00"
+                      - text: out of 5
+                  - generic [ref=e793]: $208.00
+              - generic [ref=e795]:
+                - generic [ref=e796]:
+                  - generic [ref=e798]: Hot
+                  - link "post featured image" [ref=e799] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/silver-black-wire-with-bracelets/
+                    - img "Bracelet" [ref=e800]
+                    - img "Bracelet" [ref=e801]
+                  - generic [ref=e802]:
+                    - link "post content" [ref=e803] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/silver-black-wire-with-bracelets/
+                    - link " Add to wishlist" [ref=e807] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=841&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e808] [cursor=pointer]:
+                      - generic [ref=e809]: 
+                    - text: 
+                    - generic [ref=e810]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Silver & Black Wire with Bracelets”" [ref=e811] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/silver-black-wire-with-bracelets/
+                      - generic [ref=e812]: 
+                      - text: Select options
+                    - generic [ref=e813]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e814]:
+                  - link "Bracelets" [ref=e816] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/bracelets/
+                  - heading "Post Title" [level=3] [ref=e817]:
+                    - link "Post Title" [ref=e818] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/silver-black-wire-with-bracelets/
+                      - text: Silver & Black Wire with Bracelets
+                  - generic "1.00" [ref=e822] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e823]:
+                      - text: 
+                      - strong [ref=e824]: "1.00"
+                      - text: out of 5
+                  - generic [ref=e826]:
+                    - generic [ref=e828]: $530.00
+                    - text: –
+                    - generic [ref=e830]: $570.00
+                    - generic [ref=e831]: "Price range: $530.00 through $570.00"
+              - generic [ref=e833]:
+                - generic [ref=e834]:
+                  - generic [ref=e836]: Hot
+                  - link "post featured image" [ref=e837] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/trumium-sterling-silver-earrings/
+                    - img "Earring" [ref=e838]
+                    - img "Earring" [ref=e839]
+                  - generic [ref=e840]:
+                    - link "post content" [ref=e841] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/trumium-sterling-silver-earrings/
+                    - link " Add to wishlist" [ref=e845] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=782&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e846] [cursor=pointer]:
+                      - generic [ref=e847]: 
+                    - text: 
+                    - generic [ref=e848]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Trumium Sterling Silver Earrings”" [ref=e849] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/trumium-sterling-silver-earrings/
+                      - generic [ref=e850]: 
+                      - text: Select options
+                    - generic [ref=e851]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e852]:
+                  - link "Earrings" [ref=e854] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/earrings/
+                  - heading "Post Title" [level=3] [ref=e855]:
+                    - link "Post Title" [ref=e856] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/trumium-sterling-silver-earrings/
+                      - text: Trumium Sterling Silver Earrings
+                  - generic "4.67" [ref=e860] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e861]:
+                      - text: 
+                      - strong [ref=e862]: "4.67"
+                      - text: out of 5
+                  - generic [ref=e864]:
+                    - generic [ref=e866]: $300.00
+                    - text: –
+                    - generic [ref=e868]: $1,800.00
+                    - generic [ref=e869]: "Price range: $300.00 through $1,800.00"
+              - generic [ref=e871]:
+                - generic [ref=e872]:
+                  - generic [ref=e874]: Hot
+                  - link "post featured image" [ref=e875] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vince-silver-tone-cz-bracelet/
+                    - img "Barcelet" [ref=e876]
+                    - img "Barcelet" [ref=e877]
+                  - generic [ref=e878]:
+                    - link "post content" [ref=e879] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vince-silver-tone-cz-bracelet/
+                    - link " Add to wishlist" [ref=e883] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=866&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e884] [cursor=pointer]:
+                      - generic [ref=e885]: 
+                    - text: 
+                    - generic [ref=e886]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Vince Silver-Tone CZ Bracelet”" [ref=e887] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vince-silver-tone-cz-bracelet/
+                      - generic [ref=e888]: 
+                      - text: Select options
+                    - generic [ref=e889]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e890]:
+                  - link "Bracelets" [ref=e892] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/bracelets/
+                  - heading "Post Title" [level=3] [ref=e893]:
+                    - link "Post Title" [ref=e894] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vince-silver-tone-cz-bracelet/
+                      - text: Vince Silver-Tone CZ Bracelet
+                  - generic "1.50" [ref=e898] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e899]:
+                      - text: 
+                      - strong [ref=e900]: "1.50"
+                      - text: out of 5
+                  - generic [ref=e902]:
+                    - generic [ref=e904]: $530.00
+                    - text: –
+                    - generic [ref=e906]: $560.00
+                    - generic [ref=e907]: "Price range: $530.00 through $560.00"
+              - generic [ref=e909]:
+                - generic [ref=e910]:
+                  - generic [ref=e912]: Hot
+                  - link "post featured image" [ref=e913] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vintage-black-plastic-bangle/
+                    - img "Bracelet" [ref=e914]
+                    - img "Bracelet" [ref=e915]
+                  - generic [ref=e916]:
+                    - link "post content" [ref=e917] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vintage-black-plastic-bangle/
+                    - link " Add to wishlist" [ref=e921] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=846&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e922] [cursor=pointer]:
+                      - generic [ref=e923]: 
+                    - text: 
+                    - 'link "Add to cart: “Vintage Black Plastic Bangle”" [ref=e925] [cursor=pointer]':
+                      - /url: /wordpress/porto/shop48/?add-to-cart=846
+                      - generic [ref=e926]: 
+                      - text: Add to cart
+                - generic [ref=e928]:
+                  - link "Bracelets" [ref=e930] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/bracelets/
+                  - heading "Post Title" [level=3] [ref=e931]:
+                    - link "Post Title" [ref=e932] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vintage-black-plastic-bangle/
+                      - text: Vintage Black Plastic Bangle
+                  - generic "2.00" [ref=e936] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e937]:
+                      - text: 
+                      - strong [ref=e938]: "2.00"
+                      - text: out of 5
+                  - generic [ref=e942]: $155.99
+          - generic [ref=e945]:
+            - generic [ref=e950]:
+              - heading "NEW ARRIVALS" [level=3] [ref=e951]
+              - heading "Elegant Essential Accessories" [level=3] [ref=e952]:
+                - text: Elegant Essential
+                - text: Accessories
+              - link "SHOP NOW" [ref=e954] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/shop/
+                - generic [ref=e956]: SHOP NOW
+            - generic [ref=e961]:
+              - heading "PREMIUM SELECTION" [level=3] [ref=e962]
+              - heading "Valentines Day Gifts Guide" [level=3] [ref=e963]:
+                - text: Valentines Day
+                - text: Gifts Guide
+              - link "SHOP NOW" [ref=e965] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/shop/
+                - generic [ref=e967]: SHOP NOW
+          - generic [ref=e972]:
+            - heading "Best Selling" [level=2] [ref=e973]
+            - generic [ref=e975]:
+              - generic [ref=e977]:
+                - generic [ref=e978]:
+                  - link "post featured image" [ref=e979] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vintage-link-bracelet/
+                    - img "Bracelet" [ref=e980]
+                    - img "Bracelet" [ref=e981]
+                  - generic [ref=e982]:
+                    - link "post content" [ref=e983] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vintage-link-bracelet/
+                    - link " Add to wishlist" [ref=e987] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=2691&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e988] [cursor=pointer]:
+                      - generic [ref=e989]: 
+                    - text: 
+                    - generic [ref=e990]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Vintage Link Bracelet”" [ref=e991] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vintage-link-bracelet/
+                      - generic [ref=e992]: 
+                      - text: Select options
+                    - generic [ref=e993]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e994]:
+                  - link "Bracelets" [ref=e996] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/bracelets/
+                  - heading "Post Title" [level=3] [ref=e997]:
+                    - link "Post Title" [ref=e998] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/vintage-link-bracelet/
+                      - text: Vintage Link Bracelet
+                  - generic "4.50" [ref=e1002] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e1003]:
+                      - text: 
+                      - strong [ref=e1004]: "4.50"
+                      - text: out of 5
+                  - generic [ref=e1006]:
+                    - generic [ref=e1008]: $155.00
+                    - text: –
+                    - generic [ref=e1010]: $280.00
+                    - generic [ref=e1011]: "Price range: $155.00 through $280.00"
+              - generic [ref=e1013]:
+                - generic [ref=e1014]:
+                  - link "post featured image" [ref=e1015] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/disk-charm-anklet-bracelet/
+                    - img "Anklet" [ref=e1016]
+                    - img "Anklet" [ref=e1017]
+                  - generic [ref=e1018]:
+                    - link "post content" [ref=e1019] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/disk-charm-anklet-bracelet/
+                    - link " Add to wishlist" [ref=e1023] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=2685&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e1024] [cursor=pointer]:
+                      - generic [ref=e1025]: 
+                    - text: 
+                    - generic [ref=e1026]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Disk Charm Anklet Bracelet”" [ref=e1027] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/disk-charm-anklet-bracelet/
+                      - generic [ref=e1028]: 
+                      - text: Select options
+                    - generic [ref=e1029]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e1030]:
+                  - link "Anklets" [ref=e1032] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/anklets/
+                  - heading "Post Title" [level=3] [ref=e1033]:
+                    - link "Post Title" [ref=e1034] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/disk-charm-anklet-bracelet/
+                      - text: Disk Charm Anklet Bracelet
+                  - generic "4.50" [ref=e1038] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e1039]:
+                      - text: 
+                      - strong [ref=e1040]: "4.50"
+                      - text: out of 5
+                  - generic [ref=e1042]:
+                    - generic [ref=e1044]: $265.00
+                    - text: –
+                    - generic [ref=e1046]: $325.00
+                    - generic [ref=e1047]: "Price range: $265.00 through $325.00"
+              - generic [ref=e1049]:
+                - generic [ref=e1050]:
+                  - generic [ref=e1052]: Sale
+                  - link "post featured image" [ref=e1053] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/heart-charm-anklet/
+                    - img "Anklet" [ref=e1054]
+                    - img "Anklet" [ref=e1055]
+                  - generic [ref=e1056]:
+                    - link "post content" [ref=e1057] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/heart-charm-anklet/
+                    - link " Add to wishlist" [ref=e1061] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=2679&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e1062] [cursor=pointer]:
+                      - generic [ref=e1063]: 
+                    - text: 
+                    - 'link "Add to cart: “Heart Charm Ankle”" [ref=e1065] [cursor=pointer]':
+                      - /url: /wordpress/porto/shop48/?add-to-cart=2679
+                      - generic [ref=e1066]: 
+                      - text: Add to cart
+                - generic [ref=e1068]:
+                  - link "Anklets" [ref=e1070] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/anklets/
+                  - heading "Post Title" [level=3] [ref=e1071]:
+                    - link "Post Title" [ref=e1072] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/heart-charm-anklet/
+                      - text: Heart Charm Ankle
+                  - generic "4.00" [ref=e1076] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e1077]:
+                      - text: 
+                      - strong [ref=e1078]: "4.00"
+                      - text: out of 5
+                  - generic [ref=e1080]:
+                    - deletion [ref=e1081]:
+                      - generic [ref=e1083]: $300.00
+                    - generic [ref=e1084]: "Original price was: $300.00."
+                    - insertion [ref=e1085]:
+                      - generic [ref=e1087]: $255.00
+                    - generic [ref=e1088]: "Current price is: $255.00."
+              - generic [ref=e1090]:
+                - generic [ref=e1091]:
+                  - link "post featured image" [ref=e1092] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/rice-puff-bead-anklet/
+                    - img "Anklet" [ref=e1093]
+                    - img "Anklet" [ref=e1094]
+                  - generic [ref=e1095]:
+                    - link "post content" [ref=e1096] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/rice-puff-bead-anklet/
+                    - link " Add to wishlist" [ref=e1100] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=2668&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e1101] [cursor=pointer]:
+                      - generic [ref=e1102]: 
+                    - text: 
+                    - generic [ref=e1103]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Rice Puff Bead Anklet”" [ref=e1104] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/rice-puff-bead-anklet/
+                      - generic [ref=e1105]: 
+                      - text: Select options
+                    - generic [ref=e1106]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e1107]:
+                  - link "Anklets" [ref=e1109] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/anklets/
+                  - heading "Post Title" [level=3] [ref=e1110]:
+                    - link "Post Title" [ref=e1111] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/rice-puff-bead-anklet/
+                      - text: Rice Puff Bead Anklet
+                  - generic "3.50" [ref=e1115] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e1116]:
+                      - text: 
+                      - strong [ref=e1117]: "3.50"
+                      - text: out of 5
+                  - generic [ref=e1119]:
+                    - generic [ref=e1121]: $255.00
+                    - text: –
+                    - generic [ref=e1123]: $355.00
+                    - generic [ref=e1124]: "Price range: $255.00 through $355.00"
+              - generic [ref=e1126]:
+                - generic [ref=e1127]:
+                  - link "post featured image" [ref=e1128] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/cupchain-necklace-silver/
+                    - img "Necklace" [ref=e1129]
+                    - img "Necklace" [ref=e1130]
+                  - generic [ref=e1131]:
+                    - link "post content" [ref=e1132] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/cupchain-necklace-silver/
+                    - link " Add to wishlist" [ref=e1136] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=886&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e1137] [cursor=pointer]:
+                      - generic [ref=e1138]: 
+                    - text: 
+                    - generic [ref=e1139]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Cupchain Necklace Silver”" [ref=e1140] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/cupchain-necklace-silver/
+                      - generic [ref=e1141]: 
+                      - text: Select options
+                    - generic [ref=e1142]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e1143]:
+                  - link "Necklaces" [ref=e1145] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - heading "Post Title" [level=3] [ref=e1146]:
+                    - link "Post Title" [ref=e1147] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/cupchain-necklace-silver/
+                      - text: Cupchain Necklace Silver
+                  - generic "4.50" [ref=e1151] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e1152]:
+                      - text: 
+                      - strong [ref=e1153]: "4.50"
+                      - text: out of 5
+                  - generic [ref=e1155]:
+                    - generic [ref=e1157]: $253.00
+                    - text: –
+                    - generic [ref=e1159]: $285.00
+                    - generic [ref=e1160]: "Price range: $253.00 through $285.00"
+              - generic [ref=e1162]:
+                - generic [ref=e1163]:
+                  - link "post featured image" [ref=e1164] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/evil-eye-bracelet/
+                    - img "Necklace" [ref=e1165]
+                    - img "Necklace" [ref=e1166]
+                  - generic [ref=e1167]:
+                    - link "post content" [ref=e1168] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/evil-eye-bracelet/
+                    - link " Add to wishlist" [ref=e1172] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=883&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e1173] [cursor=pointer]:
+                      - generic [ref=e1174]: 
+                    - text: 
+                    - 'link "Add to cart: “EVIL EYE BRACELET”" [ref=e1176] [cursor=pointer]':
+                      - /url: /wordpress/porto/shop48/?add-to-cart=883
+                      - generic [ref=e1177]: 
+                      - text: Add to cart
+                - generic [ref=e1179]:
+                  - generic [ref=e1180]:
+                    - link "Charms" [ref=e1181] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/charms/
+                    - text: ","
+                    - link "Necklaces" [ref=e1182] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - heading "Post Title" [level=3] [ref=e1183]:
+                    - link "Post Title" [ref=e1184] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/evil-eye-bracelet/
+                      - text: EVIL EYE BRACELET
+                  - generic "4.00" [ref=e1188] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e1189]:
+                      - text: 
+                      - strong [ref=e1190]: "4.00"
+                      - text: out of 5
+                  - generic [ref=e1194]: $164.00
+              - generic [ref=e1196]:
+                - generic [ref=e1197]:
+                  - link "post featured image" [ref=e1198] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/pendant-espressivo/
+                    - img "Necklace" [ref=e1199]
+                    - img "Necklace" [ref=e1200]
+                  - generic [ref=e1201]:
+                    - link "post content" [ref=e1202] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/pendant-espressivo/
+                    - link " Add to wishlist" [ref=e1206] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=880&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e1207] [cursor=pointer]:
+                      - generic [ref=e1208]: 
+                    - text: 
+                    - generic [ref=e1209]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Pendant Espressivo”" [ref=e1210] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/pendant-espressivo/
+                      - generic [ref=e1211]: 
+                      - text: Select options
+                    - generic [ref=e1212]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e1213]:
+                  - generic [ref=e1214]:
+                    - link "Charms" [ref=e1215] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/charms/
+                    - text: ","
+                    - link "Necklaces" [ref=e1216] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - heading "Post Title" [level=3] [ref=e1217]:
+                    - link "Post Title" [ref=e1218] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/pendant-espressivo/
+                      - text: Pendant Espressivo
+                  - generic "4.50" [ref=e1222] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e1223]:
+                      - text: 
+                      - strong [ref=e1224]: "4.50"
+                      - text: out of 5
+                  - generic [ref=e1226]:
+                    - generic [ref=e1228]: $350.00
+                    - text: –
+                    - generic [ref=e1230]: $390.00
+                    - generic [ref=e1231]: "Price range: $350.00 through $390.00"
+              - generic [ref=e1233]:
+                - generic [ref=e1234]:
+                  - generic [ref=e1236]: Hot
+                  - link "post featured image" [ref=e1237] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-gold-tone-necklace/
+                    - img "Necklace" [ref=e1238]
+                    - img "Necklace" [ref=e1239]
+                  - generic [ref=e1240]:
+                    - link "post content" [ref=e1241] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-gold-tone-necklace/
+                    - link " Add to wishlist" [ref=e1245] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=877&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e1246] [cursor=pointer]:
+                      - generic [ref=e1247]: 
+                    - text: 
+                    - 'link "Add to cart: “Jewelry Gold-Tone Necklace”" [ref=e1249] [cursor=pointer]':
+                      - /url: /wordpress/porto/shop48/?add-to-cart=877
+                      - generic [ref=e1250]: 
+                      - text: Add to cart
+                - generic [ref=e1252]:
+                  - generic [ref=e1253]:
+                    - link "Charms" [ref=e1254] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/charms/
+                    - text: ","
+                    - link "Necklaces" [ref=e1255] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - heading "Post Title" [level=3] [ref=e1256]:
+                    - link "Post Title" [ref=e1257] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-gold-tone-necklace/
+                      - text: Jewelry Gold-Tone Necklace
+                  - generic "5.00" [ref=e1261] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e1262]:
+                      - text: 
+                      - strong [ref=e1263]: "5.00"
+                      - text: out of 5
+                  - generic [ref=e1267]: $208.00
+              - generic [ref=e1269]:
+                - generic [ref=e1270]:
+                  - link "post featured image" [ref=e1271] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-platinum-oval-diamond/
+                    - img "Necklace" [ref=e1272]
+                    - img "Necklace" [ref=e1273]
+                  - generic [ref=e1274]:
+                    - link "post content" [ref=e1275] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-platinum-oval-diamond/
+                    - link " Add to wishlist" [ref=e1279] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=874&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e1280] [cursor=pointer]:
+                      - generic [ref=e1281]: 
+                    - text: 
+                    - generic [ref=e1282]: This product has multiple variants. The options may be chosen on the product page
+                    - link "Select options for “Jewelry Platinum Oval Diamond”" [ref=e1283] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-platinum-oval-diamond/
+                      - generic [ref=e1284]: 
+                      - text: Select options
+                    - generic [ref=e1285]: This product has multiple variants. The options may be chosen on the product page
+                - generic [ref=e1286]:
+                  - link "Necklaces" [ref=e1288] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - heading "Post Title" [level=3] [ref=e1289]:
+                    - link "Post Title" [ref=e1290] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/jewelry-platinum-oval-diamond/
+                      - text: Jewelry Platinum Oval Diamond
+                  - generic "4.50" [ref=e1294] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e1295]:
+                      - text: 
+                      - strong [ref=e1296]: "4.50"
+                      - text: out of 5
+                  - generic [ref=e1298]:
+                    - generic [ref=e1300]: $180.00
+                    - text: –
+                    - generic [ref=e1302]: $300.00
+                    - generic [ref=e1303]: "Price range: $180.00 through $300.00"
+              - generic [ref=e1305]:
+                - generic [ref=e1306]:
+                  - link "post featured image" [ref=e1307] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/diamond-trio-v-necklace/
+                    - img "Necklace" [ref=e1308]
+                    - img "Necklace" [ref=e1309]
+                  - generic [ref=e1310]:
+                    - link "post content" [ref=e1311] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/diamond-trio-v-necklace/
+                    - link " Add to wishlist" [ref=e1315] [cursor=pointer]:
+                      - /url: "?add_to_wishlist=871&_wpnonce=07ab1c445a"
+                      - text: 
+                      - generic: Add to wishlist
+                    - generic "Quick View" [ref=e1316] [cursor=pointer]:
+                      - generic [ref=e1317]: 
+                    - text: 
+                    - 'link "Add to cart: “Diamond Trio V Necklace”" [ref=e1319] [cursor=pointer]':
+                      - /url: /wordpress/porto/shop48/?add-to-cart=871
+                      - generic [ref=e1320]: 
+                      - text: Add to cart
+                - generic [ref=e1322]:
+                  - link "Necklaces" [ref=e1324] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                  - heading "Post Title" [level=3] [ref=e1325]:
+                    - link "Post Title" [ref=e1326] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/diamond-trio-v-necklace/
+                      - text: Diamond Trio V Necklace
+                  - generic "5.00" [ref=e1330] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e1331]:
+                      - text: 
+                      - strong [ref=e1332]: "5.00"
+                      - text: out of 5
+                  - generic [ref=e1336]: $575.00
+          - generic [ref=e1337]:
+            - img "Shop Full Banner" [ref=e1343]
+            - generic [ref=e1352]:
+              - generic [ref=e1353]:
+                - link "post featured image" [ref=e1354] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/product/triangle-cz-stainless-necklace/
+                  - img "Necklace" [ref=e1355]
+                  - img "Necklace" [ref=e1356]
+                - generic [ref=e1357]:
+                  - link "post content" [ref=e1358] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/triangle-cz-stainless-necklace/
+                  - link " Add to wishlist" [ref=e1362] [cursor=pointer]:
+                    - /url: "?add_to_wishlist=807&_wpnonce=07ab1c445a"
+                    - text: 
+                    - generic: Add to wishlist
+                  - generic "Quick View" [ref=e1363] [cursor=pointer]:
+                    - generic [ref=e1364]: 
+                  - generic [ref=e1365]:
+                    - link "Select options for “Triangle CZ Stainless Necklace”" [ref=e1366] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/product/triangle-cz-stainless-necklace/
+                      - generic [ref=e1367]: 
+                      - text: Select options
+                    - generic [ref=e1368]: This product has multiple variants. The options may be chosen on the product page
+              - generic [ref=e1369]:
+                - link "Necklaces" [ref=e1371] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+                - heading "Post Title" [level=3] [ref=e1372]:
+                  - link "Post Title" [ref=e1373] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/product/triangle-cz-stainless-necklace/
+                    - text: Triangle CZ Stainless Necklace
+                - generic "4.50" [ref=e1377] [cursor=pointer]:
+                  - text: 
+                  - generic [ref=e1378]:
+                    - text: 
+                    - strong [ref=e1379]: "4.50"
+                    - text: out of 5
+                - generic [ref=e1381]:
+                  - generic [ref=e1383]: $480.00
+                  - text: –
+                  - generic [ref=e1385]: $670.00
+                  - generic [ref=e1386]: "Price range: $480.00 through $670.00"
+          - generic [ref=e1391]:
+            - heading "Browse by Brand" [level=2] [ref=e1392]
+            - generic [ref=e1394]:
+              - link "post featured image" [ref=e1397] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/brand/avant-grade/
+                - img "Product Brand" [ref=e1398]
+              - link "post featured image" [ref=e1401] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/brand/ctm/
+                - img "Product Brand" [ref=e1402]
+              - link "post featured image" [ref=e1405] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/brand/david-smith/
+                - img "Product Brand" [ref=e1406]
+              - link "post featured image" [ref=e1409] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/brand/golden/
+                - img "Product Brand" [ref=e1410]
+              - link "post featured image" [ref=e1413] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/brand/golden-grid/
+                - img "Product Brand" [ref=e1414]
+              - link "post featured image" [ref=e1417] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/brand/ron-jones/
+                - img "Product Brand" [ref=e1418]
+          - generic [ref=e1423]:
+            - heading "What Our Customers Say" [level=2] [ref=e1424]
+            - generic [ref=e1425]:
+              - generic [ref=e1428]:
+                - generic [ref=e1429]: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium velit nec risus consectetur, vel cursus odio congue."
+                - generic [ref=e1430]:
+                  - img "Testimonial Author" [ref=e1433]
+                  - generic [ref=e1434]:
+                    - heading "Jenice Doe" [level=3] [ref=e1435]
+                    - paragraph [ref=e1436]: Developer
+              - generic [ref=e1439]:
+                - generic [ref=e1440]: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium velit nec risus consectetur, vel cursus odio congue."
+                - generic [ref=e1441]:
+                  - img "Testimonial Author" [ref=e1444]
+                  - generic [ref=e1445]:
+                    - heading "Jenny Doe" [level=3] [ref=e1446]
+                    - paragraph [ref=e1447]: Designer
+              - generic [ref=e1450]:
+                - generic [ref=e1451]: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium velit nec risus consectetur, vel cursus odio congue."
+                - generic [ref=e1452]:
+                  - img "Testimonial Author" [ref=e1455]
+                  - generic [ref=e1456]:
+                    - heading "Jenice Doe" [level=3] [ref=e1457]
+                    - paragraph [ref=e1458]: CTO
+              - generic [ref=e1461]:
+                - generic [ref=e1462]: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium velit nec risus consectetur, vel cursus odio congue."
+                - generic [ref=e1463]:
+                  - img "Testimonial Author" [ref=e1466]
+                  - generic [ref=e1467]:
+                    - heading "Jenny Doe" [level=3] [ref=e1468]
+                    - paragraph [ref=e1469]: CEO
+          - generic [ref=e1474]:
+            - heading "Latest Articles" [level=2] [ref=e1475]
+            - generic [ref=e1477]:
+              - generic [ref=e1479]:
+                - link "post featured image" [ref=e1481] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/2024/03/18/etiam-laoreet-sem/
+                  - img "Post Image" [ref=e1482]
+                - generic [ref=e1483]:
+                  - generic [ref=e1484]:
+                    - link "Diamond" [ref=e1485] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/category/diamond/
+                    - text: ","
+                    - link "Jewelry" [ref=e1486] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/category/jewelry/
+                    - text: ","
+                    - link "Necklace" [ref=e1487] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/category/necklace/
+                  - generic [ref=e1488]: 18/3/2024
+                - heading "Post Title" [level=3] [ref=e1489]:
+                  - link "Post Title" [ref=e1490] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/2024/03/18/etiam-laoreet-sem/
+                    - text: Unveiling the World of Rings
+                - paragraph [ref=e1491]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium velit nec risus consectetur..
+                - link "Read More" [ref=e1492] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/2024/03/18/etiam-laoreet-sem/
+              - generic [ref=e1494]:
+                - link "post featured image" [ref=e1496] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/2024/03/18/post-format-heading/
+                  - img "Post Image" [ref=e1497]
+                - generic [ref=e1498]:
+                  - generic [ref=e1499]:
+                    - link "Accessories" [ref=e1500] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/category/accessories/
+                    - text: ","
+                    - link "Diamond" [ref=e1501] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/category/diamond/
+                    - text: ","
+                    - link "Necklace" [ref=e1502] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/category/necklace/
+                  - generic [ref=e1503]: 18/3/2024
+                - heading "Post Title" [level=3] [ref=e1504]:
+                  - link "Post Title" [ref=e1505] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/2024/03/18/post-format-heading/
+                    - text: Curating a Collection of Fine Jewelry
+                - paragraph [ref=e1506]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium velit nec risus consectetur..
+                - link "Read More" [ref=e1507] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/2024/03/18/post-format-heading/
+              - generic [ref=e1509]:
+                - link "post featured image" [ref=e1511] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/2024/03/01/post-format-image/
+                  - img "Post Image" [ref=e1512]
+                - generic [ref=e1513]:
+                  - generic [ref=e1514]:
+                    - link "Diamond" [ref=e1515] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/category/diamond/
+                    - text: ","
+                    - link "Jewelry" [ref=e1516] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/category/jewelry/
+                    - text: ","
+                    - link "Necklace" [ref=e1517] [cursor=pointer]:
+                      - /url: https://www.portotheme.com/wordpress/porto/shop48/category/necklace/
+                  - generic [ref=e1518]: 1/3/2024
+                - heading "Post Title" [level=3] [ref=e1519]:
+                  - link "Post Title" [ref=e1520] [cursor=pointer]:
+                    - /url: https://www.portotheme.com/wordpress/porto/shop48/2024/03/01/post-format-image/
+                    - text: The Art of Crafting Exquisite Rings
+                - paragraph [ref=e1521]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium velit nec risus consectetur..
+                - link "Read More" [ref=e1522] [cursor=pointer]:
+                  - /url: https://www.portotheme.com/wordpress/porto/shop48/2024/03/01/post-format-image/
+          - generic [ref=e1528]:
+            - heading "Discover our Latest Collection" [level=2] [ref=e1533]
+            - link "SHOP NOW" [ref=e1537] [cursor=pointer]:
+              - /url: https://www.portotheme.com/wordpress/porto/shop48/shop
+          - generic [ref=e1542]:
+            - heading "Follow Us on Instagram" [level=2] [ref=e1543]
+            - generic [ref=e1544]: "@portotheme"
+            - generic [ref=e1545]:
+              - link [ref=e1546] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/wp-content/uploads/sites/231/2024/03/shop48-instagram-1.jpg
+                - figure [ref=e1547]:
+                  - img "Instagram" [ref=e1548]
+                  - generic [ref=e1550]: 
+              - link [ref=e1551] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/wp-content/uploads/sites/231/2024/03/shop48-instagram-2.jpg
+                - figure [ref=e1552]:
+                  - img "Instagram" [ref=e1553]
+                  - generic [ref=e1555]: 
+              - link [ref=e1556] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/wp-content/uploads/sites/231/2024/03/shop48-instagram-3.jpg
+                - figure [ref=e1557]:
+                  - img "Instagram" [ref=e1558]
+                  - generic [ref=e1560]: 
+              - link [ref=e1561] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/wp-content/uploads/sites/231/2024/03/shop48-instagram-4.jpg
+                - figure [ref=e1562]:
+                  - img "Instagram" [ref=e1563]
+                  - generic [ref=e1565]: 
+              - link [ref=e1566] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/wp-content/uploads/sites/231/2024/03/shop48-instagram-5.jpg
+                - figure [ref=e1567]:
+                  - img "Instagram" [ref=e1568]
+                  - generic [ref=e1570]: 
+              - link [ref=e1571] [cursor=pointer]:
+                - /url: https://www.portotheme.com/wordpress/porto/shop48/wp-content/uploads/sites/231/2024/03/shop48-instagram-6.jpg
+                - figure [ref=e1572]:
+                  - img "Instagram" [ref=e1573]
+                  - generic [ref=e1575]: 
+          - generic [ref=e1580]:
+            - heading "About Our Online Shop" [level=2] [ref=e1581]
+            - generic [ref=e1584]: The Porto online shop is a virtual platform where customers can browse and purchase a wide range of Porto products from the comfort of their own homes. The online shop offers a variety of sports clothing, footwear, and accessories for men, women, and children. Customers can explore the latest collections, view detailed product descriptions, and make secure online payments.
+            - generic [ref=e1587]: Additionally, the online shop may provide features such as customer reviews, size guides, and personalized recommendations to enhance the shopping experience. With convenient shipping options and easy returns, the Porto online shop aims to provide a seamless and enjoyable shopping experience for its customers.
+            - generic [ref=e1591] [cursor=pointer]: Read More
+    - contentinfo [ref=e1593]:
+      - generic [ref=e1595]:
+        - generic [ref=e1598]:
+          - heading "Subscribe to Our Newsletter to Receive Offers" [level=2] [ref=e1601]
+          - generic [ref=e1605]:
+            - generic [ref=e1606]:
+              - status
+              - list
+            - form "Contact form" [ref=e1607]:
+              - generic [ref=e1608]:
+                - textbox "Search for products..." [ref=e1611]
+                - button "contact-button" [ref=e1613] [cursor=pointer]: SUBSCRIBE NOW
+        - generic [ref=e1616]:
+          - generic [ref=e1618]:
+            - heading "ABOUT US" [level=3] [ref=e1619]
+            - img "Footer Logo" [ref=e1623]
+            - generic [ref=e1626]: The Porto shop site is the online platform for the renowned sportswear and athletic shoe brand.
+            - link "Read More" [ref=e1628] [cursor=pointer]:
+              - /url: https://www.portotheme.com/wordpress/porto/shop48/about-us/
+              - generic [ref=e1630]: Read More
+            - generic [ref=e1631]:
+              - link "Facebook" [ref=e1632] [cursor=pointer]:
+                - /url: "#"
+                - text: 
+              - link "X" [ref=e1633] [cursor=pointer]:
+                - /url: "#"
+                - text: 
+              - link "Instagram" [ref=e1634] [cursor=pointer]:
+                - /url: "#"
+                - text: 
+          - generic [ref=e1636]:
+            - heading "CONTACT INFO" [level=3] [ref=e1637]
+            - generic [ref=e1638]: ADDRESS
+            - generic [ref=e1639]: 123 Street Name, City, England
+            - generic [ref=e1640]: PHONE
+            - link "Tell Free (123) 456-7890" [ref=e1642] [cursor=pointer]:
+              - /url: tel:+1234567890
+              - generic [ref=e1644]: Tell Free (123) 456-7890
+            - generic [ref=e1645]: EMAIL
+            - link "mail@example.com" [ref=e1647] [cursor=pointer]:
+              - /url: mailto:mail@example.com
+              - generic [ref=e1649]: mail@example.com
+            - generic [ref=e1650]: WORKING DAYS/HOURS
+            - generic [ref=e1651]: Mon - Sun / 9:00AM - 8:00PM
+          - generic [ref=e1653]:
+            - heading "CUSTOMER SERVICE" [level=3] [ref=e1654]
+            - link "Help & FAQs" [ref=e1656] [cursor=pointer]:
+              - /url: https://www.portotheme.com/wordpress/porto/shop48/faqs
+            - link "Order Tracking" [ref=e1658] [cursor=pointer]:
+              - /url: "#"
+            - link "Shipping & Delivery" [ref=e1660] [cursor=pointer]:
+              - /url: "#"
+            - link "Orders History" [ref=e1662] [cursor=pointer]:
+              - /url: "#"
+            - link "Advanced Search" [ref=e1664] [cursor=pointer]:
+              - /url: "#"
+            - link "Blog" [ref=e1666] [cursor=pointer]:
+              - /url: https://www.portotheme.com/wordpress/porto/shop48/blog
+            - link "Contact Us" [ref=e1668] [cursor=pointer]:
+              - /url: https://www.portotheme.com/wordpress/porto/shop48/contact-us
+            - link "About Us" [ref=e1670] [cursor=pointer]:
+              - /url: https://www.portotheme.com/wordpress/porto/shop48/about-us/
+          - generic [ref=e1672]:
+            - heading "PAYMENT METHODS" [level=3] [ref=e1673]
+            - generic [ref=e1676]:
+              - generic [ref=e1677]: 
+              - generic [ref=e1678]: 
+              - generic [ref=e1680]: 
+        - generic [ref=e1688]: © Porto eCommerce. 2026. All Rights Reserved
+  - generic:
+    - generic [ref=e1689]:
+      - link " Buy Now Buy Now" [ref=e1690] [cursor=pointer]:
+        - /url: https://www.portotheme.com/buynow/portowp/
+        - generic [ref=e1691]: 
+        - generic [ref=e1693]: Buy Now Buy Now
+      - link "Porto Demos Prebuilts Prebuilts" [ref=e1694] [cursor=pointer]:
+        - /url: "#"
+        - img "Porto Demos" [ref=e1695]
+        - generic [ref=e1697]: Prebuilts Prebuilts
+      - link "Porto Studios Studios Studios" [ref=e1698] [cursor=pointer]:
+        - /url: https://www.portotheme.com/wordpress/porto/studio
+        - img "Porto Studios" [ref=e1699]
+        - generic [ref=e1701]: Studios Studios
+      - link "Hire Porto Experts Hire Us Hire Us" [ref=e1702] [cursor=pointer]:
+        - /url: https://www.portotheme.com/customization/
+        - img "Hire Porto Experts" [ref=e1703]
+        - generic [ref=e1705]: Hire Us Hire Us
+    - iframe [ref=e1707]:
+      
+  - generic [ref=e1708]:
+    - list [ref=e1710]:
+      - listitem [ref=e1711]:
+        - link "Shop All" [ref=e1712] [cursor=pointer]:
+          - /url: https://www.portotheme.com/wordpress/porto/shop48/shop/
+      - listitem [ref=e1713]:
+        - link "Anklets" [ref=e1714] [cursor=pointer]:
+          - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/anklets/
+      - listitem [ref=e1715]:
+        - link "Bracelets" [ref=e1716] [cursor=pointer]:
+          - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/bracelets/
+      - listitem [ref=e1717]:
+        - link "Charms" [ref=e1718] [cursor=pointer]:
+          - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/charms/
+      - listitem [ref=e1719]:
+        - link "Earrings" [ref=e1720] [cursor=pointer]:
+          - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/earrings/
+      - listitem [ref=e1721]:
+        - link "Necklaces" [ref=e1722] [cursor=pointer]:
+          - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/necklaces/
+      - listitem [ref=e1723]:
+        - link "Rings" [ref=e1724] [cursor=pointer]:
+          - /url: https://www.portotheme.com/wordpress/porto/shop48/product-category/rings/
+    - generic [ref=e1725]:
+      - link "Facebook" [ref=e1726] [cursor=pointer]:
+        - /url: "#"
+        - text: 
+      - link "X" [ref=e1727] [cursor=pointer]:
+        - /url: "#"
+        - text: 
+      - link "Instagram" [ref=e1728] [cursor=pointer]:
+        - /url: "#"
+        - text: 

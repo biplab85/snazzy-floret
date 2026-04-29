@@ -1,0 +1,549 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Free delivery on orders over ৳2,500 | Custom sizing available
+      - button "Close announcement" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - link "Snazzy Floret" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/
+          - img "Snazzy Floret" [ref=e14]
+        - generic [ref=e15]:
+          - button "Cart" [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+            - generic [ref=e20]: "6"
+          - link "Account" [ref=e21] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e22]
+          - button "Open menu" [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main [ref=e27]:
+      - article [ref=e29]:
+        - heading "Checkout" [level=1] [ref=e30]
+        - generic [ref=e33]:
+          - form "Checkout" [ref=e35]:
+            - group "Contact information" [ref=e36]:
+              - generic [ref=e37]: Contact information
+              - generic [ref=e39]:
+                - heading "Contact information" [level=2] [ref=e40]
+                - link "Log in" [ref=e41] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/?redirect_to=http%3A%2F%2Flocalhost%2Fsklentr%2Fsnazzy-floret%2Fcheckout%2F
+              - generic [ref=e43]:
+                - generic [ref=e44]:
+                  - textbox "Email address" [disabled] [ref=e45]: test@snazzyfloret.com
+                  - generic [ref=e46]: Email address
+                - generic [ref=e47]:
+                  - generic [ref=e48]:
+                    - textbox "Create a password" [disabled] [ref=e49]:
+                      - /placeholder: ••••••••
+                      - text: TestPass2026!
+                    - generic [ref=e50]: Create a password
+                    - generic [ref=e51]:
+                      - generic [ref=e52]: Password strength
+                      - meter [ref=e53]: Very strong
+                      - generic [ref=e256]:
+                        - generic [ref=e257]: "Password strength: Very strong (13 characters long)"
+                        - text: Very strong
+                    - button "Show password" [disabled] [ref=e54] [cursor=pointer]:
+                      - img [ref=e55]
+                  - generic [ref=e58]:
+                    - textbox "Confirm password" [disabled] [ref=e59]:
+                      - /placeholder: ••••••••
+                      - text: TestPass2026!
+                    - generic: Confirm password
+                    - button "Show password" [disabled] [ref=e60] [cursor=pointer]:
+                      - img [ref=e61]
+            - group "Shipping address" [ref=e64]:
+              - generic [ref=e65]: Shipping address
+              - heading "Shipping address" [level=2] [ref=e68]
+              - generic [ref=e69]:
+                - generic [ref=e72]:
+                  - generic [ref=e75]:
+                    - generic [ref=e76]: Country/Region
+                    - combobox "Country/Region" [disabled] [ref=e77] [cursor=pointer]:
+                      - option "Select a country/region" [disabled]
+                      - option "Afghanistan" [disabled]
+                      - option "Åland Islands" [disabled]
+                      - option "Albania" [disabled]
+                      - option "Algeria" [disabled]
+                      - option "American Samoa" [disabled]
+                      - option "Andorra" [disabled]
+                      - option "Angola" [disabled]
+                      - option "Anguilla" [disabled]
+                      - option "Antarctica" [disabled]
+                      - option "Antigua and Barbuda" [disabled]
+                      - option "Argentina" [disabled]
+                      - option "Armenia" [disabled]
+                      - option "Aruba" [disabled]
+                      - option "Australia" [disabled]
+                      - option "Austria" [disabled]
+                      - option "Azerbaijan" [disabled]
+                      - option "Bahamas" [disabled]
+                      - option "Bahrain" [disabled]
+                      - option "Bangladesh" [disabled] [selected]
+                      - option "Barbados" [disabled]
+                      - option "Belarus" [disabled]
+                      - option "Belau" [disabled]
+                      - option "Belgium" [disabled]
+                      - option "Belize" [disabled]
+                      - option "Benin" [disabled]
+                      - option "Bermuda" [disabled]
+                      - option "Bhutan" [disabled]
+                      - option "Bolivia" [disabled]
+                      - option "Bonaire, Saint Eustatius and Saba" [disabled]
+                      - option "Bosnia and Herzegovina" [disabled]
+                      - option "Botswana" [disabled]
+                      - option "Bouvet Island" [disabled]
+                      - option "Brazil" [disabled]
+                      - option "British Indian Ocean Territory" [disabled]
+                      - option "Brunei" [disabled]
+                      - option "Bulgaria" [disabled]
+                      - option "Burkina Faso" [disabled]
+                      - option "Burundi" [disabled]
+                      - option "Cambodia" [disabled]
+                      - option "Cameroon" [disabled]
+                      - option "Canada" [disabled]
+                      - option "Cape Verde" [disabled]
+                      - option "Cayman Islands" [disabled]
+                      - option "Central African Republic" [disabled]
+                      - option "Chad" [disabled]
+                      - option "Chile" [disabled]
+                      - option "China" [disabled]
+                      - option "Christmas Island" [disabled]
+                      - option "Cocos (Keeling) Islands" [disabled]
+                      - option "Colombia" [disabled]
+                      - option "Comoros" [disabled]
+                      - option "Congo (Brazzaville)" [disabled]
+                      - option "Congo (Kinshasa)" [disabled]
+                      - option "Cook Islands" [disabled]
+                      - option "Costa Rica" [disabled]
+                      - option "Croatia" [disabled]
+                      - option "Cuba" [disabled]
+                      - option "Curaçao" [disabled]
+                      - option "Cyprus" [disabled]
+                      - option "Czech Republic" [disabled]
+                      - option "Denmark" [disabled]
+                      - option "Djibouti" [disabled]
+                      - option "Dominica" [disabled]
+                      - option "Dominican Republic" [disabled]
+                      - option "Ecuador" [disabled]
+                      - option "Egypt" [disabled]
+                      - option "El Salvador" [disabled]
+                      - option "Equatorial Guinea" [disabled]
+                      - option "Eritrea" [disabled]
+                      - option "Estonia" [disabled]
+                      - option "Eswatini" [disabled]
+                      - option "Ethiopia" [disabled]
+                      - option "Falkland Islands" [disabled]
+                      - option "Faroe Islands" [disabled]
+                      - option "Fiji" [disabled]
+                      - option "Finland" [disabled]
+                      - option "France" [disabled]
+                      - option "French Guiana" [disabled]
+                      - option "French Polynesia" [disabled]
+                      - option "French Southern Territories" [disabled]
+                      - option "Gabon" [disabled]
+                      - option "Gambia" [disabled]
+                      - option "Georgia" [disabled]
+                      - option "Germany" [disabled]
+                      - option "Ghana" [disabled]
+                      - option "Gibraltar" [disabled]
+                      - option "Greece" [disabled]
+                      - option "Greenland" [disabled]
+                      - option "Grenada" [disabled]
+                      - option "Guadeloupe" [disabled]
+                      - option "Guam" [disabled]
+                      - option "Guatemala" [disabled]
+                      - option "Guernsey" [disabled]
+                      - option "Guinea" [disabled]
+                      - option "Guinea-Bissau" [disabled]
+                      - option "Guyana" [disabled]
+                      - option "Haiti" [disabled]
+                      - option "Heard Island and McDonald Islands" [disabled]
+                      - option "Honduras" [disabled]
+                      - option "Hong Kong" [disabled]
+                      - option "Hungary" [disabled]
+                      - option "Iceland" [disabled]
+                      - option "India" [disabled]
+                      - option "Indonesia" [disabled]
+                      - option "Iran" [disabled]
+                      - option "Iraq" [disabled]
+                      - option "Ireland" [disabled]
+                      - option "Isle of Man" [disabled]
+                      - option "Israel" [disabled]
+                      - option "Italy" [disabled]
+                      - option "Ivory Coast" [disabled]
+                      - option "Jamaica" [disabled]
+                      - option "Japan" [disabled]
+                      - option "Jersey" [disabled]
+                      - option "Jordan" [disabled]
+                      - option "Kazakhstan" [disabled]
+                      - option "Kenya" [disabled]
+                      - option "Kiribati" [disabled]
+                      - option "Kosovo" [disabled]
+                      - option "Kuwait" [disabled]
+                      - option "Kyrgyzstan" [disabled]
+                      - option "Laos" [disabled]
+                      - option "Latvia" [disabled]
+                      - option "Lebanon" [disabled]
+                      - option "Lesotho" [disabled]
+                      - option "Liberia" [disabled]
+                      - option "Libya" [disabled]
+                      - option "Liechtenstein" [disabled]
+                      - option "Lithuania" [disabled]
+                      - option "Luxembourg" [disabled]
+                      - option "Macao" [disabled]
+                      - option "Madagascar" [disabled]
+                      - option "Malawi" [disabled]
+                      - option "Malaysia" [disabled]
+                      - option "Maldives" [disabled]
+                      - option "Mali" [disabled]
+                      - option "Malta" [disabled]
+                      - option "Marshall Islands" [disabled]
+                      - option "Martinique" [disabled]
+                      - option "Mauritania" [disabled]
+                      - option "Mauritius" [disabled]
+                      - option "Mayotte" [disabled]
+                      - option "Mexico" [disabled]
+                      - option "Micronesia" [disabled]
+                      - option "Moldova" [disabled]
+                      - option "Monaco" [disabled]
+                      - option "Mongolia" [disabled]
+                      - option "Montenegro" [disabled]
+                      - option "Montserrat" [disabled]
+                      - option "Morocco" [disabled]
+                      - option "Mozambique" [disabled]
+                      - option "Myanmar" [disabled]
+                      - option "Namibia" [disabled]
+                      - option "Nauru" [disabled]
+                      - option "Nepal" [disabled]
+                      - option "Netherlands" [disabled]
+                      - option "New Caledonia" [disabled]
+                      - option "New Zealand" [disabled]
+                      - option "Nicaragua" [disabled]
+                      - option "Niger" [disabled]
+                      - option "Nigeria" [disabled]
+                      - option "Niue" [disabled]
+                      - option "Norfolk Island" [disabled]
+                      - option "North Korea" [disabled]
+                      - option "North Macedonia" [disabled]
+                      - option "Northern Mariana Islands" [disabled]
+                      - option "Norway" [disabled]
+                      - option "Oman" [disabled]
+                      - option "Pakistan" [disabled]
+                      - option "Palestinian Territory" [disabled]
+                      - option "Panama" [disabled]
+                      - option "Papua New Guinea" [disabled]
+                      - option "Paraguay" [disabled]
+                      - option "Peru" [disabled]
+                      - option "Philippines" [disabled]
+                      - option "Pitcairn" [disabled]
+                      - option "Poland" [disabled]
+                      - option "Portugal" [disabled]
+                      - option "Puerto Rico" [disabled]
+                      - option "Qatar" [disabled]
+                      - option "Reunion" [disabled]
+                      - option "Romania" [disabled]
+                      - option "Russia" [disabled]
+                      - option "Rwanda" [disabled]
+                      - option "Saint Barthélemy" [disabled]
+                      - option "Saint Helena" [disabled]
+                      - option "Saint Kitts and Nevis" [disabled]
+                      - option "Saint Lucia" [disabled]
+                      - option "Saint Martin (Dutch part)" [disabled]
+                      - option "Saint Martin (French part)" [disabled]
+                      - option "Saint Pierre and Miquelon" [disabled]
+                      - option "Saint Vincent and the Grenadines" [disabled]
+                      - option "Samoa" [disabled]
+                      - option "San Marino" [disabled]
+                      - option "São Tomé and Príncipe" [disabled]
+                      - option "Saudi Arabia" [disabled]
+                      - option "Senegal" [disabled]
+                      - option "Serbia" [disabled]
+                      - option "Seychelles" [disabled]
+                      - option "Sierra Leone" [disabled]
+                      - option "Singapore" [disabled]
+                      - option "Slovakia" [disabled]
+                      - option "Slovenia" [disabled]
+                      - option "Solomon Islands" [disabled]
+                      - option "Somalia" [disabled]
+                      - option "South Africa" [disabled]
+                      - option "South Georgia/Sandwich Islands" [disabled]
+                      - option "South Korea" [disabled]
+                      - option "South Sudan" [disabled]
+                      - option "Spain" [disabled]
+                      - option "Sri Lanka" [disabled]
+                      - option "Sudan" [disabled]
+                      - option "Suriname" [disabled]
+                      - option "Svalbard and Jan Mayen" [disabled]
+                      - option "Sweden" [disabled]
+                      - option "Switzerland" [disabled]
+                      - option "Syria" [disabled]
+                      - option "Taiwan" [disabled]
+                      - option "Tajikistan" [disabled]
+                      - option "Tanzania" [disabled]
+                      - option "Thailand" [disabled]
+                      - option "Timor-Leste" [disabled]
+                      - option "Togo" [disabled]
+                      - option "Tokelau" [disabled]
+                      - option "Tonga" [disabled]
+                      - option "Trinidad and Tobago" [disabled]
+                      - option "Tunisia" [disabled]
+                      - option "Türkiye" [disabled]
+                      - option "Turkmenistan" [disabled]
+                      - option "Turks and Caicos Islands" [disabled]
+                      - option "Tuvalu" [disabled]
+                      - option "Uganda" [disabled]
+                      - option "Ukraine" [disabled]
+                      - option "United Arab Emirates" [disabled]
+                      - option "United Kingdom (UK)" [disabled]
+                      - option "United States (US)" [disabled]
+                      - option "United States (US) Minor Outlying Islands" [disabled]
+                      - option "Uruguay" [disabled]
+                      - option "Uzbekistan" [disabled]
+                      - option "Vanuatu" [disabled]
+                      - option "Vatican" [disabled]
+                      - option "Venezuela" [disabled]
+                      - option "Vietnam" [disabled]
+                      - option "Virgin Islands (British)" [disabled]
+                      - option "Virgin Islands (US)" [disabled]
+                      - option "Wallis and Futuna" [disabled]
+                      - option "Western Sahara" [disabled]
+                      - option "Yemen" [disabled]
+                      - option "Zambia" [disabled]
+                      - option "Zimbabwe" [disabled]
+                    - img
+                  - generic [ref=e78]:
+                    - textbox "First name" [disabled] [ref=e79]: Biplab
+                    - generic [ref=e80]: First name
+                  - generic [ref=e81]:
+                    - textbox "Last name" [disabled] [ref=e82]: Kumar
+                    - generic [ref=e83]: Last name
+                  - generic [ref=e84]:
+                    - textbox "Address" [disabled] [ref=e85]: 123 Test Street
+                    - generic [ref=e86]: Address
+                  - button "+ Add apartment, suite, etc." [ref=e87] [cursor=pointer]
+                  - textbox [disabled] [ref=e88]
+                  - generic [ref=e89]:
+                    - textbox "City" [disabled] [ref=e90]: Dhaka
+                    - generic [ref=e91]: City
+                  - generic [ref=e94]:
+                    - generic [ref=e95]: District
+                    - combobox "District" [disabled] [ref=e96] [cursor=pointer]:
+                      - option "Select a district" [disabled]
+                      - option "Bagerhat" [disabled]
+                      - option "Bandarban" [disabled]
+                      - option "Barguna" [disabled]
+                      - option "Barishal" [disabled]
+                      - option "Bhola" [disabled]
+                      - option "Bogura" [disabled]
+                      - option "Brahmanbaria" [disabled]
+                      - option "Chandpur" [disabled]
+                      - option "Chattogram" [disabled]
+                      - option "Chuadanga" [disabled]
+                      - option "Cox's Bazar" [disabled]
+                      - option "Cumilla" [disabled]
+                      - option "Dhaka" [disabled]
+                      - option "Dinajpur" [disabled]
+                      - option "Faridpur" [disabled]
+                      - option "Feni" [disabled]
+                      - option "Gaibandha" [disabled]
+                      - option "Gazipur" [disabled]
+                      - option "Gopalganj" [disabled]
+                      - option "Habiganj" [disabled]
+                      - option "Jamalpur" [disabled]
+                      - option "Jashore" [disabled]
+                      - option "Jhalokati" [disabled]
+                      - option "Jhenaidah" [disabled]
+                      - option "Joypurhat" [disabled]
+                      - option "Khagrachhari" [disabled]
+                      - option "Khulna" [disabled] [selected]
+                      - option "Kishoreganj" [disabled]
+                      - option "Kurigram" [disabled]
+                      - option "Kushtia" [disabled]
+                      - option "Lakshmipur" [disabled]
+                      - option "Lalmonirhat" [disabled]
+                      - option "Madaripur" [disabled]
+                      - option "Magura" [disabled]
+                      - option "Manikganj" [disabled]
+                      - option "Meherpur" [disabled]
+                      - option "Moulvibazar" [disabled]
+                      - option "Munshiganj" [disabled]
+                      - option "Mymensingh" [disabled]
+                      - option "Naogaon" [disabled]
+                      - option "Narail" [disabled]
+                      - option "Narayanganj" [disabled]
+                      - option "Narsingdi" [disabled]
+                      - option "Natore" [disabled]
+                      - option "Nawabganj" [disabled]
+                      - option "Netrakona" [disabled]
+                      - option "Nilphamari" [disabled]
+                      - option "Noakhali" [disabled]
+                      - option "Pabna" [disabled]
+                      - option "Panchagarh" [disabled]
+                      - option "Patuakhali" [disabled]
+                      - option "Pirojpur" [disabled]
+                      - option "Rajbari" [disabled]
+                      - option "Rajshahi" [disabled]
+                      - option "Rangamati" [disabled]
+                      - option "Rangpur" [disabled]
+                      - option "Satkhira" [disabled]
+                      - option "Shariatpur" [disabled]
+                      - option "Sherpur" [disabled]
+                      - option "Sirajganj" [disabled]
+                      - option "Sunamganj" [disabled]
+                      - option "Sylhet" [disabled]
+                      - option "Tangail" [disabled]
+                      - option "Thakurgaon" [disabled]
+                    - img
+                  - generic [ref=e97]:
+                    - textbox "Postal code (optional)" [disabled] [ref=e98]: "1207"
+                    - generic [ref=e99]: Postal code (optional)
+                  - generic [ref=e100]:
+                    - textbox "Phone (optional)" [disabled] [ref=e101]: "01621008533"
+                    - generic [ref=e102]: Phone (optional)
+                - generic [ref=e104] [cursor=pointer]:
+                  - checkbox "Use same address for billing" [checked] [disabled] [ref=e105]
+                  - img
+                  - generic [ref=e106]: Use same address for billing
+            - group "Shipping options" [ref=e107]:
+              - generic [ref=e108]: Shipping options
+              - heading "Shipping options" [level=2] [ref=e111]
+              - generic [ref=e250] [cursor=pointer]:
+                - radio "Free shipping Free" [checked] [disabled] [ref=e251]
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Free shipping
+                  - generic [ref=e255]: Free
+            - group "Payment options" [ref=e124]:
+              - generic [ref=e125]: Payment options
+              - heading "Payment options" [level=2] [ref=e128]
+              - generic [ref=e237]:
+                - generic [ref=e242] [cursor=pointer]: Cash on Delivery
+                - generic [ref=e244]: Pay with cash upon delivery.
+            - generic [ref=e139] [cursor=pointer]:
+              - checkbox "Add a note to your order" [disabled] [ref=e140]
+              - generic [ref=e141]: Add a note to your order
+            - generic [ref=e143]:
+              - text: By proceeding with your purchase you agree to our Terms and Conditions and
+              - link "Privacy Policy" [ref=e144] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+            - generic [ref=e146]:
+              - link "Return to Cart" [ref=e147] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/cart/
+                - img [ref=e148]
+                - text: Return to Cart
+              - button [disabled]
+          - button "Order summary 18,200.00৳" [ref=e155] [cursor=pointer]:
+            - heading "Order summary" [level=2] [ref=e156]
+            - generic [ref=e157]: 18,200.00৳
+            - img [ref=e159]
+    - contentinfo [ref=e161]:
+      - generic [ref=e162]:
+        - img "Snazzy Floret" [ref=e163]
+        - generic [ref=e165]:
+          - heading "Get 20% off your first order" [level=2] [ref=e166]
+          - paragraph [ref=e167]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=e168]:
+            - textbox "Enter your email" [ref=e169]
+            - button "Subscribe" [ref=e170] [cursor=pointer]:
+              - img [ref=e171]
+          - generic [ref=e173]: Subscribe
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - heading "Shop" [level=3] [ref=e177]
+            - list [ref=e178]:
+              - listitem [ref=e179]:
+                - link "Digital Prints" [ref=e180] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+              - listitem [ref=e181]:
+                - link "Handmade" [ref=e182] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+              - listitem [ref=e183]:
+                - link "Saree" [ref=e184] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+              - listitem [ref=e185]:
+                - link "Party wear" [ref=e186] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=e187]:
+                - link "Regular wear" [ref=e188] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - generic [ref=e189]:
+            - heading "Customer Care" [level=3] [ref=e190]
+            - list [ref=e191]:
+              - listitem [ref=e192]:
+                - link "FAQ" [ref=e193] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/faq/
+              - listitem [ref=e194]:
+                - link "Shipping" [ref=e195] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/shipping/
+              - listitem [ref=e196]:
+                - link "Contact" [ref=e197] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/contact/
+          - generic [ref=e198]:
+            - heading "Information" [level=3] [ref=e199]
+            - list [ref=e200]:
+              - listitem [ref=e201]:
+                - link "Returns & Refunds" [ref=e202] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+              - listitem [ref=e203]:
+                - link "Privacy policy" [ref=e204] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+              - listitem [ref=e205]:
+                - link "About us" [ref=e206] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/about/
+          - generic [ref=e207]:
+            - heading "Get in Touch" [level=3] [ref=e208]
+            - list [ref=e209]:
+              - listitem [ref=e210]:
+                - link "+880 1621-008533" [ref=e211] [cursor=pointer]:
+                  - /url: tel:+8801621008533
+                  - img [ref=e212]
+                  - text: +880 1621-008533
+              - listitem [ref=e214]:
+                - link "snazzyfloret@gmail.com" [ref=e215] [cursor=pointer]:
+                  - /url: mailto:snazzyfloret@gmail.com
+                  - img [ref=e216]
+                  - text: snazzyfloret@gmail.com
+            - generic [ref=e219]:
+              - link "Facebook" [ref=e220] [cursor=pointer]:
+                - /url: https://www.facebook.com/snazzyfloret
+                - img [ref=e221]
+              - link "Instagram" [ref=e223] [cursor=pointer]:
+                - /url: https://www.instagram.com/snazzyfloret
+                - img [ref=e224]
+              - link "WhatsApp" [ref=e227] [cursor=pointer]:
+                - /url: https://wa.me/8801621008533
+                - img [ref=e228]
+        - generic: SNAZZY FLORET
+      - paragraph [ref=e232]: © 2026 Snazzy Floret. All rights reserved.
+  - status [ref=e235]

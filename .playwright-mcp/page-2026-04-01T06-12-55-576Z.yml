@@ -1,0 +1,132 @@
+- generic [ref=e5]:
+  - banner:
+    - generic [ref=e8]:
+      - generic [ref=e10]:
+        - generic:
+          - button [disabled]:
+            - img
+        - button "Facebook" [ref=e12] [cursor=pointer]:
+          - img "Facebook" [ref=e13]
+      - generic [ref=e18]:
+        - textbox "Email or phone" [ref=e21]
+        - textbox "Password" [ref=e24]
+        - button "Log in" [ref=e27] [cursor=pointer]:
+          - generic [ref=e31]: Log in
+        - link "Forgotten account?" [ref=e34] [cursor=pointer]:
+          - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+  - main [ref=e41]:
+    - generic [ref=e42]:
+      - link [ref=e53] [cursor=pointer]:
+        - /url: https://www.facebook.com/photo/?fbid=710692157989787&set=a.222838050108536
+      - generic [ref=e61]:
+        - button [ref=e64] [cursor=pointer]:
+          - generic [ref=e65]:
+            - img [ref=e66]
+            - generic [ref=e74]: Active Status indicator
+        - generic [ref=e77]:
+          - heading [level=1] [ref=e82]: Snazzy Floret
+          - generic [ref=e84]:
+            - link [ref=e85] [cursor=pointer]:
+              - /url: https://www.facebook.com/snazzyfloret/followers/
+              - strong [ref=e86]: 82K
+              - text: followers
+            - text: •
+            - link [ref=e87] [cursor=pointer]:
+              - /url: https://www.facebook.com/snazzyfloret/following/
+              - strong [ref=e88]: "0"
+              - text: following
+    - generic [ref=e96]:
+      - tablist [ref=e104]:
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]: More
+            - img [ref=e110]
+          - tab [ref=e113] [cursor=pointer]:
+            - generic [ref=e115]: Posts
+          - tab [ref=e117] [cursor=pointer]:
+            - generic [ref=e119]: About
+          - tab [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]: Reels
+          - tab [selected] [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: Photos
+          - tab [ref=e129] [cursor=pointer]:
+            - generic [ref=e131]: Following
+      - button [ref=e135] [cursor=pointer]:
+        - img [ref=e137]
+    - generic [ref=e149]:
+      - heading [level=2] [ref=e154]:
+        - link [ref=e156] [cursor=pointer]:
+          - /url: https://www.facebook.com/snazzyfloret/photos
+          - text: Photos
+      - tablist [ref=e160]:
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e164]: More
+            - img [ref=e166]
+          - tab [selected] [ref=e169] [cursor=pointer]:
+            - generic [ref=e171]: Snazzy Floret's Photos
+          - tab [ref=e173] [cursor=pointer]:
+            - generic [ref=e175]: Tagged photos
+          - tab [ref=e177] [cursor=pointer]:
+            - generic [ref=e179]: Albums
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - link [ref=e188] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954436880281979&set=pb.100071470284463.-2207520000&type=3
+            - img [ref=e189]
+          - link [ref=e195] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954061466986187&set=pb.100071470284463.-2207520000&type=3
+            - img [ref=e196]
+          - link [ref=e202] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954029020322765&set=pb.100071470284463.-2207520000&type=3
+            - img [ref=e203]
+          - link [ref=e209] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954028966989437&set=pb.100071470284463.-2207520000&type=3
+            - img [ref=e210]
+          - link [ref=e216] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954028900322777&set=pb.100071470284463.-2207520000&type=3
+            - img [ref=e217]
+          - link [ref=e223] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954028863656114&set=pb.100071470284463.-2207520000&type=3
+            - img [ref=e224]
+          - link [ref=e230] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954028830322784&set=pb.100071470284463.-2207520000&type=3
+            - img [ref=e231]
+          - link [ref=e237] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954028800322787&set=pb.100071470284463.-2207520000&type=3
+            - img [ref=e238]
+          - status [ref=e243]
+          - status [ref=e248]
+          - status [ref=e251]
+          - status [ref=e254]
+          - status [ref=e257]
+          - status [ref=e260]
+          - status [ref=e263]
+          - status [ref=e266]
+          - status [ref=e269]
+          - status [ref=e272]
+          - status [ref=e275]
+          - status [ref=e278]
+          - status [ref=e281]
+          - status [ref=e284]
+          - status [ref=e287]
+          - status [ref=e290]
+        - status [ref=e292]
+  - dialog [ref=e386]:
+    - button "Close" [ref=e388] [cursor=pointer]
+    - generic [ref=e395]:
+      - generic [ref=e398]: See more on Facebook
+      - generic [ref=e403]:
+        - generic: Email address or phone number
+        - textbox "Email address or phone number" [active] [ref=e404]
+      - generic [ref=e409]:
+        - generic: Password
+        - textbox "Password" [ref=e410]
+      - button "Log in to Facebook" [ref=e412] [cursor=pointer]:
+        - generic [ref=e415]: Log in
+      - link "Forgotten password?" [ref=e417] [cursor=pointer]:
+        - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+        - generic [ref=e418]: Forgotten password?
+      - generic [ref=e424]: or
+      - button "Create new account" [ref=e428] [cursor=pointer]:
+        - generic [ref=e431]: Create new account

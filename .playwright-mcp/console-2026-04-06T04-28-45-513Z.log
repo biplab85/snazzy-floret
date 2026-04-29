@@ -1,0 +1,6 @@
+[     234ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://demos.flatsome.com/wp-content/themes/flatsome/assets/js/flatsome.js?ver=e2eddd6c228105dac048:0
+[     340ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://demos.flatsome.com/wp-content/themes/flatsome/assets/js/chunk.popups.js?ver=3.20.5:0
+[     341ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://demos.flatsome.com/wp-content/themes/flatsome/assets/js/chunk.tooltips.js?ver=3.20.5:0
+[     341ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://demos.flatsome.com/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=1c9be63d628ff7c3ff4c:0
+[   14175ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://demos.flatsome.com/wp-content/themes/flatsome/assets/js/chunk.popups.js?ver=3.20.5:0
+[   17127ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://demos.flatsome.com/wp-content/themes/flatsome/assets/js/chunk.popups.js?ver=3.20.5:0

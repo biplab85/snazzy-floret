@@ -1,0 +1,4 @@
+[    2531ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://www.portotheme.com/wordpress/porto/shop52/wp-admin/admin-ajax.php:0
+[    2533ms] TypeError: Cannot read properties of undefined (reading 'lcp')
+    at T.init (https://www.portotheme.com/wordpress/porto/shop52/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js:2:11286)
+[   12978ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://www.portotheme.com/wordpress/porto/shop52/wp-admin/admin-ajax.php:0

@@ -1,0 +1,246 @@
+[     913ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[    1432ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[ 4166972ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4167825ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[ 4176125ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4176662ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4176663ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4176856ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4177757ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4178175ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://a.klaviyo.com/client/profiles/?company_id=:0
+[ 4178186ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://a.klaviyo.com/client/events/?company_id=:0
+[ 4178372ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4178848ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4179437ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4189619ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4205262ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4205307ms] ReferenceError: rdt is not defined
+    at reddit_tracking-js-after:5:1
+[ 4205602ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4205603ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4205628ms] [WARNING] EndCheckoutTracker: Missing required configuration {enabled: , hasClientId: false, hasSessionId: true, hasOrderTotal: true, hasOrderCurrency: true} @ http://localhost/sklentr/snazzy-floret/wp-content/plugins/woocommerce-paypal-payments/assets/ppcp-axo-js-Insights-EndCheckoutTracker.js:0
+[ 4293159ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4293599ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4293600ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4293674ms] [WARNING] EndCheckoutTracker: Missing required configuration {enabled: , hasClientId: false, hasSessionId: true, hasOrderTotal: true, hasOrderCurrency: true} @ http://localhost/sklentr/snazzy-floret/wp-content/plugins/woocommerce-paypal-payments/assets/ppcp-axo-js-Insights-EndCheckoutTracker.js:0
+[ 4426811ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4427358ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[ 4448285ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4448447ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4448448ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4448517ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[ 4448561ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4449339ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[ 4449947ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[ 4450506ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[ 4451099ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[ 4454789ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4455124ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4455125ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4455184ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4455657ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://a.klaviyo.com/client/profiles/?company_id=:0
+[ 4455668ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://a.klaviyo.com/client/events/?company_id=:0
+[ 4455797ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[ 4456383ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[ 4456941ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[ 4457539ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[ 4641458ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4641926ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4641928ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4642040ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4642967ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://a.klaviyo.com/client/profiles/?company_id=:0
+[ 4642982ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://a.klaviyo.com/client/events/?company_id=:0
+[ 4643021ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[ 4643592ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[ 4644153ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[ 4644548ms] FetchError: Error fetching https://r.stripe.com/b: Failed to fetch
+    at https://js.stripe.com/v3/fingerprinted/js/shared-ebb6f4c582cd8a4e604e819f13be7886.js:1:244317
+[ 4644549ms] FetchError: Error fetching https://r.stripe.com/b: Failed to fetch
+    at https://js.stripe.com/v3/fingerprinted/js/shared-ebb6f4c582cd8a4e604e819f13be7886.js:1:244317
+[ 4644549ms] FetchError: Error fetching https://r.stripe.com/b: Failed to fetch
+    at https://js.stripe.com/v3/fingerprinted/js/shared-ebb6f4c582cd8a4e604e819f13be7886.js:1:244317
+[ 4644746ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-3652a00ef2561318e64454088ae47e78.js:0
+[ 4645470ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4645989ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4645993ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4646104ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4647040ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4647436ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://a.klaviyo.com/client/profiles/?company_id=:0
+[ 4647454ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://a.klaviyo.com/client/events/?company_id=:0
+[ 4647681ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4648335ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4648921ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4702322ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4703059ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4703064ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4703200ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4704114ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4704476ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://a.klaviyo.com/client/profiles/?company_id=:0
+[ 4704515ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://a.klaviyo.com/client/events/?company_id=:0
+[ 4704769ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4705369ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4706023ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4787964ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4788838ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4788841ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4788956ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4789864ms] [WARNING] [Stripe.js] You have not registered or verified the domain, so the following payment methods are not enabled in the Express Checkout Element: 
+
+- apple_pay
+
+Please follow https://stripe.com/docs/payments/payment-methods/pmd-registration to register and verify the domain. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4790277ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://a.klaviyo.com/client/profiles/?company_id=:0
+[ 4790301ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://a.klaviyo.com/client/events/?company_id=:0
+[ 4790569ms] [WARNING] [Stripe.js] You are testing over HTTP, so Google Pay will not appear. You must use HTTPS in order to use Google Pay. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4791056ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4791669ms] [WARNING] [Stripe.js] The following payment method types are not activated:
+
+- link
+
+They will be displayed in test mode, but hidden in live mode. Please activate the payment method types in your dashboard (https://dashboard.stripe.com/settings/payment_methods) and ensure your account is enabled for any preview features that you are trying to use. @ https://js.stripe.com/v3/fingerprinted/js/controller-with-preconnect-e-20788883ad0254037315def49bcc9c69.js:0
+[ 4807693ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4807715ms] ReferenceError: rdt is not defined
+    at reddit_tracking-js-after:5:1
+[ 4808284ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4808285ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4808340ms] [WARNING] EndCheckoutTracker: Missing required configuration {enabled: , hasClientId: false, hasSessionId: true, hasOrderTotal: true, hasOrderCurrency: true} @ http://localhost/sklentr/snazzy-floret/wp-content/plugins/woocommerce-paypal-payments/assets/ppcp-axo-js-Insights-EndCheckoutTracker.js:0
+[ 4873453ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4874078ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4874081ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4874123ms] [WARNING] EndCheckoutTracker: Missing required configuration {enabled: , hasClientId: false, hasSessionId: true, hasOrderTotal: true, hasOrderCurrency: true} @ http://localhost/sklentr/snazzy-floret/wp-content/plugins/woocommerce-paypal-payments/assets/ppcp-axo-js-Insights-EndCheckoutTracker.js:0
+[ 4878684ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4879212ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4879216ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4879263ms] [WARNING] EndCheckoutTracker: Missing required configuration {enabled: , hasClientId: false, hasSessionId: true, hasOrderTotal: true, hasOrderCurrency: true} @ http://localhost/sklentr/snazzy-floret/wp-content/plugins/woocommerce-paypal-payments/assets/ppcp-axo-js-Insights-EndCheckoutTracker.js:0
+[ 4938092ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4938602ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4938603ms] [WARNING] You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. @ https://js.stripe.com/clover/stripe.js:0
+[ 4938685ms] [WARNING] EndCheckoutTracker: Missing required configuration {enabled: , hasClientId: false, hasSessionId: true, hasOrderTotal: true, hasOrderCurrency: true} @ http://localhost/sklentr/snazzy-floret/wp-content/plugins/woocommerce-paypal-payments/assets/ppcp-axo-js-Insights-EndCheckoutTracker.js:0
+[ 4961714ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost/sklentr/snazzy-floret/about/:0
+[ 4961733ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4961747ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[ 4970913ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost/sklentr/snazzy-floret/returns-refunds/:0
+[ 4970926ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4970942ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[ 4973771ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost/sklentr/snazzy-floret/privacy-policy/:0
+[ 4973785ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4973792ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[ 4976965ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost/sklentr/snazzy-floret/contact/:0
+[ 4976979ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4977383ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[ 4979822ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost/sklentr/snazzy-floret/faq/:0
+[ 4979836ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4979850ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)
+[ 4984504ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost/sklentr/snazzy-floret/shipping/:0
+[ 4984520ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js:1
+[ 4984535ms] Error: Function rdt not implemented.
+    at t (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:216)
+    at http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3209
+    at HTMLDocument.<anonymous> (http://localhost/sklentr/snazzy-floret/wp-content/plugins/reddit-for-woocommerce/js/build/tracking.js:1:3270)

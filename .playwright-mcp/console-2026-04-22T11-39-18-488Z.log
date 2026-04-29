@@ -1,0 +1,16 @@
+[     802ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[  161025ms] [ERROR] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at $r (http://localhost/sklentr/snazzy-floret/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1:10:74972)
+    at jr (http://localhost/sklentr/snazzy-floret/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1:10:74657)
+    at $r (http://localhost/sklentr/snazzy-floret/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1:10:75404)
+    at jr (http://localhost/sklentr/snazzy-floret/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1:10:74657)
+    at $r (http://localhost/sklentr/snazzy-floret/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1:10:75404)
+    at jr (http://localhost/sklentr/snazzy-floret/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1:10:74657)
+    at $r (http://localhost/sklentr/snazzy-floret/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1:10:75404)
+    at jr (http://localhost/sklentr/snazzy-floret/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1:10:74657)
+    at $r (http://localhost/sklentr/snazzy-floret/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1:10:75404)
+    at Kr (http://localhost/sklentr/snazzy-floret/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1:10:76214) @ http://localhost/sklentr/snazzy-floret/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1:9
+[  161893ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[ 2653606ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[ 2833457ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[ 2930690ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1

@@ -1,0 +1,963 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Toolbar":
+      - menu:
+        - group [ref=e3]:
+          - menuitem "About WordPress" [ref=e4]:
+            - generic [ref=e6]: About WordPress
+        - group [ref=e7]:
+          - menuitem "Snazzy Floret" [ref=e8]
+        - group [ref=e9]:
+          - menuitem "Store coming soon" [ref=e10]
+        - group [ref=e11]:
+          - menuitem "Customize" [ref=e12]
+        - group [ref=e13]:
+          - menuitem "0 Comments in moderation" [ref=e14]:
+            - generic [ref=e16]: "0"
+            - generic [ref=e17]: 0 Comments in moderation
+        - group [ref=e18]:
+          - menuitem "New" [ref=e19]:
+            - generic [ref=e21]: New
+        - group [ref=e22]:
+          - menuitem "Edit Page" [ref=e23]
+      - menu [ref=e24]:
+        - group [ref=e25]:
+          - menuitem "Howdy, admin" [ref=e26]
+        - group [ref=e27]:
+          - menuitem "Search" [ref=e28]:
+            - generic [ref=e29]:
+              - textbox "Search" [ref=e30] [cursor=pointer]
+              - generic [ref=e31]: Search
+  - generic [ref=e32]:
+    - generic [ref=e34]:
+      - paragraph [ref=e35]: Free delivery on orders over ৳2,500 | Custom sizing available
+      - button "Close announcement" [ref=e36]:
+        - img [ref=e37]
+    - banner [ref=e40]:
+      - generic [ref=e41]:
+        - link "Snazzy Floret" [ref=e43]:
+          - /url: http://localhost/sklentr/snazzy-floret/
+          - img "Snazzy Floret" [ref=e44]
+        - navigation "Primary navigation" [ref=e45]:
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - link "Saree" [ref=e48]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e49]:
+              - link "Regular Wear" [ref=e50]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+            - listitem [ref=e51]:
+              - link "Party Wear" [ref=e52]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e53]:
+              - link "Handmade" [ref=e54]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e55]:
+              - link "Digital Prints" [ref=e56]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+        - generic [ref=e57]:
+          - button "Search" [ref=e58]:
+            - img [ref=e59]
+          - link "Cart" [ref=e62]:
+            - /url: http://localhost/sklentr/snazzy-floret/cart/
+            - img [ref=e63]
+            - generic [ref=e66]: "2"
+          - link "Account" [ref=e67]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e68]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main
+    - generic [ref=e71]:
+      - generic [ref=e73]:
+        - group "1 / 3" [ref=e74]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: New Collection
+            - heading "Redefining Everyday Fashion" [level=1] [ref=e78]:
+              - text: Redefining Everyday
+              - emphasis [ref=e79]: Fashion
+            - paragraph [ref=e80]: Step into effortless style with our curated collection of modern essentials
+            - link "Explore Collection" [ref=e81]:
+              - /url: http://localhost/sklentr/snazzy-floret/shop/
+              - text: Explore Collection
+              - img [ref=e82]
+        - group "2 / 3":
+          - generic:
+            - generic: Eid Collection
+            - heading "Family Matching Outfits" [level=1]:
+              - text: Family Matching
+              - emphasis: Outfits
+            - paragraph: Celebrate togetherness with our exclusive family matching collections
+            - link "Explore Collection":
+              - /url: http://localhost/sklentr/snazzy-floret/shop/
+              - text: Explore Collection
+              - img
+        - group "3 / 3":
+          - generic:
+            - generic: Handcrafted
+            - heading "Elevating Everyday Style" [level=1]:
+              - text: Elevating Everyday
+              - emphasis: Style
+            - paragraph: Discover handmade artistry in every thread — premium fabrics, timeless designs
+            - link "Explore Collection":
+              - /url: http://localhost/sklentr/snazzy-floret/shop/
+              - text: Explore Collection
+              - img
+      - generic [ref=e84]:
+        - img [ref=e85]
+        - generic [ref=e88]:
+          - generic [ref=e89]: "01"
+          - generic [ref=e90]: /
+          - generic [ref=e91]: "03"
+    - generic [ref=e93]:
+      - generic [ref=e94]: Free Delivery Over ৳2,500
+      - generic [ref=e95]: ✦
+      - generic [ref=e96]: Handmade With Love
+      - generic [ref=e97]: ✦
+      - generic [ref=e98]: Custom Sizing Available
+      - generic [ref=e99]: ✦
+      - generic [ref=e100]: Family Matching Outfits
+      - generic [ref=e101]: ✦
+      - generic [ref=e102]: Free Delivery Over ৳2,500
+      - generic [ref=e103]: ✦
+      - generic [ref=e104]: Handmade With Love
+      - generic [ref=e105]: ✦
+      - generic [ref=e106]: Custom Sizing Available
+      - generic [ref=e107]: ✦
+      - generic [ref=e108]: Family Matching Outfits
+      - generic [ref=e109]: ✦
+      - generic [ref=e110]: Free Delivery Over ৳2,500
+      - generic [ref=e111]: ✦
+      - generic [ref=e112]: Handmade With Love
+      - generic [ref=e113]: ✦
+      - generic [ref=e114]: Custom Sizing Available
+      - generic [ref=e115]: ✦
+      - generic [ref=e116]: Family Matching Outfits
+      - generic [ref=e117]: ✦
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - generic [ref=e121]: Collections
+        - heading "Shop by Category" [level=2] [ref=e122]
+        - paragraph [ref=e123]: Explore our curated collections for every occasion
+      - generic [ref=e124]:
+        - link "Regular Wear Regular Wear 4 Products" [ref=e125]:
+          - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - img "Regular Wear" [ref=e126]
+          - generic [ref=e127]:
+            - text: Regular Wear
+            - generic [ref=e128]:
+              - generic [ref=e129]: 4 Products
+              - img [ref=e131]
+        - link "Party Wear Party Wear 4 Products" [ref=e134]:
+          - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+          - img "Party Wear" [ref=e135]
+          - generic [ref=e136]:
+            - text: Party Wear
+            - generic [ref=e137]:
+              - generic [ref=e138]: 4 Products
+              - img [ref=e140]
+        - link "Family Matching Family Matching 3 Products" [ref=e143]:
+          - /url: http://localhost/sklentr/snazzy-floret/product-category/family-matching/
+          - img "Family Matching" [ref=e144]
+          - generic [ref=e145]:
+            - text: Family Matching
+            - generic [ref=e146]:
+              - generic [ref=e147]: 3 Products
+              - img [ref=e149]
+        - link "Saree Saree 2 Products" [ref=e152]:
+          - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+          - img "Saree" [ref=e153]
+          - generic [ref=e154]:
+            - text: Saree
+            - generic [ref=e155]:
+              - generic [ref=e156]: 2 Products
+              - img [ref=e158]
+        - link "Digital Prints Digital Prints 2 Products" [ref=e161]:
+          - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+          - img "Digital Prints" [ref=e162]
+          - generic [ref=e163]:
+            - text: Digital Prints
+            - generic [ref=e164]:
+              - generic [ref=e165]: 2 Products
+              - img [ref=e167]
+    - generic [ref=e170]:
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - generic [ref=e174]: Curated For You
+          - heading "Featured Products" [level=2] [ref=e175]
+        - link "View all" [ref=e176]:
+          - /url: http://localhost/sklentr/snazzy-floret/shop/
+          - text: View all
+          - img [ref=e177]
+      - generic [ref=e180]:
+        - generic [ref=e182]:
+          - generic [ref=e183]:
+            - link [ref=e184]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-party-luxe/
+            - generic [ref=e185]:
+              - generic [ref=e186]: 17% Off
+              - generic [ref=e187]: New
+            - link "Add to cart" [ref=e189]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=45
+              - img [ref=e190]
+              - text: Add to Cart
+            - button "Quick view" [ref=e193]:
+              - img [ref=e194]
+          - generic [ref=e197]:
+            - generic [ref=e198]: Party Wear
+            - heading "Embroidered Party Luxe" [level=2] [ref=e199]:
+              - link "Embroidered Party Luxe" [ref=e200]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-party-luxe/
+            - generic [ref=e201]:
+              - deletion [ref=e202]:
+                - generic [ref=e203]: 4,200.00৳
+              - generic [ref=e204]: "Original price was: 4,200.00৳."
+              - insertion [ref=e205]:
+                - generic [ref=e206]: 3,500.00৳
+              - generic [ref=e207]: "Current price is: 3,500.00৳."
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - link [ref=e211]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/eid-family-collection/
+            - generic [ref=e213]: New
+            - link "Add to cart" [ref=e215]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=44
+              - img [ref=e216]
+              - text: Add to Cart
+            - button "Quick view" [ref=e219]:
+              - img [ref=e220]
+          - generic [ref=e223]:
+            - generic [ref=e224]: Family Matching
+            - heading "Eid Family Collection" [level=2] [ref=e225]:
+              - link "Eid Family Collection" [ref=e226]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/eid-family-collection/
+            - generic [ref=e228]: 6,500.00৳
+        - generic [ref=e230]:
+          - generic [ref=e231]:
+            - link [ref=e232]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/family-matching-teal-set/
+            - generic [ref=e233]:
+              - generic [ref=e234]: 13% Off
+              - generic [ref=e235]: New
+            - link "Add to cart" [ref=e237]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=43
+              - img [ref=e238]
+              - text: Add to Cart
+            - button "Quick view" [ref=e241]:
+              - img [ref=e242]
+          - generic [ref=e245]:
+            - generic [ref=e246]: Family Matching
+            - heading "Family Matching Teal Set" [level=2] [ref=e247]:
+              - link "Family Matching Teal Set" [ref=e248]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/family-matching-teal-set/
+            - generic [ref=e249]:
+              - deletion [ref=e250]:
+                - generic [ref=e251]: 5,500.00৳
+              - generic [ref=e252]: "Original price was: 5,500.00৳."
+              - insertion [ref=e253]:
+                - generic [ref=e254]: 4,800.00৳
+              - generic [ref=e255]: "Current price is: 4,800.00৳."
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - link [ref=e259]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+            - generic [ref=e261]: New
+            - link "Add to cart" [ref=e263]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=42
+              - img [ref=e264]
+              - text: Add to Cart
+            - button "Quick view" [ref=e267]:
+              - img [ref=e268]
+          - generic [ref=e271]:
+            - generic [ref=e272]: Office Wear
+            - heading "Chic Office Wear Kurti" [level=2] [ref=e273]:
+              - link "Chic Office Wear Kurti" [ref=e274]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+            - generic [ref=e276]: 1,500.00৳
+        - generic [ref=e278]:
+          - generic [ref=e279]:
+            - link [ref=e280]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/glamour-party-collection/
+            - generic [ref=e281]:
+              - generic [ref=e282]: 16% Off
+              - generic [ref=e283]: New
+            - link "Add to cart" [ref=e285]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=41
+              - img [ref=e286]
+              - text: Add to Cart
+            - button "Quick view" [ref=e289]:
+              - img [ref=e290]
+          - generic [ref=e293]:
+            - generic [ref=e294]: Party Wear
+            - heading "Glamour Party Collection" [level=2] [ref=e295]:
+              - link "Glamour Party Collection" [ref=e296]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/glamour-party-collection/
+            - generic [ref=e297]:
+              - deletion [ref=e298]:
+                - generic [ref=e299]: 4,500.00৳
+              - generic [ref=e300]: "Original price was: 4,500.00৳."
+              - insertion [ref=e301]:
+                - generic [ref=e302]: 3,800.00৳
+              - generic [ref=e303]: "Current price is: 3,800.00৳."
+        - generic [ref=e305]:
+          - generic [ref=e306]:
+            - link [ref=e307]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+            - generic [ref=e308]:
+              - generic [ref=e309]: 14% Off
+              - generic [ref=e310]: New
+            - link "Add to cart" [ref=e312]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=40
+              - img [ref=e313]
+              - text: Add to Cart
+            - button "Quick view" [ref=e316]:
+              - img [ref=e317]
+          - generic [ref=e320]:
+            - generic [ref=e321]: Family Matching
+            - heading "Digital Print Designer Saree" [level=2] [ref=e322]:
+              - link "Digital Print Designer Saree" [ref=e323]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+            - generic [ref=e324]:
+              - deletion [ref=e325]:
+                - generic [ref=e326]: 2,200.00৳
+              - generic [ref=e327]: "Original price was: 2,200.00৳."
+              - insertion [ref=e328]:
+                - generic [ref=e329]: 1,900.00৳
+              - generic [ref=e330]: "Current price is: 1,900.00৳."
+        - generic [ref=e332]:
+          - generic [ref=e333]:
+            - link [ref=e334]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/handmade-artisan-dress/
+            - generic [ref=e336]: New
+            - link "Add to cart" [ref=e338]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=39
+              - img [ref=e339]
+              - text: Add to Cart
+            - button "Quick view" [ref=e342]:
+              - img [ref=e343]
+          - generic [ref=e346]:
+            - generic [ref=e347]: Digital Prints
+            - heading "Handmade Artisan Dress" [level=2] [ref=e348]:
+              - link "Handmade Artisan Dress" [ref=e349]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/handmade-artisan-dress/
+            - generic [ref=e351]: 3,800.00৳
+        - generic [ref=e353]:
+          - generic [ref=e354]:
+            - link [ref=e355]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/casual-cotton-kurti/
+            - generic [ref=e357]: New
+            - link "Add to cart" [ref=e359]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=38
+              - img [ref=e360]
+              - text: Add to Cart
+            - button "Quick view" [ref=e363]:
+              - img [ref=e364]
+          - generic [ref=e367]:
+            - generic [ref=e368]: Office Wear
+            - heading "Casual Cotton Kurti" [level=2] [ref=e369]:
+              - link "Casual Cotton Kurti" [ref=e370]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/casual-cotton-kurti/
+            - generic [ref=e372]: 1,200.00৳
+        - generic [ref=e374]:
+          - generic [ref=e375]:
+            - link [ref=e376]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/floral-garden-salwar-set/
+            - generic [ref=e377]:
+              - generic [ref=e378]: 16% Off
+              - generic [ref=e379]: New
+            - link "Add to cart" [ref=e381]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=37
+              - img [ref=e382]
+              - text: Add to Cart
+            - button "Quick view" [ref=e385]:
+              - img [ref=e386]
+          - generic [ref=e389]:
+            - generic [ref=e390]: Party Wear
+            - heading "Floral Garden Salwar Set" [level=2] [ref=e391]:
+              - link "Floral Garden Salwar Set" [ref=e392]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/floral-garden-salwar-set/
+            - generic [ref=e393]:
+              - deletion [ref=e394]:
+                - generic [ref=e395]: 3,200.00৳
+              - generic [ref=e396]: "Original price was: 3,200.00৳."
+              - insertion [ref=e397]:
+                - generic [ref=e398]: 2,700.00৳
+              - generic [ref=e399]: "Current price is: 2,700.00৳."
+        - generic [ref=e401]:
+          - generic [ref=e402]:
+            - link [ref=e403]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/teal-handmade-angarkha/
+            - generic [ref=e405]: New
+            - link "Add to cart" [ref=e407]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=36
+              - img [ref=e408]
+              - text: Add to Cart
+            - button "Quick view" [ref=e411]:
+              - img [ref=e412]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Digital Prints
+            - heading "Teal Handmade Angarkha" [level=2] [ref=e417]:
+              - link "Teal Handmade Angarkha" [ref=e418]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/teal-handmade-angarkha/
+            - generic [ref=e420]: 2,800.00৳
+        - generic [ref=e422]:
+          - generic [ref=e423]:
+            - link [ref=e424]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/royal-embroidered-kurti/
+            - generic [ref=e425]:
+              - generic [ref=e426]: 16% Off
+              - generic [ref=e427]: New
+            - link "Add to cart" [ref=e429]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=35
+              - img [ref=e430]
+              - text: Add to Cart
+            - button "Quick view" [ref=e433]:
+              - img [ref=e434]
+          - generic [ref=e437]:
+            - generic [ref=e438]: Regular Wear
+            - heading "Royal Embroidered Kurti" [level=2] [ref=e439]:
+              - link "Royal Embroidered Kurti" [ref=e440]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/royal-embroidered-kurti/
+            - generic [ref=e441]:
+              - deletion [ref=e442]:
+                - generic [ref=e443]: 2,500.00৳
+              - generic [ref=e444]: "Original price was: 2,500.00৳."
+              - insertion [ref=e445]:
+                - generic [ref=e446]: 2,100.00৳
+              - generic [ref=e447]: "Current price is: 2,100.00৳."
+        - generic [ref=e449]:
+          - generic [ref=e450]:
+            - link [ref=e451]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/daisy-floral-kurti/
+            - generic [ref=e453]: New
+            - link "Add to cart" [ref=e455]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=34
+              - img [ref=e456]
+              - text: Add to Cart
+            - button "Quick view" [ref=e459]:
+              - img [ref=e460]
+          - generic [ref=e463]:
+            - generic [ref=e464]: Regular Wear
+            - heading "Daisy Floral Kurti" [level=2] [ref=e465]:
+              - link "Daisy Floral Kurti" [ref=e466]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/daisy-floral-kurti/
+            - generic [ref=e468]: 1,800.00৳
+        - generic [ref=e470]:
+          - generic [ref=e471]:
+            - link [ref=e472]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-party-luxe/
+            - generic [ref=e473]:
+              - generic [ref=e474]: 17% Off
+              - generic [ref=e475]: New
+            - link "Add to cart" [ref=e477]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=45
+              - img [ref=e478]
+              - text: Add to Cart
+            - button "Quick view" [ref=e481]:
+              - img [ref=e482]
+          - generic [ref=e485]:
+            - generic [ref=e486]: Party Wear
+            - heading "Embroidered Party Luxe" [level=2] [ref=e487]:
+              - link "Embroidered Party Luxe" [ref=e488]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-party-luxe/
+            - generic [ref=e489]:
+              - deletion [ref=e490]:
+                - generic [ref=e491]: 4,200.00৳
+              - generic [ref=e492]: "Original price was: 4,200.00৳."
+              - insertion [ref=e493]:
+                - generic [ref=e494]: 3,500.00৳
+              - generic [ref=e495]: "Current price is: 3,500.00৳."
+        - generic [ref=e497]:
+          - generic [ref=e498]:
+            - link [ref=e499]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/eid-family-collection/
+            - generic [ref=e501]: New
+            - link "Add to cart" [ref=e503]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=44
+              - img [ref=e504]
+              - text: Add to Cart
+            - button "Quick view" [ref=e507]:
+              - img [ref=e508]
+          - generic [ref=e511]:
+            - generic [ref=e512]: Family Matching
+            - heading "Eid Family Collection" [level=2] [ref=e513]:
+              - link "Eid Family Collection" [ref=e514]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/eid-family-collection/
+            - generic [ref=e516]: 6,500.00৳
+        - generic [ref=e518]:
+          - generic [ref=e519]:
+            - link [ref=e520]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/family-matching-teal-set/
+            - generic [ref=e521]:
+              - generic [ref=e522]: 13% Off
+              - generic [ref=e523]: New
+            - link "Add to cart" [ref=e525]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=43
+              - img [ref=e526]
+              - text: Add to Cart
+            - button "Quick view" [ref=e529]:
+              - img [ref=e530]
+          - generic [ref=e533]:
+            - generic [ref=e534]: Family Matching
+            - heading "Family Matching Teal Set" [level=2] [ref=e535]:
+              - link "Family Matching Teal Set" [ref=e536]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/family-matching-teal-set/
+            - generic [ref=e537]:
+              - deletion [ref=e538]:
+                - generic [ref=e539]: 5,500.00৳
+              - generic [ref=e540]: "Original price was: 5,500.00৳."
+              - insertion [ref=e541]:
+                - generic [ref=e542]: 4,800.00৳
+              - generic [ref=e543]: "Current price is: 4,800.00৳."
+        - generic [ref=e545]:
+          - generic [ref=e546]:
+            - link [ref=e547]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+            - generic [ref=e549]: New
+            - link "Add to cart" [ref=e551]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=42
+              - img [ref=e552]
+              - text: Add to Cart
+            - button "Quick view" [ref=e555]:
+              - img [ref=e556]
+          - generic [ref=e559]:
+            - generic [ref=e560]: Office Wear
+            - heading "Chic Office Wear Kurti" [level=2] [ref=e561]:
+              - link "Chic Office Wear Kurti" [ref=e562]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+            - generic [ref=e564]: 1,500.00৳
+        - generic [ref=e566]:
+          - generic [ref=e567]:
+            - link [ref=e568]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/glamour-party-collection/
+            - generic [ref=e569]:
+              - generic [ref=e570]: 16% Off
+              - generic [ref=e571]: New
+            - link "Add to cart" [ref=e573]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=41
+              - img [ref=e574]
+              - text: Add to Cart
+            - button "Quick view" [ref=e577]:
+              - img [ref=e578]
+          - generic [ref=e581]:
+            - generic [ref=e582]: Party Wear
+            - heading "Glamour Party Collection" [level=2] [ref=e583]:
+              - link "Glamour Party Collection" [ref=e584]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/glamour-party-collection/
+            - generic [ref=e585]:
+              - deletion [ref=e586]:
+                - generic [ref=e587]: 4,500.00৳
+              - generic [ref=e588]: "Original price was: 4,500.00৳."
+              - insertion [ref=e589]:
+                - generic [ref=e590]: 3,800.00৳
+              - generic [ref=e591]: "Current price is: 3,800.00৳."
+        - generic [ref=e593]:
+          - generic [ref=e594]:
+            - link [ref=e595]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+            - generic [ref=e596]:
+              - generic [ref=e597]: 14% Off
+              - generic [ref=e598]: New
+            - link "Add to cart" [ref=e600]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=40
+              - img [ref=e601]
+              - text: Add to Cart
+            - button "Quick view" [ref=e604]:
+              - img [ref=e605]
+          - generic [ref=e608]:
+            - generic [ref=e609]: Family Matching
+            - heading "Digital Print Designer Saree" [level=2] [ref=e610]:
+              - link "Digital Print Designer Saree" [ref=e611]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+            - generic [ref=e612]:
+              - deletion [ref=e613]:
+                - generic [ref=e614]: 2,200.00৳
+              - generic [ref=e615]: "Original price was: 2,200.00৳."
+              - insertion [ref=e616]:
+                - generic [ref=e617]: 1,900.00৳
+              - generic [ref=e618]: "Current price is: 1,900.00৳."
+        - generic [ref=e620]:
+          - generic [ref=e621]:
+            - link [ref=e622]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/handmade-artisan-dress/
+            - generic [ref=e624]: New
+            - link "Add to cart" [ref=e626]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=39
+              - img [ref=e627]
+              - text: Add to Cart
+            - button "Quick view" [ref=e630]:
+              - img [ref=e631]
+          - generic [ref=e634]:
+            - generic [ref=e635]: Digital Prints
+            - heading "Handmade Artisan Dress" [level=2] [ref=e636]:
+              - link "Handmade Artisan Dress" [ref=e637]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/handmade-artisan-dress/
+            - generic [ref=e639]: 3,800.00৳
+        - generic [ref=e641]:
+          - generic [ref=e642]:
+            - link [ref=e643]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/casual-cotton-kurti/
+            - generic [ref=e645]: New
+            - link "Add to cart" [ref=e647]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=38
+              - img [ref=e648]
+              - text: Add to Cart
+            - button "Quick view" [ref=e651]:
+              - img [ref=e652]
+          - generic [ref=e655]:
+            - generic [ref=e656]: Office Wear
+            - heading "Casual Cotton Kurti" [level=2] [ref=e657]:
+              - link "Casual Cotton Kurti" [ref=e658]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/casual-cotton-kurti/
+            - generic [ref=e660]: 1,200.00৳
+        - generic [ref=e662]:
+          - generic [ref=e663]:
+            - link [ref=e664]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/floral-garden-salwar-set/
+            - generic [ref=e665]:
+              - generic [ref=e666]: 16% Off
+              - generic [ref=e667]: New
+            - link "Add to cart" [ref=e669]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=37
+              - img [ref=e670]
+              - text: Add to Cart
+            - button "Quick view" [ref=e673]:
+              - img [ref=e674]
+          - generic [ref=e677]:
+            - generic [ref=e678]: Party Wear
+            - heading "Floral Garden Salwar Set" [level=2] [ref=e679]:
+              - link "Floral Garden Salwar Set" [ref=e680]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/floral-garden-salwar-set/
+            - generic [ref=e681]:
+              - deletion [ref=e682]:
+                - generic [ref=e683]: 3,200.00৳
+              - generic [ref=e684]: "Original price was: 3,200.00৳."
+              - insertion [ref=e685]:
+                - generic [ref=e686]: 2,700.00৳
+              - generic [ref=e687]: "Current price is: 2,700.00৳."
+        - generic [ref=e689]:
+          - generic [ref=e690]:
+            - link [ref=e691]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/teal-handmade-angarkha/
+            - generic [ref=e693]: New
+            - link "Add to cart" [ref=e695]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=36
+              - img [ref=e696]
+              - text: Add to Cart
+            - button "Quick view" [ref=e699]:
+              - img [ref=e700]
+          - generic [ref=e703]:
+            - generic [ref=e704]: Digital Prints
+            - heading "Teal Handmade Angarkha" [level=2] [ref=e705]:
+              - link "Teal Handmade Angarkha" [ref=e706]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/teal-handmade-angarkha/
+            - generic [ref=e708]: 2,800.00৳
+        - generic [ref=e710]:
+          - generic [ref=e711]:
+            - link [ref=e712]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/royal-embroidered-kurti/
+            - generic [ref=e713]:
+              - generic [ref=e714]: 16% Off
+              - generic [ref=e715]: New
+            - link "Add to cart" [ref=e717]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=35
+              - img [ref=e718]
+              - text: Add to Cart
+            - button "Quick view" [ref=e721]:
+              - img [ref=e722]
+          - generic [ref=e725]:
+            - generic [ref=e726]: Regular Wear
+            - heading "Royal Embroidered Kurti" [level=2] [ref=e727]:
+              - link "Royal Embroidered Kurti" [ref=e728]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/royal-embroidered-kurti/
+            - generic [ref=e729]:
+              - deletion [ref=e730]:
+                - generic [ref=e731]: 2,500.00৳
+              - generic [ref=e732]: "Original price was: 2,500.00৳."
+              - insertion [ref=e733]:
+                - generic [ref=e734]: 2,100.00৳
+              - generic [ref=e735]: "Current price is: 2,100.00৳."
+        - generic [ref=e737]:
+          - generic [ref=e738]:
+            - link [ref=e739]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/daisy-floral-kurti/
+            - generic [ref=e741]: New
+            - link "Add to cart" [ref=e743]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=34
+              - img [ref=e744]
+              - text: Add to Cart
+            - button "Quick view" [ref=e747]:
+              - img [ref=e748]
+          - generic [ref=e751]:
+            - generic [ref=e752]: Regular Wear
+            - heading "Daisy Floral Kurti" [level=2] [ref=e753]:
+              - link "Daisy Floral Kurti" [ref=e754]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/daisy-floral-kurti/
+            - generic [ref=e756]: 1,800.00৳
+    - generic [ref=e759]:
+      - generic [ref=e760]:
+        - generic [ref=e761]: Limited Edition
+        - heading "Eid Family Collection" [level=2] [ref=e762]
+        - paragraph [ref=e763]: Celebrate togetherness with our exclusive matching outfits for the whole family. Premium fabrics, handcrafted details.
+        - link "Shop Collection" [ref=e764]:
+          - /url: http://localhost/sklentr/snazzy-floret/product-category/family-matching/
+      - img "Eid Family Collection" [ref=e766]
+    - generic [ref=e768]:
+      - generic [ref=e769]:
+        - generic [ref=e770]:
+          - generic [ref=e771]: Just Dropped
+          - heading "New Arrivals" [level=2] [ref=e772]
+        - link "View all" [ref=e773]:
+          - /url: http://localhost/sklentr/snazzy-floret/shop/?orderby=date
+          - text: View all
+          - img [ref=e774]
+      - list [ref=e777]:
+        - listitem [ref=e778]:
+          - generic [ref=e779]:
+            - link [ref=e780]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-party-luxe/
+            - generic [ref=e781]:
+              - generic [ref=e782]: 17% Off
+              - generic [ref=e783]: New
+            - link "Add to cart" [ref=e785]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=45
+              - img [ref=e786]
+              - text: Add to Cart
+            - button "Quick view" [ref=e789]:
+              - img [ref=e790]
+          - generic [ref=e793]:
+            - generic [ref=e794]: Party Wear
+            - heading "Embroidered Party Luxe" [level=2] [ref=e795]:
+              - link "Embroidered Party Luxe" [ref=e796]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-party-luxe/
+            - generic [ref=e797]:
+              - deletion [ref=e798]:
+                - generic [ref=e799]: 4,200.00৳
+              - generic [ref=e800]: "Original price was: 4,200.00৳."
+              - insertion [ref=e801]:
+                - generic [ref=e802]: 3,500.00৳
+              - generic [ref=e803]: "Current price is: 3,500.00৳."
+        - listitem [ref=e804]:
+          - generic [ref=e805]:
+            - link [ref=e806]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/eid-family-collection/
+            - generic [ref=e808]: New
+            - link "Add to cart" [ref=e810]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=44
+              - img [ref=e811]
+              - text: Add to Cart
+            - button "Quick view" [ref=e814]:
+              - img [ref=e815]
+          - generic [ref=e818]:
+            - generic [ref=e819]: Family Matching
+            - heading "Eid Family Collection" [level=2] [ref=e820]:
+              - link "Eid Family Collection" [ref=e821]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/eid-family-collection/
+            - generic [ref=e823]: 6,500.00৳
+        - listitem [ref=e824]:
+          - generic [ref=e825]:
+            - link [ref=e826]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/family-matching-teal-set/
+            - generic [ref=e827]:
+              - generic [ref=e828]: 13% Off
+              - generic [ref=e829]: New
+            - link "Add to cart" [ref=e831]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=43
+              - img [ref=e832]
+              - text: Add to Cart
+            - button "Quick view" [ref=e835]:
+              - img [ref=e836]
+          - generic [ref=e839]:
+            - generic [ref=e840]: Family Matching
+            - heading "Family Matching Teal Set" [level=2] [ref=e841]:
+              - link "Family Matching Teal Set" [ref=e842]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/family-matching-teal-set/
+            - generic [ref=e843]:
+              - deletion [ref=e844]:
+                - generic [ref=e845]: 5,500.00৳
+              - generic [ref=e846]: "Original price was: 5,500.00৳."
+              - insertion [ref=e847]:
+                - generic [ref=e848]: 4,800.00৳
+              - generic [ref=e849]: "Current price is: 4,800.00৳."
+        - listitem [ref=e850]:
+          - generic [ref=e851]:
+            - link [ref=e852]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+            - generic [ref=e854]: New
+            - link "Add to cart" [ref=e856]:
+              - /url: /sklentr/snazzy-floret/?add-to-cart=42
+              - img [ref=e857]
+              - text: Add to Cart
+            - button "Quick view" [ref=e860]:
+              - img [ref=e861]
+          - generic [ref=e864]:
+            - generic [ref=e865]: Office Wear
+            - heading "Chic Office Wear Kurti" [level=2] [ref=e866]:
+              - link "Chic Office Wear Kurti" [ref=e867]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+            - generic [ref=e869]: 1,500.00৳
+    - generic [ref=e872]:
+      - generic [ref=e873]:
+        - img [ref=e875]
+        - generic [ref=e880]:
+          - heading "Free Delivery" [level=3] [ref=e881]
+          - paragraph [ref=e882]: On orders over ৳2,500
+      - generic [ref=e883]:
+        - img [ref=e885]
+        - generic [ref=e887]:
+          - heading "Quality Fabric" [level=3] [ref=e888]
+          - paragraph [ref=e889]: Premium materials only
+      - generic [ref=e890]:
+        - img [ref=e892]
+        - generic [ref=e897]:
+          - heading "Custom Sizing" [level=3] [ref=e898]
+          - paragraph [ref=e899]: Made to your measurements
+      - generic [ref=e900]:
+        - img [ref=e902]
+        - generic [ref=e904]:
+          - heading "Easy Support" [level=3] [ref=e905]
+          - paragraph [ref=e906]: WhatsApp & phone support
+    - generic [ref=e909]:
+      - article [ref=e910]:
+        - link [ref=e911]:
+          - /url: http://localhost/sklentr/snazzy-floret/eid-fashion-guide-2026-top-trends-from-dhaka/
+          - img [ref=e913]
+        - generic [ref=e916]:
+          - time [ref=e917]: Apr 01, 2026
+          - 'heading "Eid Fashion Guide 2026: Top Trends from Dhaka" [level=3] [ref=e918]':
+            - 'link "Eid Fashion Guide 2026: Top Trends from Dhaka" [ref=e919]':
+              - /url: http://localhost/sklentr/snazzy-floret/eid-fashion-guide-2026-top-trends-from-dhaka/
+          - paragraph [ref=e920]: Your complete guide to the hottest Eid fashion trends this season.
+          - link "Read more" [ref=e921]:
+            - /url: http://localhost/sklentr/snazzy-floret/eid-fashion-guide-2026-top-trends-from-dhaka/
+            - text: Read more
+            - img [ref=e922]
+      - generic [ref=e924]:
+        - generic [ref=e925]:
+          - generic [ref=e926]: Journal
+          - heading "From Our Blog" [level=2] [ref=e927]
+          - paragraph [ref=e928]: Stories, tips, and inspiration from the world of fashion
+        - link "Read all" [ref=e929]:
+          - /url: http://localhost/sklentr/snazzy-floret/blog/
+          - text: Read all
+          - img [ref=e930]
+      - article [ref=e932]:
+        - link [ref=e933]:
+          - /url: http://localhost/sklentr/snazzy-floret/the-art-of-handmade-fashion-why-it-matters/
+          - img [ref=e935]
+        - generic [ref=e938]:
+          - time [ref=e939]: Apr 01, 2026
+          - 'heading "The Art of Handmade Fashion: Why It Matters" [level=3] [ref=e940]':
+            - 'link "The Art of Handmade Fashion: Why It Matters" [ref=e941]':
+              - /url: http://localhost/sklentr/snazzy-floret/the-art-of-handmade-fashion-why-it-matters/
+          - paragraph [ref=e942]: Exploring the beauty and value of handcrafted clothing in modern fashion.
+          - link "Read more" [ref=e943]:
+            - /url: http://localhost/sklentr/snazzy-floret/the-art-of-handmade-fashion-why-it-matters/
+            - text: Read more
+            - img [ref=e944]
+      - article [ref=e946]:
+        - link [ref=e947]:
+          - /url: http://localhost/sklentr/snazzy-floret/5-ways-to-style-your-family-matching-outfits/
+          - img [ref=e949]
+        - generic [ref=e952]:
+          - time [ref=e953]: Apr 01, 2026
+          - heading "5 Ways to Style Your Family Matching Outfits" [level=3] [ref=e954]:
+            - link "5 Ways to Style Your Family Matching Outfits" [ref=e955]:
+              - /url: http://localhost/sklentr/snazzy-floret/5-ways-to-style-your-family-matching-outfits/
+          - paragraph [ref=e956]: Discover creative ways to style family matching outfits for every occasion.
+          - link "Read more" [ref=e957]:
+            - /url: http://localhost/sklentr/snazzy-floret/5-ways-to-style-your-family-matching-outfits/
+            - text: Read more
+            - img [ref=e958]
+    - main
+    - contentinfo [ref=e960]:
+      - generic [ref=e961]:
+        - img "Snazzy Floret" [ref=e962]
+        - generic [ref=e964]:
+          - heading "Get 20% off your first order" [level=2] [ref=e965]
+          - paragraph [ref=e966]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=e967]:
+            - textbox "Enter your email" [ref=e968]
+            - button "Subscribe" [ref=e969]:
+              - img [ref=e970]
+          - generic [ref=e972]: Subscribe
+      - generic [ref=e973]:
+        - generic [ref=e974]:
+          - list [ref=e976]:
+            - listitem [ref=e977]:
+              - link "Digital Prints" [ref=e978]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+            - listitem [ref=e979]:
+              - link "Handmade" [ref=e980]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e981]:
+              - link "Saree" [ref=e982]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e983]:
+              - link "Party wear" [ref=e984]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e985]:
+              - link "Regular wear" [ref=e986]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - list [ref=e988]:
+            - listitem [ref=e989]:
+              - link "FAQ" [ref=e990]:
+                - /url: http://localhost/sklentr/snazzy-floret/faq/
+            - listitem [ref=e991]:
+              - link "Shipping" [ref=e992]:
+                - /url: http://localhost/sklentr/snazzy-floret/shipping/
+            - listitem [ref=e993]:
+              - link "Contact" [ref=e994]:
+                - /url: http://localhost/sklentr/snazzy-floret/contact/
+            - listitem [ref=e995]:
+              - link "Party wear" [ref=e996]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e997]:
+              - link "Regular wear" [ref=e998]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - list [ref=e1000]:
+            - listitem [ref=e1001]:
+              - link "Returns & Refunds" [ref=e1002]:
+                - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+            - listitem [ref=e1003]:
+              - link "Privacy policy" [ref=e1004]:
+                - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+            - listitem [ref=e1005]:
+              - link "About us" [ref=e1006]:
+                - /url: http://localhost/sklentr/snazzy-floret/about/
+          - list [ref=e1008]:
+            - listitem [ref=e1009]:
+              - link "+1-631-770-1209" [ref=e1010]:
+                - /url: tel:+8801621008533
+            - listitem [ref=e1011]:
+              - link "snazzyfloret@gmail.com" [ref=e1012]:
+                - /url: mailto:snazzyfloret@gmail.com
+        - generic: SNAZZY FLORET
+      - paragraph [ref=e1015]: © 2026 Snazzy Floret. All rights reserved.
+  - status [ref=e1016]

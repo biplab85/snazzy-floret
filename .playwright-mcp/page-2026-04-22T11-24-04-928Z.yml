@@ -1,0 +1,282 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Free delivery on orders over ৳2,500 | Custom sizing available
+      - button "Close announcement" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - link "Snazzy Floret" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/
+          - img "Snazzy Floret" [ref=e14]
+        - generic [ref=e15]:
+          - button "Cart" [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+            - generic [ref=e20]: "6"
+          - link "Account" [ref=e21] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e22]
+          - button "Open menu" [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main [ref=e27]:
+      - article [ref=e29]:
+        - heading "Cart Review your selection before checkout" [level=1] [ref=e30]
+        - generic [ref=e32]:
+          - table [ref=e34]:
+            - rowgroup [ref=e35]:
+              - row "Remove Block-Printed Cotton Angarkha from cart Block-Printed Cotton Angarkha Block-Printed Cotton Angarkha Edit size Block-Printed Cotton Angarkha quantity Decrease 2 Increase 5,200.00৳" [ref=e36]:
+                - cell "Remove Block-Printed Cotton Angarkha from cart" [ref=e37]:
+                  - button "Remove Block-Printed Cotton Angarkha from cart" [ref=e38] [cursor=pointer]: ×
+                - cell "Block-Printed Cotton Angarkha" [ref=e39]:
+                  - link "Block-Printed Cotton Angarkha" [ref=e40] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/block-printed-cotton-angarkha/
+                    - img "Block-Printed Cotton Angarkha" [ref=e41]
+                - rowheader "Block-Printed Cotton Angarkha Edit size" [ref=e42]:
+                  - link "Block-Printed Cotton Angarkha" [ref=e43] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/block-printed-cotton-angarkha/
+                  - button "Edit size" [ref=e45] [cursor=pointer]:
+                    - img [ref=e46]
+                - cell "Block-Printed Cotton Angarkha quantity Decrease 2 Increase" [ref=e48]:
+                  - generic [ref=e49]:
+                    - generic [ref=e50]: Block-Printed Cotton Angarkha quantity
+                    - button "Decrease" [ref=e51] [cursor=pointer]:
+                      - img [ref=e52]
+                    - spinbutton "Product quantity" [ref=e53]: "2"
+                    - button "Increase" [ref=e54] [cursor=pointer]:
+                      - img [ref=e55]
+                - cell "5,200.00৳" [ref=e56]:
+                  - generic [ref=e58]: 5,200.00৳
+              - row "Remove Embroidered Party Luxe from cart Embroidered Party Luxe Embroidered Party Luxe Edit size Embroidered Party Luxe quantity Decrease 1 Increase 3,500.00৳" [ref=e59]:
+                - cell "Remove Embroidered Party Luxe from cart" [ref=e60]:
+                  - button "Remove Embroidered Party Luxe from cart" [ref=e61] [cursor=pointer]: ×
+                - cell "Embroidered Party Luxe" [ref=e62]:
+                  - link "Embroidered Party Luxe" [ref=e63] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-party-luxe/
+                    - img "Embroidered Party Luxe" [ref=e64]
+                - rowheader "Embroidered Party Luxe Edit size" [ref=e65]:
+                  - link "Embroidered Party Luxe" [ref=e66] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-party-luxe/
+                  - button "Edit size" [ref=e68] [cursor=pointer]:
+                    - img [ref=e69]
+                - cell "Embroidered Party Luxe quantity Decrease 1 Increase" [ref=e71]:
+                  - generic [ref=e72]:
+                    - generic [ref=e73]: Embroidered Party Luxe quantity
+                    - button "Decrease" [ref=e74] [cursor=pointer]:
+                      - img [ref=e75]
+                    - spinbutton "Product quantity" [ref=e76]: "1"
+                    - button "Increase" [ref=e77] [cursor=pointer]:
+                      - img [ref=e78]
+                - cell "3,500.00৳" [ref=e79]:
+                  - generic [ref=e81]: 3,500.00৳
+              - row "Remove Floral Garden Salwar Set from cart Floral Garden Salwar Set Floral Garden Salwar Set Edit size Floral Garden Salwar Set quantity Decrease 1 Increase 2,700.00৳" [ref=e82]:
+                - cell "Remove Floral Garden Salwar Set from cart" [ref=e83]:
+                  - button "Remove Floral Garden Salwar Set from cart" [ref=e84] [cursor=pointer]: ×
+                - cell "Floral Garden Salwar Set" [ref=e85]:
+                  - link "Floral Garden Salwar Set" [ref=e86] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/floral-garden-salwar-set/
+                    - img "Floral Garden Salwar Set" [ref=e87]
+                - rowheader "Floral Garden Salwar Set Edit size" [ref=e88]:
+                  - link "Floral Garden Salwar Set" [ref=e89] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/floral-garden-salwar-set/
+                  - button "Edit size" [ref=e91] [cursor=pointer]:
+                    - img [ref=e92]
+                - cell "Floral Garden Salwar Set quantity Decrease 1 Increase" [ref=e94]:
+                  - generic [ref=e95]:
+                    - generic [ref=e96]: Floral Garden Salwar Set quantity
+                    - button "Decrease" [ref=e97] [cursor=pointer]:
+                      - img [ref=e98]
+                    - spinbutton "Product quantity" [ref=e99]: "1"
+                    - button "Increase" [ref=e100] [cursor=pointer]:
+                      - img [ref=e101]
+                - cell "2,700.00৳" [ref=e102]:
+                  - generic [ref=e104]: 2,700.00৳
+              - row "Remove Embroidered Silk Panjabi from cart Embroidered Silk Panjabi Embroidered Silk Panjabi Edit size Embroidered Silk Panjabi quantity Decrease 1 Increase 3,900.00৳" [ref=e105]:
+                - cell "Remove Embroidered Silk Panjabi from cart" [ref=e106]:
+                  - button "Remove Embroidered Silk Panjabi from cart" [ref=e107] [cursor=pointer]: ×
+                - cell "Embroidered Silk Panjabi" [ref=e108]:
+                  - link "Embroidered Silk Panjabi" [ref=e109] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+                    - img "Embroidered Silk Panjabi" [ref=e110]
+                - rowheader "Embroidered Silk Panjabi Edit size" [ref=e111]:
+                  - link "Embroidered Silk Panjabi" [ref=e112] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+                  - button "Edit size" [ref=e114] [cursor=pointer]:
+                    - img [ref=e115]
+                - cell "Embroidered Silk Panjabi quantity Decrease 1 Increase" [ref=e117]:
+                  - generic [ref=e118]:
+                    - generic [ref=e119]: Embroidered Silk Panjabi quantity
+                    - button "Decrease" [ref=e120] [cursor=pointer]:
+                      - img [ref=e121]
+                    - spinbutton "Product quantity" [ref=e122]: "1"
+                    - button "Increase" [ref=e123] [cursor=pointer]:
+                      - img [ref=e124]
+                - cell "3,900.00৳" [ref=e125]:
+                  - generic [ref=e127]: 3,900.00৳
+              - row "Remove Hand-Stitched Linen Kameez from cart Hand-Stitched Linen Kameez Hand-Stitched Linen Kameez Edit size Hand-Stitched Linen Kameez quantity Decrease 1 Increase 2,900.00৳" [ref=e128]:
+                - cell "Remove Hand-Stitched Linen Kameez from cart" [ref=e129]:
+                  - button "Remove Hand-Stitched Linen Kameez from cart" [ref=e130] [cursor=pointer]: ×
+                - cell "Hand-Stitched Linen Kameez" [ref=e131]:
+                  - link "Hand-Stitched Linen Kameez" [ref=e132] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/hand-stitched-linen-kameez/
+                    - img "Hand-Stitched Linen Kameez" [ref=e133]
+                - rowheader "Hand-Stitched Linen Kameez Edit size" [ref=e134]:
+                  - link "Hand-Stitched Linen Kameez" [ref=e135] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/hand-stitched-linen-kameez/
+                  - button "Edit size" [ref=e137] [cursor=pointer]:
+                    - img [ref=e138]
+                - cell "Hand-Stitched Linen Kameez quantity Decrease 1 Increase" [ref=e140]:
+                  - generic [ref=e141]:
+                    - generic [ref=e142]: Hand-Stitched Linen Kameez quantity
+                    - button "Decrease" [ref=e143] [cursor=pointer]:
+                      - img [ref=e144]
+                    - spinbutton "Product quantity" [ref=e145]: "1"
+                    - button "Increase" [ref=e146] [cursor=pointer]:
+                      - img [ref=e147]
+                - cell "2,900.00৳" [ref=e148]:
+                  - generic [ref=e150]: 2,900.00৳
+              - 'row "Coupon: Apply coupon Update cart" [ref=e151]':
+                - 'cell "Coupon: Apply coupon Update cart" [ref=e152]':
+                  - generic [ref=e153]:
+                    - generic [ref=e154]: "Coupon:"
+                    - textbox "Coupon:" [ref=e155]:
+                      - /placeholder: Coupon code
+                    - button "Apply coupon" [ref=e156] [cursor=pointer]
+                  - button "Update cart" [disabled] [ref=e157]
+          - generic [ref=e159]:
+            - heading "Cart totals" [level=2] [ref=e160]
+            - table [ref=e161]:
+              - rowgroup [ref=e162]:
+                - row "Subtotal 18,200.00৳" [ref=e163]:
+                  - rowheader "Subtotal" [ref=e164]
+                  - cell "18,200.00৳" [ref=e165]:
+                    - generic [ref=e167]: 18,200.00৳
+                - row "Shipment Free shipping Edit shipping address Shipping to Khulna." [ref=e168]:
+                  - rowheader "Shipment" [ref=e169]
+                  - cell "Free shipping Edit shipping address Shipping to Khulna." [ref=e170]:
+                    - list [ref=e171]:
+                      - listitem [ref=e172]:
+                        - generic [ref=e173]:
+                          - text: Free shipping
+                          - button "Edit shipping address" [ref=e174] [cursor=pointer]:
+                            - img [ref=e175]
+                    - paragraph [ref=e177]:
+                      - text: Shipping to
+                      - strong [ref=e178]: Khulna
+                      - text: .
+                - row "Total 18,200.00৳" [ref=e179]:
+                  - rowheader "Total" [ref=e180]
+                  - cell "18,200.00৳" [ref=e181]:
+                    - strong [ref=e182]:
+                      - generic [ref=e184]: 18,200.00৳
+            - link "Proceed to checkout →" [ref=e186] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/checkout/
+            - text: Secure checkout · Free returns · Made in Dhaka
+    - contentinfo [ref=e187]:
+      - generic [ref=e188]:
+        - img "Snazzy Floret" [ref=e189]
+        - generic [ref=e191]:
+          - heading "Get 20% off your first order" [level=2] [ref=e192]
+          - paragraph [ref=e193]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=e194]:
+            - textbox "Enter your email" [ref=e195]
+            - button "Subscribe" [ref=e196] [cursor=pointer]:
+              - img [ref=e197]
+          - generic [ref=e199]: Subscribe
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - heading "Shop" [level=3] [ref=e203]
+            - list [ref=e204]:
+              - listitem [ref=e205]:
+                - link "Digital Prints" [ref=e206] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+              - listitem [ref=e207]:
+                - link "Handmade" [ref=e208] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+              - listitem [ref=e209]:
+                - link "Saree" [ref=e210] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+              - listitem [ref=e211]:
+                - link "Party wear" [ref=e212] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=e213]:
+                - link "Regular wear" [ref=e214] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - generic [ref=e215]:
+            - heading "Customer Care" [level=3] [ref=e216]
+            - list [ref=e217]:
+              - listitem [ref=e218]:
+                - link "FAQ" [ref=e219] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/faq/
+              - listitem [ref=e220]:
+                - link "Shipping" [ref=e221] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/shipping/
+              - listitem [ref=e222]:
+                - link "Contact" [ref=e223] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/contact/
+          - generic [ref=e224]:
+            - heading "Information" [level=3] [ref=e225]
+            - list [ref=e226]:
+              - listitem [ref=e227]:
+                - link "Returns & Refunds" [ref=e228] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+              - listitem [ref=e229]:
+                - link "Privacy policy" [ref=e230] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+              - listitem [ref=e231]:
+                - link "About us" [ref=e232] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/about/
+          - generic [ref=e233]:
+            - heading "Get in Touch" [level=3] [ref=e234]
+            - list [ref=e235]:
+              - listitem [ref=e236]:
+                - link "+880 1621-008533" [ref=e237] [cursor=pointer]:
+                  - /url: tel:+8801621008533
+                  - img [ref=e238]
+                  - text: +880 1621-008533
+              - listitem [ref=e240]:
+                - link "snazzyfloret@gmail.com" [ref=e241] [cursor=pointer]:
+                  - /url: mailto:snazzyfloret@gmail.com
+                  - img [ref=e242]
+                  - text: snazzyfloret@gmail.com
+            - generic [ref=e245]:
+              - link "Facebook" [ref=e246] [cursor=pointer]:
+                - /url: https://www.facebook.com/snazzyfloret
+                - img [ref=e247]
+              - link "Instagram" [ref=e249] [cursor=pointer]:
+                - /url: https://www.instagram.com/snazzyfloret
+                - img [ref=e250]
+              - link "WhatsApp" [ref=e253] [cursor=pointer]:
+                - /url: https://wa.me/8801621008533
+                - img [ref=e254]
+        - generic: SNAZZY FLORET
+      - paragraph [ref=e258]: © 2026 Snazzy Floret. All rights reserved.
+  - status [ref=e259]

@@ -1,0 +1,234 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Free delivery on orders over ৳2,500 | Custom sizing available
+      - button "Close announcement" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - link "Snazzy Floret" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/
+          - img "Snazzy Floret" [ref=e14]
+        - navigation "Primary navigation" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Saree" [ref=e18] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e19]:
+              - link "Regular Wear" [ref=e20] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+            - listitem [ref=e21]:
+              - link "Party Wear" [ref=e22] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e23]:
+              - link "Handmade" [ref=e24] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e25]:
+              - link "Digital Prints" [ref=e26] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+        - generic [ref=e27]:
+          - button "Search" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+          - button "Cart" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - generic [ref=e36]: "14"
+          - link "Account" [ref=e37] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e38]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main [ref=e41]:
+      - article [ref=e43]:
+        - heading "Cart" [level=1] [ref=e44]
+        - generic [ref=e47]:
+          - table "Products in cart" [ref=e49]:
+            - caption [ref=e50]:
+              - heading "Products in cart" [level=2] [ref=e51]
+            - rowgroup
+            - rowgroup [ref=e52]:
+              - row "Casual Cotton Kurti 1,200.00৳ Lightweight casual cotton kurti 4 Reduce quantity of Casual Cotton Kurti Increase quantity of Casual Cotton Kurti Remove Casual Cotton Kurti from cart 4,800.00৳" [ref=e147]:
+                - cell [ref=e148]:
+                  - link [ref=e149] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/casual-cotton-kurti/
+                    - img [ref=e150]
+                - cell "Casual Cotton Kurti 1,200.00৳ Lightweight casual cotton kurti 4 Reduce quantity of Casual Cotton Kurti Increase quantity of Casual Cotton Kurti Remove Casual Cotton Kurti from cart" [ref=e151]:
+                  - generic [ref=e152]:
+                    - link "Casual Cotton Kurti" [ref=e153] [cursor=pointer]:
+                      - /url: http://localhost/sklentr/snazzy-floret/product/casual-cotton-kurti/
+                    - generic [ref=e156]: 1,200.00৳
+                    - paragraph [ref=e159]: Lightweight casual cotton kurti
+                    - generic:
+                      - generic [ref=e160]:
+                        - spinbutton "Quantity of Casual Cotton Kurti in your cart." [ref=e161]: "4"
+                        - button "Reduce quantity of Casual Cotton Kurti" [ref=e162] [cursor=pointer]: −
+                        - button "Increase quantity of Casual Cotton Kurti" [ref=e163] [cursor=pointer]: ＋
+                      - button "Remove Casual Cotton Kurti from cart" [ref=e164] [cursor=pointer]:
+                        - img [ref=e165]
+                - cell "4,800.00৳" [ref=e167]:
+                  - generic [ref=e169]: 4,800.00৳
+              - row "Daisy Floral Kurti 1,800.00৳ Floral printed cotton kurti 7 Reduce quantity of Daisy Floral Kurti Increase quantity of Daisy Floral Kurti Remove Daisy Floral Kurti from cart 12,600.00৳" [ref=e170]:
+                - cell [ref=e171]:
+                  - link [ref=e172] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/daisy-floral-kurti/
+                    - img [ref=e173]
+                - cell "Daisy Floral Kurti 1,800.00৳ Floral printed cotton kurti 7 Reduce quantity of Daisy Floral Kurti Increase quantity of Daisy Floral Kurti Remove Daisy Floral Kurti from cart" [ref=e174]:
+                  - generic [ref=e175]:
+                    - link "Daisy Floral Kurti" [ref=e176] [cursor=pointer]:
+                      - /url: http://localhost/sklentr/snazzy-floret/product/daisy-floral-kurti/
+                    - generic [ref=e179]: 1,800.00৳
+                    - paragraph [ref=e182]: Floral printed cotton kurti
+                    - generic:
+                      - generic [ref=e183]:
+                        - spinbutton "Quantity of Daisy Floral Kurti in your cart." [ref=e184]: "7"
+                        - button "Reduce quantity of Daisy Floral Kurti" [ref=e185] [cursor=pointer]: −
+                        - button "Increase quantity of Daisy Floral Kurti" [ref=e186] [cursor=pointer]: ＋
+                      - button "Remove Daisy Floral Kurti from cart" [ref=e187] [cursor=pointer]:
+                        - img [ref=e188]
+                - cell "12,600.00৳" [ref=e190]:
+                  - generic [ref=e192]: 12,600.00৳
+              - row "Regular Wear Style 13 2,100.00৳ 1 Reduce quantity of Regular Wear Style 13 Increase quantity of Regular Wear Style 13 Remove Regular Wear Style 13 from cart 2,100.00৳" [ref=e193]:
+                - cell [ref=e194]:
+                  - link [ref=e195] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-13/
+                    - img [ref=e196]
+                - cell "Regular Wear Style 13 2,100.00৳ 1 Reduce quantity of Regular Wear Style 13 Increase quantity of Regular Wear Style 13 Remove Regular Wear Style 13 from cart" [ref=e197]:
+                  - generic [ref=e198]:
+                    - link "Regular Wear Style 13" [ref=e199] [cursor=pointer]:
+                      - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-13/
+                    - generic [ref=e202]: 2,100.00৳
+                    - generic:
+                      - generic [ref=e203]:
+                        - spinbutton "Quantity of Regular Wear Style 13 in your cart." [ref=e204]: "1"
+                        - button "Reduce quantity of Regular Wear Style 13" [disabled] [ref=e205]: −
+                        - button "Increase quantity of Regular Wear Style 13" [ref=e206] [cursor=pointer]: ＋
+                      - button "Remove Regular Wear Style 13 from cart" [ref=e207] [cursor=pointer]:
+                        - img [ref=e208]
+                - cell "2,100.00৳" [ref=e210]:
+                  - generic [ref=e212]: 2,100.00৳
+              - row "Chic Office Wear Kurti 1,500.00৳ Professional office wear kurti 2 Reduce quantity of Chic Office Wear Kurti Increase quantity of Chic Office Wear Kurti Remove Chic Office Wear Kurti from cart 3,000.00৳" [ref=e213]:
+                - cell [ref=e214]:
+                  - link [ref=e215] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+                    - img [ref=e216]
+                - cell "Chic Office Wear Kurti 1,500.00৳ Professional office wear kurti 2 Reduce quantity of Chic Office Wear Kurti Increase quantity of Chic Office Wear Kurti Remove Chic Office Wear Kurti from cart" [ref=e217]:
+                  - generic [ref=e218]:
+                    - link "Chic Office Wear Kurti" [ref=e219] [cursor=pointer]:
+                      - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+                    - generic [ref=e222]: 1,500.00৳
+                    - paragraph [ref=e225]: Professional office wear kurti
+                    - generic:
+                      - generic [ref=e226]:
+                        - spinbutton "Quantity of Chic Office Wear Kurti in your cart." [ref=e227]: "2"
+                        - button "Reduce quantity of Chic Office Wear Kurti" [ref=e228] [cursor=pointer]: −
+                        - button "Increase quantity of Chic Office Wear Kurti" [ref=e229] [cursor=pointer]: ＋
+                      - button "Remove Chic Office Wear Kurti from cart" [ref=e230] [cursor=pointer]:
+                        - img [ref=e231]
+                - cell "3,000.00৳" [ref=e233]:
+                  - generic [ref=e235]: 3,000.00৳
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - heading "Cart totals" [level=2] [ref=e73]
+              - heading "Add coupons" [level=2] [ref=e75]:
+                - button "Add coupons" [ref=e236] [cursor=pointer]:
+                  - img [ref=e77]
+                  - text: Add coupons
+              - generic [ref=e82]:
+                - generic [ref=e83]: Free shipping
+                - strong [ref=e238]: Free
+              - generic [ref=e86]:
+                - generic [ref=e87]: Estimated total
+                - generic [ref=e239]: 22,500.00৳
+            - link "Proceed to Checkout" [ref=e240] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/checkout/
+              - generic [ref=e241]: Proceed to Checkout
+    - contentinfo [ref=e91]:
+      - generic [ref=e92]:
+        - img "Snazzy Floret" [ref=e93]
+        - generic [ref=e95]:
+          - heading "Get 20% off your first order" [level=2] [ref=e96]
+          - paragraph [ref=e97]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=e98]:
+            - textbox "Enter your email" [ref=e99]
+            - button "Subscribe" [ref=e100] [cursor=pointer]:
+              - img [ref=e101]
+          - generic [ref=e103]: Subscribe
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - list [ref=e107]:
+            - listitem [ref=e108]:
+              - link "Digital Prints" [ref=e109] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+            - listitem [ref=e110]:
+              - link "Handmade" [ref=e111] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e112]:
+              - link "Saree" [ref=e113] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e114]:
+              - link "Party wear" [ref=e115] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e116]:
+              - link "Regular wear" [ref=e117] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - link "FAQ" [ref=e121] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/faq/
+            - listitem [ref=e122]:
+              - link "Shipping" [ref=e123] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/shipping/
+            - listitem [ref=e124]:
+              - link "Contact" [ref=e125] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/contact/
+            - listitem [ref=e126]:
+              - link "Party wear" [ref=e127] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e128]:
+              - link "Regular wear" [ref=e129] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - list [ref=e131]:
+            - listitem [ref=e132]:
+              - link "Returns & Refunds" [ref=e133] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+            - listitem [ref=e134]:
+              - link "Privacy policy" [ref=e135] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+            - listitem [ref=e136]:
+              - link "About us" [ref=e137] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/about/
+          - list [ref=e139]:
+            - listitem [ref=e140]:
+              - link "+1-631-770-1209" [ref=e141] [cursor=pointer]:
+                - /url: tel:+8801621008533
+            - listitem [ref=e142]:
+              - link "snazzyfloret@gmail.com" [ref=e143] [cursor=pointer]:
+                - /url: mailto:snazzyfloret@gmail.com
+        - generic: SNAZZY FLORET
+      - paragraph [ref=e146]: © 2026 Snazzy Floret. All rights reserved.
+  - status [ref=e244]

@@ -1,0 +1,131 @@
+- generic [ref=e5]:
+  - generic [ref=e6]:
+    - generic [ref=e9]:
+      - application [ref=e113]
+      - status [ref=e63]: Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
+      - button [ref=e65]:
+        - generic [ref=e66]:
+          - img [ref=e68]
+          - img [ref=e70]
+        - generic [ref=e71]: "5"
+      - generic [ref=e18]:
+        - button [ref=e114]:
+          - img [ref=e20]
+        - button [ref=e115]:
+          - generic:
+            - generic:
+              - generic:
+                - button: Snazzy Floret Website
+                - generic: File name
+          - generic:
+            - img
+      - generic [ref=e25]:
+        - button [ref=e116]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - generic:
+                    - generic:
+                      - img
+          - img [ref=e32]
+        - button [ref=e117]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: 2%
+            - img [ref=e40]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - button [ref=e118]:
+              - generic:
+                - img
+            - button [ref=e119]:
+              - generic:
+                - img
+          - button [ref=e120]:
+            - generic:
+              - generic:
+                - generic: Share
+    - generic:
+      - generic:
+        - generic:
+          - region "Application toolbar":
+            - generic [ref=e72]:
+              - toolbar "Editor" [ref=e74]:
+                - generic [ref=e76]:
+                  - generic:
+                    - generic [ref=e79]:
+                      - generic [ref=e80]:
+                        - button "Move" [ref=e81]:
+                          - img
+                        - button "Hand tool" [pressed] [ref=e82]:
+                          - img
+                        - button "Comment" [ref=e83]:
+                          - img
+                      - group "Frame" [ref=e85]:
+                        - button "Frame" [ref=e86]:
+                          - img
+                        - button "Region tools" [ref=e87]:
+                          - generic:
+                            - img
+                      - group "Rectangle" [ref=e88]:
+                        - button "Rectangle" [ref=e89]:
+                          - img
+                        - button "Shape tools" [ref=e90]:
+                          - generic:
+                            - img
+                      - group "Pen" [ref=e91]:
+                        - button "Pen" [ref=e92]:
+                          - img
+                        - button "Creation tools" [ref=e93]:
+                          - generic:
+                            - img
+                      - button "Text" [ref=e94]:
+                        - img
+                      - button "Actions" [ref=e95]:
+                        - img
+                    - text: Request sent
+                - generic [ref=e100]:
+                  - checkbox "Dev Mode" [ref=e102]
+                  - img [ref=e104]
+              - generic [ref=e106]:
+                - generic [ref=e107]: Sign up to comment, edit, inspect and more.
+                - generic [ref=e108]:
+                  - button "Sign up" [ref=e109]:
+                    - generic:
+                      - generic:
+                        - generic: Sign up
+                  - button "Continue with Google" [ref=e112]:
+                    - generic:
+                      - generic:
+                        - img
+                      - generic: Continue
+  - dialog [ref=e121]:
+    - generic [ref=e123]:
+      - generic:
+        - generic [ref=e127]:
+          - heading "Sign up for Figma" [active] [level=1] [ref=e129]
+          - button "Continue with Google" [ref=e130] [cursor=pointer]:
+            - generic [ref=e132]:
+              - img [ref=e134]
+              - generic [ref=e139]: Continue with Google
+          - paragraph [ref=e140]: or
+          - generic [ref=e141]:
+            - generic [ref=e142]: Email
+            - textbox "Email" [ref=e143]
+          - button "Continue with email" [ref=e144] [cursor=pointer]:
+            - generic [ref=e145]:
+              - generic:
+                - img
+              - text: Continue with email
+        - button "Close" [ref=e147]:
+          - generic:
+            - img
+  - status
+  - group [ref=e50]:
+    - alert [ref=e52]
+    - alert [ref=e54]
+  - region "Help/zoom toolbar" [ref=e58]:
+    - toolbar "Help/zoom toolbar" [ref=e60]:
+      - button "Help" [ref=e62]:
+        - img

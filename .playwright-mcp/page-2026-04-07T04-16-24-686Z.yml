@@ -1,0 +1,539 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Free delivery on orders over ৳2,500 | Custom sizing available
+      - button "Close announcement" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - link "Snazzy Floret" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/
+          - img "Snazzy Floret" [ref=e14]
+        - navigation "Primary navigation" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Saree" [ref=e18] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e19]:
+              - link "Regular Wear" [ref=e20] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+            - listitem [ref=e21]:
+              - link "Party Wear" [ref=e22] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e23]:
+              - link "Handmade" [ref=e24] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e25]:
+              - link "Digital Prints" [ref=e26] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+        - generic [ref=e27]:
+          - button "Search" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+          - button "Cart" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - generic [ref=e36]: "16"
+          - link "Account" [ref=e37] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e38]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main [ref=e41]:
+      - article [ref=e43]:
+        - heading "Checkout" [level=1] [ref=e44]
+        - generic [ref=e47]:
+          - form "Checkout" [ref=e49]:
+            - group "Contact information" [ref=e50]:
+              - generic [ref=e51]: Contact information
+              - heading "Contact information" [level=2] [ref=e54]
+              - generic [ref=e56]:
+                - generic [ref=e57]:
+                  - textbox "Email address" [ref=e58]
+                  - generic [ref=e59]: Email address
+                - paragraph [ref=e60]: You are currently checking out as a guest.
+            - group "Shipping address" [ref=e61]:
+              - generic [ref=e62]: Shipping address
+              - heading "Shipping address" [level=2] [ref=e65]
+              - generic [ref=e66]:
+                - generic [ref=e69]:
+                  - generic [ref=e72]:
+                    - generic [ref=e73]: Country/Region
+                    - combobox "Country/Region" [ref=e74] [cursor=pointer]:
+                      - option "Select a country/region" [disabled]
+                      - option "Afghanistan"
+                      - option "Åland Islands"
+                      - option "Albania"
+                      - option "Algeria"
+                      - option "American Samoa"
+                      - option "Andorra"
+                      - option "Angola"
+                      - option "Anguilla"
+                      - option "Antarctica"
+                      - option "Antigua and Barbuda"
+                      - option "Argentina"
+                      - option "Armenia"
+                      - option "Aruba"
+                      - option "Australia"
+                      - option "Austria"
+                      - option "Azerbaijan"
+                      - option "Bahamas"
+                      - option "Bahrain"
+                      - option "Bangladesh" [selected]
+                      - option "Barbados"
+                      - option "Belarus"
+                      - option "Belau"
+                      - option "Belgium"
+                      - option "Belize"
+                      - option "Benin"
+                      - option "Bermuda"
+                      - option "Bhutan"
+                      - option "Bolivia"
+                      - option "Bonaire, Saint Eustatius and Saba"
+                      - option "Bosnia and Herzegovina"
+                      - option "Botswana"
+                      - option "Bouvet Island"
+                      - option "Brazil"
+                      - option "British Indian Ocean Territory"
+                      - option "Brunei"
+                      - option "Bulgaria"
+                      - option "Burkina Faso"
+                      - option "Burundi"
+                      - option "Cambodia"
+                      - option "Cameroon"
+                      - option "Canada"
+                      - option "Cape Verde"
+                      - option "Cayman Islands"
+                      - option "Central African Republic"
+                      - option "Chad"
+                      - option "Chile"
+                      - option "China"
+                      - option "Christmas Island"
+                      - option "Cocos (Keeling) Islands"
+                      - option "Colombia"
+                      - option "Comoros"
+                      - option "Congo (Brazzaville)"
+                      - option "Congo (Kinshasa)"
+                      - option "Cook Islands"
+                      - option "Costa Rica"
+                      - option "Croatia"
+                      - option "Cuba"
+                      - option "Curaçao"
+                      - option "Cyprus"
+                      - option "Czech Republic"
+                      - option "Denmark"
+                      - option "Djibouti"
+                      - option "Dominica"
+                      - option "Dominican Republic"
+                      - option "Ecuador"
+                      - option "Egypt"
+                      - option "El Salvador"
+                      - option "Equatorial Guinea"
+                      - option "Eritrea"
+                      - option "Estonia"
+                      - option "Eswatini"
+                      - option "Ethiopia"
+                      - option "Falkland Islands"
+                      - option "Faroe Islands"
+                      - option "Fiji"
+                      - option "Finland"
+                      - option "France"
+                      - option "French Guiana"
+                      - option "French Polynesia"
+                      - option "French Southern Territories"
+                      - option "Gabon"
+                      - option "Gambia"
+                      - option "Georgia"
+                      - option "Germany"
+                      - option "Ghana"
+                      - option "Gibraltar"
+                      - option "Greece"
+                      - option "Greenland"
+                      - option "Grenada"
+                      - option "Guadeloupe"
+                      - option "Guam"
+                      - option "Guatemala"
+                      - option "Guernsey"
+                      - option "Guinea"
+                      - option "Guinea-Bissau"
+                      - option "Guyana"
+                      - option "Haiti"
+                      - option "Heard Island and McDonald Islands"
+                      - option "Honduras"
+                      - option "Hong Kong"
+                      - option "Hungary"
+                      - option "Iceland"
+                      - option "India"
+                      - option "Indonesia"
+                      - option "Iran"
+                      - option "Iraq"
+                      - option "Ireland"
+                      - option "Isle of Man"
+                      - option "Israel"
+                      - option "Italy"
+                      - option "Ivory Coast"
+                      - option "Jamaica"
+                      - option "Japan"
+                      - option "Jersey"
+                      - option "Jordan"
+                      - option "Kazakhstan"
+                      - option "Kenya"
+                      - option "Kiribati"
+                      - option "Kosovo"
+                      - option "Kuwait"
+                      - option "Kyrgyzstan"
+                      - option "Laos"
+                      - option "Latvia"
+                      - option "Lebanon"
+                      - option "Lesotho"
+                      - option "Liberia"
+                      - option "Libya"
+                      - option "Liechtenstein"
+                      - option "Lithuania"
+                      - option "Luxembourg"
+                      - option "Macao"
+                      - option "Madagascar"
+                      - option "Malawi"
+                      - option "Malaysia"
+                      - option "Maldives"
+                      - option "Mali"
+                      - option "Malta"
+                      - option "Marshall Islands"
+                      - option "Martinique"
+                      - option "Mauritania"
+                      - option "Mauritius"
+                      - option "Mayotte"
+                      - option "Mexico"
+                      - option "Micronesia"
+                      - option "Moldova"
+                      - option "Monaco"
+                      - option "Mongolia"
+                      - option "Montenegro"
+                      - option "Montserrat"
+                      - option "Morocco"
+                      - option "Mozambique"
+                      - option "Myanmar"
+                      - option "Namibia"
+                      - option "Nauru"
+                      - option "Nepal"
+                      - option "Netherlands"
+                      - option "New Caledonia"
+                      - option "New Zealand"
+                      - option "Nicaragua"
+                      - option "Niger"
+                      - option "Nigeria"
+                      - option "Niue"
+                      - option "Norfolk Island"
+                      - option "North Korea"
+                      - option "North Macedonia"
+                      - option "Northern Mariana Islands"
+                      - option "Norway"
+                      - option "Oman"
+                      - option "Pakistan"
+                      - option "Palestinian Territory"
+                      - option "Panama"
+                      - option "Papua New Guinea"
+                      - option "Paraguay"
+                      - option "Peru"
+                      - option "Philippines"
+                      - option "Pitcairn"
+                      - option "Poland"
+                      - option "Portugal"
+                      - option "Puerto Rico"
+                      - option "Qatar"
+                      - option "Reunion"
+                      - option "Romania"
+                      - option "Russia"
+                      - option "Rwanda"
+                      - option "Saint Barthélemy"
+                      - option "Saint Helena"
+                      - option "Saint Kitts and Nevis"
+                      - option "Saint Lucia"
+                      - option "Saint Martin (Dutch part)"
+                      - option "Saint Martin (French part)"
+                      - option "Saint Pierre and Miquelon"
+                      - option "Saint Vincent and the Grenadines"
+                      - option "Samoa"
+                      - option "San Marino"
+                      - option "São Tomé and Príncipe"
+                      - option "Saudi Arabia"
+                      - option "Senegal"
+                      - option "Serbia"
+                      - option "Seychelles"
+                      - option "Sierra Leone"
+                      - option "Singapore"
+                      - option "Slovakia"
+                      - option "Slovenia"
+                      - option "Solomon Islands"
+                      - option "Somalia"
+                      - option "South Africa"
+                      - option "South Georgia/Sandwich Islands"
+                      - option "South Korea"
+                      - option "South Sudan"
+                      - option "Spain"
+                      - option "Sri Lanka"
+                      - option "Sudan"
+                      - option "Suriname"
+                      - option "Svalbard and Jan Mayen"
+                      - option "Sweden"
+                      - option "Switzerland"
+                      - option "Syria"
+                      - option "Taiwan"
+                      - option "Tajikistan"
+                      - option "Tanzania"
+                      - option "Thailand"
+                      - option "Timor-Leste"
+                      - option "Togo"
+                      - option "Tokelau"
+                      - option "Tonga"
+                      - option "Trinidad and Tobago"
+                      - option "Tunisia"
+                      - option "Türkiye"
+                      - option "Turkmenistan"
+                      - option "Turks and Caicos Islands"
+                      - option "Tuvalu"
+                      - option "Uganda"
+                      - option "Ukraine"
+                      - option "United Arab Emirates"
+                      - option "United Kingdom (UK)"
+                      - option "United States (US)"
+                      - option "United States (US) Minor Outlying Islands"
+                      - option "Uruguay"
+                      - option "Uzbekistan"
+                      - option "Vanuatu"
+                      - option "Vatican"
+                      - option "Venezuela"
+                      - option "Vietnam"
+                      - option "Virgin Islands (British)"
+                      - option "Virgin Islands (US)"
+                      - option "Wallis and Futuna"
+                      - option "Western Sahara"
+                      - option "Yemen"
+                      - option "Zambia"
+                      - option "Zimbabwe"
+                    - img
+                  - generic [ref=e75]:
+                    - textbox "First name" [ref=e76]
+                    - generic [ref=e77]: First name
+                  - generic [ref=e78]:
+                    - textbox "Last name" [ref=e79]
+                    - generic [ref=e80]: Last name
+                  - generic [ref=e81]:
+                    - textbox "Address" [ref=e82]
+                    - generic [ref=e83]: Address
+                  - button "+ Add apartment, suite, etc." [ref=e84] [cursor=pointer]
+                  - textbox [ref=e85]
+                  - generic [ref=e86]:
+                    - textbox "City" [ref=e87]
+                    - generic [ref=e88]: City
+                  - generic [ref=e91]:
+                    - generic [ref=e92]: District
+                    - combobox "District" [ref=e93] [cursor=pointer]:
+                      - option "Select a district" [disabled]
+                      - option "Bagerhat"
+                      - option "Bandarban"
+                      - option "Barguna"
+                      - option "Barishal"
+                      - option "Bhola"
+                      - option "Bogura"
+                      - option "Brahmanbaria"
+                      - option "Chandpur"
+                      - option "Chattogram"
+                      - option "Chuadanga"
+                      - option "Cox's Bazar"
+                      - option "Cumilla"
+                      - option "Dhaka"
+                      - option "Dinajpur"
+                      - option "Faridpur"
+                      - option "Feni"
+                      - option "Gaibandha"
+                      - option "Gazipur"
+                      - option "Gopalganj"
+                      - option "Habiganj"
+                      - option "Jamalpur"
+                      - option "Jashore"
+                      - option "Jhalokati"
+                      - option "Jhenaidah"
+                      - option "Joypurhat"
+                      - option "Khagrachhari"
+                      - option "Khulna" [selected]
+                      - option "Kishoreganj"
+                      - option "Kurigram"
+                      - option "Kushtia"
+                      - option "Lakshmipur"
+                      - option "Lalmonirhat"
+                      - option "Madaripur"
+                      - option "Magura"
+                      - option "Manikganj"
+                      - option "Meherpur"
+                      - option "Moulvibazar"
+                      - option "Munshiganj"
+                      - option "Mymensingh"
+                      - option "Naogaon"
+                      - option "Narail"
+                      - option "Narayanganj"
+                      - option "Narsingdi"
+                      - option "Natore"
+                      - option "Nawabganj"
+                      - option "Netrakona"
+                      - option "Nilphamari"
+                      - option "Noakhali"
+                      - option "Pabna"
+                      - option "Panchagarh"
+                      - option "Patuakhali"
+                      - option "Pirojpur"
+                      - option "Rajbari"
+                      - option "Rajshahi"
+                      - option "Rangamati"
+                      - option "Rangpur"
+                      - option "Satkhira"
+                      - option "Shariatpur"
+                      - option "Sherpur"
+                      - option "Sirajganj"
+                      - option "Sunamganj"
+                      - option "Sylhet"
+                      - option "Tangail"
+                      - option "Thakurgaon"
+                    - img
+                  - generic [ref=e94]:
+                    - textbox "Postal code (optional)" [ref=e95]
+                    - generic [ref=e96]: Postal code (optional)
+                  - generic [ref=e97]:
+                    - textbox "Phone (optional)" [ref=e98]
+                    - generic [ref=e99]: Phone (optional)
+                - generic [ref=e101] [cursor=pointer]:
+                  - checkbox "Use same address for billing" [checked] [ref=e102]
+                  - img
+                  - generic [ref=e103]: Use same address for billing
+            - group "Shipping options" [ref=e104]:
+              - generic [ref=e105]: Shipping options
+              - heading "Shipping options" [level=2] [ref=e108]
+              - generic [ref=e115] [cursor=pointer]:
+                - radio "Free shipping Free" [checked] [ref=e116]
+                - generic [ref=e118]:
+                  - generic [ref=e119]: Free shipping
+                  - generic [ref=e120]: Free
+            - group "Payment options" [ref=e121]:
+              - generic [ref=e122]: Payment options
+              - heading "Payment options" [level=2] [ref=e125]
+              - generic "Loading payment options…" [ref=e127]
+            - generic [ref=e136] [cursor=pointer]:
+              - checkbox "Add a note to your order" [ref=e137]
+              - generic [ref=e138]: Add a note to your order
+            - generic [ref=e139]: By proceeding with your purchase you agree to our Terms and Conditions and Privacy Policy
+            - generic [ref=e141]:
+              - link "Return to Cart" [ref=e142] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/cart/
+                - img [ref=e143]
+                - text: Return to Cart
+              - button "Place Order →" [ref=e145] [cursor=pointer]:
+                - generic [ref=e146]:
+                  - generic [ref=e147]: Place Order
+                  - text: →
+          - generic [ref=e149]:
+            - heading "Order summary" [level=2] [ref=e151]
+            - generic [ref=e152]:
+              - generic "Loading products in cart…" [ref=e154]
+              - heading "Add coupons" [level=2] [ref=e189]:
+                - button "Add coupons" [ref=e190] [cursor=pointer]:
+                  - img [ref=e191]
+                  - text: Add coupons
+              - generic [ref=e193]:
+                - generic [ref=e195]:
+                  - generic [ref=e196]: Subtotal
+                  - generic "Loading price…" [ref=e197]
+                - generic [ref=e202]:
+                  - generic [ref=e203]: Free shipping
+                  - generic "Loading price…" [ref=e204]
+              - generic [ref=e206]:
+                - generic [ref=e207]: Total
+                - generic "Loading price…" [ref=e208]
+    - contentinfo [ref=e209]:
+      - generic [ref=e210]:
+        - img "Snazzy Floret" [ref=e211]
+        - generic [ref=e213]:
+          - heading "Get 20% off your first order" [level=2] [ref=e214]
+          - paragraph [ref=e215]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=e216]:
+            - textbox "Enter your email" [ref=e217]
+            - button "Subscribe" [ref=e218] [cursor=pointer]:
+              - img [ref=e219]
+          - generic [ref=e221]: Subscribe
+      - generic [ref=e222]:
+        - generic [ref=e223]:
+          - list [ref=e225]:
+            - listitem [ref=e226]:
+              - link "Digital Prints" [ref=e227] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+            - listitem [ref=e228]:
+              - link "Handmade" [ref=e229] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e230]:
+              - link "Saree" [ref=e231] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e232]:
+              - link "Party wear" [ref=e233] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e234]:
+              - link "Regular wear" [ref=e235] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - list [ref=e237]:
+            - listitem [ref=e238]:
+              - link "FAQ" [ref=e239] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/faq/
+            - listitem [ref=e240]:
+              - link "Shipping" [ref=e241] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/shipping/
+            - listitem [ref=e242]:
+              - link "Contact" [ref=e243] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/contact/
+            - listitem [ref=e244]:
+              - link "Party wear" [ref=e245] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e246]:
+              - link "Regular wear" [ref=e247] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - list [ref=e249]:
+            - listitem [ref=e250]:
+              - link "Returns & Refunds" [ref=e251] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+            - listitem [ref=e252]:
+              - link "Privacy policy" [ref=e253] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+            - listitem [ref=e254]:
+              - link "About us" [ref=e255] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/about/
+          - list [ref=e257]:
+            - listitem [ref=e258]:
+              - link "+880 1621-008533" [ref=e259] [cursor=pointer]:
+                - /url: tel:+8801621008533
+            - listitem [ref=e260]:
+              - link "snazzyfloret@gmail.com" [ref=e261] [cursor=pointer]:
+                - /url: mailto:snazzyfloret@gmail.com
+        - generic: SNAZZY FLORET
+      - paragraph [ref=e264]: © 2026 Snazzy Floret. All rights reserved.
+  - status [ref=e267]

@@ -1,0 +1,179 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Free delivery on orders over ৳2,500 | Custom sizing available
+      - button "Close announcement" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - link "Snazzy Floret" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/
+          - img "Snazzy Floret" [ref=e14]
+        - navigation "Primary navigation" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Saree" [ref=e18] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e19]:
+              - link "Regular Wear" [ref=e20] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+            - listitem [ref=e21]:
+              - link "Party Wear" [ref=e22] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e23]:
+              - link "Handmade" [ref=e24] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e25]:
+              - link "Digital Prints" [ref=e26] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+        - generic [ref=e27]:
+          - button "Search" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+          - button "Cart" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - generic [ref=e36]: "0"
+          - link "Account" [ref=e37] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e38]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main [ref=e41]:
+      - article [ref=e43]:
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]: Snazzy Floret
+              - heading "Welcome back" [level=1] [ref=e51]
+              - paragraph [ref=e52]: Sign in to view your orders, wishlist, and saved addresses.
+            - generic [ref=e54]:
+              - generic [ref=e55]:
+                - generic [ref=e56]: Username or email
+                - textbox "Username or email" [ref=e57]: testuser_sf@example.com
+              - generic [ref=e58]:
+                - generic [ref=e59]: Password
+                - generic [ref=e60]:
+                  - textbox "Password" [ref=e61]: TestPass!2026
+                  - button "Show password" [ref=e62] [cursor=pointer]:
+                    - img [ref=e63]
+              - generic [ref=e66]:
+                - generic [ref=e67] [cursor=pointer]:
+                  - checkbox "Remember me" [ref=e68]
+                  - generic [ref=e69]: Remember me
+                - link "Forgot password?" [ref=e70] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/lost-password/
+              - button "Sign in" [ref=e71] [cursor=pointer]
+              - paragraph [ref=e72]:
+                - text: Don't have an account?
+                - link "Register here" [ref=e73] [cursor=pointer]:
+                  - /url: "#"
+          - complementary [ref=e74]:
+            - generic [ref=e75]:
+              - img [ref=e76]
+              - generic [ref=e77]: Members enjoy
+              - heading [level=2] [ref=e78]: A wardrobe crafted for every occasion.
+              - list [ref=e79]:
+                - listitem [ref=e80]: Early access to new collections
+                - listitem [ref=e81]: Members-only seasonal offers
+                - listitem [ref=e82]: Free delivery on orders over ৳2,500
+                - listitem [ref=e83]: Custom sizing & tailoring support
+    - contentinfo [ref=e84]:
+      - generic [ref=e85]:
+        - img "Snazzy Floret" [ref=e86]
+        - generic [ref=e88]:
+          - heading "Get 20% off your first order" [level=2] [ref=e89]
+          - paragraph [ref=e90]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=e91]:
+            - textbox "Enter your email" [ref=e92]
+            - button "Subscribe" [ref=e93] [cursor=pointer]:
+              - img [ref=e94]
+          - generic [ref=e96]: Subscribe
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - heading "Shop" [level=3] [ref=e100]
+            - list [ref=e101]:
+              - listitem [ref=e102]:
+                - link "Digital Prints" [ref=e103] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+              - listitem [ref=e104]:
+                - link "Handmade" [ref=e105] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+              - listitem [ref=e106]:
+                - link "Saree" [ref=e107] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+              - listitem [ref=e108]:
+                - link "Party wear" [ref=e109] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=e110]:
+                - link "Regular wear" [ref=e111] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - generic [ref=e112]:
+            - heading "Customer Care" [level=3] [ref=e113]
+            - list [ref=e114]:
+              - listitem [ref=e115]:
+                - link "FAQ" [ref=e116] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/faq/
+              - listitem [ref=e117]:
+                - link "Shipping" [ref=e118] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/shipping/
+              - listitem [ref=e119]:
+                - link "Contact" [ref=e120] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/contact/
+              - listitem [ref=e121]:
+                - link "Party wear" [ref=e122] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=e123]:
+                - link "Regular wear" [ref=e124] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - generic [ref=e125]:
+            - heading "Information" [level=3] [ref=e126]
+            - list [ref=e127]:
+              - listitem [ref=e128]:
+                - link "Returns & Refunds" [ref=e129] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+              - listitem [ref=e130]:
+                - link "Privacy policy" [ref=e131] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+              - listitem [ref=e132]:
+                - link "About us" [ref=e133] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/about/
+          - list [ref=e135]:
+            - listitem [ref=e136]:
+              - link "+880 1621-008533" [ref=e137] [cursor=pointer]:
+                - /url: tel:+8801621008533
+                - img [ref=e138]
+                - text: +880 1621-008533
+            - listitem [ref=e140]:
+              - link "snazzyfloret@gmail.com" [ref=e141] [cursor=pointer]:
+                - /url: mailto:snazzyfloret@gmail.com
+                - img [ref=e142]
+                - text: snazzyfloret@gmail.com
+        - generic: SNAZZY FLORET
+      - paragraph [ref=e147]: © 2026 Snazzy Floret. All rights reserved.
+  - status [ref=e148]

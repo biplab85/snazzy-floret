@@ -1,0 +1,40 @@
+- generic [ref=e1]:
+  - paragraph [ref=e2]: WordPress
+  - heading "Welcome" [level=1] [ref=e3]
+  - paragraph [ref=e4]: Welcome to the famous five-minute WordPress installation process! Just fill in the information below and you’ll be on your way to using the most extendable and powerful personal publishing platform in the world.
+  - heading "Information needed" [level=2] [ref=e5]
+  - paragraph [ref=e6]: Please provide the following information. Do not worry, you can always change these settings later.
+  - generic [ref=e7]:
+    - text: Site Title
+    - textbox "Site Title" [ref=e8]: Snazzy Floret
+    - text: Username
+    - textbox "Username" [ref=e9]: admin
+    - paragraph [ref=e10]: Usernames can have only alphanumeric characters, spaces, underscores, hyphens, periods, and the @ symbol.
+    - text: Password
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - textbox "Password" [ref=e13]: "123456789"
+        - generic [ref=e14]: Very weak
+      - button "Hide password" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16]: 
+        - text: Hide
+    - paragraph [ref=e17]:
+      - generic [ref=e18]:
+        - strong [ref=e19]: "Important:"
+        - text: You will need this password to log in. Please store it in a secure location.
+    - text: Confirm Password
+    - generic [ref=e31]:
+      - checkbox "Confirm use of weak password" [checked] [active] [ref=e32] [cursor=pointer]
+      - text: Confirm use of weak password
+    - text: Your Email
+    - textbox "Your Email" [ref=e20]: biplab.cse.85@gmail.com
+    - paragraph [ref=e21]: Double-check your email address before continuing.
+    - text: Search engine visibility
+    - group "Search engine visibility" [ref=e22]:
+      - generic [ref=e23]: Search engine visibility
+      - generic [ref=e24]:
+        - checkbox "Discourage search engines from indexing this site" [ref=e25] [cursor=pointer]
+        - text: Discourage search engines from indexing this site
+      - paragraph [ref=e26]: It is up to search engines to honor this request.
+    - paragraph [ref=e27]:
+      - button "Install WordPress" [ref=e28] [cursor=pointer]

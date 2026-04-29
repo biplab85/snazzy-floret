@@ -1,0 +1,48 @@
+[    1284ms] [LOG] Running frontend commit 9ddb06e97df71e299d0733644813b89ea0600aa2 @ https://www.figma.com/proto/MCOqwRfRqUc1hu5fy56xAF/Snazzy-Floret-Website?node-id=451-10537&p=f&scaling=scale-down-width:498
+[    2370ms] [WARNING] Statsig is not ready to log exposures, will retry in 1 seconds @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    2846ms] [LOG] [import] git: 6d6488cf7900780e0f129247681c41597b7063db, stamp: 9A62C9024417C038 @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    3021ms] [WARNING] GPUBugs: Device may re-order draw/clear commands. Will apply workarounds. @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    3271ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.figma.com/api/statsig/v1_ruleset:0
+[    3272ms] [ERROR] Failed to fetch v1 ruleset: E: XHR for "/api/statsig/v1_ruleset" failed with status 401
+    at w (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1403:14864)
+    at async Object.k [as get] (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1403:15247)
+    at async https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1098:211686
+    at async g.validate (https://www.figma.com/webpack-artifacts/assets/6410-24665ed71bdb12f9.min.js.br:153:92475)
+    at async b (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1364:179816)
+    at async A (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1364:179020)
+    at async Object.write (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1364:178639) @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    3322ms] [INFO] [PrototypeLib] Booting... (emscripten version 4.0.21) @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    3378ms] [INFO] [GPU] graphicsAPI:"WebGL 2", vendor:"Google Inc. (Intel)", renderer:"ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x00009A49) Direct3D11 vs_5_0 ps_5_0, D3D11)" version:"OpenGL ES 2.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))" @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    4194ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    4751ms] [ERROR] Not signed in with the identity provider. @ https://www.figma.com/proto/MCOqwRfRqUc1hu5fy56xAF/Snazzy-Floret-Website?node-id=451-10537&p=f&scaling=scale-down-width:0
+[    5435ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.figma.com/proto/MCOqwRfRqUc1hu5fy56xAF/Snazzy-Floret-Website?node-id=451-10537&p=f&scaling=scale-down-width:0
+[    5551ms] [INFO] [Sprigma] Sprig SDK is ready @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[   10510ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.figma.com/api/files/MCOqwRfRqUc1hu5fy56xAF/prototype/view:0
+[   33995ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[   85079ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :3102
+[  104874ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  104876ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  104877ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  104879ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  104879ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  104879ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  122050ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :3102
+[  122055ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  122055ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  122056ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  122057ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  122057ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  122058ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  140246ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  140247ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  140247ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  140249ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  140249ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  140249ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  153090ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :3102
+[  153091ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  153091ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  153092ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  153093ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  153093ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756
+[  153093ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :2756

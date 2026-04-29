@@ -1,0 +1,284 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Free delivery on orders over ৳2,500 | Custom sizing available
+      - button "Close announcement" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - link "Snazzy Floret" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/
+          - img "Snazzy Floret" [ref=e14]
+        - navigation "Primary navigation" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Saree" [ref=e18] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e19]:
+              - link "Regular Wear" [ref=e20] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+            - listitem [ref=e21]:
+              - link "Party Wear" [ref=e22] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e23]:
+              - link "Handmade" [ref=e24] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e25]:
+              - link "Digital Prints" [ref=e26] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+        - generic [ref=e27]:
+          - button "Search" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+          - button "Cart" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - generic [ref=e36]: "0"
+          - link "Account" [ref=e37] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e38]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main
+    - main [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e45]:
+            - link [ref=e46]:
+              - /url: http://localhost/sklentr/snazzy-floret/wp-content/uploads/2026/04/elegant-saree.png
+            - link [ref=e47]:
+              - /url: http://localhost/sklentr/snazzy-floret/wp-content/uploads/2026/04/sf-30.jpeg
+            - link [ref=e48]:
+              - /url: http://localhost/sklentr/snazzy-floret/wp-content/uploads/2026/04/sf-65.jpeg
+            - link [ref=e49]:
+              - /url: http://localhost/sklentr/snazzy-floret/wp-content/uploads/2026/04/sf-67.jpg
+          - generic [ref=e50]:
+            - link "Saree" [ref=e51] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - heading "Elegant Organza Saree" [level=1] [ref=e52]
+            - generic [ref=e53]:
+              - deletion [ref=e54]:
+                - generic [ref=e55]: 3,500.00৳
+              - generic [ref=e56]: "Original price was: 3,500.00৳."
+              - insertion [ref=e57]:
+                - generic [ref=e58]: 2,800.00৳
+              - generic [ref=e59]: "Current price is: 2,800.00৳."
+            - generic [ref=e60]:
+              - generic [ref=e61]: Size
+              - generic [ref=e62]: Out of stock
+              - radiogroup "Select a size" [ref=e63]:
+                - radio "35 This size is out of stock" [disabled] [ref=e64]:
+                  - img [ref=e65]
+                  - generic [ref=e68]: "35"
+                  - text: This size is out of stock
+                - radio "36 This size is out of stock" [disabled] [ref=e69]:
+                  - img [ref=e70]
+                  - generic [ref=e73]: "36"
+                  - text: This size is out of stock
+                - radio "37 This size is out of stock" [disabled] [ref=e74]:
+                  - img [ref=e75]
+                  - generic [ref=e78]: "37"
+                  - text: This size is out of stock
+                - radio "38 This size is out of stock" [disabled] [ref=e79]:
+                  - img [ref=e80]
+                  - generic [ref=e83]: "38"
+                  - text: This size is out of stock
+                - radio "39 This size is out of stock" [disabled] [ref=e84]:
+                  - img [ref=e85]
+                  - generic [ref=e88]: "39"
+                  - text: This size is out of stock
+                - radio "40 This size is out of stock" [disabled] [ref=e89]:
+                  - img [ref=e90]
+                  - generic [ref=e93]: "40"
+                  - text: This size is out of stock
+                - radio "41 This size is out of stock" [disabled] [ref=e94]:
+                  - img [ref=e95]
+                  - generic [ref=e98]: "41"
+                  - text: This size is out of stock
+                - radio "42 This size is out of stock" [disabled] [ref=e99]:
+                  - img [ref=e100]
+                  - generic [ref=e103]: "42"
+                  - text: This size is out of stock
+              - combobox [ref=e104] [cursor=pointer]:
+                - option "Select a size" [selected]
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - button "−" [disabled] [ref=e107]
+                - spinbutton [disabled] [ref=e108]: "1"
+                - button "+" [disabled] [ref=e109]
+              - generic:
+                - img
+                - text: Add to Cart
+            - list [ref=e110]:
+              - listitem [ref=e111]: Timeless Designs That Never Age
+              - listitem [ref=e112]: Skin-Friendly & Irritation-Free
+              - listitem [ref=e113]: Breathable Fabrics for All-Day Comfort
+              - listitem [ref=e114]: Enhances Natural Body Shape
+            - generic [ref=e115]:
+              - generic [ref=e117]: Fashionable
+              - generic [ref=e119]: Sustainable
+              - generic [ref=e121]: Recyclable
+              - generic [ref=e123]: Fast delivery
+            - generic [ref=e124]:
+              - button "Description" [ref=e126] [cursor=pointer]:
+                - generic [ref=e127]: Description
+                - img [ref=e128]
+              - button "Size & Guide" [ref=e130] [cursor=pointer]:
+                - generic [ref=e131]: Size & Guide
+                - img [ref=e132]
+              - button "Delivery & Return" [ref=e134] [cursor=pointer]:
+                - generic [ref=e135]: Delivery & Return
+                - img [ref=e136]
+              - button "Payment Method" [ref=e138] [cursor=pointer]:
+                - generic [ref=e139]: Payment Method
+                - img [ref=e140]
+        - region "Handmade Luxury" [ref=e141]:
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - generic [ref=e144]:
+                - heading "Precision Stitching" [level=3] [ref=e145]
+                - paragraph [ref=e146]: Every seam and detail is crafted with expert stitching techniques for flawless structure and fit.
+              - generic [ref=e147]:
+                - heading "Finishing Details" [level=3] [ref=e148]
+                - paragraph [ref=e149]: Buttons, zippers, lace trims, beads, or embroidery — the small accents that elevate the overall design.
+              - generic [ref=e150]:
+                - heading "Tailored Fit & Silhouette" [level=3] [ref=e151]
+                - paragraph [ref=e152]: A design perfected to complement the natural body shape, ensuring comfort, confidence, and graceful movement.
+            - img "Handmade Luxury" [ref=e154]
+            - generic [ref=e155]:
+              - generic [ref=e156]:
+                - heading "Premium Fabric" [level=3] [ref=e157]
+                - paragraph [ref=e158]: The foundation of every dress — soft, durable, and comfortable fabrics like linen, chiffon, or cotton.
+              - generic [ref=e159]:
+                - heading "High-Quality Threads" [level=3] [ref=e160]
+                - paragraph [ref=e161]: Strong, smooth threads that hold every stitch together, ensuring durability, clean finishes.
+              - generic [ref=e162]:
+                - heading "Elegant Color Palettes" [level=3] [ref=e163]
+                - paragraph [ref=e164]: Thoughtfully selected colors and tones that match the design mood — from classic neutrals to vibrant hues.
+        - generic [ref=e165]:
+          - heading "Related products" [level=2] [ref=e166]
+          - list [ref=e167]:
+            - listitem [ref=e168]:
+              - generic [ref=e169]:
+                - link [ref=e170] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+                - generic [ref=e171]:
+                  - generic [ref=e172]: 14% Off
+                  - generic [ref=e173]: New
+                - button "Quick view" [ref=e174] [cursor=pointer]:
+                  - img [ref=e175]
+              - generic [ref=e178]:
+                - generic [ref=e179]: Family Matching
+                - heading "Digital Print Designer Saree" [level=2] [ref=e180]:
+                  - link "Digital Print Designer Saree" [ref=e181] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+                - generic [ref=e182]:
+                  - deletion [ref=e183]:
+                    - generic [ref=e184]: 2,200.00৳
+                  - generic [ref=e185]: "Original price was: 2,200.00৳."
+                  - insertion [ref=e186]:
+                    - generic [ref=e187]: 1,900.00৳
+                  - generic [ref=e188]: "Current price is: 1,900.00৳."
+                - link "Add to cart" [ref=e189] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/product/elegant-organza-saree/?add-to-cart=40
+                  - img [ref=e190]
+                  - text: Add to Cart
+    - contentinfo [ref=e193]:
+      - generic:
+        - img "Snazzy Floret"
+        - generic [ref=e195]:
+          - heading "Get 20% off your first order" [level=2] [ref=e196]
+          - paragraph [ref=e197]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=e198]:
+            - textbox "Enter your email" [ref=e199]
+            - button "Subscribe" [ref=e200] [cursor=pointer]:
+              - img [ref=e201]
+          - generic [ref=e203]: Subscribe
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - generic [ref=e206]:
+            - heading "Shop" [level=3] [ref=e207]
+            - list [ref=e208]:
+              - listitem [ref=e209]:
+                - link "Digital Prints" [ref=e210] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+              - listitem [ref=e211]:
+                - link "Handmade" [ref=e212] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+              - listitem [ref=e213]:
+                - link "Saree" [ref=e214] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+              - listitem [ref=e215]:
+                - link "Party wear" [ref=e216] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=e217]:
+                - link "Regular wear" [ref=e218] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - generic [ref=e219]:
+            - heading "Customer Care" [level=3] [ref=e220]
+            - list [ref=e221]:
+              - listitem [ref=e222]:
+                - link "FAQ" [ref=e223] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/faq/
+              - listitem [ref=e224]:
+                - link "Shipping" [ref=e225] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/shipping/
+              - listitem [ref=e226]:
+                - link "Contact" [ref=e227] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/contact/
+              - listitem [ref=e228]:
+                - link "Party wear" [ref=e229] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=e230]:
+                - link "Regular wear" [ref=e231] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - generic [ref=e232]:
+            - heading "Information" [level=3] [ref=e233]
+            - list [ref=e234]:
+              - listitem [ref=e235]:
+                - link "Returns & Refunds" [ref=e236] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+              - listitem [ref=e237]:
+                - link "Privacy policy" [ref=e238] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+              - listitem [ref=e239]:
+                - link "About us" [ref=e240] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/about/
+          - list [ref=e242]:
+            - listitem [ref=e243]:
+              - link "+880 1621-008533" [ref=e244] [cursor=pointer]:
+                - /url: tel:+8801621008533
+                - img [ref=e245]
+                - text: +880 1621-008533
+            - listitem [ref=e247]:
+              - link "snazzyfloret@gmail.com" [ref=e248] [cursor=pointer]:
+                - /url: mailto:snazzyfloret@gmail.com
+                - img [ref=e249]
+                - text: snazzyfloret@gmail.com
+        - generic: SNAZZY FLORET
+      - paragraph [ref=e254]: © 2026 Snazzy Floret. All rights reserved.
+  - status [ref=e255]

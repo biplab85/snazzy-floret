@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - paragraph [ref=e2]: WordPress
+  - heading "Success!" [level=1] [ref=e3]
+  - paragraph [ref=e4]: WordPress has been installed. Thank you, and enjoy!
+  - table [ref=e5]:
+    - rowgroup [ref=e6]:
+      - row "Username admin" [ref=e7]:
+        - rowheader "Username" [ref=e8]
+        - cell "admin" [ref=e9]
+      - row "Password Your chosen password." [ref=e10]:
+        - rowheader "Password" [ref=e11]
+        - cell "Your chosen password." [ref=e12]:
+          - paragraph [ref=e13]:
+            - emphasis [ref=e14]: Your chosen password.
+  - paragraph [ref=e15]:
+    - link "Log In" [ref=e16] [cursor=pointer]:
+      - /url: http://localhost/sklentr/snazzy-floret/wp-login.php

@@ -1,0 +1,127 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Free delivery on orders over ৳2,500 | Custom sizing available
+      - button "Close announcement" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - generic:
+          - link "Snazzy Floret":
+            - /url: http://localhost/sklentr/snazzy-floret/
+            - img "Snazzy Floret"
+        - navigation "Primary navigation" [ref=e12]:
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - link "Saree" [ref=e15] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e16]:
+              - link "Regular Wear" [ref=e17] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+            - listitem [ref=e18]:
+              - link "Party Wear" [ref=e19] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e20]:
+              - link "Handmade" [ref=e21] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e22]:
+              - link "Digital Prints" [ref=e23] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+        - generic [ref=e24]:
+          - button "Search" [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+          - button "Cart" [ref=e29] [cursor=pointer]:
+            - img [ref=e30]
+            - generic [ref=e33]: "4"
+          - link "Account" [ref=e34] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e35]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main [ref=e38]:
+      - article [ref=e40]:
+        - generic [ref=e42]:
+          - navigation "Account pages" [ref=e43]:
+            - generic [ref=e46]:
+              - generic [ref=e47]: Welcome back
+              - strong [ref=e48]: Test Buyer
+            - list [ref=e49]:
+              - listitem [ref=e50]:
+                - link "Dashboard" [ref=e51] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/
+                  - img [ref=e53]
+                  - generic [ref=e58]: Dashboard
+                  - img [ref=e59]
+              - listitem [ref=e61]:
+                - link "Orders" [ref=e62] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/orders/
+                  - img [ref=e64]
+                  - generic [ref=e68]: Orders
+                  - img [ref=e69]
+              - listitem [ref=e71]:
+                - link "Downloads" [ref=e72] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/downloads/
+                  - img [ref=e74]
+                  - generic [ref=e77]: Downloads
+                  - img [ref=e78]
+              - listitem [ref=e80]:
+                - link "Addresses" [ref=e81] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/edit-address/
+                  - img [ref=e83]
+                  - generic [ref=e86]: Addresses
+                  - img [ref=e87]
+              - listitem [ref=e89]:
+                - link "Payment methods" [ref=e90] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/payment-methods/
+                  - img [ref=e92]
+                  - generic [ref=e94]: Payment methods
+                  - img [ref=e95]
+              - listitem [ref=e97]:
+                - link "Account details" [ref=e98] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/edit-account/
+                  - img [ref=e100]
+                  - generic [ref=e103]: Account details
+                  - img [ref=e104]
+              - listitem [ref=e106]:
+                - link "Log out" [ref=e107] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/customer-logout/?_wpnonce=e57ee88b36
+                  - img [ref=e109]
+                  - generic [ref=e112]: Log out
+                  - img [ref=e113]
+          - generic [ref=e115]:
+            - table [ref=e117]:
+              - rowgroup [ref=e118]:
+                - 'row "( ! ) Parse error: syntax error, unexpected token \"<\", expecting end of file in E:\\wampserver\\www\\sklentr\\snazzy-floret\\wp-content\\themes\\snazzy-floret-theme\\woocommerce\\myaccount\\orders.php on line 10" [ref=e119]':
+                  - generic [ref=e120]: "( ! ) Parse error: syntax error, unexpected token \"<\", expecting end of file in E:\\wampserver\\www\\sklentr\\snazzy-floret\\wp-content\\themes\\snazzy-floret-theme\\woocommerce\\myaccount\\orders.php on line 10"
+            - generic [ref=e121]:
+              - paragraph [ref=e122]: There has been a critical error on this website.
+              - paragraph [ref=e123]:
+                - link "Learn more about troubleshooting WordPress." [ref=e124] [cursor=pointer]:
+                  - /url: https://wordpress.org/documentation/article/faq-troubleshooting/
+  - status

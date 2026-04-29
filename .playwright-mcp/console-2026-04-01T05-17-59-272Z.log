@@ -1,0 +1,38 @@
+[    1534ms] [LOG] Running frontend commit 9ddb06e97df71e299d0733644813b89ea0600aa2 @ https://www.figma.com/design/MCOqwRfRqUc1hu5fy56xAF/Snazzy-Floret-Website?node-id=0-1&p=f:572
+[    4724ms] [WARNING] Statsig is not ready to log exposures, will retry in 1 seconds @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    4833ms] [LOG] Loaded 103 scripts (8444843b), 2 from cache (12183b) @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    5354ms] [LOG] [import] git: 6d6488cf7900780e0f129247681c41597b7063db, stamp: 9A62C9024417C038 @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    6231ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.figma.com/api/statsig/v1_ruleset:0
+[    6232ms] [ERROR] Failed to fetch v1 ruleset: E: XHR for "/api/statsig/v1_ruleset" failed with status 401
+    at w (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1403:14864)
+    at async Object.k [as get] (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1403:15247)
+    at async https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1098:211686
+    at async _.validate (https://www.figma.com/webpack-artifacts/assets/figma_app_beta-43741731cc04572d.min.js.br:199:195849)
+    at async b (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1364:179816)
+    at async A (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1364:179020)
+    at async Object.write (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1364:178639) @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    6714ms] [INFO] [Fullscreen] Booting... (emscripten version 4.0.21) @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    7082ms] [INFO] [GPU] graphicsAPI:"WebGL 2", vendor:"Google Inc. (Intel)", renderer:"ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x00009A49) Direct3D11 vs_5_0 ps_5_0, D3D11)" version:"OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))" @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    7091ms] [LOG] [Fullscreen] Ready in 1891.5ms @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    7104ms] [WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ https://www.figma.com/webpack-artifacts/assets/2923-b58628cf7ff07249.min.js.br:6
+[    7615ms] [INFO] [FullscreenApp] calling setEditorTheme and setting preference light @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    7992ms] [INFO] [MultiplayerSession] connecting to wss://www.figma.com/api/multiplayer/MCOqwRfRqUc1hu5fy56xAF?role=editor&tracking_session_id=Zoe46ebAWVqwA9m0&version=151&recentReload=0&file-load-streaming-compression&scenegraph-queries-initial-nodes=0:1&client_release=9ddb06e97df71e299d0733644813b89ea0600aa2 @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    8067ms] [INFO] [FullscreenApp] calling setEditorTheme and setting preference light @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[    8859ms] [INFO] [MultiplayerSession] Joining file version 106 (initial load) @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[   17077ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://static.figma.com/fullscreen/0f01cfc6e8c588391f26bc4a21a2095912be7d00/fullscreen-wasm/compiled_wasm.js.br:1
+[   17103ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://static.figma.com/fullscreen/0f01cfc6e8c588391f26bc4a21a2095912be7d00/fullscreen-wasm/compiled_wasm.js.br:1
+[   17491ms] [INFO] afterJoinEnd PageSyncing: Loaded incrementally {loaded_pages: 0:1} @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[   19991ms] [LOG] [Fullscreen] loadtime=17.47s maxmem=92223756 @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[   20056ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.figma.com/design/MCOqwRfRqUc1hu5fy56xAF/Snazzy-Floret-Website?node-id=0-1&p=f:0
+[   20151ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.figma.com/api/folders/369213582:0
+[   20385ms] E: XHR for "/api/folders/369213582" failed with status 401
+    at w (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1403:14864)
+    at async Object.k [as get] (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1403:15247)
+    at async https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:1098:165492
+    at async _.validate (https://www.figma.com/webpack-artifacts/assets/figma_app_beta-43741731cc04572d.min.js.br:199:195849)
+    at async h.fetchObject (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:349:137451)
+    at async f (https://www.figma.com/webpack-artifacts/assets/3825-f702e4e68138236b.min.js.br:349:117757)
+[   21298ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[   21344ms] [ERROR] Not signed in with the identity provider. @ https://www.figma.com/design/MCOqwRfRqUc1hu5fy56xAF/Snazzy-Floret-Website?node-id=0-1&p=f:0
+[   21658ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://www.figma.com/webpack-artifacts/assets/vendor-core-de07401bc94a0078.min.js.br:53
+[   59356ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://alb.reddit.com/rp.gif?ts=1775020697974&id=a2_gq9i02hl9qr2&event=PageVisit&m.value=&m.transactionId=&m.customEventName=&m.products=&m.conversionId=&uuid=8e0ac669-5402-46ca-9fa8-100aead820ad&aaid=&external_id=&idfa=&integration=gtm&partner=&partner_version=&opt_out=0&sh=1920&sw=1080&v=rdt_f3936046&dpm=&dpcc=&dprc=:0

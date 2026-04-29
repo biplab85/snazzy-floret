@@ -1,0 +1,246 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Free delivery on orders over ৳2,500 | Custom sizing available
+      - button "Close announcement" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - link "Snazzy Floret" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/
+          - img "Snazzy Floret" [ref=e14]
+        - navigation "Primary navigation" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Saree" [ref=e18] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e19]:
+              - link "Regular Wear" [ref=e20] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+            - listitem [ref=e21]:
+              - link "Party Wear" [ref=e22] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e23]:
+              - link "Handmade" [ref=e24] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e25]:
+              - link "Digital Prints" [ref=e26] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+        - generic [ref=e27]:
+          - button "Search" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+          - button "Cart" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - generic [ref=e36]: "0"
+          - link "Account" [ref=e37] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e38]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main [ref=e41]:
+      - article [ref=e43]:
+        - generic [ref=e46]:
+          - generic:
+            - img
+            - img
+          - generic [ref=e47]:
+            - img [ref=e49]
+            - paragraph [ref=e53]: Order Confirmed
+            - heading "Thank you for your order" [level=1] [ref=e54]
+            - paragraph [ref=e55]: Test, your order has been received and is being prepared with care.
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - img [ref=e59]
+              - generic [ref=e63]:
+                - generic [ref=e64]: Order Number
+                - strong [ref=e65]: "#69"
+            - generic [ref=e66]:
+              - img [ref=e68]
+              - generic [ref=e71]:
+                - generic [ref=e72]: Date
+                - strong [ref=e73]: April 6, 2026
+            - generic [ref=e74]:
+              - img [ref=e76]
+              - generic [ref=e78]:
+                - generic [ref=e79]: Total
+                - strong [ref=e80]:
+                  - generic [ref=e81]: 28,200.00৳
+            - generic [ref=e82]:
+              - img [ref=e84]
+              - generic [ref=e87]:
+                - generic [ref=e88]: Payment
+                - strong [ref=e89]: Cash on Delivery
+          - generic [ref=e91]:
+            - heading "Order details" [level=2] [ref=e92]
+            - table [ref=e93]:
+              - rowgroup [ref=e94]:
+                - row "Product Total" [ref=e95]:
+                  - columnheader "Product" [ref=e96]
+                  - columnheader "Total" [ref=e97]
+              - rowgroup [ref=e98]:
+                - row "Casual Cotton Kurti × 7 8,400.00৳" [ref=e99]:
+                  - cell "Casual Cotton Kurti × 7" [ref=e100]:
+                    - link "Casual Cotton Kurti" [ref=e101] [cursor=pointer]:
+                      - /url: http://localhost/sklentr/snazzy-floret/product/casual-cotton-kurti/
+                    - strong [ref=e102]: × 7
+                  - cell "8,400.00৳" [ref=e103]:
+                    - generic [ref=e105]: 8,400.00৳
+                - row "Daisy Floral Kurti × 7 12,600.00৳" [ref=e106]:
+                  - cell "Daisy Floral Kurti × 7" [ref=e107]:
+                    - link "Daisy Floral Kurti" [ref=e108] [cursor=pointer]:
+                      - /url: http://localhost/sklentr/snazzy-floret/product/daisy-floral-kurti/
+                    - strong [ref=e109]: × 7
+                  - cell "12,600.00৳" [ref=e110]:
+                    - generic [ref=e112]: 12,600.00৳
+                - row "Regular Wear Style 13 × 2 4,200.00৳" [ref=e113]:
+                  - cell "Regular Wear Style 13 × 2" [ref=e114]:
+                    - link "Regular Wear Style 13" [ref=e115] [cursor=pointer]:
+                      - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-13/
+                    - strong [ref=e116]: × 2
+                  - cell "4,200.00৳" [ref=e117]:
+                    - generic [ref=e119]: 4,200.00৳
+                - row "Chic Office Wear Kurti × 2 3,000.00৳" [ref=e120]:
+                  - cell "Chic Office Wear Kurti × 2" [ref=e121]:
+                    - link "Chic Office Wear Kurti" [ref=e122] [cursor=pointer]:
+                      - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+                    - strong [ref=e123]: × 2
+                  - cell "3,000.00৳" [ref=e124]:
+                    - generic [ref=e126]: 3,000.00৳
+              - rowgroup [ref=e127]:
+                - 'row "Subtotal: 28,200.00৳" [ref=e128]':
+                  - rowheader "Subtotal:" [ref=e129]
+                  - cell "28,200.00৳" [ref=e130]:
+                    - generic [ref=e131]: 28,200.00৳
+                - 'row "Shipping: Free shipping" [ref=e132]':
+                  - rowheader "Shipping:" [ref=e133]
+                  - cell "Free shipping" [ref=e134]
+                - 'row "Total: 28,200.00৳" [ref=e135]':
+                  - rowheader "Total:" [ref=e136]
+                  - cell "28,200.00৳" [ref=e137]:
+                    - generic [ref=e138]: 28,200.00৳
+                - 'row "Payment method: Cash on Delivery" [ref=e139]':
+                  - rowheader "Payment method:" [ref=e140]
+                  - cell "Cash on Delivery" [ref=e141]
+          - generic [ref=e142]:
+            - article [ref=e143]:
+              - generic [ref=e144]:
+                - img [ref=e145]
+                - heading "Billing Address" [level=2] [ref=e147]
+              - generic [ref=e148]:
+                - text: Test Buyer
+                - text: 123 Demo Road
+                - text: Dhaka
+                - text: Khulna
+              - paragraph [ref=e149]: "01700000000"
+              - paragraph [ref=e150]: test@example.com
+            - article [ref=e151]:
+              - generic [ref=e152]:
+                - img [ref=e153]
+                - heading "Shipping Address" [level=2] [ref=e157]
+              - generic [ref=e158]:
+                - text: Test Buyer
+                - text: 123 Demo Road
+                - text: Dhaka
+                - text: Khulna
+          - generic [ref=e159]:
+            - link "Download Invoice (PDF)" [ref=e160] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/?sf_invoice=69&key=wc_order_TT7ehSSER5Zjc
+              - img [ref=e161]
+              - text: Download Invoice (PDF)
+            - link "Continue Shopping" [ref=e164] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/shop/
+              - text: Continue Shopping
+              - img [ref=e165]
+            - link "View My Orders" [ref=e167] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/my-account/
+    - contentinfo [ref=e168]:
+      - generic [ref=e169]:
+        - img "Snazzy Floret" [ref=e170]
+        - generic [ref=e172]:
+          - heading "Get 20% off your first order" [level=2] [ref=e173]
+          - paragraph [ref=e174]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=e175]:
+            - textbox "Enter your email" [ref=e176]
+            - button "Subscribe" [ref=e177] [cursor=pointer]:
+              - img [ref=e178]
+          - generic [ref=e180]: Subscribe
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - list [ref=e184]:
+            - listitem [ref=e185]:
+              - link "Digital Prints" [ref=e186] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+            - listitem [ref=e187]:
+              - link "Handmade" [ref=e188] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e189]:
+              - link "Saree" [ref=e190] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e191]:
+              - link "Party wear" [ref=e192] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e193]:
+              - link "Regular wear" [ref=e194] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - list [ref=e196]:
+            - listitem [ref=e197]:
+              - link "FAQ" [ref=e198] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/faq/
+            - listitem [ref=e199]:
+              - link "Shipping" [ref=e200] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/shipping/
+            - listitem [ref=e201]:
+              - link "Contact" [ref=e202] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/contact/
+            - listitem [ref=e203]:
+              - link "Party wear" [ref=e204] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e205]:
+              - link "Regular wear" [ref=e206] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - link "Returns & Refunds" [ref=e210] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+            - listitem [ref=e211]:
+              - link "Privacy policy" [ref=e212] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+            - listitem [ref=e213]:
+              - link "About us" [ref=e214] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/about/
+          - list [ref=e216]:
+            - listitem [ref=e217]:
+              - link "+880 1621-008533" [ref=e218] [cursor=pointer]:
+                - /url: tel:+8801621008533
+            - listitem [ref=e219]:
+              - link "snazzyfloret@gmail.com" [ref=e220] [cursor=pointer]:
+                - /url: mailto:snazzyfloret@gmail.com
+        - generic: SNAZZY FLORET
+      - paragraph [ref=e223]: © 2026 Snazzy Floret. All rights reserved.
+  - status [ref=e226]

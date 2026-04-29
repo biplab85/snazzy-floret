@@ -1,0 +1,416 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Free delivery on orders over ৳2,500 | Custom sizing available
+      - button "Close announcement" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - link "Snazzy Floret" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/
+          - img "Snazzy Floret" [ref=e14]
+        - navigation "Primary navigation" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Saree" [ref=e18] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e19]:
+              - link "Regular Wear" [ref=e20] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+            - listitem [ref=e21]:
+              - link "Party Wear" [ref=e22] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e23]:
+              - link "Handmade" [ref=e24] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e25]:
+              - link "Digital Prints" [ref=e26] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+        - generic [ref=e27]:
+          - button "Search" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+          - button "Cart" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - generic [ref=e36]: "0"
+          - link "Account" [ref=e37] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e38]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main
+    - generic [ref=e43]:
+      - heading "Regular Wear" [level=1] [ref=e44]
+      - text: 19 Products
+    - main [ref=e45]:
+      - generic [ref=e46]:
+        - complementary [ref=e47]:
+          - heading "Filters" [level=3] [ref=e49]:
+            - img [ref=e50]
+            - text: Filters
+          - generic [ref=e51]:
+            - button "Fabric" [expanded] [ref=e52] [cursor=pointer]:
+              - generic [ref=e53]: Fabric
+              - img [ref=e54]
+            - generic [ref=e56]:
+              - generic [ref=e59] [cursor=pointer]: Cotton
+              - generic [ref=e62] [cursor=pointer]: Linen
+              - generic [ref=e65] [cursor=pointer]: Silk
+              - generic [ref=e68] [cursor=pointer]: Velvet
+              - generic [ref=e71] [cursor=pointer]: Denim
+              - generic [ref=e74] [cursor=pointer]: Rayon
+              - generic [ref=e77] [cursor=pointer]: Georgette
+              - generic [ref=e80] [cursor=pointer]: Chiffon
+          - generic [ref=e81]:
+            - button "Price Range" [expanded] [ref=e82] [cursor=pointer]:
+              - generic [ref=e83]: Price Range
+              - img [ref=e84]
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - generic [ref=e89]:
+                  - generic [ref=e90]: From
+                  - spinbutton [ref=e91]
+                - generic [ref=e92]: —
+                - generic [ref=e93]:
+                  - generic [ref=e94]: To
+                  - spinbutton [ref=e95]
+              - button "Apply" [ref=e96] [cursor=pointer]
+          - generic [ref=e97]:
+            - button "Availability" [expanded] [ref=e98] [cursor=pointer]:
+              - generic [ref=e99]: Availability
+              - img [ref=e100]
+            - generic [ref=e102]:
+              - generic [ref=e105] [cursor=pointer]: In Stock
+              - generic [ref=e108] [cursor=pointer]: Out of Stock
+          - button "Reset All Filters" [ref=e109] [cursor=pointer]:
+            - img [ref=e110]
+            - text: Reset All Filters
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - alert [ref=e116]: Showing 1–12 of 19 results
+            - combobox "Shop order" [ref=e119] [cursor=pointer]:
+              - option "Default sorting" [selected]
+              - option "Sort by popularity"
+              - option "Sort by average rating"
+              - option "Sort by latest"
+              - 'option "Sort by price: low to high"'
+              - 'option "Sort by price: high to low"'
+          - list [ref=e120]:
+            - listitem [ref=e121]:
+              - generic [ref=e122]:
+                - link [ref=e123] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/casual-cotton-kurti/
+                - generic [ref=e125]: New
+                - button "Quick view" [ref=e126] [cursor=pointer]:
+                  - img [ref=e127]
+              - generic [ref=e130]:
+                - generic [ref=e131]: Office Wear
+                - heading "Casual Cotton Kurti" [level=2] [ref=e132]:
+                  - link "Casual Cotton Kurti" [ref=e133] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/casual-cotton-kurti/
+                - generic [ref=e135]: 1,200.00৳
+                - link "Add to cart" [ref=e136] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/product-category/regular-wear/?add-to-cart=38
+                  - img [ref=e137]
+                  - text: Add to Cart
+            - listitem [ref=e140]:
+              - generic [ref=e141]:
+                - link [ref=e142] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+                - generic [ref=e144]: New
+                - button "Quick view" [ref=e145] [cursor=pointer]:
+                  - img [ref=e146]
+              - generic [ref=e149]:
+                - generic [ref=e150]: Office Wear
+                - heading "Chic Office Wear Kurti" [level=2] [ref=e151]:
+                  - link "Chic Office Wear Kurti" [ref=e152] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+                - generic [ref=e154]: 1,500.00৳
+                - link "Add to cart" [ref=e155] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/product-category/regular-wear/?add-to-cart=42
+                  - img [ref=e156]
+                  - text: Add to Cart
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link [ref=e161] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/daisy-floral-kurti/
+                - generic [ref=e163]: New
+                - button "Quick view" [ref=e164] [cursor=pointer]:
+                  - img [ref=e165]
+              - generic [ref=e168]:
+                - generic [ref=e169]: Regular Wear
+                - heading "Daisy Floral Kurti" [level=2] [ref=e170]:
+                  - link "Daisy Floral Kurti" [ref=e171] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/daisy-floral-kurti/
+                - generic [ref=e173]: 1,800.00৳
+                - link "Add to cart" [ref=e174] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/product-category/regular-wear/?add-to-cart=34
+                  - img [ref=e175]
+                  - text: Add to Cart
+            - listitem [ref=e178]:
+              - generic [ref=e179]:
+                - link [ref=e180] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-1/
+                - generic [ref=e182]: New
+                - button "Quick view" [ref=e183] [cursor=pointer]:
+                  - img [ref=e184]
+              - generic [ref=e187]:
+                - generic [ref=e188]: Regular Wear
+                - heading "Regular Wear Style 1" [level=2] [ref=e189]:
+                  - link "Regular Wear Style 1" [ref=e190] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-1/
+                - generic [ref=e192]: 900.00৳
+                - link "Add to cart" [ref=e193] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/product-category/regular-wear/?add-to-cart=53
+                  - img [ref=e194]
+                  - text: Add to Cart
+            - listitem [ref=e197]:
+              - generic [ref=e198]:
+                - link [ref=e199] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-10/
+                - generic [ref=e201]: New
+                - button "Quick view" [ref=e202] [cursor=pointer]:
+                  - img [ref=e203]
+              - generic [ref=e206]:
+                - generic [ref=e207]: Regular Wear
+                - heading "Regular Wear Style 10" [level=2] [ref=e208]:
+                  - link "Regular Wear Style 10" [ref=e209] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-10/
+                - generic [ref=e211]: 1,800.00৳
+                - link "Add to cart" [ref=e212] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/product-category/regular-wear/?add-to-cart=62
+                  - img [ref=e213]
+                  - text: Add to Cart
+            - listitem [ref=e216]:
+              - generic [ref=e217]:
+                - link [ref=e218] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-11/
+                - generic [ref=e220]: New
+                - button "Quick view" [ref=e221] [cursor=pointer]:
+                  - img [ref=e222]
+              - generic [ref=e225]:
+                - generic [ref=e226]: Regular Wear
+                - heading "Regular Wear Style 11" [level=2] [ref=e227]:
+                  - link "Regular Wear Style 11" [ref=e228] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-11/
+                - generic [ref=e230]: 1,900.00৳
+                - link "Add to cart" [ref=e231] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/product-category/regular-wear/?add-to-cart=63
+                  - img [ref=e232]
+                  - text: Add to Cart
+            - listitem [ref=e235]:
+              - generic [ref=e236]:
+                - link [ref=e237] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-12/
+                - generic [ref=e239]: New
+                - button "Quick view" [ref=e240] [cursor=pointer]:
+                  - img [ref=e241]
+              - generic [ref=e244]:
+                - generic [ref=e245]: Regular Wear
+                - heading "Regular Wear Style 12" [level=2] [ref=e246]:
+                  - link "Regular Wear Style 12" [ref=e247] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-12/
+                - generic [ref=e249]: 2,000.00৳
+                - link "Add to cart" [ref=e250] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/product-category/regular-wear/?add-to-cart=64
+                  - img [ref=e251]
+                  - text: Add to Cart
+            - listitem [ref=e254]:
+              - generic [ref=e255]:
+                - link [ref=e256] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-13/
+                - generic [ref=e258]: New
+                - button "Quick view" [ref=e259] [cursor=pointer]:
+                  - img [ref=e260]
+              - generic [ref=e263]:
+                - generic [ref=e264]: Regular Wear
+                - heading "Regular Wear Style 13" [level=2] [ref=e265]:
+                  - link "Regular Wear Style 13" [ref=e266] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-13/
+                - generic [ref=e268]: 2,100.00৳
+                - link "Add to cart" [ref=e269] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/product-category/regular-wear/?add-to-cart=65
+                  - img [ref=e270]
+                  - text: Add to Cart
+            - listitem [ref=e273]:
+              - generic [ref=e274]:
+                - link [ref=e275] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-14/
+                - generic [ref=e277]: New
+                - button "Quick view" [ref=e278] [cursor=pointer]:
+                  - img [ref=e279]
+              - generic [ref=e282]:
+                - generic [ref=e283]: Regular Wear
+                - heading "Regular Wear Style 14" [level=2] [ref=e284]:
+                  - link "Regular Wear Style 14" [ref=e285] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-14/
+                - generic [ref=e287]: 2,200.00৳
+                - link "Add to cart" [ref=e288] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/product-category/regular-wear/?add-to-cart=66
+                  - img [ref=e289]
+                  - text: Add to Cart
+            - listitem [ref=e292]:
+              - generic [ref=e293]:
+                - link [ref=e294] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-15/
+                - generic [ref=e296]: New
+                - button "Quick view" [ref=e297] [cursor=pointer]:
+                  - img [ref=e298]
+              - generic [ref=e301]:
+                - generic [ref=e302]: Regular Wear
+                - heading "Regular Wear Style 15" [level=2] [ref=e303]:
+                  - link "Regular Wear Style 15" [ref=e304] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-15/
+                - generic [ref=e306]: 2,300.00৳
+                - link "Add to cart" [ref=e307] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/product-category/regular-wear/?add-to-cart=67
+                  - img [ref=e308]
+                  - text: Add to Cart
+            - listitem [ref=e311]:
+              - generic [ref=e312]:
+                - link [ref=e313] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-2/
+                - generic [ref=e315]: New
+                - button "Quick view" [ref=e316] [cursor=pointer]:
+                  - img [ref=e317]
+              - generic [ref=e320]:
+                - generic [ref=e321]: Regular Wear
+                - heading "Regular Wear Style 2" [level=2] [ref=e322]:
+                  - link "Regular Wear Style 2" [ref=e323] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-2/
+                - generic [ref=e325]: 1,000.00৳
+                - link "Add to cart" [ref=e326] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/product-category/regular-wear/?add-to-cart=54
+                  - img [ref=e327]
+                  - text: Add to Cart
+            - listitem [ref=e330]:
+              - generic [ref=e331]:
+                - link [ref=e332] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-3/
+                - generic [ref=e334]: New
+                - button "Quick view" [ref=e335] [cursor=pointer]:
+                  - img [ref=e336]
+              - generic [ref=e339]:
+                - generic [ref=e340]: Regular Wear
+                - heading "Regular Wear Style 3" [level=2] [ref=e341]:
+                  - link "Regular Wear Style 3" [ref=e342] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/regular-wear-style-3/
+                - generic [ref=e344]: 1,100.00৳
+                - link "Add to cart" [ref=e345] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/product-category/regular-wear/?add-to-cart=55
+                  - img [ref=e346]
+                  - text: Add to Cart
+          - navigation "Product Pagination" [ref=e349]:
+            - list [ref=e350]:
+              - listitem [ref=e351]:
+                - generic "Page 1" [ref=e352]: "1"
+              - listitem [ref=e353]:
+                - link "Page 2" [ref=e354] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/page/2/
+                  - text: "2"
+              - listitem [ref=e355]:
+                - link "→" [ref=e356] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/page/2/
+    - contentinfo [ref=e357]:
+      - generic [ref=e358]:
+        - img "Snazzy Floret" [ref=e359]
+        - generic [ref=e361]:
+          - heading "Get 20% off your first order" [level=2] [ref=e362]
+          - paragraph [ref=e363]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=e364]:
+            - textbox "Enter your email" [ref=e365]
+            - button "Subscribe" [ref=e366] [cursor=pointer]:
+              - img [ref=e367]
+          - generic [ref=e369]: Subscribe
+      - generic [ref=e370]:
+        - generic [ref=e371]:
+          - list [ref=e373]:
+            - listitem [ref=e374]:
+              - link "Digital Prints" [ref=e375] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+            - listitem [ref=e376]:
+              - link "Handmade" [ref=e377] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e378]:
+              - link "Saree" [ref=e379] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e380]:
+              - link "Party wear" [ref=e381] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e382]:
+              - link "Regular wear" [ref=e383] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - list [ref=e385]:
+            - listitem [ref=e386]:
+              - link "FAQ" [ref=e387] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/faq/
+            - listitem [ref=e388]:
+              - link "Shipping" [ref=e389] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/shipping/
+            - listitem [ref=e390]:
+              - link "Contact" [ref=e391] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/contact/
+            - listitem [ref=e392]:
+              - link "Party wear" [ref=e393] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e394]:
+              - link "Regular wear" [ref=e395] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - list [ref=e397]:
+            - listitem [ref=e398]:
+              - link "Returns & Refunds" [ref=e399] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+            - listitem [ref=e400]:
+              - link "Privacy policy" [ref=e401] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+            - listitem [ref=e402]:
+              - link "About us" [ref=e403] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/about/
+          - list [ref=e405]:
+            - listitem [ref=e406]:
+              - link "+1-631-770-1209" [ref=e407] [cursor=pointer]:
+                - /url: tel:+8801621008533
+            - listitem [ref=e408]:
+              - link "snazzyfloret@gmail.com" [ref=e409] [cursor=pointer]:
+                - /url: mailto:snazzyfloret@gmail.com
+        - generic: SNAZZY FLORET
+      - paragraph [ref=e412]: © 2026 Snazzy Floret. All rights reserved.
+  - generic [ref=e414]:
+    - generic [ref=e415]:
+      - heading [level=3] [ref=e416]:
+        - img [ref=e417]
+        - text: Your Cart (0)
+      - button [ref=e420] [cursor=pointer]:
+        - img [ref=e421]
+    - generic [ref=e425]:
+      - img [ref=e426]
+      - paragraph [ref=e429]: Your cart is empty
+      - link [ref=e430] [cursor=pointer]:
+        - /url: http://localhost/sklentr/snazzy-floret/shop/
+        - text: Start Shopping
+  - status [ref=e431]

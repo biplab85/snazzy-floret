@@ -1,0 +1,8 @@
+[     666ms] ReferenceError: jQuery is not defined
+    at https://xstore.8theme.com/elementor3/electronic-mega-market/wp-content/plugins/smart-product-viewer/includes/js/smart.product.min.js?ver=6.9.4:5:7214
+[    1476ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://xstore.8theme.com/elementor3/electronic-mega-market/:0
+[    6182ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://xstore.8theme.com/elementor3/electronic-mega-market/wp-admin/admin-ajax.php:0
+[    6284ms] TypeError: Cannot read properties of undefined (reading 'lcp')
+    at L.init (https://xstore.8theme.com/elementor3/electronic-mega-market/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js:2:9187)
+[    6609ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://xstore.8theme.com/favicon.ico:0
+[   13171ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://xstore.8theme.com/elementor3/electronic-mega-market/wp-admin/admin-ajax.php:0

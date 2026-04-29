@@ -1,0 +1,160 @@
+/* ============================================================
+   Multi-size selection panel
+   ============================================================ */
+.sf-pdp-multi {
+	margin-top: 18px;
+	padding: 16px 18px;
+	background: #FAFAF8;
+	border: 1px solid #E8E4DF;
+	border-radius: 14px;
+	font-family: 'Inter', sans-serif;
+	animation: sf-multi-in .25s ease;
+	transition: border-color .3s ease, background .3s ease;
+}
+@keyframes sf-multi-in {
+	from { opacity: 0; transform: translateY(-4px); }
+	to   { opacity: 1; transform: translateY(0); }
+}
+.sf-pdp-multi--success {
+	border-color: #4CAF50;
+	background: rgba(76,175,80,.06);
+}
+.sf-pdp-multi__head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 12px;
+}
+.sf-pdp-multi__title {
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: .18em;
+	text-transform: uppercase;
+	color: #2C2C2C;
+}
+.sf-pdp-multi__total {
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: .12em;
+	text-transform: uppercase;
+	color: #8B6F4E;
+	padding: 5px 12px;
+	background: rgba(212,167,106,.14);
+	border: 1px solid rgba(212,167,106,.35);
+	border-radius: 999px;
+}
+.sf-pdp-multi__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.sf-pdp-multi__row {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	padding: 10px 14px;
+	background: #FFFFFF;
+	border: 1px solid #E8E4DF;
+	border-radius: 10px;
+	transition: border-color .2s ease, transform .2s ease;
+}
+.sf-pdp-multi__row:hover {
+	border-color: #8B6F4E;
+}
+.sf-pdp-multi__size {
+	flex: 0 0 auto;
+	min-width: 38px;
+	height: 38px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: #2C2C2C;
+	color: #FAFAF8;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 8px;
+	letter-spacing: .02em;
+}
+.sf-pdp-multi__stepper {
+	flex: 1 1 auto;
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	background: #FAFAF8;
+	border: 1px solid #E8E4DF;
+	border-radius: 8px;
+	padding: 3px;
+	width: max-content;
+}
+.sf-pdp-multi__step {
+	width: 30px;
+	height: 30px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+	border: 0;
+	border-radius: 6px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #2C2C2C;
+	cursor: pointer;
+	transition: background .2s ease, color .2s ease;
+}
+.sf-pdp-multi__step:hover {
+	background: #2C2C2C;
+	color: #FAFAF8;
+}
+.sf-pdp-multi__qty {
+	min-width: 32px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	color: #2C2C2C;
+}
+.sf-pdp-multi__remove {
+	flex: 0 0 auto;
+	width: 32px;
+	height: 32px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+	color: #6B6B6B;
+	border: 1px solid #E8E4DF;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+.sf-pdp-multi__remove:hover {
+	background: rgba(229,57,53,.08);
+	border-color: rgba(229,57,53,.35);
+	color: #E53935;
+}
+
+/* Loading state on existing add-to-cart button */
+.sf-pdp__add-btn.is-loading {
+	opacity: .7;
+	pointer-events: none;
+	position: relative;
+}
+.sf-pdp__add-btn.is-loading::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 16px;
+	width: 14px;
+	height: 14px;
+	margin-top: -7px;
+	border: 2px solid rgba(255,255,255,.4);
+	border-top-color: #FFFFFF;
+	border-radius: 50%;
+	animation: sf-spin .7s linear infinite;
+}
+@keyframes sf-spin {
+	to { transform: rotate(360deg); }
+}
+

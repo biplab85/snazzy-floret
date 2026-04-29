@@ -1,0 +1,268 @@
+- generic [ref=e5]:
+  - banner:
+    - generic [ref=e8]:
+      - generic [ref=e10]:
+        - generic:
+          - button [disabled]:
+            - img
+        - button "Facebook" [ref=e12] [cursor=pointer]:
+          - img "Facebook" [ref=e13]
+      - generic [ref=e18]:
+        - textbox "Email or phone" [ref=e21]
+        - textbox "Password" [ref=e24]
+        - button "Log in" [ref=e27] [cursor=pointer]:
+          - generic [ref=e31]: Log in
+        - link "Forgotten account?" [ref=e34] [cursor=pointer]:
+          - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+  - main [ref=e41]:
+    - generic [ref=e42]:
+      - link [ref=e53] [cursor=pointer]:
+        - /url: https://www.facebook.com/photo/?fbid=710692157989787&set=a.222838050108536
+      - generic [ref=e61]:
+        - button [ref=e64] [cursor=pointer]:
+          - generic [ref=e65]:
+            - img [ref=e66]
+            - generic [ref=e74]: Active Status indicator
+        - generic [ref=e77]:
+          - heading [level=1] [ref=e82]: Snazzy Floret
+          - generic [ref=e84]:
+            - link [ref=e85] [cursor=pointer]:
+              - /url: https://www.facebook.com/snazzyfloret/followers/
+              - strong [ref=e86]: 82K
+              - text: followers
+            - text: •
+            - link [ref=e87] [cursor=pointer]:
+              - /url: https://www.facebook.com/snazzyfloret/following/
+              - strong [ref=e88]: "0"
+              - text: following
+    - generic [ref=e96]:
+      - tablist [ref=e104]:
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]: More
+            - img [ref=e110]
+          - tab [selected] [ref=e113] [cursor=pointer]:
+            - generic [ref=e115]: Posts
+          - tab [ref=e117] [cursor=pointer]:
+            - generic [ref=e119]: About
+          - tab [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]: Reels
+          - tab [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: Photos
+          - tab [ref=e129] [cursor=pointer]:
+            - generic [ref=e131]: Following
+      - button [ref=e135] [cursor=pointer]:
+        - img [ref=e137]
+    - generic [ref=e143]:
+      - generic [ref=e146]:
+        - generic [ref=e150]:
+          - heading [level=2] [ref=e159]:
+            - generic [ref=e161]: Intro
+          - generic [ref=e162]:
+            - generic [ref=e166]: Snazzy Floret is specialized in family matching dresses. Be it a mother daughter combo or a panjabi set for your boys, you get everything here. We create customized dresses for you and your family. Travel Wear, Party Wear & Office Wear are our speciality.
+            - list [ref=e169]:
+              - button [ref=e177] [cursor=pointer]:
+                - generic [ref=e178]:
+                  - strong [ref=e179]: Page
+                  - text: · Clothing (brand) · Women's clothes shop · Apparel & clothing
+              - button [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]: Dhaka, Bangladesh
+              - generic [ref=e190]: 01621-008533
+              - generic [ref=e196]: snazzyfloret@gmail.com
+              - link [ref=e203] [cursor=pointer]:
+                - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fsnazzyfloret&h=AT70jmohw6DgLbjNNF82xRTj9uCfjf1CcNivzG-b34dVSNt-RC4gKzA1DJnt3tPp8t2X-F943i2sFDDl6UmB921j6qDUP1LhlJv8aUKHq2dkleny0nK_DjjUVWz6G5YxN1n-Tk4YmhP6XwURCIzv
+                - text: snazzyfloret
+              - link [ref=e208] [cursor=pointer]:
+                - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsnazzyfloret.com%2F&h=AT4E3FqDzmFhoW3Opt-4ukL2g6-ILWAy_BNrxNf7_htXG2JCxT_f3167QPtoDjyZUeFB3UuDYIBFVD4_usH-a_tz4SsMt98JKGb5YmHdDqfFU560jY6AGeBmRtEYPy03jI2DupCcO-bmmjiUFGFTIg
+                - generic [ref=e211]: snazzyfloret.com
+              - button [ref=e215] [cursor=pointer]:
+                - generic [ref=e216]:
+                  - generic [ref=e217]: Always open
+                  - img [ref=e219]
+              - button [ref=e224] [cursor=pointer]:
+                - generic [ref=e225]:
+                  - generic [ref=e227]: Delivery · Online booking
+                  - img [ref=e229]
+              - generic [ref=e236]: Price range · ££
+              - link [ref=e240] [cursor=pointer]:
+                - /url: https://www.facebook.com/snazzyfloret/reviews
+                - generic [ref=e243]:
+                  - text: 98% recommend (29 reviews)
+                  - button [ref=e244]:
+                    - img [ref=e245]
+        - generic [ref=e250]:
+          - generic [ref=e257]:
+            - heading [level=2] [ref=e259]:
+              - link [ref=e262] [cursor=pointer]:
+                - /url: https://www.facebook.com/snazzyfloret/photos
+                - text: Photos
+            - link [ref=e267] [cursor=pointer]:
+              - /url: https://www.facebook.com/snazzyfloret/photos
+              - generic [ref=e268]: See All Photos
+          - generic [ref=e272]:
+            - link [ref=e275] [cursor=pointer]:
+              - /url: /photo/?fbid=954061466986187&set=pb.100071470284463.-2207520000
+            - link [ref=e280] [cursor=pointer]:
+              - /url: /photo/?fbid=954029020322765&set=pb.100071470284463.-2207520000
+            - link [ref=e285] [cursor=pointer]:
+              - /url: /photo/?fbid=954028966989437&set=pb.100071470284463.-2207520000
+            - link [ref=e290] [cursor=pointer]:
+              - /url: /photo/?fbid=954028900322777&set=pb.100071470284463.-2207520000
+            - link [ref=e295] [cursor=pointer]:
+              - /url: /photo/?fbid=954028863656114&set=pb.100071470284463.-2207520000
+            - link [ref=e300] [cursor=pointer]:
+              - /url: /photo/?fbid=954028830322784&set=pb.100071470284463.-2207520000
+            - link [ref=e305] [cursor=pointer]:
+              - /url: /photo/?fbid=954028800322787&set=pb.100071470284463.-2207520000
+            - link [ref=e310] [cursor=pointer]:
+              - /url: /photo/?fbid=954028766989457&set=pb.100071470284463.-2207520000
+            - link [ref=e315] [cursor=pointer]:
+              - /url: /photo/?fbid=954028730322794&set=pb.100071470284463.-2207520000
+        - contentinfo [ref=e318]:
+          - list [ref=e320]:
+            - listitem [ref=e321]:
+              - link [ref=e322] [cursor=pointer]:
+                - /url: /privacy/policy/?entry_point=comet_dropdown
+                - text: Privacy
+              - generic [ref=e323]: ·
+            - listitem [ref=e325]:
+              - link [ref=e326] [cursor=pointer]:
+                - /url: /policies?ref=pf
+                - text: Terms
+              - generic [ref=e327]: ·
+            - listitem [ref=e329]:
+              - link [ref=e330] [cursor=pointer]:
+                - /url: /business/
+                - text: Advertising
+              - generic [ref=e331]: ·
+            - listitem [ref=e333]:
+              - link [ref=e334] [cursor=pointer]:
+                - /url: /help/568137493302217
+                - text: Ad choices
+                - img [ref=e336]
+              - generic [ref=e339]: ·
+            - listitem [ref=e341]:
+              - link [ref=e342] [cursor=pointer]:
+                - /url: /policies/cookies/
+                - text: Cookies
+              - generic [ref=e343]: ·
+            - listitem [ref=e345]:
+              - button [ref=e346] [cursor=pointer]: More
+      - generic [ref=e348]:
+        - article [ref=e355]:
+          - generic [ref=e363]:
+            - generic [ref=e365]:
+              - link [ref=e369] [cursor=pointer]:
+                - /url: /stories/110011028057906/UzpfSVNDOjE0NjI4NjY4NDE5NTI2MzY=/?view_single=false&__cft__[0]=AZZwJToX0QUkCrWuMs2uE9guF6B_rIJgWFAGKXRblWRGHDEcdtccBKkN82L0KuuCFA8EqAfeStKFDOMxQwQrJwiS2D3uFJ4QcLhiAKwcQYfPPHFkl98NNeEt0ARvHO9ZA_s0TQJj5Ot970hmYdIP34IaWWhgnLLn7xh77STbV6iN0ZFNmchm8whj49otMS5s6D1otrOHqol55ivDyPJnF3g9SYZcDJEsuhb3hkjIVavAdjyweYpNPThBp6V_BiCoe3k&__tn__=%3C%3C%2CP-R
+                - generic [ref=e370]:
+                  - img [ref=e371]
+                  - generic [ref=e377]:
+                    - generic [ref=e380]: Online status indicator
+                    - generic [ref=e381]: Active
+              - generic [ref=e383]:
+                - heading [level=2] [ref=e387]:
+                  - link [ref=e392] [cursor=pointer]:
+                    - /url: https://www.facebook.com/snazzyfloret?__cft__[0]=AZZwJToX0QUkCrWuMs2uE9guF6B_rIJgWFAGKXRblWRGHDEcdtccBKkN82L0KuuCFA8EqAfeStKFDOMxQwQrJwiS2D3uFJ4QcLhiAKwcQYfPPHFkl98NNeEt0ARvHO9ZA_s0TQJj5Ot970hmYdIP34IaWWhgnLLn7xh77STbV6iN0ZFNmchm8whj49otMS5s6D1otrOHqol55ivDyPJnF3g9SYZcDJEsuhb3hkjIVavAdjyweYpNPThBp6V_BiCoe3k&__tn__=-UC%2CP-R
+                    - generic [ref=e393]: Snazzy Floret
+                - generic [ref=e396]:
+                  - link [ref=e400] [cursor=pointer]:
+                    - /url: https://www.facebook.com/snazzyfloret/posts/pfbid0RNhjwDJXUKU3WkQRGjchWHADSHjATxpc8vEnXS1t8Cn75WH9TuBoemzjGeAjsvY3l?__cft__[0]=AZZwJToX0QUkCrWuMs2uE9guF6B_rIJgWFAGKXRblWRGHDEcdtccBKkN82L0KuuCFA8EqAfeStKFDOMxQwQrJwiS2D3uFJ4QcLhiAKwcQYfPPHFkl98NNeEt0ARvHO9ZA_s0TQJj5Ot970hmYdIP34IaWWhgnLLn7xh77STbV6iN0ZFNmchm8whj49otMS5s6D1otrOHqol55ivDyPJnF3g9SYZcDJEsuhb3hkjIVavAdjyweYpNPThBp6V_BiCoe3k&__tn__=%2CO%2CP-R
+                    - text: 11h
+                  - generic [ref=e402]: ·
+                  - img [ref=e407]
+            - generic [ref=e413]:
+              - generic [ref=e422]:
+                - text: আপু আপনার এই ছবি টা অরগ্যানিক ভাবেই এত রিচ পেয়েছে।আপনি আমাদের কাছে থেকে একটা গিফট ডিসার্ভ করেন। খুব দ্রুত আপনার কাছে গিফট চলে যাবে আপু ইনশা আল্লাহ
+                - img [ref=e424]
+                - img [ref=e426]
+              - generic [ref=e429]:
+                - link [ref=e432] [cursor=pointer]:
+                  - /url: https://www.facebook.com/photo/?fbid=949283874130613&set=a.222838040108537&__cft__[0]=AZZwJToX0QUkCrWuMs2uE9guF6B_rIJgWFAGKXRblWRGHDEcdtccBKkN82L0KuuCFA8EqAfeStKFDOMxQwQrJwiS2D3uFJ4QcLhiAKwcQYfPPHFkl98NNeEt0ARvHO9ZA_s0TQJj5Ot970hmYdIP34IaWWhgnLLn7xh77STbV6iN0ZFNmchm8whj49otMS5s6D1otrOHqol55ivDyPJnF3g9SYZcDJEsuhb3hkjIVavAdjyweYpNPThBp6V_BiCoe3k&__tn__=EH-y-R
+                  - img [ref=e437]
+                - generic [ref=e439]:
+                  - link [ref=e443] [cursor=pointer]:
+                    - /url: /stories/110011028057906/UzpfSVNDOjE0NjI4NjY4NDE5NTI2MzY=/?view_single=false&__cft__[0]=AZZwJToX0QUkCrWuMs2uE9guF6B_rIJgWFAGKXRblWRGHDEcdtccBKkN82L0KuuCFA8EqAfeStKFDOMxQwQrJwiS2D3uFJ4QcLhiAKwcQYfPPHFkl98NNeEt0ARvHO9ZA_s0TQJj5Ot970hmYdIP34IaWWhgnLLn7xh77STbV6iN0ZFNmchm8whj49otMS5s6D1otrOHqol55ivDyPJnF3g9SYZcDJEsuhb3hkjIVavAdjyweYpNPThBp6V_BiCoe3k&__tn__=%3C%3C%2CP-y-R
+                    - generic [ref=e444]:
+                      - img [ref=e445]
+                      - generic [ref=e451]:
+                        - generic [ref=e454]: Online status indicator
+                        - generic [ref=e455]: Active
+                  - generic [ref=e456]:
+                    - heading [level=3] [ref=e460]:
+                      - link [ref=e465] [cursor=pointer]:
+                        - /url: https://www.facebook.com/snazzyfloret?__cft__[0]=AZZwJToX0QUkCrWuMs2uE9guF6B_rIJgWFAGKXRblWRGHDEcdtccBKkN82L0KuuCFA8EqAfeStKFDOMxQwQrJwiS2D3uFJ4QcLhiAKwcQYfPPHFkl98NNeEt0ARvHO9ZA_s0TQJj5Ot970hmYdIP34IaWWhgnLLn7xh77STbV6iN0ZFNmchm8whj49otMS5s6D1otrOHqol55ivDyPJnF3g9SYZcDJEsuhb3hkjIVavAdjyweYpNPThBp6V_BiCoe3k&__tn__=-UC%2CP-y-R
+                        - generic [ref=e466]: Snazzy Floret
+                    - generic [ref=e469]:
+                      - link [ref=e473] [cursor=pointer]:
+                        - /url: https://www.facebook.com/snazzyfloret/posts/pfbid0kcPnffg7hJUfbweF8NTEtr4EnQxEG7ddJ2exk7TEwL3GTkY1kS8f9nQf3L4j4Zcgl?__cft__[0]=AZZwJToX0QUkCrWuMs2uE9guF6B_rIJgWFAGKXRblWRGHDEcdtccBKkN82L0KuuCFA8EqAfeStKFDOMxQwQrJwiS2D3uFJ4QcLhiAKwcQYfPPHFkl98NNeEt0ARvHO9ZA_s0TQJj5Ot970hmYdIP34IaWWhgnLLn7xh77STbV6iN0ZFNmchm8whj49otMS5s6D1otrOHqol55ivDyPJnF3g9SYZcDJEsuhb3hkjIVavAdjyweYpNPThBp6V_BiCoe3k&__tn__=%2CO%2CP-y-R
+                        - text: 6d
+                      - generic [ref=e475]: ·
+                      - img [ref=e480]
+                - generic [ref=e494]:
+                  - generic [ref=e495]: আমার মনে হয় দুইটা আংগারখা ই আবার অর্ডার নেই।।
+                  - generic [ref=e496]:
+                    - text: এত এত সুন্দর লাগে পরলে। …
+                    - button [ref=e497] [cursor=pointer]: See more
+            - generic [ref=e500]:
+              - generic [ref=e502]:
+                - generic [ref=e504]:
+                  - generic [ref=e505]:
+                    - toolbar [ref=e506]:
+                      - generic [ref=e507]:
+                        - button [ref=e511] [cursor=pointer]
+                        - button [ref=e515] [cursor=pointer]
+                        - button [ref=e519] [cursor=pointer]
+                    - generic [ref=e520]: "All reactions:"
+                    - generic [ref=e522]: "32"
+                  - button [ref=e526] [cursor=pointer]:
+                    - generic [ref=e527]: 4 comments
+                - generic [ref=e529]:
+                  - button [ref=e531] [cursor=pointer]:
+                    - generic [ref=e536]: Like
+                  - button [ref=e538] [cursor=pointer]:
+                    - generic [ref=e543]: Comment
+              - button [ref=e547] [cursor=pointer]:
+                - generic [ref=e549]: View more comments
+              - article [ref=e552]:
+                - link [ref=e556] [cursor=pointer]:
+                  - /url: https://www.facebook.com/snazzyfloret?comment_id=Y29tbWVudDo5NTQwNjI1NzM2NTI3NDNfMjEzNTk0MzM2NzI1NTQ5MA%3D%3D&__cft__[0]=AZZwJToX0QUkCrWuMs2uE9guF6B_rIJgWFAGKXRblWRGHDEcdtccBKkN82L0KuuCFA8EqAfeStKFDOMxQwQrJwiS2D3uFJ4QcLhiAKwcQYfPPHFkl98NNeEt0ARvHO9ZA_s0TQJj5Ot970hmYdIP34IaWWhgnLLn7xh77STbV6iN0ZFNmchm8whj49otMS5s6D1otrOHqol55ivDyPJnF3g9SYZcDJEsuhb3hkjIVavAdjyweYpNPThBp6V_BiCoe3k&__tn__=R-R
+                  - img [ref=e558]
+                - generic [ref=e562]:
+                  - generic [ref=e566]:
+                    - button [ref=e567] [cursor=pointer]:
+                      - generic [ref=e569]: Author
+                    - link [ref=e572] [cursor=pointer]:
+                      - /url: https://www.facebook.com/snazzyfloret?comment_id=Y29tbWVudDo5NTQwNjI1NzM2NTI3NDNfMjEzNTk0MzM2NzI1NTQ5MA%3D%3D&__cft__[0]=AZZwJToX0QUkCrWuMs2uE9guF6B_rIJgWFAGKXRblWRGHDEcdtccBKkN82L0KuuCFA8EqAfeStKFDOMxQwQrJwiS2D3uFJ4QcLhiAKwcQYfPPHFkl98NNeEt0ARvHO9ZA_s0TQJj5Ot970hmYdIP34IaWWhgnLLn7xh77STbV6iN0ZFNmchm8whj49otMS5s6D1otrOHqol55ivDyPJnF3g9SYZcDJEsuhb3hkjIVavAdjyweYpNPThBp6V_BiCoe3k&__tn__=R-R
+                      - generic [ref=e574]: Snazzy Floret
+                    - generic [ref=e578]:
+                      - text: কেউ আপু কে চিনলে ট্যাগ করে দিবেন প্লিজ
+                      - img [ref=e580]
+                  - list [ref=e582]:
+                    - listitem [ref=e583]:
+                      - link [ref=e586] [cursor=pointer]:
+                        - /url: https://www.facebook.com/snazzyfloret/posts/pfbid0RNhjwDJXUKU3WkQRGjchWHADSHjATxpc8vEnXS1t8Cn75WH9TuBoemzjGeAjsvY3l?comment_id=2135943367255490&__cft__[0]=AZZwJToX0QUkCrWuMs2uE9guF6B_rIJgWFAGKXRblWRGHDEcdtccBKkN82L0KuuCFA8EqAfeStKFDOMxQwQrJwiS2D3uFJ4QcLhiAKwcQYfPPHFkl98NNeEt0ARvHO9ZA_s0TQJj5Ot970hmYdIP34IaWWhgnLLn7xh77STbV6iN0ZFNmchm8whj49otMS5s6D1otrOHqol55ivDyPJnF3g9SYZcDJEsuhb3hkjIVavAdjyweYpNPThBp6V_BiCoe3k&__tn__=R-R
+                        - text: 11h
+        - generic [ref=e588]:
+          - article [ref=e589]:
+            - status [ref=e590]
+          - article [ref=e602]:
+            - status [ref=e603]
+  - dialog [ref=e623]:
+    - button "Close" [ref=e625] [cursor=pointer]
+    - generic [ref=e632]:
+      - img [ref=e636]
+      - generic [ref=e643]: See more from Snazzy Floret | Dhaka
+      - generic [ref=e648]:
+        - generic: Email address or phone number
+        - textbox "Email address or phone number" [active] [ref=e649]
+      - generic [ref=e654]:
+        - generic: Password
+        - textbox "Password" [ref=e655]
+      - button "Log in to Facebook" [ref=e657] [cursor=pointer]:
+        - generic [ref=e660]: Log in
+      - link "Forgotten password?" [ref=e662] [cursor=pointer]:
+        - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+        - generic [ref=e663]: Forgotten password?
+      - generic [ref=e669]: or
+      - button "Create new account" [ref=e673] [cursor=pointer]:
+        - generic [ref=e676]: Create new account

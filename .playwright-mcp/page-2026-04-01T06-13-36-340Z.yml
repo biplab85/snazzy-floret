@@ -1,0 +1,147 @@
+- generic [ref=e5]:
+  - banner:
+    - generic [ref=e8]:
+      - generic [ref=e10]:
+        - generic:
+          - button [disabled]:
+            - img
+        - button "Facebook" [ref=e12] [cursor=pointer]:
+          - img "Facebook" [ref=e13]
+      - generic [ref=e18]:
+        - textbox "Email or phone" [ref=e21]
+        - textbox "Password" [ref=e24]
+        - button "Log in" [ref=e27] [cursor=pointer]:
+          - generic [ref=e31]: Log in
+        - link "Forgotten account?" [ref=e34] [cursor=pointer]:
+          - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+  - main [ref=e41]:
+    - generic [ref=e42]:
+      - link "View profile cover photo" [ref=e432] [cursor=pointer]:
+        - /url: https://www.facebook.com/photo/?fbid=710692157989787&set=a.222838050108536
+      - generic [ref=e61]:
+        - button "Snazzy Floret" [ref=e433] [cursor=pointer]:
+          - generic [ref=e65]:
+            - img "Snazzy Floret" [ref=e434]
+            - generic [ref=e74]: Active Status indicator
+        - generic [ref=e77]:
+          - heading "Snazzy Floret" [level=1] [ref=e435]: Snazzy Floret
+          - generic [ref=e84]:
+            - link "82K followers" [ref=e436] [cursor=pointer]:
+              - /url: https://www.facebook.com/snazzyfloret/followers/
+              - strong [ref=e86]: 82K
+              - text: followers
+            - text: •
+            - link "0 following" [ref=e437] [cursor=pointer]:
+              - /url: https://www.facebook.com/snazzyfloret/following/
+              - strong [ref=e88]: "0"
+              - text: following
+    - generic [ref=e96]:
+      - tablist [ref=e104]:
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]: More
+            - img [ref=e110]
+          - tab "Posts" [ref=e438] [cursor=pointer]:
+            - generic [ref=e115]: Posts
+          - tab "About" [ref=e439] [cursor=pointer]:
+            - generic [ref=e119]: About
+          - tab "Reels" [ref=e440] [cursor=pointer]:
+            - generic [ref=e123]: Reels
+          - tab "Photos" [selected] [ref=e441] [cursor=pointer]:
+            - generic [ref=e127]: Photos
+          - tab "Following" [ref=e442] [cursor=pointer]:
+            - generic [ref=e131]: Following
+      - button "Profile settings see more options" [ref=e443] [cursor=pointer]:
+        - img [ref=e137]
+    - generic [ref=e149]:
+      - heading "Photos" [level=2] [ref=e444]:
+        - link "Photos" [active] [ref=e445] [cursor=pointer]:
+          - /url: https://www.facebook.com/snazzyfloret/photos
+      - tablist [ref=e160]:
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e164]: More
+            - img [ref=e166]
+          - tab "Snazzy Floret's Photos" [selected] [ref=e446] [cursor=pointer]:
+            - generic [ref=e171]: Snazzy Floret's Photos
+          - tab "Tagged photos" [ref=e447] [cursor=pointer]:
+            - generic [ref=e175]: Tagged photos
+          - tab "Albums" [ref=e448] [cursor=pointer]:
+            - generic [ref=e179]: Albums
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - link "No photo description available." [ref=e449] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954436880281979&set=pb.100071470284463.-2207520000&type=3
+            - img "No photo description available." [ref=e450]
+          - link "No photo description available." [ref=e451] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954061466986187&set=pb.100071470284463.-2207520000&type=3
+            - img "No photo description available." [ref=e452]
+          - link "No photo description available." [ref=e453] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954029020322765&set=pb.100071470284463.-2207520000&type=3
+            - img "No photo description available." [ref=e454]
+          - link "No photo description available." [ref=e455] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954028966989437&set=pb.100071470284463.-2207520000&type=3
+            - img "No photo description available." [ref=e456]
+          - link "May be an image of text" [ref=e457] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954028900322777&set=pb.100071470284463.-2207520000&type=3
+            - img "May be an image of text" [ref=e458]
+          - link "No photo description available." [ref=e459] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954028863656114&set=pb.100071470284463.-2207520000&type=3
+            - img "No photo description available." [ref=e460]
+          - link "No photo description available." [ref=e461] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954028830322784&set=pb.100071470284463.-2207520000&type=3
+            - img "No photo description available." [ref=e462]
+          - link "No photo description available." [ref=e463] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954028800322787&set=pb.100071470284463.-2207520000&type=3
+            - img "No photo description available." [ref=e464]
+          - link "May be an image of smiling and bedroom" [ref=e470] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954028766989457&set=pb.100071470284463.-2207520000&type=3
+            - img "May be an image of smiling and bedroom" [ref=e471]
+          - link "No photo description available." [ref=e477] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=954028730322794&set=pb.100071470284463.-2207520000&type=3
+            - img "No photo description available." [ref=e478]
+          - link "May be an image of headscarf" [ref=e484] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=953665947025739&set=pb.100071470284463.-2207520000&type=3
+            - img "May be an image of headscarf" [ref=e485]
+          - link "May be an image of headscarf, ocean and beach" [ref=e491] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=953665910359076&set=pb.100071470284463.-2207520000&type=3
+            - img "May be an image of headscarf, ocean and beach" [ref=e492]
+          - link "May be an image of crocodile, elephant and camel" [ref=e498] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=953665867025747&set=pb.100071470284463.-2207520000&type=3
+            - img "May be an image of crocodile, elephant and camel" [ref=e499]
+          - link "May be an image of one or more people and towel" [ref=e505] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=953665010359166&set=pb.100071470284463.-2207520000&type=3
+            - img "May be an image of one or more people and towel" [ref=e506]
+          - link "No photo description available." [ref=e512] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=953664977025836&set=pb.100071470284463.-2207520000&type=3
+            - img "No photo description available." [ref=e513]
+          - link "No photo description available." [ref=e519] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=953664940359173&set=pb.100071470284463.-2207520000&type=3
+            - img "No photo description available." [ref=e520]
+          - status "Loading..." [ref=e521]
+          - status "Loading..." [ref=e522]
+          - status "Loading..." [ref=e525]
+          - status "Loading..." [ref=e528]
+          - status "Loading..." [ref=e529]
+          - status "Loading..." [ref=e530]
+          - status "Loading..." [ref=e531]
+          - status "Loading..." [ref=e532]
+          - status "Loading..." [ref=e533]
+          - status "Loading..." [ref=e534]
+          - status "Loading..." [ref=e535]
+          - status "Loading..." [ref=e536]
+          - status "Loading..." [ref=e537]
+          - status "Loading..." [ref=e538]
+          - status "Loading..." [ref=e539]
+          - status "Loading..." [ref=e540]
+        - status "Loading..." [ref=e541]
+  - generic [ref=e543]:
+    - generic [ref=e546]: Log in or sign up for Facebook to connect with friends, family and people you know.
+    - generic [ref=e548]:
+      - link "Log in" [ref=e550] [cursor=pointer]:
+        - /url: /login/?next=%2Fsnazzyfloret%2Fphotos
+        - generic [ref=e553]: Log in
+      - generic [ref=e555]: or
+      - link "Create new account" [ref=e557] [cursor=pointer]:
+        - /url: /reg/?next=%2Fsnazzyfloret%2Fphotos
+        - generic [ref=e560]: Create new account

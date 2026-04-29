@@ -1,0 +1,217 @@
+2026-04-07T03:19:24+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T03:19:24+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T03:19:25+00:00 ERROR Error persisting error logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T03:24:58+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T03:39:58+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T03:52:58+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T03:54:00+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T03:54:00+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T04:04:51+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T04:05:05+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T04:17:47+00:00 NOTICE Unable to detect valid feed configuration: No catalog ID
+2026-04-07T04:17:47+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-07T04:17:47+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#5 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#6 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array('facebook_for_wo...', Array)
+#7 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action(457, 'WP Cron')
+#9 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#10 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run('WP Cron')
+#11 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#12 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#13 E:\wampserver\www\sklentr\snazzy-floret\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#14 {main}
+2026-04-07T04:17:47+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-07T04:17:47+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#5 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#6 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array('facebook_for_wo...', Array)
+#7 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action(457, 'WP Cron')
+#9 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#10 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run('WP Cron')
+#11 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#12 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#13 E:\wampserver\www\sklentr\snazzy-floret\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#14 {main}
+2026-04-07T04:17:47+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-07T04:17:47+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#5 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#6 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array('facebook_for_wo...', Array)
+#7 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action(457, 'WP Cron')
+#9 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#10 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run('WP Cron')
+#11 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#12 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#13 E:\wampserver\www\sklentr\snazzy-floret\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#14 {main}
+2026-04-07T04:17:47+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-07T04:17:47+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#5 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#6 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array('facebook_for_wo...', Array)
+#7 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action(457, 'WP Cron')
+#9 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#10 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run('WP Cron')
+#11 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#12 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#13 E:\wampserver\www\sklentr\snazzy-floret\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#14 {main}
+2026-04-07T04:17:47+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-07T04:17:47+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#5 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#6 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array('facebook_for_wo...', Array)
+#7 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action(457, 'WP Cron')
+#9 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#10 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run('WP Cron')
+#11 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#12 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#13 E:\wampserver\www\sklentr\snazzy-floret\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#14 {main}
+2026-04-07T04:17:47+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-07T04:17:47+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#5 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#6 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array('facebook_for_wo...', Array)
+#7 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action(457, 'WP Cron')
+#9 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#10 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run('WP Cron')
+#11 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#12 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#13 E:\wampserver\www\sklentr\snazzy-floret\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#14 {main}
+2026-04-07T04:17:47+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-07T04:17:47+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#5 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#6 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array('facebook_for_wo...', Array)
+#7 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action(457, 'WP Cron')
+#9 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#10 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run('WP Cron')
+#11 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#12 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#13 E:\wampserver\www\sklentr\snazzy-floret\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#14 {main}
+2026-04-07T04:17:47+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-07T04:17:47+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#5 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#6 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array('facebook_for_wo...', Array)
+#7 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action(457, 'WP Cron')
+#9 E:\wampserver\www\sklentr\snazzy-floret\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#10 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run('WP Cron')
+#11 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#12 E:\wampserver\www\sklentr\snazzy-floret\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#13 E:\wampserver\www\sklentr\snazzy-floret\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#14 {main}
+2026-04-07T04:17:47+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T04:19:16+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T04:26:29+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T04:32:03+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T04:38:00+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T04:43:02+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T04:44:26+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T04:51:21+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T04:54:16+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T05:05:03+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T05:17:50+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T05:17:50+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T05:17:50+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T05:20:20+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T05:25:39+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T05:38:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T05:40:45+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T05:44:24+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T05:51:33+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T05:56:32+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T06:09:09+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T06:10:49+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T06:19:25+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T06:21:06+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T06:24:00+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T06:47:57+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T07:02:43+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T07:07:14+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T07:10:52+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T07:10:52+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T07:10:52+00:00 ERROR Error persisting error logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T07:10:52+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T07:22:04+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T07:22:04+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T07:24:49+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T07:49:59+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T07:51:37+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T07:56:54+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T08:01:07+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T08:04:18+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T09:27:25+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T09:27:25+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T09:27:25+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T09:30:50+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T09:34:18+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T09:53:06+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T09:54:05+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T10:03:57+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T10:04:10+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T10:12:58+00:00 ERROR Error persisting error logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T10:12:58+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T10:14:20+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T10:19:33+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T10:47:22+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T10:50:07+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T10:58:45+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T10:59:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T11:07:22+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T11:09:56+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T11:09:56+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T11:09:56+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T11:14:11+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T11:24:13+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T11:30:03+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T12:05:22+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T13:20:40+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T13:20:40+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T13:20:40+00:00 ERROR Error persisting error logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T13:20:40+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T14:21:42+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T14:21:42+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-07T14:24:08+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T14:40:10+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T14:43:59+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T14:49:41+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T14:58:00+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T15:10:44+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-07T15:17:10+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []

@@ -1,0 +1,45 @@
+/* ============================================================
+   Product Card — Out of Stock overlay & disabled cart
+   ============================================================ */
+.sf-card__image-wrap { position: relative; }
+
+.sf-card__oos-overlay {
+	position: absolute;
+	inset: 0;
+	z-index: 4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(180deg, rgba(15,10,5,.18) 0%, rgba(15,10,5,.55) 100%);
+	backdrop-filter: blur(2px);
+	-webkit-backdrop-filter: blur(2px);
+	pointer-events: none;
+	transition: background .3s ease;
+}
+
+.sf-card__oos-pill {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 20px;
+	font-family: 'Inter', sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: .22em;
+	text-transform: uppercase;
+	color: #FAFAF8;
+	background: rgba(44, 44, 44, .92);
+	border: 1px solid rgba(212, 167, 106, .5);
+	border-radius: 999px;
+	box-shadow: 0 12px 30px -12px rgba(0,0,0,.55);
+	backdrop-filter: blur(6px);
+	-webkit-backdrop-filter: blur(6px);
+}
+.sf-card__oos-pill svg { color: #D4A76A; }
+
+.sf-card__add-btn--disabled {
+	opacity: .5;
+	cursor: not-allowed !important;
+	pointer-events: none;
+	filter: grayscale(.4);
+}

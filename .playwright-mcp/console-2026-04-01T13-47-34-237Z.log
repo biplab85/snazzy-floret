@@ -1,0 +1,5 @@
+[      14ms] Uncaught TypeError: e.indexOf is not a function
+    at <anonymous> (https://public-assets.envato-static.com/assets/market/pages/full_screen_preview/index-32a2c775445fe25800101c1fc917865a21c9decbe4ded4ebfdf0b8240b6bb989.js:2:17365)
+    at <anonymous> (https://preview.themeforest.net/item/newspaper/full_screen_preview/5489609:64:9)
+[      51ms] [WARNING] Error: The domain PREVIEW.THEMEFOREST.NET is not authorized to show the cookie banner for domain group ID d10f7659-aa82-4007-9cf1-54a9496002bf. Please add it to the domain group in the Cookiebot Manager to authorize the domain. @ https://consent.cookiebot.com/d10f7659-aa82-4007-9cf1-54a9496002bf/cc.js?renew=false&referer=preview.themeforest.net&dnt=false&init=false&georegions=%5B%7B%22r%22%3A%22US%22%2C%22i%22%3A%22d9683f70-895f-4427-97dc-f1087cddf9d8%22%7D%5D:0
+[     721ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://demo.tagdiv.com/select_demo/wp-content/cache/autoptimize/js/autoptimize_66be08d1e5a61b31ca17ba89bb7c083d.js:1

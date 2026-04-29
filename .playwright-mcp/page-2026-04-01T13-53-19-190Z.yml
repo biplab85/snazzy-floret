@@ -1,0 +1,745 @@
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - link " Close" [ref=e8] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e9]: 
+      - generic: Close
+    - complementary "Popup" [ref=e10]:
+      - generic [ref=e12]:
+        - heading "Your favorite characters are back!" [level=2] [ref=e14]
+        - paragraph [ref=e15]: Dont's miss out – quantities are limited
+        - link "Shop now" [ref=e16] [cursor=pointer]:
+          - /url: https://woodmart.xtemos.com/merchandise/shop/
+          - generic [ref=e17]: Shop now
+  - generic [ref=e18]:
+    - banner [ref=e19]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - link "Site logo" [ref=e26] [cursor=pointer]:
+            - /url: https://woodmart.xtemos.com/merchandise/
+          - navigation "Main navigation" [ref=e27]:
+            - list [ref=e28]:
+              - listitem [ref=e29]:
+                - link "navigation-menu-star New In" [ref=e30] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/shop/?orderby=date
+                  - img "navigation-menu-star" [ref=e31]
+                  - generic [ref=e32]: New In
+              - listitem [ref=e33]:
+                - link "navigation-menu-t-shirt Products " [ref=e34] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/shop
+                  - img "navigation-menu-t-shirt" [ref=e35]
+                  - generic [ref=e36]: Products
+                  - text: 
+              - listitem [ref=e37]:
+                - link "navigation-menu-d-pad Gaming " [ref=e38] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-type/gaming/
+                  - img "navigation-menu-d-pad" [ref=e39]
+                  - generic [ref=e40]: Gaming
+                  - text: 
+              - listitem [ref=e41]:
+                - link "navigation-menu-movie TV & Movies " [ref=e42] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-type/tv-movies/
+                  - img "navigation-menu-movie" [ref=e43]
+                  - generic [ref=e44]: TV & Movies
+                  - text: 
+        - generic "Search" [ref=e46]:
+          - link "Search" [ref=e47] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e48]:  
+        - generic [ref=e49]:
+          - link "" [ref=e51] [cursor=pointer]:
+            - /url: https://woodmart.xtemos.com/merchandise/my-account/
+            - generic [ref=e52]: 
+          - generic "My Wishlist" [ref=e53]:
+            - link " 0" [ref=e54] [cursor=pointer]:
+              - /url: https://woodmart.xtemos.com/merchandise/wishlist/
+              - generic [ref=e55]:
+                - text: 
+                - generic [ref=e56]: "0"
+          - link " 0 $0,00" [ref=e58] [cursor=pointer]:
+            - /url: https://woodmart.xtemos.com/merchandise/cart/
+            - generic [ref=e59]:
+              - generic [ref=e60]:
+                - text: 
+                - generic [ref=e61]: "0"
+              - generic [ref=e65]: $0,00
+        - text:  
+    - main [ref=e67]:
+      - article [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - heading "Level Up Your Gear!" [level=2] [ref=e72]
+            - heading "Official Merch for Every Gamer – Shop Hoodies, Collectibles, Posters, and More!" [level=2] [ref=e73]
+          - generic [ref=e76]:
+            - generic [ref=e78]:
+              - generic [ref=e81]:
+                - link "Figures" [ref=e83] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/collectables/figures/
+                - heading "Figures" [level=3] [ref=e85]
+                - link "Product category figures" [ref=e86] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/collectables/figures/
+              - generic [ref=e89]:
+                - link "Hats" [ref=e91] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/apparel/hats/
+                - heading "Hats" [level=3] [ref=e93]
+                - link "Product category hats" [ref=e94] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/apparel/hats/
+              - generic [ref=e97]:
+                - link "Pins" [ref=e99] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/accessories-arts/pins/
+                - heading "Pins" [level=3] [ref=e101]
+                - link "Product category pins" [ref=e102] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/accessories-arts/pins/
+              - generic [ref=e105]:
+                - link "Plushes" [ref=e107] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/collectables/plushes/
+                - heading "Plushes" [level=3] [ref=e109]
+                - link "Product category plushes" [ref=e110] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/collectables/plushes/
+              - generic [ref=e113]:
+                - link "Posters" [ref=e115] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/accessories-arts/posters/
+                - heading "Posters" [level=3] [ref=e117]
+                - link "Product category posters" [ref=e118] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/accessories-arts/posters/
+              - generic [ref=e121]:
+                - link "Stickers" [ref=e123] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/accessories-arts/stickers/
+                - heading "Stickers" [level=3] [ref=e125]
+                - link "Product category stickers" [ref=e126] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/accessories-arts/stickers/
+              - generic [ref=e129]:
+                - link "Sweatshirts" [ref=e131] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/apparel/sweatshirts/
+                - heading "Sweatshirts" [level=3] [ref=e133]
+                - link "Product category sweatshirts" [ref=e134] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/apparel/sweatshirts/
+              - generic [ref=e137]:
+                - link "T-Shirts" [ref=e139] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/apparel/t-shirts/
+                - heading "T-Shirts" [level=3] [ref=e141]
+                - link "Product category t-shirts" [ref=e142] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/apparel/t-shirts/
+            - generic:
+              - generic:
+                - generic: 
+              - generic:
+                - generic: 
+        - generic [ref=e143]:
+          - generic [ref=e146]:
+            - group "1 / 3" [ref=e147]:
+              - generic [ref=e148]:
+                - heading "Say “Hello” to Adventure" [level=2] [ref=e150]
+                - paragraph [ref=e151]: Perfect for fans of the iconic platformer.
+                - link "Shop now" [ref=e152] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/astro-bot-plush/
+                  - generic [ref=e153]: Shop now
+            - group "2 / 3" [ref=e155]:
+              - generic [ref=e156]:
+                - heading "Embrace the Epic World of Arrakis" [level=2] [ref=e158]
+                - paragraph [ref=e159]: Featuring minimalist desert tones and iconic symbols from the saga
+                - link "Shop now" [ref=e160] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/dune-sweatshirt/
+                  - generic [ref=e161]: Shop now
+            - group "3 / 3" [ref=e163]:
+              - generic [ref=e164]:
+                - heading "Geralt of Rivia Figure" [level=2] [ref=e166]
+                - paragraph [ref=e167]: A must-have collectible for any Witcher fan!
+                - link "Shop now" [ref=e168] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/geralt-of-rivia-figure/
+                  - generic [ref=e169]: Shop now
+          - list [ref=e172]:
+            - listitem "Go to slide 1" [ref=e173] [cursor=pointer]
+            - listitem "Go to slide 2" [ref=e175] [cursor=pointer]
+            - listitem "Go to slide 3" [ref=e177] [cursor=pointer]
+        - generic [ref=e180]:
+          - generic [ref=e182]:
+            - group "1 / 8" [ref=e183]:
+              - link [ref=e185] [cursor=pointer]:
+                - /url: https://woodmart.xtemos.com/merchandise/franchise/back-to-the-future/
+            - group "2 / 8" [ref=e186]:
+              - link [ref=e188] [cursor=pointer]:
+                - /url: https://woodmart.xtemos.com/merchandise/franchise/the-last-of-us/
+            - group "3 / 8" [ref=e189]:
+              - link [ref=e191] [cursor=pointer]:
+                - /url: https://woodmart.xtemos.com/merchandise/franchise/fallout/
+            - group "4 / 8" [ref=e192]:
+              - link [ref=e194] [cursor=pointer]:
+                - /url: https://woodmart.xtemos.com/merchandise/franchise/hollow-knight/
+            - group "5 / 8" [ref=e195]:
+              - link [ref=e197] [cursor=pointer]:
+                - /url: https://woodmart.xtemos.com/merchandise/franchise/minecraft/
+            - group "6 / 8" [ref=e198]:
+              - link [ref=e200] [cursor=pointer]:
+                - /url: https://woodmart.xtemos.com/merchandise/franchise/star-wars/
+            - group "7 / 8" [ref=e201]:
+              - link [ref=e203] [cursor=pointer]:
+                - /url: https://woodmart.xtemos.com/merchandise/franchise/the-legend-of-zelda/
+            - group "8 / 8" [ref=e204]:
+              - link [ref=e206] [cursor=pointer]:
+                - /url: https://woodmart.xtemos.com/merchandise/franchise/pokemon/
+          - generic:
+            - button "Previous slide" [disabled]:
+              - generic: 
+            - button "Next slide" [disabled]:
+              - generic: 
+        - generic [ref=e207]:
+          - heading "What’s New" [level=2] [ref=e208]
+          - link "View more" [ref=e209] [cursor=pointer]:
+            - /url: https://woodmart.xtemos.com/merchandise/shop/?orderby=date
+            - generic [ref=e210]: View more
+        - generic [ref=e213]:
+          - generic [ref=e215]:
+            - group "1 / 6" [ref=e216]:
+              - generic [ref=e218]:
+                - link "Astro Bot T-Shirt" [ref=e220] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/astro-bot-t-shirt/
+                  - generic [ref=e222]: Hot
+                - generic [ref=e223]:
+                  - heading "Astro Bot T-Shirt" [level=3] [ref=e224]:
+                    - link "Astro Bot T-Shirt" [ref=e225] [cursor=pointer]:
+                      - /url: https://woodmart.xtemos.com/merchandise/product/astro-bot-t-shirt/
+                  - img "Rated 5.00 out of 5" [ref=e226]:
+                    - text: 
+                    - generic [ref=e227]:
+                      - text:  Rated
+                      - strong [ref=e228]: "5.00"
+                      - text: out of 5
+                  - generic [ref=e231]: $28,65
+            - group "2 / 6" [ref=e232]:
+              - generic [ref=e234]:
+                - link "Back to the Future T-Shirt" [ref=e236] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/back-to-the-future-t-shirt/
+                  - generic [ref=e238]: "-17%"
+                - generic [ref=e239]:
+                  - heading "Back to the Future T-Shirt" [level=3] [ref=e240]:
+                    - link "Back to the Future T-Shirt" [ref=e241] [cursor=pointer]:
+                      - /url: https://woodmart.xtemos.com/merchandise/product/back-to-the-future-t-shirt/
+                  - img "Rated 5.00 out of 5" [ref=e242]:
+                    - text: 
+                    - generic [ref=e243]:
+                      - text:  Rated
+                      - strong [ref=e244]: "5.00"
+                      - text: out of 5
+                  - generic [ref=e245]:
+                    - deletion [ref=e246]:
+                      - generic [ref=e248]: $27,90
+                    - generic: "Original price was: $27,90."
+                    - insertion [ref=e249]:
+                      - generic [ref=e251]: $23,25
+                    - generic: "Current price is: $23,25."
+            - group "3 / 6" [ref=e252]:
+              - generic [ref=e254]:
+                - link "Dune Sun Cap" [ref=e256] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/dune-sun-cap/
+                  - generic [ref=e258]: "-11%"
+                - generic [ref=e259]:
+                  - heading "Dune Sun Cap" [level=3] [ref=e260]:
+                    - link "Dune Sun Cap" [ref=e261] [cursor=pointer]:
+                      - /url: https://woodmart.xtemos.com/merchandise/product/dune-sun-cap/
+                  - img "Rated 5.00 out of 5" [ref=e262]:
+                    - text: 
+                    - generic [ref=e263]:
+                      - text:  Rated
+                      - strong [ref=e264]: "5.00"
+                      - text: out of 5
+                  - generic [ref=e265]:
+                    - deletion [ref=e266]:
+                      - generic [ref=e268]: $20,48
+                    - generic: "Original price was: $20,48."
+                    - insertion [ref=e269]:
+                      - generic [ref=e271]: $18,25
+                    - generic: "Current price is: $18,25."
+            - group "4 / 6" [ref=e272]:
+              - generic [ref=e274]:
+                - link "God of War Logo Blue Cap" [ref=e276] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/god-of-war-logo-blue-cap/
+                - generic [ref=e277]:
+                  - heading "God of War Logo Blue Cap" [level=3] [ref=e278]:
+                    - link "God of War Logo Blue Cap" [ref=e279] [cursor=pointer]:
+                      - /url: https://woodmart.xtemos.com/merchandise/product/god-of-war-logo-blue-cap/
+                  - img "Rated 5.00 out of 5" [ref=e280]:
+                    - text: 
+                    - generic [ref=e281]:
+                      - text:  Rated
+                      - strong [ref=e282]: "5.00"
+                      - text: out of 5
+                  - generic [ref=e285]: $21,86
+            - group "5 / 6" [ref=e286]:
+              - generic [ref=e288]:
+                - link "Jinx Monkey Graffiti Sweatshirt" [ref=e290] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/jinx-monkey-graffiti-sweatshirt/
+                - generic [ref=e291]:
+                  - heading "Jinx Monkey Graffiti Sweatshirt" [level=3] [ref=e292]:
+                    - link "Jinx Monkey Graffiti Sweatshirt" [ref=e293] [cursor=pointer]:
+                      - /url: https://woodmart.xtemos.com/merchandise/product/jinx-monkey-graffiti-sweatshirt/
+                  - img "Rated 5.00 out of 5" [ref=e294]:
+                    - text: 
+                    - generic [ref=e295]:
+                      - text:  Rated
+                      - strong [ref=e296]: "5.00"
+                      - text: out of 5
+                  - generic [ref=e299]: $36,00
+            - group "6 / 6" [ref=e300]:
+              - generic [ref=e302]:
+                - link "Level UP Mushroom" [ref=e304] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/level-up-mushroom/
+                - generic [ref=e305]:
+                  - heading "Level UP Mushroom" [level=3] [ref=e306]:
+                    - link "Level UP Mushroom" [ref=e307] [cursor=pointer]:
+                      - /url: https://woodmart.xtemos.com/merchandise/product/level-up-mushroom/
+                  - img "Rated 5.00 out of 5" [ref=e308]:
+                    - text: 
+                    - generic [ref=e309]:
+                      - text:  Rated
+                      - strong [ref=e310]: "5.00"
+                      - text: out of 5
+                  - generic [ref=e313]: $29,99
+          - generic:
+            - button "Previous slide" [disabled]:
+              - generic: 
+            - button "Next slide":
+              - generic: 
+        - generic [ref=e317]:
+          - generic [ref=e318]:
+            - heading "Apparel & collectibles inspired by the blocky world you love!" [level=2] [ref=e320]
+            - link "Shop now" [ref=e321] [cursor=pointer]:
+              - /url: https://woodmart.xtemos.com/merchandise/franchise/minecraft/
+              - generic [ref=e322]: Shop now
+          - generic [ref=e325]:
+            - generic [ref=e327]:
+              - generic [ref=e330]:
+                - link "8 Bit Hearts Cap" [ref=e332] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/8-bit-hearts-cap/
+                - generic [ref=e333]:
+                  - heading "8 Bit Hearts Cap" [level=3] [ref=e334]:
+                    - link "8 Bit Hearts Cap" [ref=e335] [cursor=pointer]:
+                      - /url: https://woodmart.xtemos.com/merchandise/product/8-bit-hearts-cap/
+                  - img "Rated 4.00 out of 5" [ref=e336]:
+                    - text: 
+                    - generic [ref=e337]:
+                      - text:  Rated
+                      - strong [ref=e338]: "4.00"
+                      - text: out of 5
+                  - generic [ref=e341]: $22,60
+              - generic [ref=e344]:
+                - link "Alex Minecraft Figure" [ref=e346] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/alex-minecraft-figure/
+                  - generic [ref=e348]: "-23%"
+                - generic [ref=e349]:
+                  - heading "Alex Minecraft Figure" [level=3] [ref=e350]:
+                    - link "Alex Minecraft Figure" [ref=e351] [cursor=pointer]:
+                      - /url: https://woodmart.xtemos.com/merchandise/product/alex-minecraft-figure/
+                  - img "Rated 5.00 out of 5" [ref=e352]:
+                    - text: 
+                    - generic [ref=e353]:
+                      - text:  Rated
+                      - strong [ref=e354]: "5.00"
+                      - text: out of 5
+                  - generic [ref=e355]:
+                    - deletion [ref=e356]:
+                      - generic [ref=e358]: $49,99
+                    - generic: "Original price was: $49,99."
+                    - insertion [ref=e359]:
+                      - generic [ref=e361]: $38,25
+                    - generic: "Current price is: $38,25."
+              - generic [ref=e364]:
+                - link "Minecraft – 4 Pack Pins" [ref=e366] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/minecraft-4-pack-pins/
+                - generic [ref=e367]:
+                  - heading "Minecraft – 4 Pack Pins" [level=3] [ref=e368]:
+                    - link "Minecraft – 4 Pack Pins" [ref=e369] [cursor=pointer]:
+                      - /url: https://woodmart.xtemos.com/merchandise/product/minecraft-4-pack-pins/
+                  - img "Rated 4.00 out of 5" [ref=e370]:
+                    - text: 
+                    - generic [ref=e371]:
+                      - text:  Rated
+                      - strong [ref=e372]: "4.00"
+                      - text: out of 5
+                  - generic [ref=e375]: $9,00
+              - generic [ref=e378]:
+                - link "Pig Unisex T-Shirt" [ref=e380] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/pig-unisex-t-shirt/
+                  - generic [ref=e381]:
+                    - generic [ref=e382]: "-13%"
+                    - generic [ref=e383]: Hot
+                - generic [ref=e384]:
+                  - heading "Pig Unisex T-Shirt" [level=3] [ref=e385]:
+                    - link "Pig Unisex T-Shirt" [ref=e386] [cursor=pointer]:
+                      - /url: https://woodmart.xtemos.com/merchandise/product/pig-unisex-t-shirt/
+                  - img "Rated 5.00 out of 5" [ref=e387]:
+                    - text: 
+                    - generic [ref=e388]:
+                      - text:  Rated
+                      - strong [ref=e389]: "5.00"
+                      - text: out of 5
+                  - generic [ref=e390]:
+                    - deletion [ref=e391]:
+                      - generic [ref=e393]: $45,95
+                    - generic: "Original price was: $45,95."
+                    - insertion [ref=e394]:
+                      - generic [ref=e396]: $39,99
+                    - generic: "Current price is: $39,99."
+              - generic [ref=e399]:
+                - link "Pixel Axolotl Cap" [ref=e401] [cursor=pointer]:
+                  - /url: https://woodmart.xtemos.com/merchandise/product/pixel-axolotl-cap/
+                - generic [ref=e402]:
+                  - heading "Pixel Axolotl Cap" [level=3] [ref=e403]:
+                    - link "Pixel Axolotl Cap" [ref=e404] [cursor=pointer]:
+                      - /url: https://woodmart.xtemos.com/merchandise/product/pixel-axolotl-cap/
+                  - img "Rated 4.00 out of 5" [ref=e405]:
+                    - text: 
+                    - generic [ref=e406]:
+                      - text:  Rated
+                      - strong [ref=e407]: "4.00"
+                      - text: out of 5
+                  - generic [ref=e410]: $21,86
+            - generic:
+              - generic:
+                - generic: 
+              - generic:
+                - generic: 
+        - generic [ref=e411]:
+          - generic [ref=e412]:
+            - generic [ref=e413]: Bestsellers
+            - list [ref=e415]:
+              - listitem [ref=e416]:
+                - link "All products" [ref=e417] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e418]: All products
+              - listitem [ref=e419]:
+                - link "Apparel" [ref=e420] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e421]: Apparel
+              - listitem [ref=e422]:
+                - link "Accessories" [ref=e423] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e424]: Accessories
+          - generic [ref=e427]:
+            - generic [ref=e429]:
+              - link "8 Bit Hearts Cap" [ref=e431] [cursor=pointer]:
+                - /url: https://woodmart.xtemos.com/merchandise/product/8-bit-hearts-cap/
+              - generic [ref=e432]:
+                - heading "8 Bit Hearts Cap" [level=3] [ref=e433]:
+                  - link "8 Bit Hearts Cap" [ref=e434] [cursor=pointer]:
+                    - /url: https://woodmart.xtemos.com/merchandise/product/8-bit-hearts-cap/
+                - img "Rated 4.00 out of 5" [ref=e435]:
+                  - text: 
+                  - generic [ref=e436]:
+                    - text:  Rated
+                    - strong [ref=e437]: "4.00"
+                    - text: out of 5
+                - generic [ref=e440]: $22,60
+            - generic [ref=e442]:
+              - link "Alex Minecraft Figure" [ref=e444] [cursor=pointer]:
+                - /url: https://woodmart.xtemos.com/merchandise/product/alex-minecraft-figure/
+                - generic [ref=e446]: "-23%"
+              - generic [ref=e447]:
+                - heading "Alex Minecraft Figure" [level=3] [ref=e448]:
+                  - link "Alex Minecraft Figure" [ref=e449] [cursor=pointer]:
+                    - /url: https://woodmart.xtemos.com/merchandise/product/alex-minecraft-figure/
+                - img "Rated 5.00 out of 5" [ref=e450]:
+                  - text: 
+                  - generic [ref=e451]:
+                    - text:  Rated
+                    - strong [ref=e452]: "5.00"
+                    - text: out of 5
+                - generic [ref=e453]:
+                  - deletion [ref=e454]:
+                    - generic [ref=e456]: $49,99
+                  - generic: "Original price was: $49,99."
+                  - insertion [ref=e457]:
+                    - generic [ref=e459]: $38,25
+                  - generic: "Current price is: $38,25."
+            - generic [ref=e461]:
+              - link "Astro Bot Plush" [ref=e463] [cursor=pointer]:
+                - /url: https://woodmart.xtemos.com/merchandise/product/astro-bot-plush/
+              - generic [ref=e464]:
+                - heading "Astro Bot Plush" [level=3] [ref=e465]:
+                  - link "Astro Bot Plush" [ref=e466] [cursor=pointer]:
+                    - /url: https://woodmart.xtemos.com/merchandise/product/astro-bot-plush/
+                - img "Rated 4.00 out of 5" [ref=e467]:
+                  - text: 
+                  - generic [ref=e468]:
+                    - text:  Rated
+                    - strong [ref=e469]: "4.00"
+                    - text: out of 5
+                - generic [ref=e472]: $12,99
+            - generic [ref=e474]:
+              - link "Astro Bot T-Shirt" [ref=e476] [cursor=pointer]:
+                - /url: https://woodmart.xtemos.com/merchandise/product/astro-bot-t-shirt/
+                - generic [ref=e478]: Hot
+              - generic [ref=e479]:
+                - heading "Astro Bot T-Shirt" [level=3] [ref=e480]:
+                  - link "Astro Bot T-Shirt" [ref=e481] [cursor=pointer]:
+                    - /url: https://woodmart.xtemos.com/merchandise/product/astro-bot-t-shirt/
+                - img "Rated 5.00 out of 5" [ref=e482]:
+                  - text: 
+                  - generic [ref=e483]:
+                    - text:  Rated
+                    - strong [ref=e484]: "5.00"
+                    - text: out of 5
+                - generic [ref=e487]: $28,65
+        - generic [ref=e489]:
+          - generic [ref=e491]:
+            - generic [ref=e495]:
+              - heading "Fast Shipping" [level=2] [ref=e496]
+              - paragraph [ref=e497]: Get your gear delivered quickly with our express shipping options!
+            - generic [ref=e501]:
+              - heading "100% Authentic" [level=2] [ref=e502]
+              - paragraph [ref=e503]: Officially licensed merchandise from your favorite games.
+            - generic [ref=e507]:
+              - heading "24/7 Support" [level=2] [ref=e508]
+              - paragraph [ref=e509]: Need help? Our support team is here for you anytime, anywhere.
+            - generic [ref=e513]:
+              - heading "Best Deals" [level=2] [ref=e514]
+              - paragraph [ref=e515]: Save big with exclusive discounts and unbeatable prices!
+          - generic:
+            - generic:
+              - generic: 
+            - generic:
+              - generic: 
+        - generic [ref=e516]:
+          - heading "Subscribe and get 10% off your first purchase" [level=2] [ref=e518]
+          - paragraph [ref=e519]:
+            - text: Will be used in accordance with our
+            - link "Privacy Policy" [ref=e520] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e523]:
+            - textbox "Your email address" [ref=e525]
+            - button "Sign up" [ref=e527] [cursor=pointer]
+        - generic [ref=e528]:
+          - heading "Connect to our Instagram" [level=2] [ref=e529]
+          - paragraph [ref=e530]: Follow us on Instagram, keep up to date with new products and share your impressions
+          - link "@xtemos.studio" [ref=e531] [cursor=pointer]:
+            - /url: https://www.instagram.com/xtemos.studio/
+            - generic [ref=e532]: "@xtemos.studio"
+          - generic [ref=e534]:
+            - generic [ref=e535]:
+              - link "Instagram picture" [ref=e536] [cursor=pointer]:
+                - /url: https://www.instagram.com/xtemos.studio/
+              - generic:
+                - generic:  6195
+                - generic:  120
+            - generic [ref=e537]:
+              - link "Instagram picture" [ref=e538] [cursor=pointer]:
+                - /url: https://www.instagram.com/xtemos.studio/
+              - generic:
+                - generic:  4405
+                - generic:  986
+            - generic [ref=e539]:
+              - link "Instagram picture" [ref=e540] [cursor=pointer]:
+                - /url: https://www.instagram.com/xtemos.studio/
+              - generic:
+                - generic:  5020
+                - generic:  45
+            - generic [ref=e541]:
+              - link "Instagram picture" [ref=e542] [cursor=pointer]:
+                - /url: https://www.instagram.com/xtemos.studio/
+              - generic:
+                - generic:  9038
+                - generic:  613
+            - generic [ref=e543]:
+              - link "Instagram picture" [ref=e544] [cursor=pointer]:
+                - /url: https://www.instagram.com/xtemos.studio/
+              - generic:
+                - generic:  4833
+                - generic:  63
+            - generic [ref=e545]:
+              - link "Instagram picture" [ref=e546] [cursor=pointer]:
+                - /url: https://www.instagram.com/xtemos.studio/
+              - generic:
+                - generic:  6501
+                - generic:  259
+    - contentinfo:
+      - generic [ref=e547]:
+        - generic [ref=e548]:
+          - generic [ref=e549]:
+            - link [ref=e551] [cursor=pointer]:
+              - /url: https://woodmart.xtemos.com/merchandise/
+            - paragraph [ref=e552]: Each piece reflects a perfect balance of timeless artistry and modern innovation.
+          - generic [ref=e554]:
+            - heading "Company" [level=2] [ref=e556]
+            - list [ref=e559]:
+              - listitem [ref=e560]:
+                - list [ref=e561]:
+                  - listitem [ref=e562]:
+                    - link "About Us" [ref=e563] [cursor=pointer]:
+                      - /url: https://woodmart.xtemos.com/merchandise/about-us/
+                  - listitem [ref=e564]:
+                    - link "Contact Us" [ref=e565] [cursor=pointer]:
+                      - /url: https://woodmart.xtemos.com/merchandise/contact-us/
+                  - listitem [ref=e566]:
+                    - link "F.A.Q." [ref=e567] [cursor=pointer]:
+                      - /url: "#"
+          - generic [ref=e569]:
+            - heading "Info" [level=2] [ref=e571]
+            - list [ref=e574]:
+              - listitem [ref=e575]:
+                - list [ref=e576]:
+                  - listitem [ref=e577]:
+                    - link "Refund" [ref=e578] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e579]:
+                    - link "Cookies" [ref=e580] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e581]:
+                    - link "Terms of Use" [ref=e582] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e583]:
+                    - link "Privacy" [ref=e584] [cursor=pointer]:
+                      - /url: "#"
+          - generic [ref=e586]:
+            - heading "Social Links" [level=2] [ref=e588]
+            - list [ref=e591]:
+              - listitem [ref=e592]:
+                - link "Instagram" [ref=e595] [cursor=pointer]:
+                  - /url: https://www.instagram.com/xtemos.studio/
+              - listitem [ref=e596]:
+                - link "X" [ref=e599] [cursor=pointer]:
+                  - /url: https://x.com/xtemos_studio
+              - listitem [ref=e600]:
+                - link "Discord" [ref=e603] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e604]:
+                - link "Facebook" [ref=e607] [cursor=pointer]:
+                  - /url: https://www.facebook.com/xtemos.studio
+        - paragraph [ref=e609]:
+          - link "WoodMart" [ref=e610] [cursor=pointer]:
+            - /url: https://woodmart.xtemos.com/
+          - text: theme © 2026
+          - link "WooCommerce Themes" [ref=e611] [cursor=pointer]:
+            - /url: https://themeforest.net/item/woodmart-woocommerce-wordpress-theme/20264492
+          - text: .
+  - link "Scroll to top button" [ref=e613] [cursor=pointer]:
+    - /url: "#"
+    - text: 
+  - navigation "Mobile navigation":
+    - generic:
+      - search:
+        - textbox "Search":
+          - /placeholder: Search for products
+        - text: 
+        - button "Search ":
+          - generic: Search
+          - text: 
+    - list:
+      - listitem:
+        - link "Demos":
+          - /url: "#"
+          - generic: Demos
+      - listitem:
+        - link "navigation-menu-t-shirt Products":
+          - /url: https://woodmart.xtemos.com/merchandise/shop/
+          - img "navigation-menu-t-shirt"
+          - generic: Products
+        - list:
+          - listitem:
+            - generic: 
+            - link "Back":
+              - /url: "#"
+          - listitem:
+            - link "Apparel":
+              - /url: https://woodmart.xtemos.com/merchandise/product-category/apparel/
+            - list:
+              - listitem:
+                - generic: 
+                - link "Back":
+                  - /url: "#"
+              - listitem:
+                - link "Hats":
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/apparel/hats/
+              - listitem:
+                - link "Sweatshirts":
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/apparel/sweatshirts/
+              - listitem:
+                - link "T-Shirts":
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/apparel/t-shirts/
+            - generic: 
+          - listitem:
+            - link "Accessories & Arts":
+              - /url: https://woodmart.xtemos.com/merchandise/product-category/accessories-arts/
+            - list:
+              - listitem:
+                - generic: 
+                - link "Back":
+                  - /url: "#"
+              - listitem:
+                - link "Pins":
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/accessories-arts/pins/
+              - listitem:
+                - link "Posters":
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/accessories-arts/posters/
+              - listitem:
+                - link "Stickers":
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/accessories-arts/stickers/
+            - generic: 
+          - listitem:
+            - link "Collectibles":
+              - /url: https://woodmart.xtemos.com/merchandise/product-category/collectables/
+            - list:
+              - listitem:
+                - generic: 
+                - link "Back":
+                  - /url: "#"
+              - listitem:
+                - link "Figures":
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/collectables/figures/
+              - listitem:
+                - link "Plushes":
+                  - /url: https://woodmart.xtemos.com/merchandise/product-category/collectables/plushes/
+            - generic: 
+        - generic: 
+      - listitem:
+        - link "navigation-menu-movie About Us":
+          - /url: https://woodmart.xtemos.com/merchandise/about-us/
+          - img "navigation-menu-movie"
+          - generic: About Us
+      - listitem:
+        - link "navigation-menu-d-pad Contact Us":
+          - /url: https://woodmart.xtemos.com/merchandise/contact-us/
+          - img "navigation-menu-d-pad"
+          - generic: Contact Us
+      - listitem:
+        - link "navigation-menu-star F.A.Q.":
+          - /url: "#"
+          - img "navigation-menu-star"
+          - generic: F.A.Q.
+  - complementary "Shopping cart sidebar":
+    - generic:
+      - generic: Shopping cart
+      - generic:
+        - link " Close":
+          - /url: "#"
+          - generic: 
+          - generic: Close
+  - complementary "Login sidebar":
+    - generic:
+      - generic: Sign in
+      - generic:
+        - link " Close":
+          - /url: "#"
+          - generic: 
+          - generic: Close
+    - text: 
+    - generic:
+      - text: 
+      - paragraph: No account yet?
+      - link "Create an Account":
+        - /url: https://woodmart.xtemos.com/merchandise/my-account/?action=register
+  - text:   
+  - generic:
+    - link "Buy WoodMart" [ref=e614] [cursor=pointer]:
+      - /url: https://xtemos.com/go/purchase-woodmart
+      - img [ref=e615]
+      - text: Buy WoodMart
+    - generic [ref=e618] [cursor=pointer]:
+      - generic [ref=e619]: Demos
+      - generic [ref=e620]: "100"
+    - generic:
+      - generic: 
+      - heading "WoodMart Demos" [level=4]
+      - generic:
+        - textbox "Search demos by keyword (e.g. 'books')"
+        - text:  
+  - status

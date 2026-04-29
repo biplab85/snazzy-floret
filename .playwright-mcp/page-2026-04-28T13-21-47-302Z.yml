@@ -1,0 +1,390 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Free delivery on orders over ৳2,500 | Custom sizing available
+      - button "Close announcement" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - link "Snazzy Floret" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/
+          - img "Snazzy Floret" [ref=e14]
+        - navigation "Primary navigation" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Saree" [ref=e18] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e19]:
+              - link "Regular Wear" [ref=e20] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+            - listitem [ref=e21]:
+              - link "Party Wear" [ref=e22] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e23]:
+              - link "Handmade" [ref=e24] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e25]:
+              - link "Digital Prints" [ref=e26] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+        - generic [ref=e27]:
+          - button "Search" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+          - button "Cart" [active] [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - generic [ref=e36]: "5"
+          - link "Account" [ref=e37] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e38]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main [ref=e41]:
+      - article [ref=e43]:
+        - heading "Cart Review your selection before checkout" [level=1] [ref=e44]
+        - generic [ref=e46]:
+          - table [ref=e48]:
+            - rowgroup [ref=e49]:
+              - 'row "Remove Embroidered Silk Panjabi from cart Embroidered Silk Panjabi Embroidered Silk Panjabi Size: 35 Edit size Embroidered Silk Panjabi quantity Decrease 1 Increase 3,900.00$(CAD)" [ref=e50]':
+                - cell "Remove Embroidered Silk Panjabi from cart" [ref=e51]:
+                  - button "Remove Embroidered Silk Panjabi from cart" [ref=e52] [cursor=pointer]: ×
+                - cell "Embroidered Silk Panjabi" [ref=e53]:
+                  - link "Embroidered Silk Panjabi" [ref=e54] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+                    - img "Embroidered Silk Panjabi" [ref=e55]
+                - 'rowheader "Embroidered Silk Panjabi Size: 35 Edit size" [ref=e56]':
+                  - link "Embroidered Silk Panjabi" [ref=e57] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+                  - generic [ref=e58]:
+                    - term [ref=e59]: "Size:"
+                    - definition [ref=e60]:
+                      - paragraph [ref=e61]: "35"
+                      - button "Edit size" [ref=e63] [cursor=pointer]:
+                        - img [ref=e64]
+                - cell "Embroidered Silk Panjabi quantity Decrease 1 Increase" [ref=e66]:
+                  - generic [ref=e67]:
+                    - generic [ref=e68]: Embroidered Silk Panjabi quantity
+                    - button "Decrease" [ref=e69] [cursor=pointer]:
+                      - img [ref=e70]
+                    - spinbutton "Product quantity" [ref=e71]: "1"
+                    - button "Increase" [ref=e72] [cursor=pointer]:
+                      - img [ref=e73]
+                - cell "3,900.00$(CAD)" [ref=e74]:
+                  - generic [ref=e76]: 3,900.00$(CAD)
+              - 'row "Remove Embroidered Silk Panjabi from cart Embroidered Silk Panjabi Embroidered Silk Panjabi Size: 39 Edit size Embroidered Silk Panjabi quantity Decrease 1 Increase 3,900.00$(CAD)" [ref=e77]':
+                - cell "Remove Embroidered Silk Panjabi from cart" [ref=e78]:
+                  - button "Remove Embroidered Silk Panjabi from cart" [ref=e79] [cursor=pointer]: ×
+                - cell "Embroidered Silk Panjabi" [ref=e80]:
+                  - link "Embroidered Silk Panjabi" [ref=e81] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+                    - img "Embroidered Silk Panjabi" [ref=e82]
+                - 'rowheader "Embroidered Silk Panjabi Size: 39 Edit size" [ref=e83]':
+                  - link "Embroidered Silk Panjabi" [ref=e84] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+                  - generic [ref=e85]:
+                    - term [ref=e86]: "Size:"
+                    - definition [ref=e87]:
+                      - paragraph [ref=e88]: "39"
+                      - button "Edit size" [ref=e90] [cursor=pointer]:
+                        - img [ref=e91]
+                - cell "Embroidered Silk Panjabi quantity Decrease 1 Increase" [ref=e93]:
+                  - generic [ref=e94]:
+                    - generic [ref=e95]: Embroidered Silk Panjabi quantity
+                    - button "Decrease" [ref=e96] [cursor=pointer]:
+                      - img [ref=e97]
+                    - spinbutton "Product quantity" [ref=e98]: "1"
+                    - button "Increase" [ref=e99] [cursor=pointer]:
+                      - img [ref=e100]
+                - cell "3,900.00$(CAD)" [ref=e101]:
+                  - generic [ref=e103]: 3,900.00$(CAD)
+              - 'row "Remove Embroidered Silk Panjabi from cart Embroidered Silk Panjabi Embroidered Silk Panjabi Size: 40 Edit size Embroidered Silk Panjabi quantity Decrease 1 Increase 3,900.00$(CAD)" [ref=e104]':
+                - cell "Remove Embroidered Silk Panjabi from cart" [ref=e105]:
+                  - button "Remove Embroidered Silk Panjabi from cart" [ref=e106] [cursor=pointer]: ×
+                - cell "Embroidered Silk Panjabi" [ref=e107]:
+                  - link "Embroidered Silk Panjabi" [ref=e108] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+                    - img "Embroidered Silk Panjabi" [ref=e109]
+                - 'rowheader "Embroidered Silk Panjabi Size: 40 Edit size" [ref=e110]':
+                  - link "Embroidered Silk Panjabi" [ref=e111] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+                  - generic [ref=e112]:
+                    - term [ref=e113]: "Size:"
+                    - definition [ref=e114]:
+                      - paragraph [ref=e115]: "40"
+                      - button "Edit size" [ref=e117] [cursor=pointer]:
+                        - img [ref=e118]
+                - cell "Embroidered Silk Panjabi quantity Decrease 1 Increase" [ref=e120]:
+                  - generic [ref=e121]:
+                    - generic [ref=e122]: Embroidered Silk Panjabi quantity
+                    - button "Decrease" [ref=e123] [cursor=pointer]:
+                      - img [ref=e124]
+                    - spinbutton "Product quantity" [ref=e125]: "1"
+                    - button "Increase" [ref=e126] [cursor=pointer]:
+                      - img [ref=e127]
+                - cell "3,900.00$(CAD)" [ref=e128]:
+                  - generic [ref=e130]: 3,900.00$(CAD)
+              - 'row "Remove Digital Print Designer Saree from cart Digital Print Designer Saree Digital Print Designer Saree Size: 38 Edit size Digital Print Designer Saree quantity Decrease 1 Increase 1,900.00$(CAD)" [ref=e131]':
+                - cell "Remove Digital Print Designer Saree from cart" [ref=e132]:
+                  - button "Remove Digital Print Designer Saree from cart" [ref=e133] [cursor=pointer]: ×
+                - cell "Digital Print Designer Saree" [ref=e134]:
+                  - link "Digital Print Designer Saree" [ref=e135] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+                    - img "Digital Print Designer Saree" [ref=e136]
+                - 'rowheader "Digital Print Designer Saree Size: 38 Edit size" [ref=e137]':
+                  - link "Digital Print Designer Saree" [ref=e138] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+                  - generic [ref=e139]:
+                    - term [ref=e140]: "Size:"
+                    - definition [ref=e141]:
+                      - paragraph [ref=e142]: "38"
+                      - button "Edit size" [ref=e144] [cursor=pointer]:
+                        - img [ref=e145]
+                - cell "Digital Print Designer Saree quantity Decrease 1 Increase" [ref=e147]:
+                  - generic [ref=e148]:
+                    - generic [ref=e149]: Digital Print Designer Saree quantity
+                    - button "Decrease" [ref=e150] [cursor=pointer]:
+                      - img [ref=e151]
+                    - spinbutton "Product quantity" [ref=e152]: "1"
+                    - button "Increase" [ref=e153] [cursor=pointer]:
+                      - img [ref=e154]
+                - cell "1,900.00$(CAD)" [ref=e155]:
+                  - generic [ref=e157]: 1,900.00$(CAD)
+              - 'row "Remove Digital Print Designer Saree from cart Digital Print Designer Saree Digital Print Designer Saree Size: 39 Edit size Digital Print Designer Saree quantity Decrease 1 Increase 1,900.00$(CAD)" [ref=e158]':
+                - cell "Remove Digital Print Designer Saree from cart" [ref=e159]:
+                  - button "Remove Digital Print Designer Saree from cart" [ref=e160] [cursor=pointer]: ×
+                - cell "Digital Print Designer Saree" [ref=e161]:
+                  - link "Digital Print Designer Saree" [ref=e162] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+                    - img "Digital Print Designer Saree" [ref=e163]
+                - 'rowheader "Digital Print Designer Saree Size: 39 Edit size" [ref=e164]':
+                  - link "Digital Print Designer Saree" [ref=e165] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+                  - generic [ref=e166]:
+                    - term [ref=e167]: "Size:"
+                    - definition [ref=e168]:
+                      - paragraph [ref=e169]: "39"
+                      - button "Edit size" [ref=e171] [cursor=pointer]:
+                        - img [ref=e172]
+                - cell "Digital Print Designer Saree quantity Decrease 1 Increase" [ref=e174]:
+                  - generic [ref=e175]:
+                    - generic [ref=e176]: Digital Print Designer Saree quantity
+                    - button "Decrease" [ref=e177] [cursor=pointer]:
+                      - img [ref=e178]
+                    - spinbutton "Product quantity" [ref=e179]: "1"
+                    - button "Increase" [ref=e180] [cursor=pointer]:
+                      - img [ref=e181]
+                - cell "1,900.00$(CAD)" [ref=e182]:
+                  - generic [ref=e184]: 1,900.00$(CAD)
+              - 'row "Coupon: Apply coupon Update cart" [ref=e185]':
+                - 'cell "Coupon: Apply coupon Update cart" [ref=e186]':
+                  - generic [ref=e187]:
+                    - generic [ref=e188]: "Coupon:"
+                    - textbox "Coupon:" [ref=e189]:
+                      - /placeholder: Coupon code
+                    - button "Apply coupon" [ref=e190] [cursor=pointer]
+                  - button "Update cart" [disabled] [ref=e191]
+          - generic [ref=e193]:
+            - heading "Cart totals" [level=2] [ref=e194]
+            - table [ref=e195]:
+              - rowgroup [ref=e196]:
+                - row "Subtotal 15,500.00$(CAD)" [ref=e197]:
+                  - rowheader "Subtotal" [ref=e198]
+                  - cell "15,500.00$(CAD)" [ref=e199]:
+                    - generic [ref=e201]: 15,500.00$(CAD)
+                - row "Shipment Free shipping Edit shipping address Shipping to 123 Test Street, Dhaka, Khulna, 1207." [ref=e202]:
+                  - rowheader "Shipment" [ref=e203]
+                  - cell "Free shipping Edit shipping address Shipping to 123 Test Street, Dhaka, Khulna, 1207." [ref=e204]:
+                    - list [ref=e205]:
+                      - listitem [ref=e206]:
+                        - generic [ref=e207]:
+                          - text: Free shipping
+                          - button "Edit shipping address" [ref=e208] [cursor=pointer]:
+                            - img [ref=e209]
+                    - paragraph [ref=e211]:
+                      - text: Shipping to
+                      - strong [ref=e212]: 123 Test Street, Dhaka, Khulna, 1207
+                      - text: .
+                - row "Total 15,500.00$(CAD)" [ref=e213]:
+                  - rowheader "Total" [ref=e214]
+                  - cell "15,500.00$(CAD)" [ref=e215]:
+                    - strong [ref=e216]:
+                      - generic [ref=e218]: 15,500.00$(CAD)
+            - link "Proceed to checkout →" [ref=e220] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/checkout/
+            - text: Secure checkout · Free returns · Made in Dhaka
+    - contentinfo [ref=e221]:
+      - generic [ref=e222]:
+        - img "Snazzy Floret" [ref=e223]
+        - generic [ref=e225]:
+          - heading "Get 20% off your first order" [level=2] [ref=e226]
+          - paragraph [ref=e227]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=e228]:
+            - textbox "Enter your email" [ref=e229]
+            - button "Subscribe" [ref=e230] [cursor=pointer]:
+              - img [ref=e231]
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - heading "Shop" [level=3] [ref=e236]
+            - list [ref=e237]:
+              - listitem [ref=e238]:
+                - link "Digital Prints" [ref=e239] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+              - listitem [ref=e240]:
+                - link "Handmade" [ref=e241] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+              - listitem [ref=e242]:
+                - link "Saree" [ref=e243] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+              - listitem [ref=e244]:
+                - link "Party wear" [ref=e245] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=e246]:
+                - link "Regular wear" [ref=e247] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - generic [ref=e248]:
+            - heading "Customer Care" [level=3] [ref=e249]
+            - list [ref=e250]:
+              - listitem [ref=e251]:
+                - link "FAQ" [ref=e252] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/faq/
+              - listitem [ref=e253]:
+                - link "Shipping" [ref=e254] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/shipping/
+              - listitem [ref=e255]:
+                - link "Contact" [ref=e256] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/contact/
+          - generic [ref=e257]:
+            - heading "Information" [level=3] [ref=e258]
+            - list [ref=e259]:
+              - listitem [ref=e260]:
+                - link "Returns & Refunds" [ref=e261] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+              - listitem [ref=e262]:
+                - link "Privacy policy" [ref=e263] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+              - listitem [ref=e264]:
+                - link "About us" [ref=e265] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/about/
+          - generic [ref=e266]:
+            - heading "Get in Touch" [level=3] [ref=e267]
+            - list [ref=e268]:
+              - listitem [ref=e269]:
+                - link "+880 1621-008533" [ref=e270] [cursor=pointer]:
+                  - /url: tel:+8801621008533
+                  - img [ref=e271]
+                  - text: +880 1621-008533
+              - listitem [ref=e273]:
+                - link "snazzyfloret@gmail.com" [ref=e274] [cursor=pointer]:
+                  - /url: mailto:snazzyfloret@gmail.com
+                  - img [ref=e275]
+                  - text: snazzyfloret@gmail.com
+            - generic [ref=e278]:
+              - link "Facebook" [ref=e279] [cursor=pointer]:
+                - /url: https://www.facebook.com/snazzyfloret
+                - img [ref=e280]
+              - link "Instagram" [ref=e282] [cursor=pointer]:
+                - /url: https://www.instagram.com/snazzyfloret
+                - img [ref=e283]
+              - link "WhatsApp" [ref=e286] [cursor=pointer]:
+                - /url: https://wa.me/8801621008533
+                - img [ref=e287]
+        - generic:
+          - generic:
+            - generic: SNAZZY FLORET
+            - generic: SNAZZY FLORET
+      - paragraph [ref=e291]: © 2026 Snazzy Floret. All rights reserved.
+  - generic [ref=e295]:
+    - generic [ref=e296]:
+      - heading "Your Cart (5)" [level=3] [ref=e297]:
+        - img [ref=e298]
+        - text: Your Cart
+        - generic [ref=e301]: (5)
+      - button "Close cart" [ref=e302] [cursor=pointer]:
+        - img [ref=e303]
+    - generic [ref=e307]:
+      - generic [ref=e308]:
+        - generic [ref=e310]:
+          - link "Embroidered Silk Panjabi" [ref=e311] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+          - generic [ref=e312]: "Size: 35"
+          - generic [ref=e313]:
+            - generic [ref=e315]: 3,900.00$(CAD)
+            - text: × 1
+        - button "Remove item" [ref=e316] [cursor=pointer]:
+          - img [ref=e317]
+      - generic [ref=e320]:
+        - generic [ref=e322]:
+          - link "Embroidered Silk Panjabi" [ref=e323] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+          - generic [ref=e324]: "Size: 39"
+          - generic [ref=e325]:
+            - generic [ref=e327]: 3,900.00$(CAD)
+            - text: × 1
+        - button "Remove item" [ref=e328] [cursor=pointer]:
+          - img [ref=e329]
+      - generic [ref=e332]:
+        - generic [ref=e334]:
+          - link "Embroidered Silk Panjabi" [ref=e335] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+          - generic [ref=e336]: "Size: 40"
+          - generic [ref=e337]:
+            - generic [ref=e339]: 3,900.00$(CAD)
+            - text: × 1
+        - button "Remove item" [ref=e340] [cursor=pointer]:
+          - img [ref=e341]
+      - generic [ref=e344]:
+        - generic [ref=e346]:
+          - link "Digital Print Designer Saree" [ref=e347] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+          - generic [ref=e348]: "Size: 38"
+          - generic [ref=e349]:
+            - generic [ref=e351]: 1,900.00$(CAD)
+            - text: × 1
+        - button "Remove item" [ref=e352] [cursor=pointer]:
+          - img [ref=e353]
+      - generic [ref=e356]:
+        - generic [ref=e358]:
+          - link "Digital Print Designer Saree" [ref=e359] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+          - generic [ref=e360]: "Size: 39"
+          - generic [ref=e361]:
+            - generic [ref=e363]: 1,900.00$(CAD)
+            - text: × 1
+        - button "Remove item" [ref=e364] [cursor=pointer]:
+          - img [ref=e365]
+    - generic [ref=e368]:
+      - generic [ref=e369]:
+        - generic [ref=e370]: Subtotal
+        - generic [ref=e373]: 15,500.00$(CAD)
+      - link "View Cart" [ref=e374] [cursor=pointer]:
+        - /url: http://localhost/sklentr/snazzy-floret/cart/
+        - img [ref=e375]
+        - text: View Cart
+      - link "Checkout" [ref=e378] [cursor=pointer]:
+        - /url: http://localhost/sklentr/snazzy-floret/checkout/
+  - status [ref=e292]
