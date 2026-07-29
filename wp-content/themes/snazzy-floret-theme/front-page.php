@@ -13,7 +13,7 @@ $theme_uri = get_template_directory_uri();
 
 <!-- ============ HERO — 2-COLUMN PREMIUM LAYOUT ============ -->
 <?php
-$slides     = sf_get_hero_slides();
+$slides     = sf_hero_get_sliders( true ); // Managed under wp-admin → Hero.
 $total      = count( $slides );
 $hero_speed = absint( get_theme_mod( 'sf_hero_speed', 5000 ) );
 $shop_url   = class_exists( 'WooCommerce' ) ? get_permalink( wc_get_page_id( 'shop' ) ) : home_url( '/shop/' );
@@ -157,46 +157,129 @@ $hero_cats = get_terms( array(
 				<div class="swiper sf-hero2__swiper" id="sf-hero-swiper">
 					<div class="swiper-wrapper">
 						<?php foreach ( $slides as $i => $slide ) :
-							$btn_text = ! empty( $slide['btn'] ) ? $slide['btn'] : __( 'Explore Collection', 'snazzy-floret' );
-							$btn_link = ! empty( $slide['link'] ) ? $slide['link'] : $shop_url;
+							$slide_img     = sf_hero_image_url( $slide );
+							$slide_img_mob = sf_hero_mobile_image_url( $slide );
+							$buttons   = ! empty( $slide['buttons'] ) ? $slide['buttons'] : array();
+							$products  = ! empty( $slide['products'] ) ? $slide['products'] : array();
+
+							// Each block has its own show/hide switch in the Hero admin, and
+							// every field inside is optional — so render a wrapper only when it
+							// is switched on AND actually has something in it.
+							$show_content = ! empty( $slide['show_content'] );
+							$show_buttons = ! empty( $slide['show_buttons'] );
+
+							$has_title   = $show_content && ( '' !== trim( $slide['title'] ) || '' !== trim( $slide['title_em'] ) );
+							$has_text    = $show_content && ( $has_title || '' !== trim( $slide['tag'] ) || '' !== trim( $slide['desc'] ) );
+							$has_buttons = $show_buttons && ! empty( $buttons );
+							$has_copy    = $has_text || $has_buttons;
+							$has_content = $has_copy || ! empty( $products );
 						?>
 						<div class="swiper-slide">
 							<div class="sf-hero2__slide">
 								<!-- Image -->
 								<div class="sf-hero2__img-wrap">
-									<img src="<?php echo esc_url( $slide['image'] ); ?>" alt="" class="sf-hero2__slide-img" loading="<?php echo 0 === $i ? 'eager' : 'lazy'; ?>">
+									<picture>
+										<?php if ( $slide_img_mob ) : ?>
+											<source media="(max-width: 767px)" srcset="<?php echo esc_url( $slide_img_mob ); ?>">
+										<?php endif; ?>
+										<img src="<?php echo esc_url( $slide_img ); ?>" alt="" class="sf-hero2__slide-img" loading="<?php echo 0 === $i ? 'eager' : 'lazy'; ?>">
+									</picture>
 								</div>
 								<!-- Overlay -->
 								<div class="sf-hero2__overlay"></div>
 								<div class="sf-hero2__grain" aria-hidden="true"></div>
 								<!-- Content -->
+								<?php if ( $has_content ) : ?>
 								<div class="sf-hero2__slide-content">
-									<?php if ( ! empty( $slide['tag'] ) ) : ?>
-									<span class="sf-hero2__tag">
-										<span class="sf-hero2__tag-dot"></span>
-										<?php echo esc_html( $slide['tag'] ); ?>
-									</span>
-									<?php endif; ?>
-									<h1 class="sf-hero2__title">
-										<?php echo esc_html( $slide['title'] ); ?>
-										<?php if ( ! empty( $slide['title_em'] ) ) : ?>
-											<em><?php echo esc_html( $slide['title_em'] ); ?></em>
+									<div class="sf-hero2__slide-grid">
+
+										<?php if ( $has_copy ) : ?>
+										<div class="sf-hero2__slide-text">
+											<?php if ( $show_content && ! empty( $slide['tag'] ) ) : ?>
+											<span class="sf-hero2__tag">
+												<span class="sf-hero2__tag-dot"></span>
+												<?php echo esc_html( $slide['tag'] ); ?>
+											</span>
+											<?php endif; ?>
+											<?php if ( $has_title ) : ?>
+											<h1 class="sf-hero2__title">
+												<?php echo esc_html( $slide['title'] ); ?>
+												<?php if ( ! empty( $slide['title_em'] ) ) : ?>
+													<em><?php echo esc_html( $slide['title_em'] ); ?></em>
+												<?php endif; ?>
+											</h1>
+											<?php endif; ?>
+											<?php if ( $show_content && ! empty( $slide['desc'] ) ) : ?>
+												<p class="sf-hero2__desc"><?php echo esc_html( $slide['desc'] ); ?></p>
+											<?php endif; ?>
+
+											<?php if ( $has_buttons ) : ?>
+											<div class="sf-hero2__actions">
+												<?php foreach ( $buttons as $button ) :
+													$b_url   = ! empty( $button['url'] ) ? $button['url'] : $shop_url;
+													$b_style = ! empty( $button['style'] ) ? $button['style'] : 'primary';
+												?>
+													<?php if ( 'primary' === $b_style ) : ?>
+														<a href="<?php echo esc_url( $b_url ); ?>" class="sf-hero2__cta-primary">
+															<span><?php echo esc_html( $button['text'] ); ?></span>
+															<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+														</a>
+													<?php elseif ( 'outline' === $b_style ) : ?>
+														<a href="<?php echo esc_url( $b_url ); ?>" class="sf-hero2__cta-outline">
+															<span><?php echo esc_html( $button['text'] ); ?></span>
+														</a>
+													<?php else : ?>
+														<a href="<?php echo esc_url( $b_url ); ?>" class="sf-hero2__cta-ghost">
+															<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+															<?php echo esc_html( $button['text'] ); ?>
+														</a>
+													<?php endif; ?>
+												<?php endforeach; ?>
+											</div>
+											<?php endif; ?>
+										</div>
 										<?php endif; ?>
-									</h1>
-									<?php if ( ! empty( $slide['desc'] ) ) : ?>
-										<p class="sf-hero2__desc"><?php echo esc_html( $slide['desc'] ); ?></p>
-									<?php endif; ?>
-									<div class="sf-hero2__actions">
-										<a href="<?php echo esc_url( $btn_link ); ?>" class="sf-hero2__cta-primary">
-											<span><?php echo esc_html( $btn_text ); ?></span>
-											<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-										</a>
-										<a href="<?php echo esc_url( $shop_url ); ?>" class="sf-hero2__cta-ghost">
-											<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
-											<?php esc_html_e( 'View All', 'snazzy-floret' ); ?>
-										</a>
+
+										<?php if ( ! empty( $products ) ) : ?>
+										<div class="sf-hero2__products">
+											<div class="sf-hero2__products-list">
+												<?php foreach ( $products as $item ) :
+													$p_id = absint( $item['id'] );
+													if ( ! $p_id || 'publish' !== get_post_status( $p_id ) ) {
+														continue;
+													}
+													$p_link  = get_permalink( $p_id );
+													$p_name  = get_the_title( $p_id );
+													$p_thumb = get_the_post_thumbnail_url( $p_id, 'woocommerce_thumbnail' );
+													if ( ! $p_thumb ) {
+														$p_thumb = get_the_post_thumbnail_url( $p_id, 'medium' );
+													}
+													if ( ! $p_thumb && function_exists( 'wc_placeholder_img_src' ) ) {
+														$p_thumb = wc_placeholder_img_src( 'woocommerce_thumbnail' );
+													}
+													$p_title = ! empty( $item['label'] ) ? $item['label'] : sf_hero_product_price_text( $p_id );
+												?>
+												<a class="sf-hero2__product" href="<?php echo esc_url( $p_link ); ?>">
+													<span class="sf-hero2__product-img">
+														<?php if ( $p_thumb ) : ?>
+															<img src="<?php echo esc_url( $p_thumb ); ?>" alt="<?php echo esc_attr( $p_name ); ?>" loading="lazy">
+														<?php endif; ?>
+													</span>
+													<span class="sf-hero2__product-info">
+														<span class="sf-hero2__product-name"><?php echo esc_html( $p_name ); ?></span>
+														<?php if ( '' !== $p_title ) : ?>
+															<span class="sf-hero2__product-title"><?php echo esc_html( $p_title ); ?></span>
+														<?php endif; ?>
+													</span>
+												</a>
+												<?php endforeach; ?>
+											</div>
+										</div>
+										<?php endif; ?>
+
 									</div>
 								</div>
+								<?php endif; ?>
 							</div>
 						</div>
 						<?php endforeach; ?>
@@ -218,7 +301,7 @@ $hero_cats = get_terms( array(
 <div class="sf-marquee">
 	<div class="sf-marquee__track">
 		<?php for ( $m = 0; $m < 3; $m++ ) : ?>
-		<span class="sf-marquee__item">Free Delivery Over ৳2,500</span>
+		<span class="sf-marquee__item">Free Delivery Over $75 CAD</span>
 		<span class="sf-marquee__divider">&#10022;</span>
 		<span class="sf-marquee__item">Handmade With Love</span>
 		<span class="sf-marquee__divider">&#10022;</span>
@@ -229,6 +312,111 @@ $hero_cats = get_terms( array(
 		<?php endfor; ?>
 	</div>
 </div>
+
+<!-- ============ FEATURED PRODUCTS SLIDER ============ -->
+<section class="sf-section sf-featured-slider-section">
+	<!-- Premium Animated Background -->
+	<div class="sf-featured-bg" aria-hidden="true">
+		<div class="sf-featured-bg__base"></div>
+		<div class="sf-featured-bg__orb sf-featured-bg__orb--1"></div>
+		<div class="sf-featured-bg__orb sf-featured-bg__orb--2"></div>
+		<div class="sf-featured-bg__orb sf-featured-bg__orb--3"></div>
+		<div class="sf-featured-bg__orb sf-featured-bg__orb--4"></div>
+		<div class="sf-featured-bg__orb sf-featured-bg__orb--5"></div>
+		<div class="sf-featured-bg__shimmer"></div>
+		<div class="sf-featured-bg__grain"></div>
+	</div>
+
+	<div class="sf-container" style="position: relative; z-index: 2;">
+		<div class="sf-section__header sf-section__header--flex">
+			<div>
+				<span class="sf-section__tag"><?php esc_html_e( 'Curated For You', 'snazzy-floret' ); ?></span>
+				<h2 class="sf-section__title"><?php esc_html_e( 'Featured Products', 'snazzy-floret' ); ?></h2>
+			</div>
+			<a href="<?php echo esc_url( get_permalink( wc_get_page_id( 'shop' ) ) ); ?>" class="sf-view-all">
+				<?php esc_html_e( 'View all', 'snazzy-floret' ); ?>
+				<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+			</a>
+		</div>
+	</div>
+	<div class="sf-featured-slider" id="sf-featured-slider">
+		<div class="sf-featured-slider__track" id="sf-featured-track">
+			<?php
+			$featured_products = wc_get_products( array(
+				'status'     => 'publish',
+				'limit'      => 12,
+				'visibility' => 'featured',
+				'orderby'    => 'date',
+				'order'      => 'DESC',
+			) );
+			// If not enough featured, fallback to recent products
+			if ( count( $featured_products ) < 4 ) {
+				$featured_products = wc_get_products( array(
+					'status'  => 'publish',
+					'limit'   => 12,
+					'orderby' => 'date',
+					'order'   => 'DESC',
+				) );
+			}
+			// Render slides twice for seamless infinite loop
+			for ( $loop = 0; $loop < 2; $loop++ ) :
+				foreach ( $featured_products as $product ) :
+					$pid       = $product->get_id();
+					$link      = get_permalink( $pid );
+					$img_id    = $product->get_image_id();
+					$terms     = get_the_terms( $pid, 'product_cat' );
+					$cat_name  = ( ! empty( $terms ) && ! is_wp_error( $terms ) ) ? $terms[0]->name : '';
+					$is_sale   = $product->is_on_sale();
+					$created   = strtotime( $product->get_date_created() );
+					$is_new    = $created && ( time() - $created ) < ( 30 * DAY_IN_SECONDS );
+					$in_stock  = $product->is_in_stock();
+			?>
+				<div class="sf-featured-slider__slide">
+					<div class="sf-featured-card">
+						<div class="sf-card__image-wrap">
+							<a href="<?php echo esc_url( $link ); ?>" class="sf-card__image-link">
+								<?php echo wp_get_attachment_image( $img_id, 'sf-product-card', false, array( 'class' => 'sf-card__img', 'loading' => 'lazy' ) ); ?>
+							</a>
+							<div class="sf-card__badges">
+								<?php if ( $is_sale ) :
+									$regular = (float) $product->get_regular_price();
+									$sale    = (float) $product->get_sale_price();
+									if ( $regular > 0 ) :
+										$percent = round( ( ( $regular - $sale ) / $regular ) * 100 );
+								?>
+									<span class="sf-card__badge sf-card__badge--sale"><?php echo esc_html( $percent . '% Off' ); ?></span>
+								<?php endif; endif; ?>
+								<?php if ( $is_new ) : ?>
+									<span class="sf-card__badge sf-card__badge--new"><?php esc_html_e( 'New', 'snazzy-floret' ); ?></span>
+								<?php endif; ?>
+							</div>
+							<button class="sf-quick-view-btn" data-product-id="<?php echo esc_attr( $pid ); ?>" aria-label="<?php esc_attr_e( 'Quick view', 'snazzy-floret' ); ?>">
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+							</button>
+						</div>
+						<div class="sf-card__info">
+							<?php if ( $cat_name ) : ?>
+								<span class="sf-card__category"><?php echo esc_html( $cat_name ); ?></span>
+							<?php endif; ?>
+							<h2 class="sf-card__title"><a href="<?php echo esc_url( $link ); ?>"><?php echo esc_html( $product->get_name() ); ?></a></h2>
+							<div class="sf-card__price"><?php echo wp_kses_post( $product->get_price_html() ); ?></div>
+							<div class="sf-card__hover-actions">
+								<?php if ( $in_stock ) : ?>
+									<a href="<?php echo esc_url( $product->add_to_cart_url() ); ?>" class="sf-card__add-btn" data-product_id="<?php echo esc_attr( $pid ); ?>" aria-label="<?php esc_attr_e( 'Add to cart', 'snazzy-floret' ); ?>">
+										<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+										<?php esc_html_e( 'Add to Cart', 'snazzy-floret' ); ?>
+									</a>
+								<?php else : ?>
+									<span class="sf-card__sold-out"><?php esc_html_e( 'Sold Out', 'snazzy-floret' ); ?></span>
+								<?php endif; ?>
+							</div>
+						</div>
+					</div>
+				</div>
+			<?php endforeach; endfor; ?>
+		</div>
+	</div>
+</section>
 
 <!-- ============ SHOP BY CATEGORY ============ -->
 <section class="sf-categories sf-section">
@@ -367,111 +555,6 @@ $hero_cats = get_terms( array(
 	</div>
 </section>
 
-<!-- ============ FEATURED PRODUCTS SLIDER ============ -->
-<section class="sf-section sf-featured-slider-section">
-	<!-- Premium Animated Background -->
-	<div class="sf-featured-bg" aria-hidden="true">
-		<div class="sf-featured-bg__base"></div>
-		<div class="sf-featured-bg__orb sf-featured-bg__orb--1"></div>
-		<div class="sf-featured-bg__orb sf-featured-bg__orb--2"></div>
-		<div class="sf-featured-bg__orb sf-featured-bg__orb--3"></div>
-		<div class="sf-featured-bg__orb sf-featured-bg__orb--4"></div>
-		<div class="sf-featured-bg__orb sf-featured-bg__orb--5"></div>
-		<div class="sf-featured-bg__shimmer"></div>
-		<div class="sf-featured-bg__grain"></div>
-	</div>
-
-	<div class="sf-container" style="position: relative; z-index: 2;">
-		<div class="sf-section__header sf-section__header--flex">
-			<div>
-				<span class="sf-section__tag"><?php esc_html_e( 'Curated For You', 'snazzy-floret' ); ?></span>
-				<h2 class="sf-section__title"><?php esc_html_e( 'Featured Products', 'snazzy-floret' ); ?></h2>
-			</div>
-			<a href="<?php echo esc_url( get_permalink( wc_get_page_id( 'shop' ) ) ); ?>" class="sf-view-all">
-				<?php esc_html_e( 'View all', 'snazzy-floret' ); ?>
-				<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
-			</a>
-		</div>
-	</div>
-	<div class="sf-featured-slider" id="sf-featured-slider">
-		<div class="sf-featured-slider__track" id="sf-featured-track">
-			<?php
-			$featured_products = wc_get_products( array(
-				'status'     => 'publish',
-				'limit'      => 12,
-				'visibility' => 'featured',
-				'orderby'    => 'date',
-				'order'      => 'DESC',
-			) );
-			// If not enough featured, fallback to recent products
-			if ( count( $featured_products ) < 4 ) {
-				$featured_products = wc_get_products( array(
-					'status'  => 'publish',
-					'limit'   => 12,
-					'orderby' => 'date',
-					'order'   => 'DESC',
-				) );
-			}
-			// Render slides twice for seamless infinite loop
-			for ( $loop = 0; $loop < 2; $loop++ ) :
-				foreach ( $featured_products as $product ) :
-					$pid       = $product->get_id();
-					$link      = get_permalink( $pid );
-					$img_id    = $product->get_image_id();
-					$terms     = get_the_terms( $pid, 'product_cat' );
-					$cat_name  = ( ! empty( $terms ) && ! is_wp_error( $terms ) ) ? $terms[0]->name : '';
-					$is_sale   = $product->is_on_sale();
-					$created   = strtotime( $product->get_date_created() );
-					$is_new    = $created && ( time() - $created ) < ( 30 * DAY_IN_SECONDS );
-					$in_stock  = $product->is_in_stock();
-			?>
-				<div class="sf-featured-slider__slide">
-					<div class="sf-featured-card">
-						<div class="sf-card__image-wrap">
-							<a href="<?php echo esc_url( $link ); ?>" class="sf-card__image-link">
-								<?php echo wp_get_attachment_image( $img_id, 'sf-product-card', false, array( 'class' => 'sf-card__img', 'loading' => 'lazy' ) ); ?>
-							</a>
-							<div class="sf-card__badges">
-								<?php if ( $is_sale ) :
-									$regular = (float) $product->get_regular_price();
-									$sale    = (float) $product->get_sale_price();
-									if ( $regular > 0 ) :
-										$percent = round( ( ( $regular - $sale ) / $regular ) * 100 );
-								?>
-									<span class="sf-card__badge sf-card__badge--sale"><?php echo esc_html( $percent . '% Off' ); ?></span>
-								<?php endif; endif; ?>
-								<?php if ( $is_new ) : ?>
-									<span class="sf-card__badge sf-card__badge--new"><?php esc_html_e( 'New', 'snazzy-floret' ); ?></span>
-								<?php endif; ?>
-							</div>
-							<button class="sf-quick-view-btn" data-product-id="<?php echo esc_attr( $pid ); ?>" aria-label="<?php esc_attr_e( 'Quick view', 'snazzy-floret' ); ?>">
-								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-							</button>
-						</div>
-						<div class="sf-card__info">
-							<?php if ( $cat_name ) : ?>
-								<span class="sf-card__category"><?php echo esc_html( $cat_name ); ?></span>
-							<?php endif; ?>
-							<h2 class="sf-card__title"><a href="<?php echo esc_url( $link ); ?>"><?php echo esc_html( $product->get_name() ); ?></a></h2>
-							<div class="sf-card__price"><?php echo wp_kses_post( $product->get_price_html() ); ?></div>
-							<div class="sf-card__hover-actions">
-								<?php if ( $in_stock ) : ?>
-									<a href="<?php echo esc_url( $product->add_to_cart_url() ); ?>" class="sf-card__add-btn" data-product_id="<?php echo esc_attr( $pid ); ?>" aria-label="<?php esc_attr_e( 'Add to cart', 'snazzy-floret' ); ?>">
-										<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
-										<?php esc_html_e( 'Add to Cart', 'snazzy-floret' ); ?>
-									</a>
-								<?php else : ?>
-									<span class="sf-card__sold-out"><?php esc_html_e( 'Sold Out', 'snazzy-floret' ); ?></span>
-								<?php endif; ?>
-							</div>
-						</div>
-					</div>
-				</div>
-			<?php endforeach; endfor; ?>
-		</div>
-	</div>
-</section>
-
 <!-- ============ DEALS BANNER STRIP ============ -->
 <?php
 $deal_products = wc_get_products( array(
@@ -515,7 +598,7 @@ foreach ( $deal_products as $dp ) {
 			<span class="sf-deals-strip__coupon-label"><?php esc_html_e( 'Exclusive COUPON', 'snazzy-floret' ); ?></span>
 			<div class="sf-deals-strip__coupon-value">
 				<span class="sf-deals-strip__coupon-upto"><?php esc_html_e( 'UP TO', 'snazzy-floret' ); ?></span>
-				<span class="sf-deals-strip__coupon-amount">৳500</span>
+				<span class="sf-deals-strip__coupon-amount">$10 <span class="sf-currency-code">(CAD)</span></span>
 				<span class="sf-deals-strip__coupon-off"><?php esc_html_e( 'OFF', 'snazzy-floret' ); ?></span>
 			</div>
 		</div>
@@ -834,7 +917,7 @@ foreach ( $deal_products as $dp ) {
 				<!-- Floating price tag -->
 				<div class="sf-collection-banner__float-tag">
 					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
-					<?php esc_html_e( 'From ৳1,200', 'snazzy-floret' ); ?>
+					<?php echo esc_html__( 'From', 'snazzy-floret' ); ?> $24 <span class="sf-currency-code">(CAD)</span>
 				</div>
 			</div>
 		</div>
@@ -1114,6 +1197,9 @@ foreach ( $deal_products as $dp ) {
 </section>
 
 
+<!-- ============ TESTIMONIALS ============ -->
+<?php get_template_part( 'template-parts/testimonials' ); ?>
+
 <!-- ============ FEATURES BAR ============ -->
 <section class="sf-features">
 	<div class="sf-container">
@@ -1124,7 +1210,7 @@ foreach ( $deal_products as $dp ) {
 				</div>
 				<div>
 					<h3 class="sf-feature__title"><?php esc_html_e( 'Free Delivery', 'snazzy-floret' ); ?></h3>
-					<p class="sf-feature__text"><?php esc_html_e( 'On orders over ৳2,500', 'snazzy-floret' ); ?></p>
+					<p class="sf-feature__text"><?php esc_html_e( 'On orders over $75 CAD', 'snazzy-floret' ); ?></p>
 				</div>
 			</div>
 			<div class="sf-feature sf-reveal">

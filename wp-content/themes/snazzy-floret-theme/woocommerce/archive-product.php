@@ -120,7 +120,7 @@ $cat_image_url = $cat_thumb_id ? wp_get_attachment_image_url( $cat_thumb_id, 'la
 				<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
 			</button>
 			<div class="sf-filter-group__body is-open">
-				<?php $sf_filter_symbol = function_exists( 'get_woocommerce_currency_symbol' ) ? html_entity_decode( get_woocommerce_currency_symbol() ) : '৳'; ?>
+				<?php $sf_filter_symbol = function_exists( 'get_woocommerce_currency_symbol' ) ? html_entity_decode( get_woocommerce_currency_symbol() ) : '$'; ?>
 				<div class="sf-filter-price">
 					<div class="sf-filter-price__inputs">
 						<div class="sf-filter-price__field">

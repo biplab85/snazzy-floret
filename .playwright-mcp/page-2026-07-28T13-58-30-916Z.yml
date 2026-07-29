@@ -1,0 +1,1010 @@
+- generic [active] [ref=f18e1]:
+  - generic [ref=f18e2]:
+    - navigation "Toolbar":
+      - menu:
+        - group [ref=f18e3]:
+          - menuitem "About WordPress" [ref=f18e4] [cursor=pointer]
+        - group [ref=f18e7]:
+          - menuitem "Snazzy Floret" [ref=f18e8] [cursor=pointer]
+        - group [ref=f18e9]:
+          - menuitem "Live" [ref=f18e10] [cursor=pointer]
+        - group [ref=f18e11]:
+          - menuitem "Customize" [ref=f18e12] [cursor=pointer]
+        - group [ref=f18e13]:
+          - menuitem "4 updates available" [ref=f18e14] [cursor=pointer]:
+            - generic [ref=f18e16]: "4"
+        - group [ref=f18e18]:
+          - menuitem "0 Comments in moderation" [ref=f18e19] [cursor=pointer]:
+            - generic [ref=f18e21]: "0"
+        - group [ref=f18e23]:
+          - menuitem "New" [ref=f18e24] [cursor=pointer]
+        - group [ref=f18e27]:
+          - menuitem "Edit Page" [ref=f18e28] [cursor=pointer]
+        - group [ref=f18e29]:
+          - menuitem "SEO" [ref=f18e30] [cursor=pointer]:
+            - generic [ref=f18e33]: Focus keyphrase not set
+      - menu [ref=f18e35]:
+        - group [ref=f18e36]:
+          - menuitem "Howdy, admin" [ref=f18e37] [cursor=pointer]
+        - group [ref=f18e38]:
+          - menuitem "Search" [ref=f18e39]:
+            - generic [ref=f18e40]:
+              - textbox "Search" [ref=f18e41] [cursor=pointer]
+              - generic [ref=f18e42]: Search
+  - generic [ref=f18e43]:
+    - generic [ref=f18e44]:
+      - generic [ref=f18e46]:
+        - paragraph [ref=f18e47]: Free delivery on orders over $75 CAD | Custom sizing available
+        - button [ref=f18e48] [cursor=pointer]
+      - banner [ref=f18e52]:
+        - generic [ref=f18e53]:
+          - link [ref=f18e55] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/
+          - navigation [ref=f18e57]:
+            - list [ref=f18e58]:
+              - listitem [ref=f18e59]:
+                - link [ref=f18e60] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                  - text: Saree
+              - listitem [ref=f18e61]:
+                - link [ref=f18e62] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                  - text: Regular Wear
+              - listitem [ref=f18e63]:
+                - link [ref=f18e64] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                  - text: Party Wear
+              - listitem [ref=f18e65]:
+                - link [ref=f18e66] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                  - text: Handmade
+              - listitem [ref=f18e67]:
+                - link [ref=f18e68] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                  - text: Digital Prints
+          - generic [ref=f18e69]:
+            - button [ref=f18e70] [cursor=pointer]
+            - button [ref=f18e74] [cursor=pointer]:
+              - generic [ref=f18e78]: "1"
+            - link [ref=f18e79] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/my-account/
+    - generic:
+      - generic:
+        - generic:
+          - button
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main
+    - generic [ref=f18e86]:
+      - generic [ref=f18e91]:
+        - generic [ref=f18e92]: "1"
+        - generic [ref=f18e93]: /
+        - generic [ref=f18e94]: "3"
+      - generic [ref=f18e96]:
+        - generic [ref=f18e97]:
+          - group "1 / 3" [ref=f18e98]:
+            - generic [ref=f18e104]:
+              - generic [ref=f18e105]:
+                - heading "Redefining Everyday Fashion" [level=1] [ref=f18e106]
+                - generic [ref=f18e108]:
+                  - link "Explore Collection" [ref=f18e109] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/shop/
+                  - link "View All" [ref=f18e113] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/shop/
+              - generic [ref=f18e120]:
+                - link "Block-Printed Cotton Angarkha Block-Printed Cotton Angarkha $159.00 (CAD)" [ref=f18e121] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/block-printed-cotton-angarkha/
+                  - img "Block-Printed Cotton Angarkha" [ref=f18e123]
+                  - generic [ref=f18e124]:
+                    - generic [ref=f18e125]: Block-Printed Cotton Angarkha
+                    - generic [ref=f18e126]: $159.00 (CAD)
+                - link "Chic Office Wear Kurti Chic Office Wear Kurti $89.00 (CAD)" [ref=f18e127] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+                  - img "Chic Office Wear Kurti" [ref=f18e129]
+                  - generic [ref=f18e130]:
+                    - generic [ref=f18e131]: Chic Office Wear Kurti
+                    - generic [ref=f18e132]: $89.00 (CAD)
+          - group "2 / 3":
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Family Matching Outfits" [level=1]
+                    - generic:
+                      - link "Explore Collection":
+                        - /url: http://localhost/sklentr/snazzy-floret/shop/
+                      - link "View All":
+                        - /url: http://localhost/sklentr/snazzy-floret/shop/
+                  - generic:
+                    - generic:
+                      - link "Family Matching Teal Set Family Matching Teal Set $249.00 (CAD)":
+                        - /url: http://localhost/sklentr/snazzy-floret/product/family-matching-teal-set/
+                        - generic:
+                          - img "Family Matching Teal Set"
+                        - generic:
+                          - generic: Family Matching Teal Set
+                          - generic: $249.00 (CAD)
+                      - link "Elegant Organza Saree Elegant Organza Saree $159.00 (CAD)":
+                        - /url: http://localhost/sklentr/snazzy-floret/product/elegant-organza-saree/
+                        - generic:
+                          - img "Elegant Organza Saree"
+                        - generic:
+                          - generic: Elegant Organza Saree
+                          - generic: $159.00 (CAD)
+          - group "3 / 3":
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Elevating Everyday Style" [level=1]
+                    - generic:
+                      - link "Explore Collection":
+                        - /url: http://localhost/sklentr/snazzy-floret/shop/
+                      - link "View All":
+                        - /url: http://localhost/sklentr/snazzy-floret/shop/
+                  - generic:
+                    - generic:
+                      - link "Coral Canvas Tunic Coral Canvas Tunic $139.00 (CAD)":
+                        - /url: http://localhost/sklentr/snazzy-floret/product/coral-canvas-tunic/
+                        - generic:
+                          - img "Coral Canvas Tunic"
+                        - generic:
+                          - generic: Coral Canvas Tunic
+                          - generic: $139.00 (CAD)
+                      - link "Floral Garden Salwar Set Floral Garden Salwar Set $159.00 (CAD)":
+                        - /url: http://localhost/sklentr/snazzy-floret/product/floral-garden-salwar-set/
+                        - generic:
+                          - img "Floral Garden Salwar Set"
+                        - generic:
+                          - generic: Floral Garden Salwar Set
+                          - generic: $159.00 (CAD)
+        - generic [ref=f18e133]:
+          - button "Go to slide 1" [ref=f18e134] [cursor=pointer]
+          - button "Go to slide 2" [ref=f18e135] [cursor=pointer]
+          - button "Go to slide 3" [ref=f18e136] [cursor=pointer]
+    - generic [ref=f18e138]:
+      - generic [ref=f18e139]: Free Delivery Over $75 CAD
+      - generic [ref=f18e140]: ✦
+      - generic [ref=f18e141]: Handmade With Love
+      - generic [ref=f18e142]: ✦
+      - generic [ref=f18e143]: Custom Sizing Available
+      - generic [ref=f18e144]: ✦
+      - generic [ref=f18e145]: Family Matching Outfits
+      - generic [ref=f18e146]: ✦
+      - generic [ref=f18e147]: Free Delivery Over $75 CAD
+      - generic [ref=f18e148]: ✦
+      - generic [ref=f18e149]: Handmade With Love
+      - generic [ref=f18e150]: ✦
+      - generic [ref=f18e151]: Custom Sizing Available
+      - generic [ref=f18e152]: ✦
+      - generic [ref=f18e153]: Family Matching Outfits
+      - generic [ref=f18e154]: ✦
+      - generic [ref=f18e155]: Free Delivery Over $75 CAD
+      - generic [ref=f18e156]: ✦
+      - generic [ref=f18e157]: Handmade With Love
+      - generic [ref=f18e158]: ✦
+      - generic [ref=f18e159]: Custom Sizing Available
+      - generic [ref=f18e160]: ✦
+      - generic [ref=f18e161]: Family Matching Outfits
+      - generic [ref=f18e162]: ✦
+    - generic [ref=f18e163]:
+      - generic [ref=f18e165]:
+        - generic [ref=f18e166]:
+          - generic [ref=f18e167]: Curated For You
+          - heading "Featured Products" [level=2] [ref=f18e168]
+        - link "View all" [ref=f18e169] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/shop/
+      - generic [ref=f18e173]:
+        - generic [ref=f18e175]:
+          - generic [ref=f18e176]:
+            - link [ref=f18e177] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/tussar-silk-saree-handwoven/
+            - generic [ref=f18e178]: 17% Off
+            - button "Quick view" [ref=f18e180] [cursor=pointer]
+          - generic [ref=f18e184]:
+            - generic [ref=f18e185]: Handmade
+            - heading [level=2] [ref=f18e186]:
+              - link "Tussar Silk Saree — Handwoven" [ref=f18e187] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/tussar-silk-saree-handwoven/
+            - generic [ref=f18e188]:
+              - deletion [ref=f18e189]:
+                - generic [ref=f18e190]: $289.00(CAD)
+              - generic [ref=f18e191]: "Original price was: $289.00(CAD)."
+              - insertion [ref=f18e192]:
+                - generic [ref=f18e193]: $239.00(CAD)
+              - generic [ref=f18e194]: "Current price is: $239.00(CAD)."
+            - link "Add to cart" [ref=f18e195] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=194
+              - text: Add to Cart
+        - generic [ref=f18e200]:
+          - generic [ref=f18e201]:
+            - link [ref=f18e202] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/mirror-work-festive-kurti/
+            - generic [ref=f18e203]: 18% Off
+            - button "Quick view" [ref=f18e205] [cursor=pointer]
+          - generic [ref=f18e209]:
+            - generic [ref=f18e210]: Handmade
+            - heading [level=2] [ref=f18e211]:
+              - link "Mirror-Work Festive Kurti" [ref=f18e212] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/mirror-work-festive-kurti/
+            - generic [ref=f18e213]:
+              - deletion [ref=f18e214]:
+                - generic [ref=f18e215]: $219.00(CAD)
+              - generic [ref=f18e216]: "Original price was: $219.00(CAD)."
+              - insertion [ref=f18e217]:
+                - generic [ref=f18e218]: $179.00(CAD)
+              - generic [ref=f18e219]: "Current price is: $179.00(CAD)."
+            - link "Add to cart" [ref=f18e220] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=192
+              - text: Add to Cart
+        - generic [ref=f18e225]:
+          - generic [ref=f18e226]:
+            - link [ref=f18e227] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/hand-stitched-linen-kameez/
+            - button "Quick view" [ref=f18e228] [cursor=pointer]
+          - generic [ref=f18e232]:
+            - generic [ref=f18e233]: Handmade
+            - heading [level=2] [ref=f18e234]:
+              - link "Hand-Stitched Linen Kameez" [ref=f18e235] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/hand-stitched-linen-kameez/
+            - generic [ref=f18e236]: $169.00(CAD)
+            - link "Add to cart" [ref=f18e238] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=190
+              - text: Add to Cart
+        - generic [ref=f18e243]:
+          - generic [ref=f18e244]:
+            - link [ref=f18e245] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+            - generic [ref=f18e246]: 16% Off
+            - button "Quick view" [ref=f18e248] [cursor=pointer]
+          - generic [ref=f18e252]:
+            - generic [ref=f18e253]: Handmade
+            - heading [level=2] [ref=f18e254]:
+              - link "Embroidered Silk Panjabi" [ref=f18e255] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+            - generic [ref=f18e256]:
+              - deletion [ref=f18e257]:
+                - generic [ref=f18e258]: $249.00(CAD)
+              - generic [ref=f18e259]: "Original price was: $249.00(CAD)."
+              - insertion [ref=f18e260]:
+                - generic [ref=f18e261]: $209.00(CAD)
+              - generic [ref=f18e262]: "Current price is: $209.00(CAD)."
+            - link "Add to cart" [ref=f18e263] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=188
+              - text: Add to Cart
+        - generic [ref=f18e268]:
+          - generic [ref=f18e269]:
+            - link [ref=f18e270] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/block-printed-cotton-angarkha/
+            - button "Quick view" [ref=f18e271] [cursor=pointer]
+          - generic [ref=f18e275]:
+            - generic [ref=f18e276]: Handmade
+            - heading [level=2] [ref=f18e277]:
+              - link "Block-Printed Cotton Angarkha" [ref=f18e278] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/block-printed-cotton-angarkha/
+            - generic [ref=f18e279]: $159.00(CAD)
+            - link "Add to cart" [ref=f18e281] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=186
+              - text: Add to Cart
+        - generic [ref=f18e286]:
+          - generic [ref=f18e287]:
+            - link [ref=f18e288] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/handwoven-jamdani-kurti/
+            - generic [ref=f18e289]: 15% Off
+            - button "Quick view" [ref=f18e291] [cursor=pointer]
+          - generic [ref=f18e295]:
+            - generic [ref=f18e296]: Handmade
+            - heading [level=2] [ref=f18e297]:
+              - link "Handwoven Jamdani Kurti" [ref=f18e298] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/handwoven-jamdani-kurti/
+            - generic [ref=f18e299]:
+              - deletion [ref=f18e300]:
+                - generic [ref=f18e301]: $199.00(CAD)
+              - generic [ref=f18e302]: "Original price was: $199.00(CAD)."
+              - insertion [ref=f18e303]:
+                - generic [ref=f18e304]: $169.00(CAD)
+              - generic [ref=f18e305]: "Current price is: $169.00(CAD)."
+            - link "Add to cart" [ref=f18e306] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=184
+              - text: Add to Cart
+        - generic [ref=f18e311]:
+          - generic [ref=f18e312]:
+            - link [ref=f18e313] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/coral-canvas-tunic/
+            - button "Quick view" [ref=f18e314] [cursor=pointer]
+          - generic [ref=f18e318]:
+            - generic [ref=f18e319]: Regular Wear
+            - heading [level=2] [ref=f18e320]:
+              - link "Coral Canvas Tunic" [ref=f18e321] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/coral-canvas-tunic/
+            - generic [ref=f18e322]: $139.00(CAD)
+            - link "Add to cart" [ref=f18e324] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=67
+              - text: Add to Cart
+        - generic [ref=f18e329]:
+          - generic [ref=f18e330]:
+            - link [ref=f18e331] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/emerald-poise-salwar/
+            - button "Quick view" [ref=f18e332] [cursor=pointer]
+          - generic [ref=f18e336]:
+            - generic [ref=f18e337]: Regular Wear
+            - heading [level=2] [ref=f18e338]:
+              - link "Emerald Poise Salwar" [ref=f18e339] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/emerald-poise-salwar/
+            - generic [ref=f18e340]: $129.00(CAD)
+            - link "Add to cart" [ref=f18e342] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=66
+              - text: Add to Cart
+        - generic [ref=f18e347]:
+          - generic [ref=f18e348]:
+            - link [ref=f18e349] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/moonlight-classic-kameez/
+            - button "Quick view" [ref=f18e350] [cursor=pointer]
+          - generic [ref=f18e354]:
+            - generic [ref=f18e355]: Regular Wear
+            - heading [level=2] [ref=f18e356]:
+              - link "Moonlight Classic Kameez" [ref=f18e357] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/moonlight-classic-kameez/
+            - generic [ref=f18e358]: $129.00(CAD)
+            - link "Add to cart" [ref=f18e360] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=65
+              - text: Add to Cart
+        - generic [ref=f18e365]:
+          - generic [ref=f18e366]:
+            - link [ref=f18e367] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/silk-breeze-kurti/
+            - button "Quick view" [ref=f18e368] [cursor=pointer]
+          - generic [ref=f18e372]:
+            - generic [ref=f18e373]: Regular Wear
+            - heading [level=2] [ref=f18e374]:
+              - link "Silk Breeze Kurti" [ref=f18e375] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/silk-breeze-kurti/
+            - generic [ref=f18e376]: $119.00(CAD)
+            - link "Add to cart" [ref=f18e378] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=64
+              - text: Add to Cart
+        - generic [ref=f18e383]:
+          - generic [ref=f18e384]:
+            - link [ref=f18e385] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/crimson-petal-anarkali/
+            - button "Quick view" [ref=f18e386] [cursor=pointer]
+          - generic [ref=f18e390]:
+            - generic [ref=f18e391]: Regular Wear
+            - heading [level=2] [ref=f18e392]:
+              - link "Crimson Petal Anarkali" [ref=f18e393] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/crimson-petal-anarkali/
+            - generic [ref=f18e394]: $119.00(CAD)
+            - link "Add to cart" [ref=f18e396] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=63
+              - text: Add to Cart
+        - generic [ref=f18e401]:
+          - generic [ref=f18e402]:
+            - link [ref=f18e403] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/golden-hour-salwar-suit/
+            - button "Quick view" [ref=f18e404] [cursor=pointer]
+          - generic [ref=f18e408]:
+            - generic [ref=f18e409]: Regular Wear
+            - heading [level=2] [ref=f18e410]:
+              - link "Golden Hour Salwar Suit" [ref=f18e411] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/golden-hour-salwar-suit/
+            - generic [ref=f18e412]: $109.00(CAD)
+            - link "Add to cart" [ref=f18e414] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=62
+              - text: Add to Cart
+        - generic [ref=f18e419]:
+          - generic [ref=f18e420]:
+            - link [ref=f18e421] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/tussar-silk-saree-handwoven/
+            - generic [ref=f18e422]: 17% Off
+            - button "Quick view" [ref=f18e424] [cursor=pointer]
+          - generic [ref=f18e428]:
+            - generic [ref=f18e429]: Handmade
+            - heading [level=2] [ref=f18e430]:
+              - link "Tussar Silk Saree — Handwoven" [ref=f18e431] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/tussar-silk-saree-handwoven/
+            - generic [ref=f18e432]:
+              - deletion [ref=f18e433]:
+                - generic [ref=f18e434]: $289.00(CAD)
+              - generic [ref=f18e435]: "Original price was: $289.00(CAD)."
+              - insertion [ref=f18e436]:
+                - generic [ref=f18e437]: $239.00(CAD)
+              - generic [ref=f18e438]: "Current price is: $239.00(CAD)."
+            - link "Add to cart" [ref=f18e439] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=194
+              - text: Add to Cart
+        - generic [ref=f18e444]:
+          - generic [ref=f18e445]:
+            - link [ref=f18e446] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/mirror-work-festive-kurti/
+            - generic [ref=f18e447]: 18% Off
+            - button "Quick view" [ref=f18e449] [cursor=pointer]
+          - generic [ref=f18e453]:
+            - generic [ref=f18e454]: Handmade
+            - heading [level=2] [ref=f18e455]:
+              - link "Mirror-Work Festive Kurti" [ref=f18e456] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/mirror-work-festive-kurti/
+            - generic [ref=f18e457]:
+              - deletion [ref=f18e458]:
+                - generic [ref=f18e459]: $219.00(CAD)
+              - generic [ref=f18e460]: "Original price was: $219.00(CAD)."
+              - insertion [ref=f18e461]:
+                - generic [ref=f18e462]: $179.00(CAD)
+              - generic [ref=f18e463]: "Current price is: $179.00(CAD)."
+            - link "Add to cart" [ref=f18e464] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=192
+              - text: Add to Cart
+        - generic [ref=f18e469]:
+          - generic [ref=f18e470]:
+            - link [ref=f18e471] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/hand-stitched-linen-kameez/
+            - button "Quick view" [ref=f18e472] [cursor=pointer]
+          - generic [ref=f18e476]:
+            - generic [ref=f18e477]: Handmade
+            - heading [level=2] [ref=f18e478]:
+              - link "Hand-Stitched Linen Kameez" [ref=f18e479] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/hand-stitched-linen-kameez/
+            - generic [ref=f18e480]: $169.00(CAD)
+            - link "Add to cart" [ref=f18e482] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=190
+              - text: Add to Cart
+        - generic [ref=f18e487]:
+          - generic [ref=f18e488]:
+            - link [ref=f18e489] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+            - generic [ref=f18e490]: 16% Off
+            - button "Quick view" [ref=f18e492] [cursor=pointer]
+          - generic [ref=f18e496]:
+            - generic [ref=f18e497]: Handmade
+            - heading [level=2] [ref=f18e498]:
+              - link "Embroidered Silk Panjabi" [ref=f18e499] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+            - generic [ref=f18e500]:
+              - deletion [ref=f18e501]:
+                - generic [ref=f18e502]: $249.00(CAD)
+              - generic [ref=f18e503]: "Original price was: $249.00(CAD)."
+              - insertion [ref=f18e504]:
+                - generic [ref=f18e505]: $209.00(CAD)
+              - generic [ref=f18e506]: "Current price is: $209.00(CAD)."
+            - link "Add to cart" [ref=f18e507] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=188
+              - text: Add to Cart
+        - generic [ref=f18e512]:
+          - generic [ref=f18e513]:
+            - link [ref=f18e514] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/block-printed-cotton-angarkha/
+            - button "Quick view" [ref=f18e515] [cursor=pointer]
+          - generic [ref=f18e519]:
+            - generic [ref=f18e520]: Handmade
+            - heading [level=2] [ref=f18e521]:
+              - link "Block-Printed Cotton Angarkha" [ref=f18e522] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/block-printed-cotton-angarkha/
+            - generic [ref=f18e523]: $159.00(CAD)
+            - link "Add to cart" [ref=f18e525] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=186
+              - text: Add to Cart
+        - generic [ref=f18e530]:
+          - generic [ref=f18e531]:
+            - link [ref=f18e532] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/handwoven-jamdani-kurti/
+            - generic [ref=f18e533]: 15% Off
+            - button "Quick view" [ref=f18e535] [cursor=pointer]
+          - generic [ref=f18e539]:
+            - generic [ref=f18e540]: Handmade
+            - heading [level=2] [ref=f18e541]:
+              - link "Handwoven Jamdani Kurti" [ref=f18e542] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/handwoven-jamdani-kurti/
+            - generic [ref=f18e543]:
+              - deletion [ref=f18e544]:
+                - generic [ref=f18e545]: $199.00(CAD)
+              - generic [ref=f18e546]: "Original price was: $199.00(CAD)."
+              - insertion [ref=f18e547]:
+                - generic [ref=f18e548]: $169.00(CAD)
+              - generic [ref=f18e549]: "Current price is: $169.00(CAD)."
+            - link "Add to cart" [ref=f18e550] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=184
+              - text: Add to Cart
+        - generic [ref=f18e555]:
+          - generic [ref=f18e556]:
+            - link [ref=f18e557] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/coral-canvas-tunic/
+            - button "Quick view" [ref=f18e558] [cursor=pointer]
+          - generic [ref=f18e562]:
+            - generic [ref=f18e563]: Regular Wear
+            - heading [level=2] [ref=f18e564]:
+              - link "Coral Canvas Tunic" [ref=f18e565] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/coral-canvas-tunic/
+            - generic [ref=f18e566]: $139.00(CAD)
+            - link "Add to cart" [ref=f18e568] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=67
+              - text: Add to Cart
+        - generic [ref=f18e573]:
+          - generic [ref=f18e574]:
+            - link [ref=f18e575] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/emerald-poise-salwar/
+            - button "Quick view" [ref=f18e576] [cursor=pointer]
+          - generic [ref=f18e580]:
+            - generic [ref=f18e581]: Regular Wear
+            - heading [level=2] [ref=f18e582]:
+              - link "Emerald Poise Salwar" [ref=f18e583] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/emerald-poise-salwar/
+            - generic [ref=f18e584]: $129.00(CAD)
+            - link "Add to cart" [ref=f18e586] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=66
+              - text: Add to Cart
+        - generic [ref=f18e591]:
+          - generic [ref=f18e592]:
+            - link [ref=f18e593] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/moonlight-classic-kameez/
+            - button "Quick view" [ref=f18e594] [cursor=pointer]
+          - generic [ref=f18e598]:
+            - generic [ref=f18e599]: Regular Wear
+            - heading [level=2] [ref=f18e600]:
+              - link "Moonlight Classic Kameez" [ref=f18e601] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/moonlight-classic-kameez/
+            - generic [ref=f18e602]: $129.00(CAD)
+            - link "Add to cart" [ref=f18e604] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=65
+              - text: Add to Cart
+        - generic [ref=f18e609]:
+          - generic [ref=f18e610]:
+            - link [ref=f18e611] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/silk-breeze-kurti/
+            - button "Quick view" [ref=f18e612] [cursor=pointer]
+          - generic [ref=f18e616]:
+            - generic [ref=f18e617]: Regular Wear
+            - heading [level=2] [ref=f18e618]:
+              - link "Silk Breeze Kurti" [ref=f18e619] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/silk-breeze-kurti/
+            - generic [ref=f18e620]: $119.00(CAD)
+            - link "Add to cart" [ref=f18e622] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=64
+              - text: Add to Cart
+        - generic [ref=f18e627]:
+          - generic [ref=f18e628]:
+            - link [ref=f18e629] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/crimson-petal-anarkali/
+            - button "Quick view" [ref=f18e630] [cursor=pointer]
+          - generic [ref=f18e634]:
+            - generic [ref=f18e635]: Regular Wear
+            - heading [level=2] [ref=f18e636]:
+              - link "Crimson Petal Anarkali" [ref=f18e637] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/crimson-petal-anarkali/
+            - generic [ref=f18e638]: $119.00(CAD)
+            - link "Add to cart" [ref=f18e640] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=63
+              - text: Add to Cart
+        - generic [ref=f18e645]:
+          - generic [ref=f18e646]:
+            - link [ref=f18e647] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/golden-hour-salwar-suit/
+            - button "Quick view" [ref=f18e648] [cursor=pointer]
+          - generic [ref=f18e652]:
+            - generic [ref=f18e653]: Regular Wear
+            - heading [level=2] [ref=f18e654]:
+              - link "Golden Hour Salwar Suit" [ref=f18e655] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/golden-hour-salwar-suit/
+            - generic [ref=f18e656]: $109.00(CAD)
+            - link "Add to cart" [ref=f18e658] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=62
+              - text: Add to Cart
+    - generic [ref=f18e663]:
+      - generic [ref=f18e664]:
+        - generic [ref=f18e665]: Collections
+        - heading "Shop by Category" [level=2] [ref=f18e666]
+        - paragraph [ref=f18e667]: Explore our curated collections for every occasion
+      - generic [ref=f18e668]:
+        - link "Regular Wear Most Popular Regular Wear Handpicked styles for every taste and occasion Free Shipping Custom Sizing Premium Fabric 19 Products Explore" [ref=f18e669] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - img "Regular Wear" [ref=f18e671]
+          - generic: "1"
+          - generic [ref=f18e672]:
+            - generic [ref=f18e673]: Most Popular
+            - generic [ref=f18e677]: Regular Wear
+            - paragraph [ref=f18e678]: Handpicked styles for every taste and occasion
+            - generic [ref=f18e679]:
+              - generic [ref=f18e680]: Free Shipping
+              - generic [ref=f18e683]: Custom Sizing
+              - generic [ref=f18e686]: Premium Fabric
+            - generic [ref=f18e689]:
+              - generic [ref=f18e690]: 19 Products
+              - generic [ref=f18e693]: Explore
+        - link "Handmade Trending Now Handmade Curated pieces that define elegance and comfort Handcrafted Comfort Fit All Seasons 6 Products Explore" [ref=f18e698] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+          - img "Handmade" [ref=f18e700]
+          - generic: "2"
+          - generic [ref=f18e701]:
+            - generic [ref=f18e702]: Trending Now
+            - generic [ref=f18e706]: Handmade
+            - paragraph [ref=f18e707]: Curated pieces that define elegance and comfort
+            - generic [ref=f18e708]:
+              - generic [ref=f18e709]: Handcrafted
+              - generic [ref=f18e712]: Comfort Fit
+              - generic [ref=f18e715]: All Seasons
+            - generic [ref=f18e718]:
+              - generic [ref=f18e719]: 6 Products
+              - generic [ref=f18e722]: Explore
+        - link "Party Wear Editor's Pick Party Wear Premium fabrics crafted with attention to detail Limited Edition Eco-Friendly Easy Care 4 Products Explore" [ref=f18e727] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+          - img "Party Wear" [ref=f18e729]
+          - generic: "3"
+          - generic [ref=f18e730]:
+            - generic [ref=f18e731]: Editor's Pick
+            - generic [ref=f18e735]: Party Wear
+            - paragraph [ref=f18e736]: Premium fabrics crafted with attention to detail
+            - generic [ref=f18e737]:
+              - generic [ref=f18e738]: Limited Edition
+              - generic [ref=f18e741]: Eco-Friendly
+              - generic [ref=f18e744]: Easy Care
+            - generic [ref=f18e747]:
+              - generic [ref=f18e748]: 4 Products
+              - generic [ref=f18e751]: Explore
+        - link "Family Matching Best Seller Family Matching Trendsetting designs for the modern wardrobe Size Inclusive Quick Delivery Gift Ready 3 Products Explore" [ref=f18e756] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/product-category/family-matching/
+          - img "Family Matching" [ref=f18e758]
+          - generic: "4"
+          - generic [ref=f18e759]:
+            - generic [ref=f18e760]: Best Seller
+            - generic [ref=f18e765]: Family Matching
+            - paragraph [ref=f18e766]: Trendsetting designs for the modern wardrobe
+            - generic [ref=f18e767]:
+              - generic [ref=f18e768]: Size Inclusive
+              - generic [ref=f18e771]: Quick Delivery
+              - generic [ref=f18e774]: Gift Ready
+            - generic [ref=f18e777]:
+              - generic [ref=f18e778]: 3 Products
+              - generic [ref=f18e781]: Explore
+        - link "Saree New Season Saree Exclusive collections you won't find elsewhere Family Matching Festive Ready Top Rated 2 Products Explore" [ref=f18e786] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+          - img "Saree" [ref=f18e788]
+          - generic: "5"
+          - generic [ref=f18e789]:
+            - generic [ref=f18e790]: New Season
+            - generic [ref=f18e797]: Saree
+            - paragraph [ref=f18e798]: Exclusive collections you won't find elsewhere
+            - generic [ref=f18e799]:
+              - generic [ref=f18e800]: Family Matching
+              - generic [ref=f18e803]: Festive Ready
+              - generic [ref=f18e806]: Top Rated
+            - generic [ref=f18e809]:
+              - generic [ref=f18e810]: 2 Products
+              - generic [ref=f18e813]: Explore
+    - generic [ref=f18e818]:
+      - generic: MEGA SALE 50%
+      - generic [ref=f18e819]:
+        - heading "Top Fashion Deals" [level=3] [ref=f18e820]: Top FashionDeals
+        - link "View Sale" [ref=f18e821] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/shop/
+        - generic [ref=f18e825]:
+          - generic [ref=f18e826]: Exclusive COUPON
+          - generic [ref=f18e827]:
+            - generic [ref=f18e828]: UP TO
+            - generic [ref=f18e829]: $10 (CAD)
+            - generic [ref=f18e830]: "OFF"
+    - generic [ref=f18e838]:
+      - heading [level=2] [ref=f18e839]:
+        - text: Crafted with Purpose.
+        - emphasis [ref=f18e840]: Worn
+        - text: with Pride.
+      - link "Read our philosophy" [ref=f18e841] [cursor=pointer]:
+        - /url: http://localhost/sklentr/snazzy-floret/about/
+      - generic [ref=f18e845]:
+        - heading "100% Transparent" [level=3] [ref=f18e851]
+        - heading "Only Verified Ingredients" [level=3] [ref=f18e856]
+    - generic [ref=f18e859]:
+      - generic [ref=f18e860]:
+        - generic [ref=f18e861]: Exclusive Offer
+        - heading [level=2] [ref=f18e864]:
+          - text: Summer Sale
+          - emphasis [ref=f18e865]: Up to 40% Off
+        - paragraph [ref=f18e866]: Don't miss our biggest sale of the season. Premium fabrics, handcrafted details — now at prices you'll love. Limited time only.
+        - generic [ref=f18e867]:
+          - generic [ref=f18e868]:
+            - generic [ref=f18e869]: "06"
+            - generic [ref=f18e870]: Days
+          - generic [ref=f18e871]: ":"
+          - generic [ref=f18e872]:
+            - generic [ref=f18e873]: "17"
+            - generic [ref=f18e874]: Hours
+          - generic [ref=f18e875]: ":"
+          - generic [ref=f18e876]:
+            - generic [ref=f18e877]: "59"
+            - generic [ref=f18e878]: Mins
+          - generic [ref=f18e879]: ":"
+          - generic [ref=f18e880]:
+            - generic [ref=f18e881]: "59"
+            - generic [ref=f18e882]: Secs
+        - generic [ref=f18e883]:
+          - link "Shop Now" [ref=f18e884] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/product-category/family-matching/
+          - link "View All Deals" [ref=f18e888] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/shop/
+      - generic [ref=f18e892]:
+        - generic [ref=f18e895]:
+          - group "1 / 3" [ref=f18e896]:
+            - img "Summer Collection 1" [ref=f18e897]
+          - group "2 / 3":
+            - img "Summer Collection 2"
+          - group "3 / 3":
+            - img "Summer Collection 3"
+        - generic [ref=f18e898]:
+          - text: From $24
+          - generic [ref=f18e901]: (CAD)
+    - generic [ref=f18e903]:
+      - generic [ref=f18e904]:
+        - generic [ref=f18e905]:
+          - generic [ref=f18e906]: Just Dropped
+          - heading "New Arrivals" [level=2] [ref=f18e907]
+        - link "View all" [ref=f18e908] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/shop/?orderby=date
+      - list [ref=f18e912]:
+        - listitem [ref=f18e913]:
+          - generic [ref=f18e914]:
+            - link [ref=f18e915] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/tussar-silk-saree-handwoven/
+            - generic [ref=f18e916]: 17% Off
+            - button "Quick view" [ref=f18e918] [cursor=pointer]
+          - generic [ref=f18e922]:
+            - generic [ref=f18e923]: Handmade
+            - heading [level=2] [ref=f18e924]:
+              - link "Tussar Silk Saree — Handwoven" [ref=f18e925] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/tussar-silk-saree-handwoven/
+            - generic [ref=f18e926]:
+              - deletion [ref=f18e927]:
+                - generic [ref=f18e928]: $289.00(CAD)
+              - generic [ref=f18e929]: "Original price was: $289.00(CAD)."
+              - insertion [ref=f18e930]:
+                - generic [ref=f18e931]: $239.00(CAD)
+              - generic [ref=f18e932]: "Current price is: $239.00(CAD)."
+            - link "Add to cart" [ref=f18e933] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=194
+              - text: Add to Cart
+        - listitem [ref=f18e937]:
+          - generic [ref=f18e938]:
+            - link [ref=f18e939] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/mirror-work-festive-kurti/
+            - generic [ref=f18e940]: 18% Off
+            - button "Quick view" [ref=f18e942] [cursor=pointer]
+          - generic [ref=f18e946]:
+            - generic [ref=f18e947]: Handmade
+            - heading [level=2] [ref=f18e948]:
+              - link "Mirror-Work Festive Kurti" [ref=f18e949] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/mirror-work-festive-kurti/
+            - generic [ref=f18e950]:
+              - deletion [ref=f18e951]:
+                - generic [ref=f18e952]: $219.00(CAD)
+              - generic [ref=f18e953]: "Original price was: $219.00(CAD)."
+              - insertion [ref=f18e954]:
+                - generic [ref=f18e955]: $179.00(CAD)
+              - generic [ref=f18e956]: "Current price is: $179.00(CAD)."
+            - link "Add to cart" [ref=f18e957] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=192
+              - text: Add to Cart
+        - listitem [ref=f18e961]:
+          - generic [ref=f18e962]:
+            - link [ref=f18e963] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/product/hand-stitched-linen-kameez/
+            - button "Quick view" [ref=f18e964] [cursor=pointer]
+          - generic [ref=f18e968]:
+            - generic [ref=f18e969]: Handmade
+            - heading [level=2] [ref=f18e970]:
+              - link "Hand-Stitched Linen Kameez" [ref=f18e971] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product/hand-stitched-linen-kameez/
+            - generic [ref=f18e972]: $169.00(CAD)
+            - link "Add to cart" [ref=f18e974] [cursor=pointer]:
+              - /url: /sklentr/snazzy-floret/?cb=31&add-to-cart=190
+              - text: Add to Cart
+    - generic [ref=f18e980]:
+      - generic [ref=f18e981]:
+        - generic [ref=f18e982]: Curated For You
+        - heading [level=2] [ref=f18e984]:
+          - text: Elevate Your
+          - emphasis [ref=f18e985]: Everyday Style
+        - paragraph [ref=f18e986]: Discover handpicked collections designed for comfort, crafted with premium fabrics, and tailored to perfection — because you deserve nothing less.
+        - link "Explore Now" [ref=f18e987] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/shop/
+      - generic [ref=f18e992]:
+        - generic [ref=f18e994]: Premium
+        - generic [ref=f18e999]:
+          - generic [ref=f18e1000]: 5K+
+          - generic [ref=f18e1001]: Happy Customers
+      - generic [ref=f18e1003]:
+        - link [ref=f18e1004] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/product/tussar-silk-saree-handwoven/
+        - 'link "Mirror-Work Festive Kurti Original price was: $219.00(CAD). Current price is: $179.00(CAD)." [ref=f18e1005] [cursor=pointer]':
+          - /url: http://localhost/sklentr/snazzy-floret/product/mirror-work-festive-kurti/
+          - generic [ref=f18e1007]:
+            - generic [ref=f18e1008]: Mirror-Work Festive Kurti
+            - generic [ref=f18e1009]:
+              - deletion [ref=f18e1010]:
+                - generic [ref=f18e1011]: $219.00(CAD)
+              - generic [ref=f18e1012]: "Original price was: $219.00(CAD)."
+              - insertion [ref=f18e1013]:
+                - generic [ref=f18e1014]: $179.00(CAD)
+              - generic [ref=f18e1015]: "Current price is: $179.00(CAD)."
+        - link "Hand-Stitched Linen Kameez $169.00(CAD)" [ref=f18e1016] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/product/hand-stitched-linen-kameez/
+          - generic [ref=f18e1018]:
+            - generic [ref=f18e1019]: Hand-Stitched Linen Kameez
+            - generic [ref=f18e1020]: $169.00(CAD)
+        - generic: "4.9"
+        - generic: Trending
+    - generic [ref=f18e1024]:
+      - heading "Customer Reviews" [level=2] [ref=f18e1027]
+      - generic [ref=f18e1028]:
+        - list [ref=f18e1030]:
+          - listitem [ref=f18e1031]:
+            - generic [ref=f18e1032]: "N"
+            - generic [ref=f18e1034]:
+              - generic [ref=f18e1035]: Nusrat Jahan
+              - generic [ref=f18e1036]:
+                - strong [ref=f18e1039]: "5.0"
+                - generic [ref=f18e1040]: on 12 Jun, 2026
+          - listitem:
+            - generic: F
+            - generic:
+              - generic: Farhana Akter
+              - generic:
+                - strong: "4.9"
+                - generic: on 3 May, 2026
+          - listitem:
+            - generic: R
+            - generic:
+              - generic: Rezaul Karim
+              - generic:
+                - strong: "5.0"
+                - generic: on 21 Apr, 2026
+        - generic [ref=f18e1041]:
+          - generic: “
+          - blockquote [ref=f18e1042]: The mother-daughter set arrived stitched beautifully and the fabric is so soft. We wore it for Eid and everyone asked where it was from.
+          - blockquote: I ordered a custom size and it fit perfectly. The team messaged me through the whole process. Easily the best experience I have had shopping online.
+          - blockquote: Bought the panjabi set for my son and me. The stitching and the print quality are excellent for the price. Delivery to Dhaka took two days.
+    - generic [ref=f18e1045]:
+      - generic [ref=f18e1053]:
+        - heading "Free Delivery" [level=3] [ref=f18e1054]
+        - paragraph [ref=f18e1055]: On orders over $75 CAD
+      - generic [ref=f18e1060]:
+        - heading "Quality Fabric" [level=3] [ref=f18e1061]
+        - paragraph [ref=f18e1062]: Premium materials only
+      - generic [ref=f18e1070]:
+        - heading "Custom Sizing" [level=3] [ref=f18e1071]
+        - paragraph [ref=f18e1072]: Made to your measurements
+      - generic [ref=f18e1077]:
+        - heading "Easy Support" [level=3] [ref=f18e1078]
+        - paragraph [ref=f18e1079]: WhatsApp & phone support
+    - generic [ref=f18e1082]:
+      - article [ref=f18e1083]:
+        - link [ref=f18e1084] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/snazzy-floret-first-collection/
+        - generic [ref=f18e1085]:
+          - time [ref=f18e1086]: Apr 22, 2026
+          - heading [level=3] [ref=f18e1087]:
+            - link "The Story Behind Snazzy Floret’s First Collection" [ref=f18e1088] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/snazzy-floret-first-collection/
+          - paragraph [ref=f18e1089]: How a small studio in Dhaka turned a family idea into a brand — and…
+          - link "Read more" [ref=f18e1090] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/snazzy-floret-first-collection/
+      - generic [ref=f18e1093]:
+        - generic [ref=f18e1094]:
+          - generic [ref=f18e1095]: Journal
+          - heading "From Our Blog" [level=2] [ref=f18e1096]
+          - paragraph [ref=f18e1097]: Stories, tips, and inspiration from the world of fashion
+        - link "Read all" [ref=f18e1098] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/blog/
+      - article [ref=f18e1101]:
+        - link [ref=f18e1102] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/mother-daughter-outfit-ideas/
+        - generic [ref=f18e1103]:
+          - time [ref=f18e1104]: Apr 22, 2026
+          - heading [level=3] [ref=f18e1105]:
+            - link "5 Timeless Mother-Daughter Outfit Ideas" [ref=f18e1106] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/mother-daughter-outfit-ideas/
+          - paragraph [ref=f18e1107]: Five mother-daughter pairings that feel considered, not matchy — good for weddings, Eid, and family…
+          - link "Read more" [ref=f18e1108] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/mother-daughter-outfit-ideas/
+      - article [ref=f18e1111]:
+        - link [ref=f18e1112] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/custom-tailoring-measurements/
+        - generic [ref=f18e1113]:
+          - time [ref=f18e1114]: Apr 22, 2026
+          - heading [level=3] [ref=f18e1115]:
+            - 'link "Custom Tailoring 101: How to Share Your Measurements" [ref=f18e1116] [cursor=pointer]':
+              - /url: http://localhost/sklentr/snazzy-floret/custom-tailoring-measurements/
+          - paragraph [ref=f18e1117]: A short, practical guide to getting measurements right the first time — no guesswork, no…
+          - link "Read more" [ref=f18e1118] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/custom-tailoring-measurements/
+    - main
+    - contentinfo [ref=f18e1121]:
+      - generic [ref=f18e1122]:
+        - img "Snazzy Floret" [ref=f18e1123]
+        - generic [ref=f18e1125]:
+          - heading "Get 20% off your first order" [level=2] [ref=f18e1126]
+          - paragraph [ref=f18e1127]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=f18e1128]:
+            - textbox "Enter your email" [ref=f18e1129]
+            - button "Subscribe" [ref=f18e1130] [cursor=pointer]
+      - generic [ref=f18e1133]:
+        - generic [ref=f18e1134]:
+          - generic [ref=f18e1135]:
+            - heading "Shop" [level=3] [ref=f18e1136]
+            - list [ref=f18e1137]:
+              - listitem [ref=f18e1138]:
+                - link "Digital Prints" [ref=f18e1139] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+              - listitem [ref=f18e1140]:
+                - link "Handmade" [ref=f18e1141] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+              - listitem [ref=f18e1142]:
+                - link "Saree" [ref=f18e1143] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+              - listitem [ref=f18e1144]:
+                - link "Party wear" [ref=f18e1145] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=f18e1146]:
+                - link "Regular wear" [ref=f18e1147] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - generic [ref=f18e1148]:
+            - heading "Customer Care" [level=3] [ref=f18e1149]
+            - list [ref=f18e1150]:
+              - listitem [ref=f18e1151]:
+                - link "FAQ" [ref=f18e1152] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/faq/
+              - listitem [ref=f18e1153]:
+                - link "Shipping" [ref=f18e1154] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/shipping/
+              - listitem [ref=f18e1155]:
+                - link "Contact" [ref=f18e1156] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/contact/
+          - generic [ref=f18e1157]:
+            - heading "Information" [level=3] [ref=f18e1158]
+            - list [ref=f18e1159]:
+              - listitem [ref=f18e1160]:
+                - link "Returns & Refunds" [ref=f18e1161] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+              - listitem [ref=f18e1162]:
+                - link "Privacy policy" [ref=f18e1163] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+              - listitem [ref=f18e1164]:
+                - link "About us" [ref=f18e1165] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/about/
+          - generic [ref=f18e1166]:
+            - heading "Get in Touch" [level=3] [ref=f18e1167]
+            - list [ref=f18e1168]:
+              - listitem [ref=f18e1169]:
+                - link "+880 1621-008533" [ref=f18e1170] [cursor=pointer]:
+                  - /url: tel:+8801621008533
+              - listitem [ref=f18e1173]:
+                - link "snazzyfloret@gmail.com" [ref=f18e1174] [cursor=pointer]:
+                  - /url: mailto:snazzyfloret@gmail.com
+            - generic [ref=f18e1178]:
+              - link "Facebook" [ref=f18e1179] [cursor=pointer]:
+                - /url: https://www.facebook.com/snazzyfloret
+              - link "Instagram" [ref=f18e1182] [cursor=pointer]:
+                - /url: https://www.instagram.com/snazzyfloret
+              - link "WhatsApp" [ref=f18e1186] [cursor=pointer]:
+                - /url: https://wa.me/8801621008533
+        - generic:
+          - generic:
+            - generic: SNAZZY FLORET
+            - generic: SNAZZY FLORET
+      - paragraph [ref=f18e1191]: © 2026 Snazzy Floret. All rights reserved.
+  - status [ref=f18e1192]

@@ -1,0 +1,1310 @@
+<?php
+/**
+ * Homepage Template - Premium Design
+ *
+ * @package Snazzy_Floret
+ */
+
+get_header();
+$theme_uri = get_template_directory_uri();
+?>
+
+</main>
+
+<!-- ============ HERO — 2-COLUMN PREMIUM LAYOUT ============ -->
+<?php
+$slides     = sf_hero_get_sliders( true ); // Managed under wp-admin → Hero.
+$total      = count( $slides );
+$hero_speed = absint( get_theme_mod( 'sf_hero_speed', 5000 ) );
+$shop_url   = class_exists( 'WooCommerce' ) ? get_permalink( wc_get_page_id( 'shop' ) ) : home_url( '/shop/' );
+
+// Fetch categories for the left panel
+$hero_cats = get_terms( array(
+	'taxonomy'   => 'product_cat',
+	'hide_empty' => false,
+	'parent'     => 0,
+	'number'     => 6,
+	'exclude'    => array( get_option( 'default_product_cat' ) ),
+	'orderby'    => 'count',
+	'order'      => 'DESC',
+) );
+?>
+<?php if ( $total > 0 ) : ?>
+<div class="sf-hero2-wrapper">
+
+<!-- Ambient Floating Icons & Lines -->
+<div class="sf-hero2__ambient" aria-hidden="true">
+	<!-- Top-left: shopping cart -->
+	<svg class="sf-hero2__ambient-icon sf-hero2__ambient-icon--1" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>
+	<!-- Top-right: star -->
+	<svg class="sf-hero2__ambient-icon sf-hero2__ambient-icon--2" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+	<!-- Top-center: diamond/gem -->
+	<svg class="sf-hero2__ambient-icon sf-hero2__ambient-icon--3" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 13L2 9z"/><path d="M2 9h20"/><path d="M10 3l-4 6 6 13 6-13-4-6"/></svg>
+	<!-- Mid-left: heart/wishlist -->
+	<svg class="sf-hero2__ambient-icon sf-hero2__ambient-icon--4" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+	<!-- Mid-right: shopping bag -->
+	<svg class="sf-hero2__ambient-icon sf-hero2__ambient-icon--5" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+	<!-- Bottom-left: gift -->
+	<svg class="sf-hero2__ambient-icon sf-hero2__ambient-icon--6" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
+	<!-- Bottom-right: credit card -->
+	<svg class="sf-hero2__ambient-icon sf-hero2__ambient-icon--7" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+	<!-- Center: tag/label -->
+	<svg class="sf-hero2__ambient-icon sf-hero2__ambient-icon--8" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+	<!-- Top-left small: scissors -->
+	<svg class="sf-hero2__ambient-icon sf-hero2__ambient-icon--9" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+	<!-- Bottom-center: truck/delivery -->
+	<svg class="sf-hero2__ambient-icon sf-hero2__ambient-icon--10" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+
+	<!-- Decorative drifting lines -->
+	<span class="sf-hero2__ambient-line sf-hero2__ambient-line--h1"></span>
+	<span class="sf-hero2__ambient-line sf-hero2__ambient-line--h2"></span>
+	<span class="sf-hero2__ambient-line sf-hero2__ambient-line--h3"></span>
+	<span class="sf-hero2__ambient-line sf-hero2__ambient-line--v1"></span>
+	<span class="sf-hero2__ambient-line sf-hero2__ambient-line--v2"></span>
+	<span class="sf-hero2__ambient-line sf-hero2__ambient-line--v3"></span>
+</div>
+
+<section class="sf-hero2" id="sf-hero" data-speed="<?php echo esc_attr( $hero_speed ); ?>">
+
+	<div class="sf-hero2__container">
+
+		<!-- ===== LEFT COLUMN — Navigation Panel ===== -->
+		<div class="sf-hero2__panel">
+			<div class="sf-hero2__panel-inner">
+
+				<!-- Tagline -->
+				<div class="sf-hero2__panel-head">
+					<span class="sf-hero2__panel-label">
+						<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+						<?php esc_html_e( 'Shop by Category', 'snazzy-floret' ); ?>
+					</span>
+				</div>
+
+				<!-- Category Navigation -->
+				<nav class="sf-hero2__cat-nav" aria-label="<?php esc_attr_e( 'Product categories', 'snazzy-floret' ); ?>">
+					<ul class="sf-hero2__cat-list">
+						<?php if ( ! empty( $hero_cats ) && ! is_wp_error( $hero_cats ) ) :
+							foreach ( $hero_cats as $hc ) :
+								$hc_link  = get_term_link( $hc );
+								$hc_count = $hc->count;
+						?>
+						<li class="sf-hero2__cat-item">
+							<a href="<?php echo esc_url( $hc_link ); ?>" class="sf-hero2__cat-link">
+								<span class="sf-hero2__cat-name"><?php echo esc_html( $hc->name ); ?></span>
+								<span class="sf-hero2__cat-count"><?php echo esc_html( $hc_count ); ?></span>
+								<span class="sf-hero2__cat-arrow">
+									<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+								</span>
+							</a>
+						</li>
+						<?php endforeach; endif; ?>
+					</ul>
+				</nav>
+
+				<!-- Footer -->
+				<div class="sf-hero2__panel-foot">
+					<a href="<?php echo esc_url( $shop_url ); ?>" class="sf-hero2__shop-all">
+						<?php esc_html_e( 'Browse All Products', 'snazzy-floret' ); ?>
+						<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+					</a>
+
+					<!-- Stats Row -->
+					<div class="sf-hero2__stats">
+						<div class="sf-hero2__stat">
+							<span class="sf-hero2__stat-value"><?php esc_html_e( '82K+', 'snazzy-floret' ); ?></span>
+							<span class="sf-hero2__stat-label"><?php esc_html_e( 'Happy Customers', 'snazzy-floret' ); ?></span>
+						</div>
+						<div class="sf-hero2__stat-divider"></div>
+						<div class="sf-hero2__stat">
+							<span class="sf-hero2__stat-value"><?php esc_html_e( '98%', 'snazzy-floret' ); ?></span>
+							<span class="sf-hero2__stat-label"><?php esc_html_e( 'Recommend', 'snazzy-floret' ); ?></span>
+						</div>
+					</div>
+
+					<!-- Social -->
+					<div class="sf-hero2__social">
+						<span class="sf-hero2__social-label"><?php esc_html_e( 'Follow us', 'snazzy-floret' ); ?></span>
+						<div class="sf-hero2__social-links">
+							<a href="https://www.facebook.com/snazzyfloret" class="sf-hero2__social-link" target="_blank" rel="noopener" aria-label="Facebook">
+								<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+							</a>
+							<a href="https://www.instagram.com/snazzyfloret" class="sf-hero2__social-link" target="_blank" rel="noopener" aria-label="Instagram">
+								<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- ===== RIGHT COLUMN — Slider ===== -->
+		<div class="sf-hero2__slider-col">
+			<!-- Circular Slide Counter -->
+			<div class="sf-hero2__counter-ring" id="sf-hero-counter" data-total="<?php echo esc_attr( $total ); ?>">
+				<svg class="sf-hero2__counter-svg" viewBox="0 0 60 60">
+					<circle class="sf-hero2__counter-track" cx="30" cy="30" r="27" />
+					<circle class="sf-hero2__counter-progress" id="sf-hero-progress" cx="30" cy="30" r="27" />
+				</svg>
+				<span class="sf-hero2__counter-text">
+					<span class="sf-hero2__counter-current" id="sf-hero-current">1</span>
+					<span class="sf-hero2__counter-sep">/</span>
+					<span class="sf-hero2__counter-total" id="sf-hero-total"><?php echo esc_html( $total ); ?></span>
+				</span>
+			</div>
+			<div class="sf-hero2__slider-wrap">
+				<!-- Swiper Default -->
+				<div class="swiper sf-hero2__swiper" id="sf-hero-swiper">
+					<div class="swiper-wrapper">
+						<?php foreach ( $slides as $i => $slide ) :
+							$slide_img = sf_hero_image_url( $slide );
+							$buttons   = ! empty( $slide['buttons'] ) ? $slide['buttons'] : array();
+							$products  = ! empty( $slide['products'] ) ? $slide['products'] : array();
+
+							// Each block has its own show/hide switch in the Hero admin, and
+							// every field inside is optional — so render a wrapper only when it
+							// is switched on AND actually has something in it.
+							$show_content = ! empty( $slide['show_content'] );
+							$show_buttons = ! empty( $slide['show_buttons'] );
+
+							$has_title   = $show_content && ( '' !== trim( $slide['title'] ) || '' !== trim( $slide['title_em'] ) );
+							$has_text    = $show_content && ( $has_title || '' !== trim( $slide['tag'] ) || '' !== trim( $slide['desc'] ) );
+							$has_buttons = $show_buttons && ! empty( $buttons );
+							$has_copy    = $has_text || $has_buttons;
+							$has_content = $has_copy || ! empty( $products );
+						?>
+						<div class="swiper-slide">
+							<div class="sf-hero2__slide">
+								<!-- Image -->
+								<div class="sf-hero2__img-wrap">
+									<img src="<?php echo esc_url( $slide_img ); ?>" alt="" class="sf-hero2__slide-img" loading="<?php echo 0 === $i ? 'eager' : 'lazy'; ?>">
+								</div>
+								<!-- Overlay -->
+								<div class="sf-hero2__overlay"></div>
+								<div class="sf-hero2__grain" aria-hidden="true"></div>
+								<!-- Content -->
+								<?php if ( $has_content ) : ?>
+								<div class="sf-hero2__slide-content">
+									<div class="sf-hero2__slide-grid">
+
+										<?php if ( $has_copy ) : ?>
+										<div class="sf-hero2__slide-text">
+											<?php if ( $show_content && ! empty( $slide['tag'] ) ) : ?>
+											<span class="sf-hero2__tag">
+												<span class="sf-hero2__tag-dot"></span>
+												<?php echo esc_html( $slide['tag'] ); ?>
+											</span>
+											<?php endif; ?>
+											<?php if ( $has_title ) : ?>
+											<h1 class="sf-hero2__title">
+												<?php echo esc_html( $slide['title'] ); ?>
+												<?php if ( ! empty( $slide['title_em'] ) ) : ?>
+													<em><?php echo esc_html( $slide['title_em'] ); ?></em>
+												<?php endif; ?>
+											</h1>
+											<?php endif; ?>
+											<?php if ( $show_content && ! empty( $slide['desc'] ) ) : ?>
+												<p class="sf-hero2__desc"><?php echo esc_html( $slide['desc'] ); ?></p>
+											<?php endif; ?>
+
+											<?php if ( $has_buttons ) : ?>
+											<div class="sf-hero2__actions">
+												<?php foreach ( $buttons as $button ) :
+													$b_url   = ! empty( $button['url'] ) ? $button['url'] : $shop_url;
+													$b_style = ! empty( $button['style'] ) ? $button['style'] : 'primary';
+												?>
+													<?php if ( 'primary' === $b_style ) : ?>
+														<a href="<?php echo esc_url( $b_url ); ?>" class="sf-hero2__cta-primary">
+															<span><?php echo esc_html( $button['text'] ); ?></span>
+															<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+														</a>
+													<?php elseif ( 'outline' === $b_style ) : ?>
+														<a href="<?php echo esc_url( $b_url ); ?>" class="sf-hero2__cta-outline">
+															<span><?php echo esc_html( $button['text'] ); ?></span>
+														</a>
+													<?php else : ?>
+														<a href="<?php echo esc_url( $b_url ); ?>" class="sf-hero2__cta-ghost">
+															<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+															<?php echo esc_html( $button['text'] ); ?>
+														</a>
+													<?php endif; ?>
+												<?php endforeach; ?>
+											</div>
+											<?php endif; ?>
+										</div>
+										<?php endif; ?>
+
+										<?php if ( ! empty( $products ) ) : ?>
+										<div class="sf-hero2__products">
+											<div class="sf-hero2__products-list">
+												<?php foreach ( $products as $item ) :
+													$p_id = absint( $item['id'] );
+													if ( ! $p_id || 'publish' !== get_post_status( $p_id ) ) {
+														continue;
+													}
+													$p_link  = get_permalink( $p_id );
+													$p_name  = get_the_title( $p_id );
+													$p_thumb = get_the_post_thumbnail_url( $p_id, 'woocommerce_thumbnail' );
+													if ( ! $p_thumb ) {
+														$p_thumb = get_the_post_thumbnail_url( $p_id, 'medium' );
+													}
+													if ( ! $p_thumb && function_exists( 'wc_placeholder_img_src' ) ) {
+														$p_thumb = wc_placeholder_img_src( 'woocommerce_thumbnail' );
+													}
+													$p_title = ! empty( $item['label'] ) ? $item['label'] : sf_hero_product_price_text( $p_id );
+												?>
+												<a class="sf-hero2__product" href="<?php echo esc_url( $p_link ); ?>">
+													<span class="sf-hero2__product-img">
+														<?php if ( $p_thumb ) : ?>
+															<img src="<?php echo esc_url( $p_thumb ); ?>" alt="<?php echo esc_attr( $p_name ); ?>" loading="lazy">
+														<?php endif; ?>
+													</span>
+													<span class="sf-hero2__product-info">
+														<span class="sf-hero2__product-name"><?php echo esc_html( $p_name ); ?></span>
+														<?php if ( '' !== $p_title ) : ?>
+															<span class="sf-hero2__product-title"><?php echo esc_html( $p_title ); ?></span>
+														<?php endif; ?>
+													</span>
+												</a>
+												<?php endforeach; ?>
+											</div>
+										</div>
+										<?php endif; ?>
+
+									</div>
+								</div>
+								<?php endif; ?>
+							</div>
+						</div>
+						<?php endforeach; ?>
+					</div>
+					<!-- Pagination -->
+					<div class="sf-hero2__pagination"></div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+</div>
+<?php endif; ?>
+
+<!-- ============ MARQUEE TICKER ============ -->
+<div class="sf-marquee">
+	<div class="sf-marquee__track">
+		<?php for ( $m = 0; $m < 3; $m++ ) : ?>
+		<span class="sf-marquee__item">Free Delivery Over $75 CAD</span>
+		<span class="sf-marquee__divider">&#10022;</span>
+		<span class="sf-marquee__item">Handmade With Love</span>
+		<span class="sf-marquee__divider">&#10022;</span>
+		<span class="sf-marquee__item">Custom Sizing Available</span>
+		<span class="sf-marquee__divider">&#10022;</span>
+		<span class="sf-marquee__item">Family Matching Outfits</span>
+		<span class="sf-marquee__divider">&#10022;</span>
+		<?php endfor; ?>
+	</div>
+</div>
+
+<!-- ============ SHOP BY CATEGORY ============ -->
+<section class="sf-categories sf-section">
+	<!-- Premium Animated Background -->
+	<div class="sf-categories-bg" aria-hidden="true">
+		<div class="sf-categories-bg__base"></div>
+		<div class="sf-categories-bg__orb sf-categories-bg__orb--1"></div>
+		<div class="sf-categories-bg__orb sf-categories-bg__orb--2"></div>
+		<div class="sf-categories-bg__orb sf-categories-bg__orb--3"></div>
+		<div class="sf-categories-bg__orb sf-categories-bg__orb--4"></div>
+		<div class="sf-categories-bg__shimmer"></div>
+		<div class="sf-categories-bg__grain"></div>
+	</div>
+	<div class="sf-container" style="position: relative; z-index: 2;">
+		<div class="sf-section__header">
+			<span class="sf-section__tag"><?php esc_html_e( 'Collections', 'snazzy-floret' ); ?></span>
+			<h2 class="sf-section__title"><?php esc_html_e( 'Shop by Category', 'snazzy-floret' ); ?></h2>
+			<p class="sf-section__subtitle"><?php esc_html_e( 'Explore our curated collections for every occasion', 'snazzy-floret' ); ?></p>
+		</div>
+		<div class="sf-categories__grid" id="sf-cat-stack">
+			<?php
+			$categories = get_terms( array(
+				'taxonomy'   => 'product_cat',
+				'hide_empty' => false,
+				'parent'     => 0,
+				'number'     => 5,
+				'exclude'    => array( get_option( 'default_product_cat' ) ),
+				'orderby'    => 'count',
+				'order'      => 'DESC',
+			) );
+
+			// Icon set for categories
+			$cat_icons = array(
+				'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>',
+				'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>',
+				'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 13L2 9z"/><path d="M2 9h20"/></svg>',
+				'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>',
+				'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>',
+			);
+
+			$cat_descriptions = array(
+				__( 'Handpicked styles for every taste and occasion', 'snazzy-floret' ),
+				__( 'Curated pieces that define elegance and comfort', 'snazzy-floret' ),
+				__( 'Premium fabrics crafted with attention to detail', 'snazzy-floret' ),
+				__( 'Trendsetting designs for the modern wardrobe', 'snazzy-floret' ),
+				__( 'Exclusive collections you won\'t find elsewhere', 'snazzy-floret' ),
+			);
+
+			$cat_taglines = array(
+				__( 'Most Popular', 'snazzy-floret' ),
+				__( 'Trending Now', 'snazzy-floret' ),
+				__( 'Editor\'s Pick', 'snazzy-floret' ),
+				__( 'Best Seller', 'snazzy-floret' ),
+				__( 'New Season', 'snazzy-floret' ),
+			);
+
+			$cat_features = array(
+				array( __( 'Free Shipping', 'snazzy-floret' ), __( 'Custom Sizing', 'snazzy-floret' ), __( 'Premium Fabric', 'snazzy-floret' ) ),
+				array( __( 'Handcrafted', 'snazzy-floret' ), __( 'Comfort Fit', 'snazzy-floret' ), __( 'All Seasons', 'snazzy-floret' ) ),
+				array( __( 'Limited Edition', 'snazzy-floret' ), __( 'Eco-Friendly', 'snazzy-floret' ), __( 'Easy Care', 'snazzy-floret' ) ),
+				array( __( 'Size Inclusive', 'snazzy-floret' ), __( 'Quick Delivery', 'snazzy-floret' ), __( 'Gift Ready', 'snazzy-floret' ) ),
+				array( __( 'Family Matching', 'snazzy-floret' ), __( 'Festive Ready', 'snazzy-floret' ), __( 'Top Rated', 'snazzy-floret' ) ),
+			);
+
+			if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
+				$cat_index = 0;
+				foreach ( $categories as $cat ) :
+					$thumb_id = get_term_meta( $cat->term_id, 'thumbnail_id', true );
+					$cat_link = get_term_link( $cat );
+
+					if ( ! $thumb_id ) {
+						$cat_products = wc_get_products( array(
+							'category' => array( $cat->slug ),
+							'limit'    => 1,
+							'status'   => 'publish',
+							'orderby'  => 'date',
+							'order'    => 'DESC',
+						) );
+						if ( ! empty( $cat_products ) ) {
+							$thumb_id = $cat_products[0]->get_image_id();
+						}
+					}
+
+					$icon     = $cat_icons[ $cat_index % count( $cat_icons ) ];
+					$desc     = $cat_descriptions[ $cat_index % count( $cat_descriptions ) ];
+					$tagline  = $cat_taglines[ $cat_index % count( $cat_taglines ) ];
+					$features = $cat_features[ $cat_index % count( $cat_features ) ];
+			?>
+				<a href="<?php echo esc_url( $cat_link ); ?>" class="sf-category-card sf-reveal" style="--card-index: <?php echo esc_attr( $cat_index ); ?>;">
+					<div class="sf-category-card__img-wrap">
+						<?php if ( $thumb_id ) : ?>
+							<?php echo wp_get_attachment_image( $thumb_id, 'sf-category-thumb', false, array(
+								'class'   => 'sf-category-card__img',
+								'loading' => 'lazy',
+								'alt'     => esc_attr( $cat->name ),
+							) ); ?>
+						<?php else : ?>
+							<div class="sf-category-card__placeholder">
+								<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+							</div>
+						<?php endif; ?>
+					</div>
+					<span class="sf-category-card__number" aria-hidden="true"><?php echo esc_html( $cat_index + 1 ); ?></span>
+					<div class="sf-category-card__overlay">
+						<span class="sf-category-card__tagline"><?php echo esc_html( $tagline ); ?></span>
+						<div class="sf-category-card__icon-badge">
+							<?php echo $icon; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Static SVG ?>
+						</div>
+						<span class="sf-category-card__name"><?php echo esc_html( $cat->name ); ?></span>
+						<p class="sf-category-card__desc"><?php echo esc_html( $desc ); ?></p>
+						<div class="sf-category-card__features">
+							<?php foreach ( $features as $feat ) : ?>
+								<span class="sf-category-card__feat">
+									<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+									<?php echo esc_html( $feat ); ?>
+								</span>
+							<?php endforeach; ?>
+						</div>
+						<div class="sf-category-card__meta">
+							<span class="sf-category-card__count">
+								<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+								<?php echo esc_html( $cat->count ); ?> <?php esc_html_e( 'Products', 'snazzy-floret' ); ?>
+							</span>
+							<span class="sf-category-card__arrow">
+								<span class="sf-category-card__arrow-text"><?php esc_html_e( 'Explore', 'snazzy-floret' ); ?></span>
+								<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+							</span>
+						</div>
+					</div>
+				</a>
+			<?php
+					$cat_index++;
+				endforeach;
+			endif; ?>
+		</div>
+	</div>
+</section>
+
+<!-- ============ FEATURED PRODUCTS SLIDER ============ -->
+<section class="sf-section sf-featured-slider-section">
+	<!-- Premium Animated Background -->
+	<div class="sf-featured-bg" aria-hidden="true">
+		<div class="sf-featured-bg__base"></div>
+		<div class="sf-featured-bg__orb sf-featured-bg__orb--1"></div>
+		<div class="sf-featured-bg__orb sf-featured-bg__orb--2"></div>
+		<div class="sf-featured-bg__orb sf-featured-bg__orb--3"></div>
+		<div class="sf-featured-bg__orb sf-featured-bg__orb--4"></div>
+		<div class="sf-featured-bg__orb sf-featured-bg__orb--5"></div>
+		<div class="sf-featured-bg__shimmer"></div>
+		<div class="sf-featured-bg__grain"></div>
+	</div>
+
+	<div class="sf-container" style="position: relative; z-index: 2;">
+		<div class="sf-section__header sf-section__header--flex">
+			<div>
+				<span class="sf-section__tag"><?php esc_html_e( 'Curated For You', 'snazzy-floret' ); ?></span>
+				<h2 class="sf-section__title"><?php esc_html_e( 'Featured Products', 'snazzy-floret' ); ?></h2>
+			</div>
+			<a href="<?php echo esc_url( get_permalink( wc_get_page_id( 'shop' ) ) ); ?>" class="sf-view-all">
+				<?php esc_html_e( 'View all', 'snazzy-floret' ); ?>
+				<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+			</a>
+		</div>
+	</div>
+	<div class="sf-featured-slider" id="sf-featured-slider">
+		<div class="sf-featured-slider__track" id="sf-featured-track">
+			<?php
+			$featured_products = wc_get_products( array(
+				'status'     => 'publish',
+				'limit'      => 12,
+				'visibility' => 'featured',
+				'orderby'    => 'date',
+				'order'      => 'DESC',
+			) );
+			// If not enough featured, fallback to recent products
+			if ( count( $featured_products ) < 4 ) {
+				$featured_products = wc_get_products( array(
+					'status'  => 'publish',
+					'limit'   => 12,
+					'orderby' => 'date',
+					'order'   => 'DESC',
+				) );
+			}
+			// Render slides twice for seamless infinite loop
+			for ( $loop = 0; $loop < 2; $loop++ ) :
+				foreach ( $featured_products as $product ) :
+					$pid       = $product->get_id();
+					$link      = get_permalink( $pid );
+					$img_id    = $product->get_image_id();
+					$terms     = get_the_terms( $pid, 'product_cat' );
+					$cat_name  = ( ! empty( $terms ) && ! is_wp_error( $terms ) ) ? $terms[0]->name : '';
+					$is_sale   = $product->is_on_sale();
+					$created   = strtotime( $product->get_date_created() );
+					$is_new    = $created && ( time() - $created ) < ( 30 * DAY_IN_SECONDS );
+					$in_stock  = $product->is_in_stock();
+			?>
+				<div class="sf-featured-slider__slide">
+					<div class="sf-featured-card">
+						<div class="sf-card__image-wrap">
+							<a href="<?php echo esc_url( $link ); ?>" class="sf-card__image-link">
+								<?php echo wp_get_attachment_image( $img_id, 'sf-product-card', false, array( 'class' => 'sf-card__img', 'loading' => 'lazy' ) ); ?>
+							</a>
+							<div class="sf-card__badges">
+								<?php if ( $is_sale ) :
+									$regular = (float) $product->get_regular_price();
+									$sale    = (float) $product->get_sale_price();
+									if ( $regular > 0 ) :
+										$percent = round( ( ( $regular - $sale ) / $regular ) * 100 );
+								?>
+									<span class="sf-card__badge sf-card__badge--sale"><?php echo esc_html( $percent . '% Off' ); ?></span>
+								<?php endif; endif; ?>
+								<?php if ( $is_new ) : ?>
+									<span class="sf-card__badge sf-card__badge--new"><?php esc_html_e( 'New', 'snazzy-floret' ); ?></span>
+								<?php endif; ?>
+							</div>
+							<button class="sf-quick-view-btn" data-product-id="<?php echo esc_attr( $pid ); ?>" aria-label="<?php esc_attr_e( 'Quick view', 'snazzy-floret' ); ?>">
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+							</button>
+						</div>
+						<div class="sf-card__info">
+							<?php if ( $cat_name ) : ?>
+								<span class="sf-card__category"><?php echo esc_html( $cat_name ); ?></span>
+							<?php endif; ?>
+							<h2 class="sf-card__title"><a href="<?php echo esc_url( $link ); ?>"><?php echo esc_html( $product->get_name() ); ?></a></h2>
+							<div class="sf-card__price"><?php echo wp_kses_post( $product->get_price_html() ); ?></div>
+							<div class="sf-card__hover-actions">
+								<?php if ( $in_stock ) : ?>
+									<a href="<?php echo esc_url( $product->add_to_cart_url() ); ?>" class="sf-card__add-btn" data-product_id="<?php echo esc_attr( $pid ); ?>" aria-label="<?php esc_attr_e( 'Add to cart', 'snazzy-floret' ); ?>">
+										<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+										<?php esc_html_e( 'Add to Cart', 'snazzy-floret' ); ?>
+									</a>
+								<?php else : ?>
+									<span class="sf-card__sold-out"><?php esc_html_e( 'Sold Out', 'snazzy-floret' ); ?></span>
+								<?php endif; ?>
+							</div>
+						</div>
+					</div>
+				</div>
+			<?php endforeach; endfor; ?>
+		</div>
+	</div>
+</section>
+
+<!-- ============ DEALS BANNER STRIP ============ -->
+<?php
+$deal_products = wc_get_products( array(
+	'status'  => 'publish',
+	'limit'   => 3,
+	'orderby' => 'rand',
+) );
+$deal_imgs = array();
+foreach ( $deal_products as $dp ) {
+	$dp_img = $dp->get_image_id();
+	if ( $dp_img ) {
+		$deal_imgs[] = wp_get_attachment_image_url( $dp_img, 'sf-product-thumb' );
+	}
+}
+?>
+<section class="sf-deals-strip">
+	<!-- Background watermark -->
+	<span class="sf-deals-strip__watermark" aria-hidden="true"><?php esc_html_e( 'MEGA SALE 50%', 'snazzy-floret' ); ?></span>
+
+	<!-- Floating product images -->
+	<?php if ( ! empty( $deal_imgs[0] ) ) : ?>
+		<img src="<?php echo esc_url( $deal_imgs[0] ); ?>" alt="" class="sf-deals-strip__float sf-deals-strip__float--1" loading="lazy">
+	<?php endif; ?>
+	<?php if ( ! empty( $deal_imgs[1] ) ) : ?>
+		<img src="<?php echo esc_url( $deal_imgs[1] ); ?>" alt="" class="sf-deals-strip__float sf-deals-strip__float--2" loading="lazy">
+	<?php endif; ?>
+	<?php if ( ! empty( $deal_imgs[2] ) ) : ?>
+		<img src="<?php echo esc_url( $deal_imgs[2] ); ?>" alt="" class="sf-deals-strip__float sf-deals-strip__float--3" loading="lazy">
+	<?php endif; ?>
+
+	<!-- Content -->
+	<div class="sf-deals-strip__content">
+		<h3 class="sf-deals-strip__heading"><?php esc_html_e( 'Top Fashion', 'snazzy-floret' ); ?><br><?php esc_html_e( 'Deals', 'snazzy-floret' ); ?></h3>
+
+		<a href="<?php echo esc_url( get_permalink( wc_get_page_id( 'shop' ) ) ); ?>" class="sf-deals-strip__btn">
+			<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+			<?php esc_html_e( 'View Sale', 'snazzy-floret' ); ?>
+		</a>
+
+		<div class="sf-deals-strip__coupon">
+			<span class="sf-deals-strip__coupon-label"><?php esc_html_e( 'Exclusive COUPON', 'snazzy-floret' ); ?></span>
+			<div class="sf-deals-strip__coupon-value">
+				<span class="sf-deals-strip__coupon-upto"><?php esc_html_e( 'UP TO', 'snazzy-floret' ); ?></span>
+				<span class="sf-deals-strip__coupon-amount">$10 <span class="sf-currency-code">(CAD)</span></span>
+				<span class="sf-deals-strip__coupon-off"><?php esc_html_e( 'OFF', 'snazzy-floret' ); ?></span>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ============ CRAFTED WITH PURPOSE ============ -->
+<section class="sf-philosophy" id="sf-philosophy">
+	<div class="sf-philosophy__bg" aria-hidden="true">
+		<div class="sf-philosophy__bg-grain"></div>
+		<svg class="sf-philosophy__bg-svg" viewBox="0 0 1440 600" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+			<!-- Soft blobs -->
+			<circle class="sf-philosophy__blob sf-philosophy__blob--1" cx="200" cy="100" r="220" fill="url(#phBlob1)"/>
+			<circle class="sf-philosophy__blob sf-philosophy__blob--2" cx="1250" cy="450" r="250" fill="url(#phBlob2)"/>
+			<circle class="sf-philosophy__blob sf-philosophy__blob--3" cx="700" cy="300" r="180" fill="url(#phBlob3)"/>
+			<ellipse class="sf-philosophy__blob sf-philosophy__blob--4" cx="1050" cy="80" rx="200" ry="150" fill="url(#phBlob4)"/>
+			<ellipse class="sf-philosophy__blob sf-philosophy__blob--5" cx="300" cy="480" rx="220" ry="160" fill="url(#phBlob5)"/>
+			<!-- Flowing curves -->
+			<path class="sf-philosophy__wave sf-philosophy__wave--1" d="M0 300 Q 360 180 720 300 T 1440 280" stroke="url(#phLine1)" stroke-width="1.5" fill="none"/>
+			<path class="sf-philosophy__wave sf-philosophy__wave--2" d="M0 420 Q 300 320 600 400 T 1200 360 T 1440 420" stroke="url(#phLine2)" stroke-width="1.2" fill="none"/>
+			<path class="sf-philosophy__wave sf-philosophy__wave--3" d="M0 150 Q 400 60 800 150 T 1440 100" stroke="url(#phLine3)" stroke-width="1" fill="none"/>
+			<!-- Defs -->
+			<defs>
+				<radialGradient id="phBlob1"><stop offset="0%" stop-color="rgba(232,120,138,0.28)"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+				<radialGradient id="phBlob2"><stop offset="0%" stop-color="rgba(212,167,106,0.22)"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+				<radialGradient id="phBlob3"><stop offset="0%" stop-color="rgba(232,120,138,0.15)"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+				<radialGradient id="phBlob4"><stop offset="0%" stop-color="rgba(212,167,106,0.2)"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+				<radialGradient id="phBlob5"><stop offset="0%" stop-color="rgba(232,120,138,0.18)"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+				<linearGradient id="phLine1" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="transparent"/><stop offset="30%" stop-color="rgba(232,120,138,0.25)"/><stop offset="70%" stop-color="rgba(212,167,106,0.2)"/><stop offset="100%" stop-color="transparent"/></linearGradient>
+				<linearGradient id="phLine2" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="transparent"/><stop offset="40%" stop-color="rgba(212,167,106,0.22)"/><stop offset="80%" stop-color="rgba(232,120,138,0.18)"/><stop offset="100%" stop-color="transparent"/></linearGradient>
+				<linearGradient id="phLine3" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="transparent"/><stop offset="50%" stop-color="rgba(232,120,138,0.2)"/><stop offset="100%" stop-color="transparent"/></linearGradient>
+			</defs>
+		</svg>
+	</div>
+	<div class="sf-container">
+		<?php
+		// Larger pool of product images for the cycling crossfade (used by JS below).
+		$sf_philosophy_pool_urls = array();
+		$sf_philosophy_pool_posts = wc_get_products( array(
+			'status'  => 'publish',
+			'limit'   => 24,
+			'orderby' => 'rand',
+		) );
+		foreach ( $sf_philosophy_pool_posts as $pp ) {
+			$pp_img_id = $pp->get_image_id();
+			if ( ! $pp_img_id ) { continue; }
+			$pp_url = wp_get_attachment_image_url( $pp_img_id, 'medium' );
+			if ( $pp_url ) { $sf_philosophy_pool_urls[] = $pp_url; }
+		}
+		$sf_philosophy_pool_urls = array_values( array_unique( $sf_philosophy_pool_urls ) );
+		?>
+		<!-- Hero area: photos on 4 sides, text centered -->
+		<div class="sf-philosophy__hero" data-sf-photo-pool="<?php echo esc_attr( wp_json_encode( $sf_philosophy_pool_urls ) ); ?>">
+			<?php
+			$mosaic_products = wc_get_products( array(
+				'status'  => 'publish',
+				'limit'   => 4,
+				'orderby' => 'rand',
+			) );
+			$mosaic_rotations = array( '-8deg', '6deg', '-5deg', '7deg' );
+			$mosaic_index = 0;
+			foreach ( $mosaic_products as $mp ) :
+				$mp_img_id = $mp->get_image_id();
+				if ( ! $mp_img_id ) { $mosaic_index++; continue; }
+				$rotation = $mosaic_rotations[ $mosaic_index % 4 ];
+			?>
+				<div class="sf-philosophy__photo sf-philosophy__photo--<?php echo esc_attr( $mosaic_index + 1 ); ?>" style="--rotation: <?php echo esc_attr( $rotation ); ?>;">
+					<?php echo wp_get_attachment_image( $mp_img_id, 'medium', false, array(
+						'class'   => 'sf-philosophy__photo-img',
+						'loading' => 'lazy',
+					) ); ?>
+				</div>
+			<?php $mosaic_index++; endforeach; ?>
+
+			<!-- Center text -->
+			<div class="sf-philosophy__content">
+				<h2 class="sf-philosophy__heading">
+					<span class="sf-philosophy__stroke"><?php esc_html_e( 'Crafted', 'snazzy-floret' ); ?></span>
+					<br><?php esc_html_e( 'with Purpose.', 'snazzy-floret' ); ?>
+					<br><em class="sf-philosophy__gradient"><?php esc_html_e( 'Worn', 'snazzy-floret' ); ?></em>
+					<br><?php esc_html_e( 'with Pride.', 'snazzy-floret' ); ?>
+				</h2>
+				<a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="sf-philosophy__cta">
+					<span><?php esc_html_e( 'Read our philosophy', 'snazzy-floret' ); ?></span>
+					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+				</a>
+				<!-- Trust Features -->
+				<div class="sf-philosophy__features">
+					<div class="sf-philosophy__feature">
+						<div class="sf-philosophy__feature-icon">
+							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+						</div>
+						<h3 class="sf-philosophy__feature-title"><?php esc_html_e( '100% Transparent', 'snazzy-floret' ); ?></h3>
+					</div>
+					<div class="sf-philosophy__feature">
+						<div class="sf-philosophy__feature-icon">
+							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+						</div>
+						<h3 class="sf-philosophy__feature-title"><?php esc_html_e( 'Only Verified Ingredients', 'snazzy-floret' ); ?></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script>
+(function () {
+	var hero = document.querySelector('.sf-philosophy__hero');
+	if (!hero) { return; }
+	var pool;
+	try { pool = JSON.parse(hero.getAttribute('data-sf-photo-pool') || '[]'); }
+	catch (e) { return; }
+	if (!Array.isArray(pool) || pool.length < 2) { return; }
+
+	var slots = [1, 2, 3, 4].map(function (n) {
+		return hero.querySelector('.sf-philosophy__photo--' + n);
+	});
+	if (slots.some(function (s) { return !s; })) { return; }
+
+	var currentUrls = slots.map(function (slot) {
+		var img = slot.querySelector('.sf-philosophy__photo-img');
+		return img ? img.currentSrc || img.src : '';
+	});
+
+	var slotIndex = 0;  // which slot to change next (0..3)
+	var poolCursor = 0; // rotating pointer into pool
+	var FADE_MS = 900;
+	var INTERVAL_MS = 30000;
+	var timer = null;
+
+	function pickNext(excludeUrls) {
+		for (var i = 0; i < pool.length; i++) {
+			var candidate = pool[(poolCursor + i) % pool.length];
+			if (excludeUrls.indexOf(candidate) === -1) {
+				poolCursor = (poolCursor + i + 1) % pool.length;
+				return candidate;
+			}
+		}
+		var fallback = pool[poolCursor % pool.length];
+		poolCursor = (poolCursor + 1) % pool.length;
+		return fallback;
+	}
+
+	function crossfade(slot, newUrl, slotIdx) {
+		var oldImg = slot.querySelector('.sf-philosophy__photo-img');
+		if (!oldImg) { return; }
+
+		var newImg = oldImg.cloneNode(false);
+		newImg.removeAttribute('srcset');
+		newImg.removeAttribute('sizes');
+		newImg.removeAttribute('loading');
+		newImg.src = newUrl;
+		newImg.style.position = 'absolute';
+		newImg.style.inset = '0';
+		newImg.style.width = '100%';
+		newImg.style.height = '100%';
+		newImg.style.opacity = '0';
+		newImg.style.transition = 'opacity ' + FADE_MS + 'ms ease';
+		newImg.style.zIndex = '2';
+
+		function run() {
+			slot.appendChild(newImg);
+			// force reflow so transition kicks in
+			void newImg.offsetWidth;
+			newImg.style.opacity = '1';
+			setTimeout(function () {
+				if (oldImg && oldImg.parentNode) { oldImg.parentNode.removeChild(oldImg); }
+				newImg.style.position = '';
+				newImg.style.inset = '';
+				newImg.style.width = '';
+				newImg.style.height = '';
+				newImg.style.transition = '';
+				newImg.style.opacity = '';
+				newImg.style.zIndex = '';
+				currentUrls[slotIdx] = newUrl;
+			}, FADE_MS + 60);
+		}
+
+		if (newImg.complete && newImg.naturalWidth > 0) {
+			run();
+		} else {
+			newImg.addEventListener('load', run, { once: true });
+			newImg.addEventListener('error', function () {
+				if (newImg.parentNode) { newImg.parentNode.removeChild(newImg); }
+			}, { once: true });
+		}
+	}
+
+	function cycle() {
+		var slot = slots[slotIndex];
+		if (!slot) { return; }
+		var newUrl = pickNext(currentUrls);
+		if (!newUrl || newUrl === currentUrls[slotIndex]) {
+			slotIndex = (slotIndex + 1) % 4;
+			return;
+		}
+		crossfade(slot, newUrl, slotIndex);
+		slotIndex = (slotIndex + 1) % 4;
+	}
+
+	function start() {
+		if (timer) { return; }
+		timer = setInterval(cycle, INTERVAL_MS);
+	}
+	function stop() {
+		if (timer) { clearInterval(timer); timer = null; }
+	}
+
+	start();
+	document.addEventListener('visibilitychange', function () {
+		if (document.hidden) { stop(); } else { start(); }
+	});
+})();
+</script>
+
+<!-- ============ COLLECTION BANNER — Premium Showcase ============ -->
+<section class="sf-collection-banner sf-reveal">
+	<div class="sf-collection-banner__bg" aria-hidden="true">
+		<div class="sf-collection-banner__bg-base"></div>
+		<div class="sf-collection-banner__bg-orb sf-collection-banner__bg-orb--1"></div>
+		<div class="sf-collection-banner__bg-orb sf-collection-banner__bg-orb--2"></div>
+		<div class="sf-collection-banner__bg-orb sf-collection-banner__bg-orb--3"></div>
+	</div>
+	<div class="sf-collection-banner__icons" aria-hidden="true">
+		<span class="sf-cb-icon sf-cb-icon--1">
+			<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+		</span>
+		<span class="sf-cb-icon sf-cb-icon--2">
+			<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+		</span>
+		<span class="sf-cb-icon sf-cb-icon--3">
+			<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+		</span>
+		<span class="sf-cb-icon sf-cb-icon--4">
+			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+		</span>
+		<span class="sf-cb-icon sf-cb-icon--5">
+			<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41 13.42 20.58a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+		</span>
+		<span class="sf-cb-icon sf-cb-icon--6">
+			<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+		</span>
+		<span class="sf-cb-icon sf-cb-icon--7">
+			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+		</span>
+		<span class="sf-cb-icon sf-cb-icon--8">
+			<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+		</span>
+	</div>
+	<div class="sf-container">
+		<div class="sf-collection-banner__inner">
+			<!-- Left: Content -->
+			<div class="sf-collection-banner__content">
+				<span class="sf-collection-banner__badge">
+					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+					<?php esc_html_e( 'Exclusive Offer', 'snazzy-floret' ); ?>
+				</span>
+				<h2 class="sf-collection-banner__title">
+					<?php esc_html_e( 'Summer Sale', 'snazzy-floret' ); ?>
+					<br><em><?php esc_html_e( 'Up to 40% Off', 'snazzy-floret' ); ?></em>
+				</h2>
+				<p class="sf-collection-banner__desc"><?php esc_html_e( 'Don\'t miss our biggest sale of the season. Premium fabrics, handcrafted details — now at prices you\'ll love. Limited time only.', 'snazzy-floret' ); ?></p>
+
+				<!-- Countdown Timer -->
+				<div class="sf-collection-banner__countdown" id="sf-offer-countdown" data-end="<?php echo esc_attr( gmdate( 'Y-m-d\TH:i:s', time() + ( 7 * DAY_IN_SECONDS ) ) ); ?>">
+					<div class="sf-collection-banner__cd-item">
+						<span class="sf-collection-banner__cd-value" id="sf-cd-days">00</span>
+						<span class="sf-collection-banner__cd-label"><?php esc_html_e( 'Days', 'snazzy-floret' ); ?></span>
+					</div>
+					<span class="sf-collection-banner__cd-sep">:</span>
+					<div class="sf-collection-banner__cd-item">
+						<span class="sf-collection-banner__cd-value" id="sf-cd-hours">00</span>
+						<span class="sf-collection-banner__cd-label"><?php esc_html_e( 'Hours', 'snazzy-floret' ); ?></span>
+					</div>
+					<span class="sf-collection-banner__cd-sep">:</span>
+					<div class="sf-collection-banner__cd-item">
+						<span class="sf-collection-banner__cd-value" id="sf-cd-mins">00</span>
+						<span class="sf-collection-banner__cd-label"><?php esc_html_e( 'Mins', 'snazzy-floret' ); ?></span>
+					</div>
+					<span class="sf-collection-banner__cd-sep">:</span>
+					<div class="sf-collection-banner__cd-item">
+						<span class="sf-collection-banner__cd-value" id="sf-cd-secs">00</span>
+						<span class="sf-collection-banner__cd-label"><?php esc_html_e( 'Secs', 'snazzy-floret' ); ?></span>
+					</div>
+				</div>
+
+				<div class="sf-collection-banner__actions">
+					<a href="<?php echo esc_url( home_url( '/product-category/family-matching/' ) ); ?>" class="sf-collection-banner__cta-primary">
+						<span><?php esc_html_e( 'Shop Now', 'snazzy-floret' ); ?></span>
+						<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+					</a>
+					<a href="<?php echo esc_url( get_permalink( wc_get_page_id( 'shop' ) ) ); ?>" class="sf-collection-banner__cta-ghost">
+						<?php esc_html_e( 'View All Deals', 'snazzy-floret' ); ?>
+						<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+					</a>
+				</div>
+			</div>
+
+			<!-- Right: Swiper Fade Slider -->
+			<div class="sf-collection-banner__image">
+				<div class="sf-collection-banner__image-frame">
+					<div class="swiper sf-collection-banner__swiper" id="sf-cb-swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="<?php echo esc_url( $theme_uri . '/assets/images/product%20image/1.jpg' ); ?>" alt="<?php esc_attr_e( 'Summer Collection 1', 'snazzy-floret' ); ?>" loading="lazy">
+							</div>
+							<div class="swiper-slide">
+								<img src="<?php echo esc_url( $theme_uri . '/assets/images/product%20image/2.jpg' ); ?>" alt="<?php esc_attr_e( 'Summer Collection 2', 'snazzy-floret' ); ?>" loading="lazy">
+							</div>
+							<div class="swiper-slide">
+								<img src="<?php echo esc_url( $theme_uri . '/assets/images/product%20image/3.jpg' ); ?>" alt="<?php esc_attr_e( 'Summer Collection 3', 'snazzy-floret' ); ?>" loading="lazy">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Floating price tag -->
+				<div class="sf-collection-banner__float-tag">
+					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+					<?php echo esc_html__( 'From', 'snazzy-floret' ); ?> $24 <span class="sf-currency-code">(CAD)</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ============ NEW ARRIVALS ============ -->
+<section class="sf-section sf-new-arrivals">
+	<!-- Premium Animated Background -->
+	<div class="sf-new-arrivals__bg" aria-hidden="true">
+		<div class="sf-new-arrivals__bg-base"></div>
+		<svg class="sf-new-arrivals__bg-svg" viewBox="0 0 1440 700" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+			<circle class="sf-new-arrivals__orb sf-new-arrivals__orb--1" cx="150" cy="120" r="200" fill="url(#naOrb1)"/>
+			<circle class="sf-new-arrivals__orb sf-new-arrivals__orb--2" cx="1300" cy="550" r="240" fill="url(#naOrb2)"/>
+			<circle class="sf-new-arrivals__orb sf-new-arrivals__orb--3" cx="750" cy="350" r="160" fill="url(#naOrb3)"/>
+			<ellipse class="sf-new-arrivals__orb sf-new-arrivals__orb--4" cx="400" cy="600" rx="200" ry="150" fill="url(#naOrb4)"/>
+			<ellipse class="sf-new-arrivals__orb sf-new-arrivals__orb--5" cx="1100" cy="100" rx="180" ry="130" fill="url(#naOrb5)"/>
+			<path class="sf-new-arrivals__wave sf-new-arrivals__wave--1" d="M0 350 Q 360 250 720 350 T 1440 320" stroke="url(#naLine1)" stroke-width="1.2" fill="none"/>
+			<path class="sf-new-arrivals__wave sf-new-arrivals__wave--2" d="M0 500 Q 400 420 800 500 T 1440 480" stroke="url(#naLine2)" stroke-width="1" fill="none"/>
+			<defs>
+				<radialGradient id="naOrb1"><stop offset="0%" stop-color="rgba(232,120,138,0.18)"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+				<radialGradient id="naOrb2"><stop offset="0%" stop-color="rgba(212,167,106,0.14)"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+				<radialGradient id="naOrb3"><stop offset="0%" stop-color="rgba(232,120,138,0.1)"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+				<radialGradient id="naOrb4"><stop offset="0%" stop-color="rgba(212,167,106,0.12)"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+				<radialGradient id="naOrb5"><stop offset="0%" stop-color="rgba(232,120,138,0.1)"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+				<linearGradient id="naLine1" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="transparent"/><stop offset="30%" stop-color="rgba(232,120,138,0.15)"/><stop offset="70%" stop-color="rgba(212,167,106,0.12)"/><stop offset="100%" stop-color="transparent"/></linearGradient>
+				<linearGradient id="naLine2" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="transparent"/><stop offset="50%" stop-color="rgba(212,167,106,0.12)"/><stop offset="100%" stop-color="transparent"/></linearGradient>
+			</defs>
+		</svg>
+		<div class="sf-new-arrivals__bg-grain"></div>
+	</div>
+	<!-- Ambient Icons & Lines -->
+	<div class="sf-new-arrivals__ambient" aria-hidden="true">
+		<svg class="sf-na-ambient-icon sf-na-ambient-icon--1" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+		<svg class="sf-na-ambient-icon sf-na-ambient-icon--2" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+		<svg class="sf-na-ambient-icon sf-na-ambient-icon--3" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>
+		<svg class="sf-na-ambient-icon sf-na-ambient-icon--4" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+		<svg class="sf-na-ambient-icon sf-na-ambient-icon--5" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+		<svg class="sf-na-ambient-icon sf-na-ambient-icon--6" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+		<span class="sf-na-ambient-line sf-na-ambient-line--h1"></span>
+		<span class="sf-na-ambient-line sf-na-ambient-line--h2"></span>
+		<span class="sf-na-ambient-line sf-na-ambient-line--v1"></span>
+		<span class="sf-na-ambient-line sf-na-ambient-line--v2"></span>
+		<!-- Right Tree — Realistic with swaying branches -->
+		<svg class="sf-na-tree sf-na-tree--right" viewBox="0 0 260 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<!-- Trunk — organic, slightly curved -->
+			<path d="M118 600 C116 580 112 520 114 460 Q115 420 118 380 Q120 340 124 300 Q126 270 128 245 Q130 225 130 210 Q130 225 132 245 Q134 270 136 300 Q138 340 140 380 Q142 420 143 460 C145 520 142 580 140 600 Z" fill="#7a6248" opacity="0.22"/>
+			<!-- Bark texture -->
+			<path d="M124 580 Q126 500 127 420 Q128 360 129 310" stroke="#5a4838" stroke-width="0.8" opacity="0.1" fill="none"/>
+			<path d="M134 580 Q133 500 132 420 Q131 360 130 310" stroke="#5a4838" stroke-width="0.8" opacity="0.08" fill="none"/>
+			<path d="M128 560 Q129 480 130 400" stroke="#6B5540" stroke-width="0.4" opacity="0.06" fill="none"/>
+			<!-- Knot -->
+			<ellipse cx="130" cy="400" rx="5" ry="8" fill="#5a4838" opacity="0.08"/>
+
+			<!-- BRANCH 1 — bottom-right (whole branch+leaves sway together) -->
+			<g class="sf-na-branch sf-na-branch--1">
+				<path d="M130 380 Q155 365 180 370 Q200 374 218 365 Q228 360 235 355" stroke="#7a6248" stroke-width="3.5" opacity="0.18" fill="none" stroke-linecap="round"/>
+				<path d="M195 370 Q205 358 215 362" stroke="#7a6248" stroke-width="2" opacity="0.12" fill="none" stroke-linecap="round"/>
+				<path d="M220 360 Q210 348 218 340 Q226 348 220 360Z" fill="#4a8a55" opacity="0.25"/>
+				<path d="M230 352 Q222 342 230 332 Q238 342 230 352Z" fill="#5a9e6f" opacity="0.22"/>
+				<path d="M210 358 Q202 350 210 342 Q218 350 210 358Z" fill="#3d7a48" opacity="0.2"/>
+				<path d="M200 368 Q192 358 200 348 Q208 358 200 368Z" fill="#6aae7f" opacity="0.18"/>
+				<path d="M238 348 Q232 340 238 332 Q244 340 238 348Z" fill="#4a8a55" opacity="0.2"/>
+			</g>
+
+			<!-- BRANCH 2 — bottom-left -->
+			<g class="sf-na-branch sf-na-branch--2">
+				<path d="M130 350 Q105 335 78 342 Q58 348 42 340 Q32 336 25 330" stroke="#7a6248" stroke-width="3" opacity="0.16" fill="none" stroke-linecap="round"/>
+				<path d="M60 344 Q50 332 42 336" stroke="#7a6248" stroke-width="1.8" opacity="0.1" fill="none" stroke-linecap="round"/>
+				<path d="M30 328 Q22 318 30 310 Q38 318 30 328Z" fill="#5a9e6f" opacity="0.24"/>
+				<path d="M40 335 Q32 325 40 316 Q48 325 40 335Z" fill="#3d7a48" opacity="0.2"/>
+				<path d="M55 340 Q47 332 55 324 Q63 332 55 340Z" fill="#6aae7f" opacity="0.18"/>
+				<path d="M22 322 Q16 314 22 306 Q28 314 22 322Z" fill="#4a8a55" opacity="0.2"/>
+			</g>
+
+			<!-- BRANCH 3 — mid-right -->
+			<g class="sf-na-branch sf-na-branch--3">
+				<path d="M130 310 Q160 292 188 300 Q205 305 220 296" stroke="#7a6248" stroke-width="2.5" opacity="0.15" fill="none" stroke-linecap="round"/>
+				<path d="M200 300 Q210 288 218 292" stroke="#7a6248" stroke-width="1.5" opacity="0.1" fill="none" stroke-linecap="round"/>
+				<path d="M215 292 Q207 280 215 270 Q223 280 215 292Z" fill="#5a9e6f" opacity="0.22"/>
+				<path d="M205 296 Q197 286 205 276 Q213 286 205 296Z" fill="#4a8a55" opacity="0.2"/>
+				<path d="M222 286 Q216 278 222 270 Q228 278 222 286Z" fill="#3d7a48" opacity="0.18"/>
+				<path d="M192 302 Q186 294 192 286 Q198 294 192 302Z" fill="#6aae7f" opacity="0.16"/>
+			</g>
+
+			<!-- BRANCH 4 — mid-left -->
+			<g class="sf-na-branch sf-na-branch--4">
+				<path d="M130 278 Q100 260 68 270 Q48 276 35 268" stroke="#7a6248" stroke-width="2.2" opacity="0.14" fill="none" stroke-linecap="round"/>
+				<path d="M38 266 Q30 254 38 244 Q46 254 38 266Z" fill="#4a8a55" opacity="0.22"/>
+				<path d="M50 272 Q42 262 50 252 Q58 262 50 272Z" fill="#5a9e6f" opacity="0.18"/>
+				<path d="M62 268 Q54 258 62 248 Q70 258 62 268Z" fill="#6aae7f" opacity="0.16"/>
+				<path d="M28 258 Q22 250 28 242 Q34 250 28 258Z" fill="#3d7a48" opacity="0.18"/>
+			</g>
+
+			<!-- BRANCH 5 — upper-right -->
+			<g class="sf-na-branch sf-na-branch--5">
+				<path d="M130 250 Q155 235 178 242 Q192 246 202 238" stroke="#7a6248" stroke-width="2" opacity="0.13" fill="none" stroke-linecap="round"/>
+				<path d="M195 238 Q188 226 195 218 Q202 226 195 238Z" fill="#5a9e6f" opacity="0.2"/>
+				<path d="M185 242 Q178 232 185 222 Q192 232 185 242Z" fill="#4a8a55" opacity="0.18"/>
+				<path d="M205 232 Q200 224 205 216 Q210 224 205 232Z" fill="#6aae7f" opacity="0.16"/>
+			</g>
+
+			<!-- BRANCH 6 — upper-left -->
+			<g class="sf-na-branch sf-na-branch--6">
+				<path d="M130 225 Q108 210 82 218 Q68 222 58 215" stroke="#7a6248" stroke-width="1.8" opacity="0.12" fill="none" stroke-linecap="round"/>
+				<path d="M62 212 Q55 202 62 194 Q69 202 62 212Z" fill="#4a8a55" opacity="0.2"/>
+				<path d="M72 218 Q65 208 72 200 Q79 208 72 218Z" fill="#5a9e6f" opacity="0.17"/>
+				<path d="M52 208 Q47 200 52 192 Q57 200 52 208Z" fill="#3d7a48" opacity="0.16"/>
+			</g>
+
+			<!-- TOP CANOPY — sways as one -->
+			<g class="sf-na-branch sf-na-branch--7">
+				<path d="M130 210 Q125 195 118 188" stroke="#7a6248" stroke-width="1.5" opacity="0.1" fill="none" stroke-linecap="round"/>
+				<path d="M130 210 Q135 195 142 188" stroke="#7a6248" stroke-width="1.5" opacity="0.1" fill="none" stroke-linecap="round"/>
+				<path d="M130 210 Q130 192 130 178" stroke="#7a6248" stroke-width="1.2" opacity="0.08" fill="none" stroke-linecap="round"/>
+				<path d="M118 185 Q108 170 118 158 Q128 170 118 185Z" fill="#5a9e6f" opacity="0.22"/>
+				<path d="M142 185 Q152 170 142 158 Q132 170 142 185Z" fill="#4a8a55" opacity="0.2"/>
+				<path d="M130 175 Q120 158 130 142 Q140 158 130 175Z" fill="#6aae7f" opacity="0.24"/>
+				<path d="M110 178 Q104 168 110 160 Q116 168 110 178Z" fill="#3d7a48" opacity="0.18"/>
+				<path d="M150 178 Q156 168 150 160 Q144 168 150 178Z" fill="#5a9e6f" opacity="0.18"/>
+				<path d="M130 155 Q124 142 130 132 Q136 142 130 155Z" fill="#4a8a55" opacity="0.2"/>
+			</g>
+		</svg>
+	</div>
+	<div class="sf-container" style="position: relative; z-index: 2;">
+		<div class="sf-section__header sf-section__header--flex">
+			<div>
+				<span class="sf-section__tag"><?php esc_html_e( 'Just Dropped', 'snazzy-floret' ); ?></span>
+				<h2 class="sf-section__title"><?php esc_html_e( 'New Arrivals', 'snazzy-floret' ); ?></h2>
+			</div>
+			<a href="<?php echo esc_url( get_permalink( wc_get_page_id( 'shop' ) ) . '?orderby=date' ); ?>" class="sf-view-all">
+				<?php esc_html_e( 'View all', 'snazzy-floret' ); ?>
+				<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+			</a>
+		</div>
+		<?php echo do_shortcode( '[products limit="3" columns="3" orderby="date" order="DESC"]' ); ?>
+	</div>
+</section>
+
+
+<!-- ============ PROMO SHOWCASE — Reusable Premium Banner ============ -->
+<section class="sf-promo sf-reveal" id="sf-promo-showcase">
+
+	<!-- Abstract background layers -->
+	<div class="sf-promo__bg" aria-hidden="true">
+		<div class="sf-promo__bg-base"></div>
+		<div class="sf-promo__bg-orb sf-promo__bg-orb--1"></div>
+		<div class="sf-promo__bg-orb sf-promo__bg-orb--2"></div>
+		<div class="sf-promo__bg-orb sf-promo__bg-orb--3"></div>
+		<div class="sf-promo__bg-line sf-promo__bg-line--1"></div>
+		<div class="sf-promo__bg-line sf-promo__bg-line--2"></div>
+		<div class="sf-promo__bg-grain"></div>
+	</div>
+
+	<div class="sf-container">
+		<div class="sf-promo__layout">
+
+			<!-- Left: Content -->
+			<div class="sf-promo__content">
+				<span class="sf-promo__label">
+					<span class="sf-promo__label-dot"></span>
+					<?php esc_html_e( 'Curated For You', 'snazzy-floret' ); ?>
+				</span>
+
+				<h2 class="sf-promo__title">
+					<?php esc_html_e( 'Elevate Your', 'snazzy-floret' ); ?>
+					<em><?php esc_html_e( 'Everyday Style', 'snazzy-floret' ); ?></em>
+				</h2>
+
+				<p class="sf-promo__desc">
+					<?php esc_html_e( 'Discover handpicked collections designed for comfort, crafted with premium fabrics, and tailored to perfection — because you deserve nothing less.', 'snazzy-floret' ); ?>
+				</p>
+
+				<a href="<?php echo esc_url( get_permalink( wc_get_page_id( 'shop' ) ) ); ?>" class="sf-promo__cta">
+					<span><?php esc_html_e( 'Explore Now', 'snazzy-floret' ); ?></span>
+					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+				</a>
+			</div>
+
+			<!-- Center: Vertical Connector -->
+			<div class="sf-promo__divider" aria-hidden="true">
+				<span class="sf-promo__divider-line"></span>
+				<div class="sf-promo__divider-badge">
+					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+					<span><?php esc_html_e( 'Premium', 'snazzy-floret' ); ?></span>
+				</div>
+				<span class="sf-promo__divider-line"></span>
+				<div class="sf-promo__divider-stat">
+					<span class="sf-promo__divider-stat-val"><?php esc_html_e( '5K+', 'snazzy-floret' ); ?></span>
+					<span class="sf-promo__divider-stat-lbl"><?php esc_html_e( 'Happy Customers', 'snazzy-floret' ); ?></span>
+				</div>
+				<span class="sf-promo__divider-line"></span>
+			</div>
+
+			<!-- Right: Layered Visual Showcase -->
+			<div class="sf-promo__visual">
+				<?php
+				$promo_products = wc_get_products( array(
+					'status'  => 'publish',
+					'limit'   => 3,
+					'orderby' => 'date',
+					'order'   => 'DESC',
+				) );
+
+				// Main hero card (center, largest)
+				if ( ! empty( $promo_products[0] ) ) :
+					$hero_p   = $promo_products[0];
+					$hero_img = $hero_p->get_image_id();
+				?>
+				<a href="<?php echo esc_url( get_permalink( $hero_p->get_id() ) ); ?>" class="sf-promo__hero-card">
+					<?php if ( $hero_img ) : ?>
+						<?php echo wp_get_attachment_image( $hero_img, 'sf-product-card', false, array( 'class' => 'sf-promo__hero-img', 'loading' => 'lazy' ) ); ?>
+					<?php endif; ?>
+					<div class="sf-promo__hero-shine"></div>
+				</a>
+				<?php endif; ?>
+
+				<!-- Floating mini product card — top-left -->
+				<?php if ( ! empty( $promo_products[1] ) ) :
+					$mini1     = $promo_products[1];
+					$mini1_img = $mini1->get_image_id();
+					$mini1_cat = get_the_terms( $mini1->get_id(), 'product_cat' );
+				?>
+				<a href="<?php echo esc_url( get_permalink( $mini1->get_id() ) ); ?>" class="sf-promo__float-card sf-promo__float-card--1">
+					<div class="sf-promo__float-card-img">
+						<?php if ( $mini1_img ) : ?>
+							<?php echo wp_get_attachment_image( $mini1_img, 'thumbnail', false, array( 'loading' => 'lazy' ) ); ?>
+						<?php endif; ?>
+					</div>
+					<div class="sf-promo__float-card-info">
+						<span class="sf-promo__float-card-name"><?php echo esc_html( wp_trim_words( $mini1->get_name(), 3, '...' ) ); ?></span>
+						<span class="sf-promo__float-card-price"><?php echo wp_kses_post( $mini1->get_price_html() ); ?></span>
+					</div>
+				</a>
+				<?php endif; ?>
+
+				<!-- Floating mini product card — bottom-right -->
+				<?php if ( ! empty( $promo_products[2] ) ) :
+					$mini2     = $promo_products[2];
+					$mini2_img = $mini2->get_image_id();
+				?>
+				<a href="<?php echo esc_url( get_permalink( $mini2->get_id() ) ); ?>" class="sf-promo__float-card sf-promo__float-card--2">
+					<div class="sf-promo__float-card-img">
+						<?php if ( $mini2_img ) : ?>
+							<?php echo wp_get_attachment_image( $mini2_img, 'thumbnail', false, array( 'loading' => 'lazy' ) ); ?>
+						<?php endif; ?>
+					</div>
+					<div class="sf-promo__float-card-info">
+						<span class="sf-promo__float-card-name"><?php echo esc_html( wp_trim_words( $mini2->get_name(), 3, '...' ) ); ?></span>
+						<span class="sf-promo__float-card-price"><?php echo wp_kses_post( $mini2->get_price_html() ); ?></span>
+					</div>
+				</a>
+				<?php endif; ?>
+
+				<!-- Rating badge — floating -->
+				<div class="sf-promo__badge-float sf-promo__badge-float--rating" aria-hidden="true">
+					<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+					<span>4.9</span>
+				</div>
+
+				<!-- Trending badge — floating -->
+				<div class="sf-promo__badge-float sf-promo__badge-float--trending" aria-hidden="true">
+					<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+					<span><?php esc_html_e( 'Trending', 'snazzy-floret' ); ?></span>
+				</div>
+
+				<!-- Decorative blobs -->
+				<div class="sf-promo__decor" aria-hidden="true">
+					<span class="sf-promo__blob sf-promo__blob--1"></span>
+					<span class="sf-promo__blob sf-promo__blob--2"></span>
+					<span class="sf-promo__visual-ring"></span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- ============ FEATURES BAR ============ -->
+<section class="sf-features">
+	<div class="sf-container">
+		<div class="sf-features__grid">
+			<div class="sf-feature sf-reveal">
+				<div class="sf-feature__icon">
+					<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+				</div>
+				<div>
+					<h3 class="sf-feature__title"><?php esc_html_e( 'Free Delivery', 'snazzy-floret' ); ?></h3>
+					<p class="sf-feature__text"><?php esc_html_e( 'On orders over $75 CAD', 'snazzy-floret' ); ?></p>
+				</div>
+			</div>
+			<div class="sf-feature sf-reveal">
+				<div class="sf-feature__icon">
+					<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+				</div>
+				<div>
+					<h3 class="sf-feature__title"><?php esc_html_e( 'Quality Fabric', 'snazzy-floret' ); ?></h3>
+					<p class="sf-feature__text"><?php esc_html_e( 'Premium materials only', 'snazzy-floret' ); ?></p>
+				</div>
+			</div>
+			<div class="sf-feature sf-reveal">
+				<div class="sf-feature__icon">
+					<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
+				</div>
+				<div>
+					<h3 class="sf-feature__title"><?php esc_html_e( 'Custom Sizing', 'snazzy-floret' ); ?></h3>
+					<p class="sf-feature__text"><?php esc_html_e( 'Made to your measurements', 'snazzy-floret' ); ?></p>
+				</div>
+			</div>
+			<div class="sf-feature sf-reveal">
+				<div class="sf-feature__icon">
+					<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+				</div>
+				<div>
+					<h3 class="sf-feature__title"><?php esc_html_e( 'Easy Support', 'snazzy-floret' ); ?></h3>
+					<p class="sf-feature__text"><?php esc_html_e( 'WhatsApp & phone support', 'snazzy-floret' ); ?></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ============ BLOG / JOURNAL ============ -->
+<section class="sf-section sf-blog-section">
+	<!-- Animated Black Gradient Background -->
+	<div class="sf-blog-bg" aria-hidden="true">
+		<div class="sf-blog-bg__base"></div>
+		<div class="sf-blog-bg__orb sf-blog-bg__orb--1"></div>
+		<div class="sf-blog-bg__orb sf-blog-bg__orb--2"></div>
+		<div class="sf-blog-bg__orb sf-blog-bg__orb--3"></div>
+		<div class="sf-blog-bg__shimmer"></div>
+		<div class="sf-blog-bg__grain"></div>
+	</div>
+	<div class="sf-container" style="position:relative;z-index:2;">
+		<div class="sf-blog__grid">
+			<?php
+			$blog_posts = new WP_Query( array(
+				'post_type'      => 'post',
+				'posts_per_page' => 3,
+				'post_status'    => 'publish',
+			) );
+			$post_index = 0;
+			if ( $blog_posts->have_posts() ) :
+				while ( $blog_posts->have_posts() ) : $blog_posts->the_post();
+				$post_index++;
+
+				// After first card, inject the section header
+				if ( 2 === $post_index ) : ?>
+					<!-- Section Header (placed above the 2 smaller cards) -->
+					<div class="sf-blog__header sf-reveal">
+						<div class="leftAsside">
+							<span class="sf-section__tag sf-section__tag--light"><?php esc_html_e( 'Journal', 'snazzy-floret' ); ?></span>
+							<h2 class="sf-section__title sf-blog__section-title"><?php esc_html_e( 'From Our Blog', 'snazzy-floret' ); ?></h2>
+							<p class="sf-blog__section-desc"><?php esc_html_e( 'Stories, tips, and inspiration from the world of fashion', 'snazzy-floret' ); ?></p>
+						</div>
+						<a href="<?php echo esc_url( home_url( '/blog/' ) ); ?>" class="sf-btn sf-btn--outline-light">
+							<?php esc_html_e( 'Read all', 'snazzy-floret' ); ?>
+							<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+						</a>
+					</div>
+				<?php endif; ?>
+
+			<article class="sf-blog-card sf-reveal">
+				<a href="<?php the_permalink(); ?>" class="sf-blog-card__image-wrap">
+					<?php if ( has_post_thumbnail() ) : ?>
+						<?php the_post_thumbnail( 'medium_large', array( 'class' => 'sf-blog-card__img' ) ); ?>
+					<?php else : ?>
+						<div class="sf-blog-card__img-placeholder">
+							<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+						</div>
+					<?php endif; ?>
+				</a>
+				<div class="sf-blog-card__content">
+					<time class="sf-blog-card__date" datetime="<?php echo esc_attr( get_the_date( 'c' ) ); ?>"><?php echo esc_html( get_the_date( 'M d, Y' ) ); ?></time>
+					<h3 class="sf-blog-card__title">
+						<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+					</h3>
+					<p class="sf-blog-card__excerpt"><?php echo esc_html( wp_trim_words( get_the_excerpt(), 15 ) ); ?></p>
+					<a href="<?php the_permalink(); ?>" class="sf-blog-card__link">
+						<?php esc_html_e( 'Read more', 'snazzy-floret' ); ?>
+						<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+					</a>
+				</div>
+			</article>
+			<?php
+				endwhile;
+				wp_reset_postdata();
+			endif;
+			?>
+		</div>
+	</div>
+</section>
+
+<main class="sf-main">
+<?php get_footer(); ?>

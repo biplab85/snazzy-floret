@@ -209,8 +209,6 @@ function sf_generate_order_pdf( $order_id ) {
 		$mpdf->watermark_font     = 'DejaVuSansCondensed';
 		$mpdf->watermarkTextAlpha = 0.07;
 
-		// Force the BDT symbol (৳, U+09F3) to render via Noto Sans Bengali.
-		$html = str_replace( '৳', '<span style="font-family: notosansbengali;">৳</span>', $html );
 		$mpdf->WriteHTML( $html );
 		$mpdf->Output( $file, \Mpdf\Output\Destination::FILE );
 	} catch ( \Throwable $e ) {

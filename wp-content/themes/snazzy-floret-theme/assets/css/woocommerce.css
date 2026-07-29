@@ -6466,3 +6466,30 @@ a.sf-cart-drawer__item-name:hover {
     letter-spacing: 0.06em;
   }
 }
+
+/* ===================================================================
+   CURRENCY CODE — small "(CAD)" suffix beside prices.
+   =================================================================== */
+
+.sf-currency-code {
+  font-size: 0.65em;
+  font-weight: 500;
+  margin-left: 4px;
+  opacity: 0.75;
+  letter-spacing: 0.02em;
+}
+
+/* ===================================================================
+   BLOCK-BASED CART & CHECKOUT — append "(CAD)" to React-rendered
+   prices. The block JS ignores both the priceFormat filter and the
+   Store API currency_suffix, so we inject via ::after.
+   =================================================================== */
+
+.wc-block-formatted-money-amount::after {
+  content: " (CAD)";
+  font-size: 0.65em;
+  font-weight: 500;
+  margin-left: 4px;
+  opacity: 0.75;
+  letter-spacing: 0.02em;
+}

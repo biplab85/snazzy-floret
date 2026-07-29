@@ -1,0 +1,125 @@
+- generic [ref=f2e3]:
+  - generic [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - button "Published" [disabled] [ref=f2e6]
+      - text: 
+    - link "Close" [ref=f2e7] [cursor=pointer]:
+      - /url: http://localhost/sklentr/snazzy-floret/
+  - generic [ref=f2e9]:
+    - generic [ref=f2e11]:
+      - heading [level=2] [ref=f2e12]:
+        - text: You are customizing
+        - strong [ref=f2e13]: Snazzy Floret
+      - button " Help" [ref=f2e14] [cursor=pointer]:
+        - text: 
+        - generic [ref=f2e15]: Help
+    - list [ref=f2e17]:
+      - listitem [ref=f2e18]:
+        - heading "Active theme Snazzy Floret Change theme" [level=3] [ref=f2e19]:
+          - generic [ref=f2e20]: Active theme
+          - text: Snazzy Floret
+          - button "Change theme" [ref=f2e21] [cursor=pointer]: Change
+      - listitem [ref=f2e22]:
+        - heading [level=3] [ref=f2e23] [cursor=pointer]:
+          - button "Site Identity" [ref=f2e24]
+      - listitem [ref=f2e25]:
+        - heading [level=3] [ref=f2e26] [cursor=pointer]:
+          - button "Homepage" [ref=f2e27]
+      - listitem [ref=f2e28]:
+        - heading [level=3] [ref=f2e29] [cursor=pointer]:
+          - button "Menus" [ref=f2e30]
+        - option "— Select —"
+        - option "Primary Menu" [selected]
+        - option "— Select —" [selected]
+        - option "Primary Menu"
+        - option "— Select —" [selected]
+        - option "Primary Menu"
+      - listitem [ref=f2e31]:
+        - heading [level=3] [ref=f2e32] [cursor=pointer]:
+          - button "Widgets" [ref=f2e33]
+      - listitem [ref=f2e34]:
+        - heading [level=3] [ref=f2e35] [cursor=pointer]:
+          - button "Homepage Settings" [ref=f2e36]
+        - option "— Select —"
+        - option "About us"
+        - option "Blog"
+        - option "Cart"
+        - option "Checkout"
+        - option "Contact"
+        - option "FAQ"
+        - option "Home" [selected]
+        - option "My account"
+        - option "Privacy Policy"
+        - option "Returns & Refunds"
+        - option "Sample Page"
+        - option "Shipping"
+        - option "Shop"
+        - option "— Select —" [selected]
+        - option "About us"
+        - option "Blog"
+        - option "Cart"
+        - option "Checkout"
+        - option "Contact"
+        - option "FAQ"
+        - option "Home"
+        - option "My account"
+        - option "Privacy Policy"
+        - option "Returns & Refunds"
+        - option "Sample Page"
+        - option "Shipping"
+        - option "Shop"
+      - listitem [ref=f2e37]:
+        - heading [level=3] [ref=f2e38] [cursor=pointer]:
+          - button "WooCommerce" [ref=f2e39]
+        - option "Show products" [selected]
+        - option "Show categories"
+        - option "Show categories & products"
+        - option "Show products" [selected]
+        - option "Show subcategories"
+        - option "Show subcategories & products"
+        - option "Default sorting (custom ordering + name)" [selected]
+        - option "Popularity (sales)"
+        - option "Average rating"
+        - option "Sort by most recent"
+        - option "Sort by price (asc)"
+        - option "Sort by price (desc)"
+        - option "Hidden" [selected]
+        - option "Optional"
+        - option "Required"
+        - option "Hidden"
+        - option "Optional" [selected]
+        - option "Required"
+        - option "Hidden"
+        - option "Optional" [selected]
+        - option "Required"
+        - option "No page set"
+        - option "About us"
+        - option "Blog"
+        - option "Contact"
+        - option "FAQ"
+        - option "Home"
+        - option "Privacy Policy" [selected]
+        - option "Returns & Refunds"
+        - option "Sample Page"
+        - option "Shipping"
+        - option "Shop"
+        - option "No page set" [selected]
+        - option "About us"
+        - option "Blog"
+        - option "Contact"
+        - option "FAQ"
+        - option "Home"
+        - option "Privacy Policy"
+        - option "Returns & Refunds"
+        - option "Sample Page"
+        - option "Shipping"
+        - option "Shop"
+      - listitem [ref=f2e40]:
+        - heading [level=3] [ref=f2e41] [cursor=pointer]:
+          - button "Additional CSS" [ref=f2e42]
+  - generic [ref=f2e43]:
+    - button "Hide Controls" [expanded] [ref=f2e44] [cursor=pointer]
+    - generic [ref=f2e48]:
+      - button "Enter desktop preview mode" [pressed] [ref=f2e49] [cursor=pointer]
+      - button "Enter tablet preview mode" [ref=f2e51] [cursor=pointer]
+      - button "Enter mobile preview mode" [ref=f2e53] [cursor=pointer]

@@ -1,0 +1,428 @@
+- generic [active] [ref=f17e1]:
+  - generic [ref=f17e2]:
+    - navigation "Toolbar":
+      - menu:
+        - group [ref=f17e3]:
+          - menuitem "About WordPress" [ref=f17e4] [cursor=pointer]
+        - group [ref=f17e7]:
+          - menuitem "Snazzy Floret" [ref=f17e8] [cursor=pointer]
+        - group [ref=f17e9]:
+          - menuitem "Live" [ref=f17e10] [cursor=pointer]
+        - group [ref=f17e11]:
+          - menuitem "Customize" [ref=f17e12] [cursor=pointer]
+        - group [ref=f17e13]:
+          - menuitem "4 updates available" [ref=f17e14] [cursor=pointer]:
+            - generic [ref=f17e16]: "4"
+        - group [ref=f17e18]:
+          - menuitem "0 Comments in moderation" [ref=f17e19] [cursor=pointer]:
+            - generic [ref=f17e21]: "0"
+        - group [ref=f17e23]:
+          - menuitem "New" [ref=f17e24] [cursor=pointer]
+        - group [ref=f17e27]:
+          - menuitem "SEO 2 notifications" [ref=f17e28] [cursor=pointer]:
+            - generic [ref=f17e29]: SEO
+            - generic [ref=f17e31]:
+              - text: "2"
+              - generic [ref=f17e32]: 2 notifications
+      - menu [ref=f17e33]:
+        - group [ref=f17e34]:
+          - menuitem "Howdy, admin" [ref=f17e35] [cursor=pointer]
+        - group [ref=f17e36]:
+          - menuitem "Search" [ref=f17e37]:
+            - generic [ref=f17e38]:
+              - textbox "Search" [ref=f17e39] [cursor=pointer]
+              - generic [ref=f17e40]: Search
+  - generic [ref=f17e41]:
+    - generic [ref=f17e42]:
+      - generic [ref=f17e44]:
+        - paragraph [ref=f17e45]: Free delivery on orders over $75 CAD | Custom sizing available
+        - button "Close announcement" [ref=f17e46] [cursor=pointer]
+      - banner [ref=f17e50]:
+        - generic [ref=f17e51]:
+          - link "Snazzy Floret" [ref=f17e53] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/
+            - img "Snazzy Floret" [ref=f17e54]
+          - navigation "Primary navigation" [ref=f17e55]:
+            - list [ref=f17e56]:
+              - listitem [ref=f17e57]:
+                - link "Saree" [ref=f17e58] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+              - listitem [ref=f17e59]:
+                - link "Regular Wear" [ref=f17e60] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+              - listitem [ref=f17e61]:
+                - link "Party Wear" [ref=f17e62] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=f17e63]:
+                - link "Handmade" [ref=f17e64] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+              - listitem [ref=f17e65]:
+                - link "Digital Prints" [ref=f17e66] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+          - generic [ref=f17e67]:
+            - button "Search" [ref=f17e68] [cursor=pointer]
+            - button "Cart" [ref=f17e72] [cursor=pointer]:
+              - generic [ref=f17e76]: "1"
+            - link "Account" [ref=f17e77] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/my-account/
+    - generic:
+      - generic:
+        - generic:
+          - button
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main
+    - generic [ref=f17e83]:
+      - text: — THE SNAZZY FLORET COLLECTION
+      - heading "Shop" [level=1] [ref=f17e84]
+      - generic [ref=f17e85]: 34 Products
+    - main [ref=f17e86]:
+      - generic [ref=f17e87]:
+        - complementary [ref=f17e88]:
+          - heading "Filters" [level=3] [ref=f17e90]
+          - generic [ref=f17e92]:
+            - button "Fabric" [expanded] [ref=f17e93] [cursor=pointer]
+            - generic [ref=f17e97]:
+              - generic [ref=f17e98] [cursor=pointer]: Chiffon
+              - generic [ref=f17e101] [cursor=pointer]: Cotton
+              - generic [ref=f17e104] [cursor=pointer]: Denim
+              - generic [ref=f17e107] [cursor=pointer]: Georgette
+              - generic [ref=f17e110] [cursor=pointer]: Linen
+              - generic [ref=f17e113] [cursor=pointer]: Rayon
+              - generic [ref=f17e116] [cursor=pointer]: Silk
+              - generic [ref=f17e119] [cursor=pointer]: Velvet
+          - generic [ref=f17e122]:
+            - button "Price Range" [expanded] [ref=f17e123] [cursor=pointer]
+            - generic [ref=f17e128]:
+              - generic [ref=f17e129]:
+                - generic [ref=f17e130]:
+                  - generic [ref=f17e131]: From
+                  - spinbutton "$ 0" [ref=f17e132]
+                - generic [ref=f17e133]: —
+                - generic [ref=f17e134]:
+                  - generic [ref=f17e135]: To
+                  - spinbutton "$ 10,000" [ref=f17e136]
+              - button "Apply" [ref=f17e137] [cursor=pointer]
+          - generic [ref=f17e138]:
+            - button "Availability" [expanded] [ref=f17e139] [cursor=pointer]
+            - generic [ref=f17e143]:
+              - generic [ref=f17e144] [cursor=pointer]: In Stock
+              - generic [ref=f17e147] [cursor=pointer]: Out of Stock
+          - button "Reset All Filters" [ref=f17e150] [cursor=pointer]
+        - generic [ref=f17e154]:
+          - generic [ref=f17e155]:
+            - alert [ref=f17e157]: Showing 1–12 of 34 results
+            - combobox "Shop order" [ref=f17e160] [cursor=pointer]:
+              - option "Default sorting" [selected]
+              - option "Sort by popularity"
+              - option "Sort by average rating"
+              - option "Sort by latest"
+              - 'option "Sort by price: low to high"'
+              - 'option "Sort by price: high to low"'
+          - list [ref=f17e161]:
+            - listitem [ref=f17e162]:
+              - generic [ref=f17e163]:
+                - link [ref=f17e164] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/block-printed-cotton-angarkha/
+                - button "Quick view" [ref=f17e165] [cursor=pointer]
+              - generic [ref=f17e169]:
+                - generic [ref=f17e170]: Handmade
+                - heading [level=2] [ref=f17e171]:
+                  - link "Block-Printed Cotton Angarkha" [ref=f17e172] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/block-printed-cotton-angarkha/
+                - generic [ref=f17e173]: $159.00(CAD)
+                - link "Add to cart" [ref=f17e175] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/shop/?cb=9&add-to-cart=186
+                  - text: Add to Cart
+            - listitem [ref=f17e179]:
+              - generic [ref=f17e180]:
+                - link [ref=f17e181] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/casual-cotton-kurti/
+                - button "Quick view" [ref=f17e182] [cursor=pointer]
+              - generic [ref=f17e186]:
+                - generic [ref=f17e187]: Office Wear
+                - heading [level=2] [ref=f17e188]:
+                  - link "Casual Cotton Kurti" [ref=f17e189] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/casual-cotton-kurti/
+                - generic [ref=f17e190]: $69.00(CAD)
+                - link "Add to cart" [ref=f17e192] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/shop/?cb=9&add-to-cart=38
+                  - text: Add to Cart
+            - listitem [ref=f17e196]:
+              - generic [ref=f17e197]:
+                - link [ref=f17e198] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+                - button "Quick view" [ref=f17e199] [cursor=pointer]
+              - generic [ref=f17e203]:
+                - generic [ref=f17e204]: Office Wear
+                - heading [level=2] [ref=f17e205]:
+                  - link "Chic Office Wear Kurti" [ref=f17e206] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/chic-office-wear-kurti/
+                - generic [ref=f17e207]: $89.00(CAD)
+                - link "Add to cart" [ref=f17e209] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/shop/?cb=9&add-to-cart=42
+                  - text: Add to Cart
+            - listitem [ref=f17e213]:
+              - generic [ref=f17e214]:
+                - link [ref=f17e215] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/coral-canvas-tunic/
+                - button "Quick view" [ref=f17e216] [cursor=pointer]
+              - generic [ref=f17e220]:
+                - generic [ref=f17e221]: Regular Wear
+                - heading [level=2] [ref=f17e222]:
+                  - link "Coral Canvas Tunic" [ref=f17e223] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/coral-canvas-tunic/
+                - generic [ref=f17e224]: $139.00(CAD)
+                - link "Add to cart" [ref=f17e226] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/shop/?cb=9&add-to-cart=67
+                  - text: Add to Cart
+            - listitem [ref=f17e230]:
+              - generic [ref=f17e231]:
+                - link [ref=f17e232] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/crimson-petal-anarkali/
+                - button "Quick view" [ref=f17e233] [cursor=pointer]
+              - generic [ref=f17e237]:
+                - generic [ref=f17e238]: Regular Wear
+                - heading [level=2] [ref=f17e239]:
+                  - link "Crimson Petal Anarkali" [ref=f17e240] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/crimson-petal-anarkali/
+                - generic [ref=f17e241]: $119.00(CAD)
+                - link "Add to cart" [ref=f17e243] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/shop/?cb=9&add-to-cart=63
+                  - text: Add to Cart
+            - listitem [ref=f17e247]:
+              - generic [ref=f17e248]:
+                - link [ref=f17e249] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/daisy-floral-kurti/
+                - button "Quick view" [ref=f17e250] [cursor=pointer]
+              - generic [ref=f17e254]:
+                - generic [ref=f17e255]: Regular Wear
+                - heading [level=2] [ref=f17e256]:
+                  - link "Daisy Floral Kurti" [ref=f17e257] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/daisy-floral-kurti/
+                - generic [ref=f17e258]: $79.00(CAD)
+                - link "Add to cart" [ref=f17e260] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/shop/?cb=9&add-to-cart=34
+                  - text: Add to Cart
+            - listitem [ref=f17e264]:
+              - generic [ref=f17e265]:
+                - link [ref=f17e266] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+                - generic [ref=f17e267]: 18% Off
+                - button "Quick view" [ref=f17e269] [cursor=pointer]
+              - generic [ref=f17e273]:
+                - generic [ref=f17e274]: Family Matching
+                - heading [level=2] [ref=f17e275]:
+                  - link "Digital Print Designer Saree" [ref=f17e276] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/digital-print-designer-saree/
+                - generic [ref=f17e277]:
+                  - deletion [ref=f17e278]:
+                    - generic [ref=f17e279]: $169.00(CAD)
+                  - generic [ref=f17e280]: "Original price was: $169.00(CAD)."
+                  - insertion [ref=f17e281]:
+                    - generic [ref=f17e282]: $139.00(CAD)
+                  - generic [ref=f17e283]: "Current price is: $139.00(CAD)."
+                - link "Add to cart" [ref=f17e284] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/shop/?cb=9&add-to-cart=40
+                  - text: Add to Cart
+            - listitem [ref=f17e288]:
+              - generic [ref=f17e289]:
+                - link [ref=f17e290] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/eid-family-collection/
+                - button "Quick view" [ref=f17e291] [cursor=pointer]
+              - generic [ref=f17e295]:
+                - generic [ref=f17e296]: Family Matching
+                - heading [level=2] [ref=f17e297]:
+                  - link "Eid Family Collection" [ref=f17e298] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/eid-family-collection/
+                - generic [ref=f17e299]: $349.00(CAD)
+                - link "Add to cart" [ref=f17e301] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/shop/?cb=9&add-to-cart=44
+                  - text: Add to Cart
+            - listitem [ref=f17e305]:
+              - generic [ref=f17e306]:
+                - link [ref=f17e307] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/elegant-organza-saree/
+                - generic [ref=f17e308]: 20% Off
+                - button "Quick view" [ref=f17e310] [cursor=pointer]
+              - generic [ref=f17e314]:
+                - generic [ref=f17e315]: Saree
+                - heading [level=2] [ref=f17e316]:
+                  - link "Elegant Organza Saree" [ref=f17e317] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/elegant-organza-saree/
+                - generic [ref=f17e318]:
+                  - deletion [ref=f17e319]:
+                    - generic [ref=f17e320]: $199.00(CAD)
+                  - generic [ref=f17e321]: "Original price was: $199.00(CAD)."
+                  - insertion [ref=f17e322]:
+                    - generic [ref=f17e323]: $159.00(CAD)
+                  - generic [ref=f17e324]: "Current price is: $159.00(CAD)."
+                - link "Add to cart" [ref=f17e325] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/shop/?cb=9&add-to-cart=33
+                  - text: Add to Cart
+            - listitem [ref=f17e329]:
+              - generic [ref=f17e330]:
+                - link [ref=f17e331] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-party-luxe/
+                - generic [ref=f17e332]: 18% Off
+                - button "Quick view" [ref=f17e334] [cursor=pointer]
+              - generic [ref=f17e338]:
+                - generic [ref=f17e339]: Party Wear
+                - heading [level=2] [ref=f17e340]:
+                  - link "Embroidered Party Luxe" [ref=f17e341] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-party-luxe/
+                - generic [ref=f17e342]:
+                  - deletion [ref=f17e343]:
+                    - generic [ref=f17e344]: $219.00(CAD)
+                  - generic [ref=f17e345]: "Original price was: $219.00(CAD)."
+                  - insertion [ref=f17e346]:
+                    - generic [ref=f17e347]: $179.00(CAD)
+                  - generic [ref=f17e348]: "Current price is: $179.00(CAD)."
+                - link "Add to cart" [ref=f17e349] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/shop/?cb=9&add-to-cart=45
+                  - text: Add to Cart
+            - listitem [ref=f17e353]:
+              - generic [ref=f17e354]:
+                - link [ref=f17e355] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+                - generic [ref=f17e356]: 16% Off
+                - button "Quick view" [ref=f17e358] [cursor=pointer]
+              - generic [ref=f17e362]:
+                - generic [ref=f17e363]: Handmade
+                - heading [level=2] [ref=f17e364]:
+                  - link "Embroidered Silk Panjabi" [ref=f17e365] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/embroidered-silk-panjabi/
+                - generic [ref=f17e366]:
+                  - deletion [ref=f17e367]:
+                    - generic [ref=f17e368]: $249.00(CAD)
+                  - generic [ref=f17e369]: "Original price was: $249.00(CAD)."
+                  - insertion [ref=f17e370]:
+                    - generic [ref=f17e371]: $209.00(CAD)
+                  - generic [ref=f17e372]: "Current price is: $209.00(CAD)."
+                - link "Add to cart" [ref=f17e373] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/shop/?cb=9&add-to-cart=188
+                  - text: Add to Cart
+            - listitem [ref=f17e377]:
+              - generic [ref=f17e378]:
+                - link [ref=f17e379] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product/emerald-poise-salwar/
+                - button "Quick view" [ref=f17e380] [cursor=pointer]
+              - generic [ref=f17e384]:
+                - generic [ref=f17e385]: Regular Wear
+                - heading [level=2] [ref=f17e386]:
+                  - link "Emerald Poise Salwar" [ref=f17e387] [cursor=pointer]:
+                    - /url: http://localhost/sklentr/snazzy-floret/product/emerald-poise-salwar/
+                - generic [ref=f17e388]: $129.00(CAD)
+                - link "Add to cart" [ref=f17e390] [cursor=pointer]:
+                  - /url: /sklentr/snazzy-floret/shop/?cb=9&add-to-cart=66
+                  - text: Add to Cart
+          - navigation "Product Pagination" [ref=f17e394]:
+            - list [ref=f17e395]:
+              - listitem [ref=f17e396]:
+                - generic "Page 1" [ref=f17e397]: "1"
+              - listitem [ref=f17e398]:
+                - link "Page 2" [ref=f17e399] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/shop/page/2/?cb=9
+                  - text: "2"
+              - listitem [ref=f17e400]:
+                - link "Page 3" [ref=f17e401] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/shop/page/3/?cb=9
+                  - text: "3"
+              - listitem [ref=f17e402]:
+                - link "→" [ref=f17e403] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/shop/page/2/?cb=9
+    - contentinfo [ref=f17e404]:
+      - generic:
+        - img "Snazzy Floret"
+        - generic [ref=f17e406]:
+          - heading "Get 20% off your first order" [level=2] [ref=f17e407]
+          - paragraph [ref=f17e408]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=f17e409]:
+            - textbox "Enter your email" [ref=f17e410]
+            - button "Subscribe" [ref=f17e411] [cursor=pointer]
+      - generic [ref=f17e414]:
+        - generic [ref=f17e415]:
+          - generic [ref=f17e416]:
+            - heading "Shop" [level=3] [ref=f17e417]
+            - list [ref=f17e418]:
+              - listitem [ref=f17e419]:
+                - link "Digital Prints" [ref=f17e420] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+              - listitem [ref=f17e421]:
+                - link "Handmade" [ref=f17e422] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+              - listitem [ref=f17e423]:
+                - link "Saree" [ref=f17e424] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+              - listitem [ref=f17e425]:
+                - link "Party wear" [ref=f17e426] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=f17e427]:
+                - link "Regular wear" [ref=f17e428] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - generic [ref=f17e429]:
+            - heading "Customer Care" [level=3] [ref=f17e430]
+            - list [ref=f17e431]:
+              - listitem [ref=f17e432]:
+                - link "FAQ" [ref=f17e433] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/faq/
+              - listitem [ref=f17e434]:
+                - link "Shipping" [ref=f17e435] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/shipping/
+              - listitem [ref=f17e436]:
+                - link "Contact" [ref=f17e437] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/contact/
+          - generic [ref=f17e438]:
+            - heading "Information" [level=3] [ref=f17e439]
+            - list [ref=f17e440]:
+              - listitem [ref=f17e441]:
+                - link "Returns & Refunds" [ref=f17e442] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+              - listitem [ref=f17e443]:
+                - link "Privacy policy" [ref=f17e444] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+              - listitem [ref=f17e445]:
+                - link "About us" [ref=f17e446] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/about/
+          - generic [ref=f17e447]:
+            - heading "Get in Touch" [level=3] [ref=f17e448]
+            - list [ref=f17e449]:
+              - listitem [ref=f17e450]:
+                - link "+880 1621-008533" [ref=f17e451] [cursor=pointer]:
+                  - /url: tel:+8801621008533
+              - listitem [ref=f17e454]:
+                - link "snazzyfloret@gmail.com" [ref=f17e455] [cursor=pointer]:
+                  - /url: mailto:snazzyfloret@gmail.com
+            - generic [ref=f17e459]:
+              - link "Facebook" [ref=f17e460] [cursor=pointer]:
+                - /url: https://www.facebook.com/snazzyfloret
+              - link "Instagram" [ref=f17e463] [cursor=pointer]:
+                - /url: https://www.instagram.com/snazzyfloret
+              - link "WhatsApp" [ref=f17e467] [cursor=pointer]:
+                - /url: https://wa.me/8801621008533
+        - generic:
+          - generic:
+            - generic: SNAZZY FLORET
+            - generic: SNAZZY FLORET
+      - paragraph [ref=f17e472]: © 2026 Snazzy Floret. All rights reserved.
+  - status [ref=f17e473]

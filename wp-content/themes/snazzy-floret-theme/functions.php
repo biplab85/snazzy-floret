@@ -26,9 +26,6 @@ if ( class_exists( 'WooCommerce' ) ) {
 	require_once SF_THEME_DIR . '/inc/order-pdf.php';
 	require_once SF_THEME_DIR . '/inc/mail.php';
 	require_once SF_THEME_DIR . '/inc/geolocation.php';
-	require_once SF_THEME_DIR . '/inc/multi-region-pricing.php';
-	// Old display-only HTML conversion is replaced by per-region stored prices.
-	// require_once SF_THEME_DIR . '/inc/currency.php';
 }
 
 // Security: role restrictions, wp-admin access, hardening
@@ -39,6 +36,12 @@ require_once SF_THEME_DIR . '/inc/customizer.php';
 
 // Customizer: About page dynamic content
 require_once SF_THEME_DIR . '/inc/about-customizer.php';
+
+// Hero Slider Manager: dedicated "Hero" admin screen + frontend data source
+require_once SF_THEME_DIR . '/inc/hero-admin.php';
+
+// Testimonials Manager: dedicated "Testimonials" admin screen + frontend data
+require_once SF_THEME_DIR . '/inc/testimonials-admin.php';
 
 /**
  * Custom body classes.

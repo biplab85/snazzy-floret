@@ -1,0 +1,4 @@
+[    3049ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-admin/load-scripts.php?c=1&load%5Bchunk_0%5D=jquery-core,jquery-migrate,wp-hooks,underscore,customize-base,wp-dom-ready&ver=6.9.4:4
+[    4838ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost/sklentr/snazzy-floret/?customize_changeset_uuid=e63f5064-d059-4953-b655-a9fadad2bb4d&customize_theme=snazzy-floret-theme&customize_messenger_channel=preview-0:0
+[    4871ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[   20035ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
