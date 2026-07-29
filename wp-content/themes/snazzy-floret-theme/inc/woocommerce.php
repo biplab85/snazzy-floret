@@ -10,6 +10,92 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /* ===================================================================
+   CURRENCY SYMBOL & FORMAT — frontend shows "$2,900.00 (CAD)" with the
+   currency code styled smaller; admin price field labels still read
+   "Regular price ($ CAD)" so the editor knows which currency they're in.
+   =================================================================== */
+
+add_filter( 'woocommerce_currency_symbol', function ( $symbol, $currency ) {
+	if ( 'CAD' !== $currency ) {
+		return $symbol;
+	}
+	// Admin (non-AJAX) renders the symbol as plain text inside field labels.
+	// Frontend renders inside <bdi> markup where we append (CAD) separately.
+	return ( is_admin() && ! wp_doing_ajax() ) ? '$ CAD' : '$';
+}, 10, 2 );
+
+add_filter( 'woocommerce_price_format', function ( $format, $currency_pos ) {
+	if ( 'CAD' !== get_woocommerce_currency() ) {
+		return $format;
+	}
+	if ( is_admin() && ! wp_doing_ajax() ) {
+		return $format;
+	}
+	return $format . ' (CAD)';
+}, 10, 2 );
+
+/**
+ * Wrap the trailing " (CAD)" produced by woocommerce_price_format with a
+ * styled span on server-rendered prices (shop loop, PDP, related, etc.).
+ * Block-based pages (cart/checkout) ignore HTML in the JS-side formatter,
+ * so we only inject the span once HTML is being assembled in PHP.
+ */
+add_filter( 'woocommerce_get_price_html', function ( $price_html ) {
+	return str_replace( ' (CAD)', '<span class="sf-currency-code">(CAD)</span>', $price_html );
+}, 99 );
+
+/**
+ * Append " (CAD)" as the currency suffix on every Store API response
+ * (block-based cart & checkout). The Store API formats prices via
+ * CurrencyFormatter which derives prefix/suffix from currency position
+ * only and exposes no filter, so we walk the dispatched response and
+ * patch any object whose currency_code is CAD.
+ */
+add_filter( 'rest_post_dispatch', function ( $response, $server, $request ) {
+	if ( ! ( $response instanceof WP_REST_Response ) ) {
+		return $response;
+	}
+	if ( strpos( (string) $request->get_route(), '/wc/store/' ) === false ) {
+		return $response;
+	}
+	$data = $response->get_data();
+	$response->set_data( sf_apply_cad_suffix_recursive( $data ) );
+	return $response;
+}, 10, 3 );
+
+/**
+ * Walk an arbitrarily nested mix of arrays and stdClass objects, and on
+ * any node that has currency_code === 'CAD', force currency_suffix to
+ * " (CAD)". Returns the same shape it received (array → array, object →
+ * object) so JSON encoding stays identical apart from the patched suffix.
+ */
+function sf_apply_cad_suffix_recursive( $data ) {
+	if ( is_array( $data ) ) {
+		if ( isset( $data['currency_code'] ) && 'CAD' === $data['currency_code'] && array_key_exists( 'currency_suffix', $data ) ) {
+			$data['currency_suffix'] = ' (CAD)';
+		}
+		foreach ( $data as $k => $v ) {
+			if ( is_array( $v ) || is_object( $v ) ) {
+				$data[ $k ] = sf_apply_cad_suffix_recursive( $v );
+			}
+		}
+		return $data;
+	}
+	if ( is_object( $data ) ) {
+		if ( isset( $data->currency_code ) && 'CAD' === $data->currency_code && property_exists( $data, 'currency_suffix' ) ) {
+			$data->currency_suffix = ' (CAD)';
+		}
+		foreach ( $data as $k => $v ) {
+			if ( is_array( $v ) || is_object( $v ) ) {
+				$data->{$k} = sf_apply_cad_suffix_recursive( $v );
+			}
+		}
+		return $data;
+	}
+	return $data;
+}
+
+/* ===================================================================
    SHOP / ARCHIVE SETTINGS
    =================================================================== */
 
@@ -415,18 +501,6 @@ function sf_related_products_args( $args ) {
 	return $args;
 }
 add_filter( 'woocommerce_output_related_products_args', 'sf_related_products_args' );
-
-/* ===================================================================
-   CURRENCY
-   =================================================================== */
-
-function sf_wc_currency_symbol( $currency_symbol, $currency ) {
-	if ( 'BDT' === $currency ) {
-		$currency_symbol = '৳';
-	}
-	return $currency_symbol;
-}
-add_filter( 'woocommerce_currency_symbol', 'sf_wc_currency_symbol', 10, 2 );
 
 /* ===================================================================
    AJAX ADD TO CART

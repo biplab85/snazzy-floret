@@ -1,0 +1,446 @@
+- generic [ref=f25e2]:
+  - navigation "Main menu":
+    - link "Skip to main content" [ref=f25e3] [cursor=pointer]:
+      - /url: "#wpbody-content"
+    - link "Skip to toolbar" [ref=f25e4] [cursor=pointer]:
+      - /url: "#wp-toolbar"
+    - list [ref=f25e7]:
+      - listitem [ref=f25e8]:
+        - link "Dashboard" [ref=f25e9] [cursor=pointer]:
+          - /url: index.php
+          - generic [ref=f25e10]: 
+        - list [ref=f25e12]:
+          - listitem [ref=f25e13]:
+            - link "Home" [ref=f25e14] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f25e15]:
+            - link "Updates 5" [ref=f25e16] [cursor=pointer]:
+              - /url: update-core.php
+              - text: Updates
+              - generic [ref=f25e17]: "5"
+      - listitem [ref=f25e18]
+      - listitem [ref=f25e20]:
+        - link "Posts" [ref=f25e21] [cursor=pointer]:
+          - /url: edit.php
+          - generic [ref=f25e22]: 
+        - list [ref=f25e24]:
+          - listitem [ref=f25e25]:
+            - link "All Posts" [ref=f25e26] [cursor=pointer]:
+              - /url: edit.php
+          - listitem [ref=f25e27]:
+            - link "Add Post" [ref=f25e28] [cursor=pointer]:
+              - /url: post-new.php
+          - listitem [ref=f25e29]:
+            - link "Categories" [ref=f25e30] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=category
+          - listitem [ref=f25e31]:
+            - link "Tags" [ref=f25e32] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=post_tag
+      - listitem [ref=f25e33]:
+        - link "Media" [ref=f25e34] [cursor=pointer]:
+          - /url: upload.php
+          - generic [ref=f25e35]: 
+        - list [ref=f25e37]:
+          - listitem [ref=f25e38]:
+            - link "Library" [ref=f25e39] [cursor=pointer]:
+              - /url: upload.php
+          - listitem [ref=f25e40]:
+            - link "Add Media File" [ref=f25e41] [cursor=pointer]:
+              - /url: media-new.php
+      - listitem [ref=f25e42]:
+        - link "Pages" [ref=f25e43] [cursor=pointer]:
+          - /url: edit.php?post_type=page
+          - generic [ref=f25e44]: 
+        - list [ref=f25e46]:
+          - listitem [ref=f25e47]:
+            - link "All Pages" [ref=f25e48] [cursor=pointer]:
+              - /url: edit.php?post_type=page
+          - listitem [ref=f25e49]:
+            - link "Add Page" [ref=f25e50] [cursor=pointer]:
+              - /url: post-new.php?post_type=page
+      - listitem [ref=f25e51]:
+        - link "Comments" [ref=f25e52] [cursor=pointer]:
+          - /url: edit-comments.php
+          - generic [ref=f25e53]: 
+      - listitem [ref=f25e55]:
+        - link "Hero" [ref=f25e56] [cursor=pointer]:
+          - /url: admin.php?page=sf-hero-sliders
+          - generic [ref=f25e57]: 
+      - listitem [ref=f25e59]
+      - listitem [ref=f25e61]:
+        - link "WooCommerce" [ref=f25e62] [cursor=pointer]:
+          - /url: admin.php?page=wc-admin
+        - list [ref=f25e65]:
+          - listitem [ref=f25e66]:
+            - link "Home" [ref=f25e67] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin
+          - listitem [ref=f25e68]:
+            - link "Orders 10" [ref=f25e69] [cursor=pointer]:
+              - /url: admin.php?page=wc-orders
+              - text: Orders
+              - generic [ref=f25e70]: "10"
+          - listitem [ref=f25e71]:
+            - link "Customers" [ref=f25e72] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/customers
+          - listitem [ref=f25e73]:
+            - link "Coupons" [ref=f25e74] [cursor=pointer]:
+              - /url: admin.php?page=coupons-moved
+          - listitem [ref=f25e75]:
+            - link "Reports" [ref=f25e76] [cursor=pointer]:
+              - /url: admin.php?page=wc-reports
+          - listitem [ref=f25e77]:
+            - link "Settings" [ref=f25e78] [cursor=pointer]:
+              - /url: admin.php?page=wc-settings
+          - listitem [ref=f25e79]:
+            - link "Status" [ref=f25e80] [cursor=pointer]:
+              - /url: admin.php?page=wc-status
+          - listitem [ref=f25e81]:
+            - link "Extensions" [ref=f25e82] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/extensions
+      - listitem [ref=f25e83]:
+        - link "Products" [ref=f25e84] [cursor=pointer]:
+          - /url: edit.php?post_type=product
+          - generic [ref=f25e85]: 
+        - list [ref=f25e87]:
+          - listitem [ref=f25e88]:
+            - link "All Products" [ref=f25e89] [cursor=pointer]:
+              - /url: edit.php?post_type=product
+          - listitem [ref=f25e90]:
+            - link "Add new product" [ref=f25e91] [cursor=pointer]:
+              - /url: post-new.php?post_type=product
+          - listitem [ref=f25e92]:
+            - link "Brands" [ref=f25e93] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=product_brand&post_type=product
+          - listitem [ref=f25e94]:
+            - link "Categories" [ref=f25e95] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=product_cat&post_type=product
+          - listitem [ref=f25e96]:
+            - link "Tags" [ref=f25e97] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=product_tag&post_type=product
+          - listitem [ref=f25e98]:
+            - link "Attributes" [ref=f25e99] [cursor=pointer]:
+              - /url: edit.php?post_type=product&page=product_attributes
+          - listitem [ref=f25e100]:
+            - link "Reviews" [ref=f25e101] [cursor=pointer]:
+              - /url: edit.php?post_type=product&page=product-reviews
+      - listitem [ref=f25e102]:
+        - link "Payments" [ref=f25e103] [cursor=pointer]:
+          - /url: admin.php?page=wc-settings&tab=checkout&from=PAYMENTS_MENU_ITEM
+      - listitem [ref=f25e106]:
+        - link "Analytics" [ref=f25e107] [cursor=pointer]:
+          - /url: admin.php?page=wc-admin&path=/analytics/overview
+          - generic [ref=f25e108]: 
+        - list [ref=f25e110]:
+          - listitem [ref=f25e111]:
+            - link "Overview" [ref=f25e112] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/analytics/overview
+          - listitem [ref=f25e113]:
+            - link "Products" [ref=f25e114] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/analytics/products
+          - listitem [ref=f25e115]:
+            - link "Revenue" [ref=f25e116] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/analytics/revenue
+          - listitem [ref=f25e117]:
+            - link "Orders" [ref=f25e118] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/analytics/orders
+          - listitem [ref=f25e119]:
+            - link "Variations" [ref=f25e120] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/analytics/variations
+          - listitem [ref=f25e121]:
+            - link "Categories" [ref=f25e122] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/analytics/categories
+          - listitem [ref=f25e123]:
+            - link "Coupons" [ref=f25e124] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/analytics/coupons
+          - listitem [ref=f25e125]:
+            - link "Taxes" [ref=f25e126] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/analytics/taxes
+          - listitem [ref=f25e127]:
+            - link "Downloads" [ref=f25e128] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/analytics/downloads
+          - listitem [ref=f25e129]:
+            - link "Stock" [ref=f25e130] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/analytics/stock
+          - listitem [ref=f25e131]:
+            - link "Settings" [ref=f25e132] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/analytics/settings
+      - listitem [ref=f25e133]:
+        - link "Marketing" [ref=f25e134] [cursor=pointer]:
+          - /url: admin.php?page=wc-admin&path=/marketing
+          - generic [ref=f25e135]: 
+        - list [ref=f25e137]:
+          - listitem [ref=f25e138]:
+            - link "Overview" [ref=f25e139] [cursor=pointer]:
+              - /url: admin.php?page=wc-admin&path=/marketing
+          - listitem [ref=f25e140]:
+            - link "Coupons" [ref=f25e141] [cursor=pointer]:
+              - /url: edit.php?post_type=shop_coupon
+      - listitem [ref=f25e142]
+      - listitem [ref=f25e144]:
+        - link "Appearance" [ref=f25e145] [cursor=pointer]:
+          - /url: themes.php
+          - generic [ref=f25e146]: 
+        - list [ref=f25e148]:
+          - listitem [ref=f25e149]:
+            - link "Themes 2" [ref=f25e150] [cursor=pointer]:
+              - /url: themes.php
+              - text: Themes
+              - generic [ref=f25e151]: "2"
+          - listitem [ref=f25e152]:
+            - link "Patterns" [ref=f25e153] [cursor=pointer]:
+              - /url: site-editor.php?p=/pattern
+          - listitem [ref=f25e154]:
+            - link "Customize" [ref=f25e155] [cursor=pointer]:
+              - /url: customize.php?return=%2Fsklentr%2Fsnazzy-floret%2Fwp-admin%2Fadmin.php%3Fpage%3Dsf-hero-sliders
+          - listitem [ref=f25e156]:
+            - link "Widgets" [ref=f25e157] [cursor=pointer]:
+              - /url: widgets.php
+          - listitem [ref=f25e158]:
+            - link "Menus" [ref=f25e159] [cursor=pointer]:
+              - /url: nav-menus.php
+          - listitem [ref=f25e160]:
+            - link "Theme File Editor" [ref=f25e161] [cursor=pointer]:
+              - /url: theme-editor.php
+      - listitem [ref=f25e162]:
+        - link "Plugins 2" [ref=f25e163] [cursor=pointer]:
+          - /url: plugins.php
+          - generic [ref=f25e164]: 
+          - generic [ref=f25e165]:
+            - text: Plugins
+            - generic [ref=f25e166]: "2"
+        - list [ref=f25e167]:
+          - listitem [ref=f25e168]:
+            - link "Installed Plugins" [ref=f25e169] [cursor=pointer]:
+              - /url: plugins.php
+          - listitem [ref=f25e170]:
+            - link "Add Plugin" [ref=f25e171] [cursor=pointer]:
+              - /url: plugin-install.php
+          - listitem [ref=f25e172]:
+            - link "Plugin File Editor" [ref=f25e173] [cursor=pointer]:
+              - /url: plugin-editor.php
+      - listitem [ref=f25e174]:
+        - link "Users" [ref=f25e175] [cursor=pointer]:
+          - /url: users.php
+          - generic [ref=f25e176]: 
+        - list [ref=f25e178]:
+          - listitem [ref=f25e179]:
+            - link "All Users" [ref=f25e180] [cursor=pointer]:
+              - /url: users.php
+          - listitem [ref=f25e181]:
+            - link "Add User" [ref=f25e182] [cursor=pointer]:
+              - /url: user-new.php
+          - listitem [ref=f25e183]:
+            - link "Profile" [ref=f25e184] [cursor=pointer]:
+              - /url: profile.php
+      - listitem [ref=f25e185]:
+        - link "Tools" [ref=f25e186] [cursor=pointer]:
+          - /url: tools.php
+          - generic [ref=f25e187]: 
+        - list [ref=f25e189]:
+          - listitem [ref=f25e190]:
+            - link "Available Tools" [ref=f25e191] [cursor=pointer]:
+              - /url: tools.php
+          - listitem [ref=f25e192]:
+            - link "Import" [ref=f25e193] [cursor=pointer]:
+              - /url: import.php
+          - listitem [ref=f25e194]:
+            - link "Export" [ref=f25e195] [cursor=pointer]:
+              - /url: export.php
+          - listitem [ref=f25e196]:
+            - link "Site Health 1" [ref=f25e197] [cursor=pointer]:
+              - /url: site-health.php
+              - text: Site Health
+              - generic [ref=f25e198]: "1"
+          - listitem [ref=f25e199]:
+            - link "Export Personal Data" [ref=f25e200] [cursor=pointer]:
+              - /url: export-personal-data.php
+          - listitem [ref=f25e201]:
+            - link "Erase Personal Data" [ref=f25e202] [cursor=pointer]:
+              - /url: erase-personal-data.php
+          - listitem [ref=f25e203]:
+            - link "Scheduled Actions" [ref=f25e204] [cursor=pointer]:
+              - /url: tools.php?page=action-scheduler
+          - listitem [ref=f25e205]:
+            - link "Yoast Redirects" [ref=f25e206] [cursor=pointer]:
+              - /url: tools.php?page=wpseo_redirects_tools
+      - listitem [ref=f25e207]:
+        - link "Settings" [ref=f25e208] [cursor=pointer]:
+          - /url: options-general.php
+          - generic [ref=f25e209]: 
+        - list [ref=f25e211]:
+          - listitem [ref=f25e212]:
+            - link "General" [ref=f25e213] [cursor=pointer]:
+              - /url: options-general.php
+          - listitem [ref=f25e214]:
+            - link "Writing" [ref=f25e215] [cursor=pointer]:
+              - /url: options-writing.php
+          - listitem [ref=f25e216]:
+            - link "Reading" [ref=f25e217] [cursor=pointer]:
+              - /url: options-reading.php
+          - listitem [ref=f25e218]:
+            - link "Discussion" [ref=f25e219] [cursor=pointer]:
+              - /url: options-discussion.php
+          - listitem [ref=f25e220]:
+            - link "Media" [ref=f25e221] [cursor=pointer]:
+              - /url: options-media.php
+          - listitem [ref=f25e222]:
+            - link "Permalinks" [ref=f25e223] [cursor=pointer]:
+              - /url: options-permalink.php
+          - listitem [ref=f25e224]:
+            - link "Privacy" [ref=f25e225] [cursor=pointer]:
+              - /url: options-privacy.php
+      - listitem [ref=f25e226]
+      - listitem [ref=f25e228]:
+        - link "Yoast SEO 2 notifications" [ref=f25e229] [cursor=pointer]:
+          - /url: admin.php?page=wpseo_dashboard
+          - generic [ref=f25e231]:
+            - text: Yoast SEO
+            - generic [ref=f25e232]:
+              - text: "2"
+              - generic [ref=f25e233]: 2 notifications
+        - list [ref=f25e234]:
+          - listitem [ref=f25e235]:
+            - link "General" [ref=f25e236] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_dashboard
+          - listitem [ref=f25e237]:
+            - link "Settings" [ref=f25e238] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_settings
+          - listitem [ref=f25e239]:
+            - link "Integrations" [ref=f25e240] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_integrations
+          - listitem [ref=f25e241]:
+            - link "Tools" [ref=f25e242] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_tools
+          - listitem [ref=f25e243]:
+            - link "Academy" [ref=f25e244] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_academy
+          - listitem [ref=f25e245]:
+            - link "Plans" [ref=f25e246] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_licenses
+          - listitem [ref=f25e247]:
+            - link "Workouts Premium" [ref=f25e248] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_workouts
+              - text: Workouts
+              - generic [ref=f25e249]: Premium
+          - listitem [ref=f25e250]:
+            - link "Redirects Premium" [ref=f25e251] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_redirects
+              - text: Redirects
+              - generic [ref=f25e252]: Premium
+          - listitem [ref=f25e253]:
+            - link "Support" [ref=f25e254] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_support
+          - listitem [ref=f25e255]:
+            - link "Upgrade" [ref=f25e256] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_upgrade_sidebar
+          - listitem [ref=f25e259]:
+            - link [ref=f25e260] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_brand_insights
+      - listitem [ref=f25e264]:
+        - button "Collapse Main menu" [expanded] [ref=f25e265] [cursor=pointer]:
+          - generic [ref=f25e267]: Collapse Menu
+  - generic [ref=f25e268]:
+    - generic [ref=f25e269]:
+      - navigation "Toolbar":
+        - menu:
+          - group [ref=f25e270]:
+            - menuitem "About WordPress" [ref=f25e271] [cursor=pointer]
+          - group [ref=f25e274]:
+            - menuitem "Snazzy Floret" [ref=f25e275] [cursor=pointer]
+          - group [ref=f25e276]:
+            - menuitem "Live" [ref=f25e277] [cursor=pointer]
+          - group [ref=f25e278]:
+            - menuitem "5 updates available" [ref=f25e279] [cursor=pointer]:
+              - generic [ref=f25e281]: "5"
+          - group [ref=f25e283]:
+            - menuitem "0 Comments in moderation" [ref=f25e284] [cursor=pointer]:
+              - generic [ref=f25e286]: "0"
+          - group [ref=f25e288]:
+            - menuitem "New" [ref=f25e289] [cursor=pointer]
+          - group [ref=f25e292]:
+            - menuitem "SEO 2 notifications" [ref=f25e293] [cursor=pointer]:
+              - generic [ref=f25e294]: SEO
+              - generic [ref=f25e296]:
+                - text: "2"
+                - generic [ref=f25e297]: 2 notifications
+            - text: Premium Premium
+        - menu [ref=f25e298]:
+          - group [ref=f25e299]:
+            - menuitem "Howdy, admin" [ref=f25e300] [cursor=pointer]
+    - main [ref=f25e301]:
+      - generic [ref=f25e302]:
+        - generic [ref=f25e303]:
+          - link "WordPress 7.0.2" [ref=f25e304] [cursor=pointer]:
+            - /url: https://wordpress.org/documentation/wordpress-version/version-7-0-2/
+          - text: is available!
+          - link "Please update WordPress now" [ref=f25e305] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/wp-admin/update-core.php
+            - text: Please update now
+          - text: .
+        - generic [ref=f25e306]:
+          - heading " Hero Slider Management" [level=1] [ref=f25e307]:
+            - generic [ref=f25e308]: 
+            - text: Hero Slider Management
+          - paragraph [ref=f25e309]:
+            - text: Build the homepage hero. Drag a slider to reorder it, toggle it off to hide it without deleting, and give each one its own buttons and featured products.
+            - link "View homepage →" [ref=f25e310] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/
+          - generic [ref=f25e311]:
+            - generic [ref=f25e312]:
+              - generic [ref=f25e313]:
+                - generic [ref=f25e314]: Autoplay speed
+                - spinbutton "Autoplay speed ms" [ref=f25e315]: "5000"
+                - generic [ref=f25e316]: ms
+              - button " Add new slider" [ref=f25e317] [cursor=pointer]:
+                - generic [ref=f25e318]: 
+                - text: Add new slider
+            - generic [ref=f25e319]:
+              - generic [ref=f25e320]:
+                - generic [ref=f25e321] [cursor=pointer]:
+                  - generic "Drag to reorder" [ref=f25e322]: 
+                  - generic [ref=f25e323]: "1"
+                  - generic [ref=f25e325]: Redefining Everyday
+                  - generic "Enable / disable this slider" [ref=f25e326]:
+                    - checkbox "Active" [checked] [ref=f25e327]
+                    - generic [ref=f25e330]: Active
+                  - button "" [ref=f25e331]
+                  - button "" [ref=f25e333]
+                - text: · · · ·      
+              - generic [ref=f25e335]:
+                - generic [ref=f25e336] [cursor=pointer]:
+                  - generic "Drag to reorder" [ref=f25e337]: 
+                  - generic [ref=f25e338]: "2"
+                  - generic [ref=f25e340]: Family Matching
+                  - generic "Enable / disable this slider" [ref=f25e341]:
+                    - checkbox "Active" [checked] [ref=f25e342]
+                    - generic [ref=f25e345]: Active
+                  - button "" [ref=f25e346]
+                  - button "" [ref=f25e348]
+                - text: · · · ·      
+              - generic [ref=f25e350]:
+                - generic [ref=f25e351] [cursor=pointer]:
+                  - generic "Drag to reorder" [ref=f25e352]: 
+                  - generic [ref=f25e353]: "3"
+                  - generic [ref=f25e355]: Elevating Everyday
+                  - generic "Enable / disable this slider" [ref=f25e356]:
+                    - checkbox "Active" [checked] [ref=f25e357]
+                    - generic [ref=f25e360]: Active
+                  - button "" [ref=f25e361]
+                  - button "" [ref=f25e363]
+                - text: · · · ·      
+            - generic [ref=f25e365]:
+              - button " Add new slider" [ref=f25e366] [cursor=pointer]:
+                - generic [ref=f25e367]: 
+                - text: Add new slider
+              - button "Save changes" [ref=f25e368] [cursor=pointer]
+  - contentinfo [ref=f25e369]:
+    - paragraph [ref=f25e370]:
+      - generic [ref=f25e372]:
+        - text: Thank you for creating with
+        - link "WordPress" [ref=f25e373] [cursor=pointer]:
+          - /url: https://wordpress.org/
+        - text: .
+    - paragraph [ref=f25e374]:
+      - strong [ref=f25e375]:
+        - link "Get Version 7.0.2" [ref=f25e376] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/wp-admin/update-core.php

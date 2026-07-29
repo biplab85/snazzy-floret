@@ -136,7 +136,7 @@ $sf_initial_panel = ( ! empty( $_GET['action'] ) && 'register' === $_GET['action
 			<ul class="sf-auth__perks">
 				<li><?php esc_html_e( 'Early access to new collections', 'snazzy-floret' ); ?></li>
 				<li><?php esc_html_e( 'Members-only seasonal offers', 'snazzy-floret' ); ?></li>
-				<li><?php esc_html_e( 'Free delivery on orders over ৳2,500', 'snazzy-floret' ); ?></li>
+				<li><?php esc_html_e( 'Free delivery on orders over $75 CAD', 'snazzy-floret' ); ?></li>
 				<li><?php esc_html_e( 'Custom sizing & tailoring support', 'snazzy-floret' ); ?></li>
 			</ul>
 		</div>

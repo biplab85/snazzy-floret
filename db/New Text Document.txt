@@ -1,2 +1,13 @@
-https://ship.stallion.ca/direct/shipments/direct/new
-https://1teamsoftware.com/product/woocommerce-stallionexpress-shipping-pro/?utm_source=chatgpt.com
+  ┌─────┬──────────────┬──────────────┬───────────────┬────────────────────────────┬──────────┐
+  │ ID  │    Login     │     Name     │     Role      │           Email            │ Password │
+  ├─────┼──────────────┼──────────────┼───────────────┼────────────────────────────┼──────────┤
+  │ 1   │ admin        │ admin        │ administrator │ snazzyfloret@test.com      │ admin123 │
+  ├─────┼──────────────┼──────────────┼───────────────┼────────────────────────────┼──────────┤
+  │ 2   │ biplab.paul  │ Biplab Paul  │ customer      │ biplab.cse.85+01@gmail.com │ admin123 │
+  ├─────┼──────────────┼──────────────┼───────────────┼────────────────────────────┼──────────┤
+  │ 3   │ test.buyer   │ Test Buyer   │ customer      │ test@example.com           │ admin123 │
+  ├─────┼──────────────┼──────────────┼───────────────┼────────────────────────────┼──────────┤
+  │ 4   │ testuser_sf  │ testuser_sf  │ customer      │ testuser_sf@example.com    │ admin123 │
+  ├─────┼──────────────┼──────────────┼───────────────┼────────────────────────────┼──────────┤
+  │ 5   │ biplab.kumar │ Biplab Kumar │ customer      │ test@snazzyfloret.com      │ admin123 │
+  └─────┴──────────────┴──────────────┴───────────────┴────────────────────────────┴──────────┘

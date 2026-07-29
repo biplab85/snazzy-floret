@@ -1,0 +1,4 @@
+[     758ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[   42727ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-admin/load-scripts.php?c=1&load%5Bchunk_0%5D=wp-hooks,jquery-core,jquery-migrate,utils,wp-polyfill,moxiejs,plupload&ver=6.9.4:6
+[   58167ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-admin/load-scripts.php?c=1&load%5Bchunk_0%5D=wp-hooks,jquery-core,jquery-migrate,utils,wp-polyfill,moxiejs,plupload&ver=6.9.4:6
+[   74921ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost/sklentr/snazzy-floret/wp-admin/load-scripts.php?c=1&load%5Bchunk_0%5D=wp-hooks,jquery-core,jquery-migrate,utils,wp-polyfill,moxiejs,plupload&ver=6.9.4:6

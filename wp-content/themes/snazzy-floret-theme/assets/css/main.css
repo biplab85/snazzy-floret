@@ -2358,6 +2358,950 @@ h6 {
   }
 }
 
+/* ===================== FULL-BLEED HERO OVERRIDE =====================
+   Hero slider spans the full viewport width and the "Shop by Category"
+   panel is hidden — its markup is intentionally kept in front-page.php
+   so it can be switched back on at any time.
+   Placed after the hero media queries so it wins on source order
+   (media queries add no specificity) — no !important needed. */
+
+.sf-hero2 {
+  max-width: none;
+  padding: 0;
+}
+
+/* Shop by Category panel — hidden, never removed */
+.sf-hero2__panel {
+  display: none;
+}
+
+.sf-hero2__container {
+  gap: 0;
+}
+
+.sf-hero2__slider-col {
+  width: 100%;
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+.sf-hero2__slider-wrap,
+.sf-hero2__swiper,
+.sf-hero2__slide {
+  border-radius: 0;
+}
+
+/* Panel no longer dictates hero height — set it explicitly */
+.sf-hero2__slider-wrap {
+  height: clamp(420px, 62vh, 620px);
+}
+
+/* Content band spans the full width; the copy inside is what gets constrained
+   to the site container (see .sf-hero2__slide-grid below). */
+.sf-hero2__slide-content {
+  max-width: 100%;
+  margin: 0;
+  /* No side padding here — the grid below owns it, exactly like .sf-container,
+     so the hero copy lines up with the header and every other section. */
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 44px;
+}
+
+@media (min-width: 992px) {
+  .sf-hero2__slider-wrap {
+    height: clamp(520px, 76vh, 820px);
+  }
+
+  .sf-hero2__slide-content {
+    padding-bottom: 64px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sf-hero2__slide-content {
+    padding-bottom: 80px;
+  }
+}
+
+/* ===================== HOMEPAGE — FULL-SCREEN HERO, TOP BAR ON SCROLL =====
+   On the homepage the announcement bar and header start hidden so the slider
+   owns the whole viewport; they slide in as soon as the visitor scrolls.
+   Everywhere else .sf-topbar is `display: contents`, so the announcement and
+   header lay out exactly as they did before this wrapper existed. */
+
+.sf-topbar {
+  display: contents;
+}
+
+.sf-home .sf-topbar {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: calc(var(--sf-z-header) + 2);
+  transform: translateY(-100%);
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+.sf-home.sf-topbar-visible .sf-topbar {
+  transform: translateY(0);
+}
+
+/* The header is sticky in normal flow; inside the fixed bar it just sits put. */
+.sf-home .sf-topbar .sf-header {
+  position: static;
+}
+
+/* Hero fills the viewport — the top bar is out of flow, so 100vh is exact. */
+.sf-home .sf-hero2__slider-wrap {
+  height: 100vh;
+}
+
+/* Use the small viewport unit where supported so mobile browser chrome
+   does not push the bottom of the slide out of view. */
+@supports (height: 100svh) {
+  .sf-home .sf-hero2__slider-wrap {
+    height: 100svh;
+  }
+}
+
+/* Phones: a shorter hero. Declared after the full-height rules above so it
+   wins, and scoped to the mobile breakpoint so desktop is untouched. */
+@media (max-width: 767.98px) {
+  .sf-home .sf-hero2__slider-wrap {
+    height: 85vh;
+  }
+}
+
+@supports (height: 85svh) {
+  @media (max-width: 767.98px) {
+    .sf-home .sf-hero2__slider-wrap {
+      height: 85svh;
+    }
+  }
+}
+
+/* Logged-in view: clear the WordPress admin bar. Only on screens where the
+   admin bar is fixed (below 783px it scrolls away, so no offset is wanted). */
+@media screen and (min-width: 783px) {
+  body.admin-bar.sf-home .sf-topbar {
+    top: 32px;
+  }
+
+  body.admin-bar.sf-home .sf-hero2__slider-wrap {
+    height: calc(100vh - 32px);
+  }
+
+  @supports (height: 100svh) {
+    body.admin-bar.sf-home .sf-hero2__slider-wrap {
+      height: calc(100svh - 32px);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sf-home .sf-topbar {
+    transition: none;
+  }
+}
+
+/* ===================== HERO — SLIDE GRID, CTA ROW & FEATURED PRODUCTS =====
+   Content managed under wp-admin → Hero. Each slide lays its copy on the left
+   and its featured-product strip on the right (stacked on mobile). */
+
+.sf-hero2__slide-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  /* Geometry copied from .sf-container (width/max-width/margin/padding) so the
+     hero copy shares the exact left and right edges as every other section. */
+  width: 100%;
+  max-width: var(--sf-container);
+  margin-inline: auto;
+  padding-left: var(--sf-container-pad);
+  padding-right: var(--sf-container-pad);
+}
+
+.sf-hero2__slide-text {
+  min-width: 0;
+}
+
+@media (min-width: 992px) {
+  .sf-hero2__slide-grid {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  .sf-hero2__slide-text {
+    flex: 1 1 auto;
+    max-width: 620px;
+  }
+
+  .sf-hero2__products {
+    flex: 0 1 auto;
+    max-width: 54%;
+  }
+}
+
+/* Allow the CTA row to wrap once a third button is added, and hold it further
+   away from the title. margin-top (rather than the title's margin-bottom) keeps
+   the gap consistent whether or not the description sits between them. */
+.sf-hero2__actions {
+  flex-wrap: wrap;
+  row-gap: 10px;
+  margin-top: 30px;
+}
+
+@media (min-width: 992px) {
+  .sf-hero2__actions {
+    margin-top: 46px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sf-hero2__actions {
+    margin-top: 58px;
+  }
+}
+
+/* --- Outline CTA (third button style) --- */
+.sf-hero2__cta-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 26px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  background: transparent;
+  color: var(--sf-white);
+  font-family: var(--sf-font-nav);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition:
+    background 0.35s ease,
+    border-color 0.35s ease,
+    transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sf-hero2__cta-outline:hover {
+  color: var(--sf-white);
+  background: rgba(255, 255, 255, 0.14);
+  border-color: var(--sf-white);
+  transform: translateY(-2px);
+}
+
+/* --- Featured products strip --- */
+.sf-hero2__products {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.6s ease 0.9s,
+    transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.9s;
+}
+
+.swiper-slide-active .sf-hero2__products {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sf-hero2__products-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+.sf-hero2__products-list::-webkit-scrollbar {
+  height: 4px;
+}
+
+.sf-hero2__products-list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+@media (min-width: 992px) {
+  .sf-hero2__products-list {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    overflow-x: visible;
+    row-gap: 10px;
+  }
+}
+
+/* Phones: stack the strip instead of scrolling it sideways.
+   The card's own width is overridden after its base rule, further down. */
+@media (max-width: 767.98px) {
+  .sf-hero2__products-list {
+    flex-wrap: wrap;
+    overflow-x: visible;
+    row-gap: 10px;
+  }
+}
+
+/* <picture> is inline by default, which would collapse the image's height:100% */
+.sf-hero2__img-wrap picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* --- Hero title typewriter ---
+   Characters are hidden with display:none rather than opacity, so untyped text
+   takes up no space and the caret sits exactly where the next letter lands. */
+.sf-hero2__title .sf-tw__c {
+  display: none;
+}
+
+.sf-hero2__title .sf-tw__c.is-in {
+  display: inline;
+}
+
+.sf-tw__caret {
+  display: none;
+  width: 2px;
+  height: 0.86em;
+  margin-left: 0.06em;
+  vertical-align: -0.06em;
+  background: #d4a76a;
+  box-shadow: 0 0 10px rgba(212, 167, 106, 0.55);
+}
+
+/* Only the slide being typed shows a caret */
+.sf-hero2__title.is-typing .sf-tw__caret {
+  display: inline-block;
+  animation: sf-tw-blink 0.9s steps(1) infinite;
+}
+
+/* Leave it blinking briefly after the last letter, then retire it */
+.sf-hero2__title.is-typed .sf-tw__caret {
+  display: inline-block;
+  animation:
+    sf-tw-blink 0.9s steps(1) 3,
+    sf-tw-caret-out 0.35s ease 2.7s forwards;
+}
+
+@keyframes sf-tw-blink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes sf-tw-caret-out {
+  to {
+    opacity: 0;
+    transform: scaleY(0.4);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sf-hero2__title.is-typing .sf-tw__caret,
+  .sf-hero2__title.is-typed .sf-tw__caret {
+    display: none;
+  }
+}
+
+/* --- Featured product card ---
+   Reads as a boutique price tag rather than a UI chip: the photo is mounted
+   like a physical plate on frosted glass, the name is set in the display
+   serif, and the price is spaced out in champagne. Light sweeps across the
+   glass on hover and a champagne chevron slides in. */
+.sf-hero2__product {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 0 0 auto;
+  width: 212px;
+  padding: 12px 26px 12px 12px;
+  border-radius: 14px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.17) 0%,
+    rgba(255, 255, 255, 0.08) 55%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(18px) saturate(1.35);
+  -webkit-backdrop-filter: blur(18px) saturate(1.35);
+  box-shadow:
+    0 16px 34px rgba(0, 0, 0, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28);
+  text-decoration: none;
+  transition:
+    border-color 0.45s ease,
+    box-shadow 0.45s ease,
+    transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Light sweeping across the glass */
+.sf-hero2__product::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    115deg,
+    transparent 22%,
+    rgba(255, 255, 255, 0.22) 48%,
+    transparent 74%
+  );
+  transform: translateX(-125%);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sf-hero2__product:hover::before {
+  transform: translateX(125%);
+}
+
+/* Champagne chevron */
+.sf-hero2__product::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 13px;
+  z-index: 2;
+  width: 6px;
+  height: 6px;
+  margin-top: -4px;
+  border-right: 1.5px solid rgba(212, 167, 106, 0.95);
+  border-bottom: 1.5px solid rgba(212, 167, 106, 0.95);
+  transform: translateX(-5px) rotate(-45deg);
+  opacity: 0;
+  transition:
+    opacity 0.4s ease,
+    transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sf-hero2__product:hover::after {
+  opacity: 1;
+  transform: translateX(0) rotate(-45deg);
+}
+
+.sf-hero2__product:hover {
+  transform: translateY(-4px);
+  border-color: rgba(212, 167, 106, 0.55);
+  box-shadow:
+    0 22px 46px rgba(0, 0, 0, 0.36),
+    0 0 0 1px rgba(212, 167, 106, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.34);
+}
+
+/* Photo mounted on the glass */
+.sf-hero2__product-img {
+  position: relative;
+  z-index: 1;
+  width: 58px;
+  height: 88px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 6px 14px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.22);
+}
+
+.sf-hero2__product-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sf-hero2__product:hover .sf-hero2__product-img img {
+  transform: scale(1.09);
+}
+
+.sf-hero2__product-info {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+/* Display serif — the single biggest lift in perceived quality */
+.sf-hero2__product-name {
+  font-family: var(--sf-font-heading);
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.24;
+  letter-spacing: 0.01em;
+  color: var(--sf-white);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+
+/* Price spaced out like a boutique tag */
+.sf-hero2__product-title {
+  font-family: var(--sf-font-body);
+  font-size: 0.63rem;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  color: #d4a76a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Phones: one card per row, spanning the full column.
+   Declared after the base width above so it actually wins. */
+@media (max-width: 767.98px) {
+  .sf-hero2__product {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sf-hero2__product::before,
+  .sf-hero2__product::after,
+  .sf-hero2__product-img img {
+    transition: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sf-hero2__products {
+    animation: none;
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ===================== HERO — LARGE-SCREEN FIT =========================
+   Two problems this fixes:
+   1. Swiper's own `.swiper-pagination-horizontal` rule sets left:0/width:100%
+      and outranks the theme's `left:50%`, but the theme's translateX(-50%)
+      still applied — so the bullets were dragged half the slider's width off
+      to the left and were effectively invisible. Centre them with flexbox
+      instead of a transform, which works at any width.
+   2. Above ~1600px the copy kept its 1200px sizing, so on a large monitor the
+      slide content read as a small island at the bottom of a huge image.
+      Scale the type and cards with the screen. Widths stay tied to
+      --sf-container so the copy still lines up with the header. */
+
+.sf-hero2__pagination {
+  left: 0;
+  right: 0;
+  width: 100%;
+  transform: none;
+  justify-content: center;
+}
+
+@media (min-width: 1600px) {
+  /* Room for the bigger type, but capped so two product cards still fit
+     beside it inside the container's inner width (1320 - 2 × 40 padding). */
+  .sf-hero2__slide-text {
+    max-width: 700px;
+  }
+
+  .sf-hero2__title {
+    font-size: clamp(2.4rem, 2.7vw, 3.5rem);
+  }
+
+  .sf-hero2__desc {
+    font-size: 0.95rem;
+    max-width: 520px;
+  }
+
+  .sf-hero2__tag {
+    font-size: 0.68rem;
+    padding: 7px 18px 7px 13px;
+  }
+
+  .sf-hero2__cta-primary,
+  .sf-hero2__cta-ghost,
+  .sf-hero2__cta-outline {
+    font-size: 0.8rem;
+    padding: 16px 36px;
+  }
+
+  /* 240 keeps two cards on one row inside the strip's share of the container */
+  .sf-hero2__product {
+    width: 240px;
+    padding: 14px 28px 14px 14px;
+  }
+
+  .sf-hero2__product-img {
+    width: 64px;
+    height: 98px;
+  }
+
+  .sf-hero2__product-name {
+    font-size: 0.98rem;
+  }
+
+  .sf-hero2__product-title {
+    font-size: 0.68rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .sf-hero2__title {
+    font-size: clamp(3rem, 2.5vw, 4.2rem);
+  }
+
+  .sf-hero2__desc {
+    font-size: 1.05rem;
+    max-width: 600px;
+  }
+}
+
+/* The copy column and the product strip share one row, so the text must not
+   grow past the point where two cards still fit beside it. Cap the text and
+   let the strip keep the remainder. */
+@media (min-width: 1600px) {
+  .sf-hero2__products {
+    max-width: none;
+    flex: 0 1 auto;
+  }
+
+  .sf-hero2__slide-text {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+}
+
+/* ===================== TESTIMONIALS — CURVED CAROUSEL =====================
+   Reviewers sit on an arc: the middle one is active and pushes furthest right,
+   the two either side sit back and smaller. Each tick rotates them upward and
+   swaps the quote, so the group reads as a dial turning rather than a list
+   scrolling. Content is managed under wp-admin → Testimonials. */
+
+.sf-tst {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* Large soft shape behind the card, echoing the reference composition */
+.sf-tst__blob {
+  position: absolute;
+  left: -18%;
+  bottom: -42%;
+  width: 62vw;
+  max-width: 900px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: linear-gradient(
+    145deg,
+    rgba(232, 120, 138, 0.16) 0%,
+    rgba(212, 167, 106, 0.1) 55%,
+    rgba(232, 120, 138, 0.04) 100%
+  );
+  z-index: -1;
+  pointer-events: none;
+}
+
+.sf-tst__card {
+  background: var(--sf-white);
+  border-radius: 20px;
+  padding: 48px clamp(24px, 4vw, 64px) 56px;
+  box-shadow:
+    0 30px 70px rgba(0, 0, 0, 0.07),
+    0 6px 18px rgba(0, 0, 0, 0.03);
+}
+
+/* ---- Heading: short accent rule sitting above the title ---- */
+.sf-tst__rule {
+  display: block;
+  width: 34px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--sf-brand);
+  margin-bottom: 14px;
+}
+
+.sf-tst__title {
+  font-family: var(--sf-font-heading);
+  font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+  font-weight: 600;
+  color: var(--sf-black, #1a1a1a);
+  letter-spacing: -0.01em;
+  margin: 0 0 40px;
+}
+
+/* ---- Two columns ---- */
+.sf-tst__body {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+@media (min-width: 900px) {
+  .sf-tst__body {
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .sf-tst__people {
+    flex: 0 0 42%;
+  }
+
+  .sf-tst__quotes {
+    flex: 1 1 auto;
+  }
+}
+
+/* ---- Left: the arc ---- */
+.sf-tst__people {
+  position: relative;
+  height: 330px;
+}
+
+.sf-tst__arc {
+  position: absolute;
+  left: 6px;
+  top: 0;
+  width: 140px;
+  height: 100%;
+  color: rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+}
+
+.sf-tst__list {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Every reviewer is stacked at the vertical centre and moved into its slot */
+.sf-tst__person {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  transform-origin: left center;
+  will-change: transform, opacity;
+  transition:
+    transform 0.75s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.6s ease;
+}
+
+/* Slot geometry — the x offsets are what bend the group into an arc */
+.sf-tst__person {
+  transform: translate(0, -50%) scale(0.6);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sf-tst__person.is-prev {
+  transform: translate(0, calc(-50% - 108px)) scale(0.74);
+  opacity: 0.55;
+}
+
+.sf-tst__person.is-active {
+  transform: translate(40px, -50%) scale(1);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sf-tst__person.is-next {
+  transform: translate(0, calc(-50% + 108px)) scale(0.74);
+  opacity: 0.55;
+}
+
+/* Queued items wait just outside the visible slots */
+.sf-tst__person.is-off-up {
+  transform: translate(-20px, calc(-50% - 190px)) scale(0.5);
+  opacity: 0;
+}
+
+.sf-tst__person.is-off-down {
+  transform: translate(-20px, calc(-50% + 190px)) scale(0.5);
+  opacity: 0;
+}
+
+.sf-tst__avatar {
+  position: relative;
+  flex-shrink: 0;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--sf-border, #e8e4df);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
+}
+
+.sf-tst__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  /* Desaturated so the accent stays the only colour, as in the reference */
+  filter: grayscale(1);
+  transition: filter 0.6s ease;
+}
+
+.sf-tst__person.is-active .sf-tst__avatar img {
+  filter: grayscale(0.15);
+}
+
+.sf-tst__avatar-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-family: var(--sf-font-heading);
+  font-size: 1.4rem;
+  color: var(--sf-text-secondary, #6b6b6b);
+  background: var(--sf-bg, #fafaf8);
+}
+
+.sf-tst__info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+.sf-tst__name {
+  font-family: var(--sf-font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--sf-text-secondary, #6b6b6b);
+  transition: color 0.5s ease;
+  white-space: nowrap;
+}
+
+.sf-tst__person.is-active .sf-tst__name {
+  color: var(--sf-black, #1a1a1a);
+}
+
+.sf-tst__meta {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--sf-font-body);
+  font-size: 0.76rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.sf-tst__star {
+  color: var(--sf-brand);
+  flex-shrink: 0;
+}
+
+.sf-tst__rating {
+  font-weight: 600;
+  color: var(--sf-black, #1a1a1a);
+}
+
+.sf-tst__date {
+  color: #9a9a9a;
+  font-weight: 400;
+}
+
+/* ---- Right: the quote ---- */
+.sf-tst__quotes {
+  position: relative;
+  min-height: 190px;
+}
+
+.sf-tst__mark {
+  position: absolute;
+  top: -14px;
+  left: 0;
+  font-family: var(--sf-font-heading);
+  font-size: 3.2rem;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.14);
+  pointer-events: none;
+}
+
+.sf-tst__quote {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /* Clear of the hanging quote mark — absolutely positioned children ignore
+     the container's padding, so the offset has to live here. */
+  left: 42px;
+  margin: 0;
+  font-family: var(--sf-font-heading);
+  font-style: italic;
+  font-size: clamp(0.98rem, 1.35vw, 1.16rem);
+  line-height: 1.75;
+  color: #33312f;
+  opacity: 0;
+  transform: translateY(14px);
+  transition:
+    opacity 0.55s ease,
+    transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.sf-tst__quote.is-active {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Raised initial, worked into the first line */
+.sf-tst__quote-initial {
+  font-size: 1.55em;
+  font-weight: 600;
+  line-height: 0.9;
+  color: var(--sf-black, #1a1a1a);
+}
+
+@media (max-width: 899.98px) {
+  .sf-tst__card {
+    padding: 36px 22px 42px;
+  }
+
+  .sf-tst__people {
+    height: 300px;
+  }
+
+  .sf-tst__quotes {
+    min-height: 220px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sf-tst__person,
+  .sf-tst__quote,
+  .sf-tst__avatar img,
+  .sf-tst__name {
+    transition: none;
+  }
+}
+
 /* ---------- Category Showcase ---------- */
 .sf-categories {
   position: relative;
@@ -6405,7 +7349,7 @@ h6 {
   position: relative;
   overflow: hidden;
   isolation: isolate;
-  padding: var(--sf-space-lg) 0;
+  padding: 80px 0;
 }
 
 .sf-blog-bg {
@@ -6572,13 +7516,16 @@ h6 {
 }
 
 @media (min-width: 768px) {
+  /* Right side is a single column: header, then one card per row. */
   .sf-blog__grid {
-    grid-template-columns: 35% 1fr 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-columns: 35% 1fr;
+    /* Content-sized rows — `1fr` here stretches the two stacked cards to fill
+       the feature card's height, which blows them up to ~620px each. */
+    grid-template-rows: auto auto auto;
     gap: var(--sf-space-lg);
   }
 
-  /* First card: spans full left column, both rows */
+  /* First card: spans the full left column, all rows */
   .sf-blog__grid .sf-blog-card:first-of-type {
     grid-column: 1;
     grid-row: 1 / -1;
@@ -6586,20 +7533,34 @@ h6 {
 
   /* Section header: top-right area */
   .sf-blog__header {
-    grid-column: 2 / -1;
+    grid-column: 2;
     grid-row: 1;
   }
 
-  /* Second card */
+  /* Second card: first row on the right */
   .sf-blog__grid .sf-blog-card:nth-of-type(2) {
     grid-column: 2;
     grid-row: 2;
   }
 
-  /* Third card */
+  /* Third card: stacked directly beneath it */
   .sf-blog__grid .sf-blog-card:nth-of-type(3) {
-    grid-column: 3;
-    grid-row: 2;
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  /* The feature card spans every row, so its height sets the grid's height and
+     the slack lands in the last row — which would stretch the bottom card.
+     Pin both stacked cards to their own content height instead. */
+  .sf-blog__grid .sf-blog-card:nth-of-type(2),
+  .sf-blog__grid .sf-blog-card:nth-of-type(3) {
+    align-self: start;
+  }
+
+  /* Extra breathing room to the right of the feature card, widening the split
+     between it and the right-hand column (on top of the grid's own gap). */
+  .sf-blog__grid .sf-blog-card:first-of-type {
+    margin-right: var(--sf-space-2xl);
   }
 }
 
@@ -6786,6 +7747,52 @@ h6 {
 
 .sf-blog-card__content {
   padding: var(--sf-space-lg);
+}
+
+/* The two cards sitting beside the section header switch to a horizontal
+   layout — image left, text right. Scoped with `~` so it can only ever match
+   cards that follow the header, leaving the tall feature card untouched.
+   Desktop only; below 768px the grid is a single column and stacking is right. */
+@media (min-width: 768px) {
+  .sf-blog__grid .sf-blog__header ~ .sf-blog-card {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  /* The panel fills whatever height the text column needs. The image is taken
+     out of flow so a portrait photo cannot stretch the card — otherwise each
+     card ends up a different height depending on its photo's aspect. */
+  .sf-blog__grid .sf-blog__header ~ .sf-blog-card .sf-blog-card__image-wrap {
+    flex: 0 0 44%;
+    aspect-ratio: auto;
+    align-self: stretch;
+    position: relative;
+    min-height: 190px;
+  }
+
+  .sf-blog__grid .sf-blog__header ~ .sf-blog-card .sf-blog-card__img,
+  .sf-blog__grid .sf-blog__header ~ .sf-blog-card .sf-blog-card__img-placeholder {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .sf-blog__grid .sf-blog__header ~ .sf-blog-card .sf-blog-card__content {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* These two cards are wider than they are tall, so the excerpt gets two
+     lines instead of the single line used by the feature card. */
+  .sf-blog__grid .sf-blog__header ~ .sf-blog-card .sf-blog-card__excerpt {
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
 }
 
 .sf-blog-card__date {

@@ -1,0 +1,193 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Back to home page" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - 'img "Dribbble: the community for graphic design" [ref=e5]'
+    - generic [ref=e8]:
+      - combobox "Submit" [ref=e10]:
+        - search [ref=e11]:
+          - searchbox "Submit" [ref=e13]
+      - generic "Change search type" [ref=e14]:
+        - generic:
+          - generic:
+            - button "Shots" [ref=e15] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Shots
+                  - generic: Designers
+                  - generic: Services
+      - button "Search" [ref=e17] [cursor=pointer]
+    - navigation [ref=e20]:
+      - list [ref=e22]:
+        - listitem [ref=e23]:
+          - link "Explore" [ref=e24] [cursor=pointer]:
+            - /url: /shots/popular
+        - listitem [ref=e25]:
+          - link "Hire Talent" [ref=e26] [cursor=pointer]:
+            - /url: /designers
+        - listitem [ref=e27]:
+          - link "Get Hired" [ref=e28] [cursor=pointer]:
+            - /url: /browse-project-briefs
+        - listitem [ref=e29]:
+          - link "Community" [ref=e30] [cursor=pointer]:
+            - /url: /stories
+    - generic [ref=e31]:
+      - link "Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /signups/new
+      - link "Log in" [ref=e33] [cursor=pointer]:
+        - /url: /session/new
+  - generic [ref=e35]:
+    - generic [ref=e36]:
+      - paragraph
+      - paragraph [ref=e38]: Get 20% off your first payment for design and development services on Dribbble. Use code WELCOME20 🎉
+      - paragraph
+      - link "Get Started" [ref=e39] [cursor=pointer]:
+        - /url: https://dribbble.com/instantmatch
+    - button "close" [ref=e40] [cursor=pointer]
+  - main [ref=e45]:
+    - generic [ref=e47]:
+      - generic [ref=e49]:
+        - heading "Testimonials" [level=1] [ref=e52]
+        - generic [ref=e54]:
+          - generic [ref=e56]:
+            - link [ref=e57] [cursor=pointer]:
+              - /url: /BinuPaul
+              - generic [ref=e58]:
+                - img "Binu Paul" [ref=e59]
+                - generic: Online
+            - generic [ref=e60]:
+              - link "Binu Paul" [ref=e63] [cursor=pointer]:
+                - /url: /BinuPaul
+              - generic [ref=e64]:
+                - button "Available for work" [ref=e65] [cursor=pointer]
+                - link "Follow" [ref=e67] [cursor=pointer]:
+                  - /url: /BinuPaul/followers
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - button "Like shot" [ref=e71] [cursor=pointer]
+              - listitem [ref=e74]:
+                - link "Save shot" [ref=e75] [cursor=pointer]:
+                  - /url: /signups/new
+            - link "Get in touch" [ref=e78] [cursor=pointer]:
+              - /url: /signups/new
+        - generic [ref=e83]:
+          - list [ref=e84]:
+            - listitem [ref=e85]:
+              - link "#FAFBFC" [ref=e86] [cursor=pointer]:
+                - /url: /shots?color=FAFBFC
+            - listitem [ref=e87]:
+              - link "#1B7C42" [ref=e88] [cursor=pointer]:
+                - /url: /shots?color=1B7C42
+            - listitem [ref=e89]:
+              - link "#DFE1EB" [ref=e90] [cursor=pointer]:
+                - /url: /shots?color=DFE1EB
+            - listitem [ref=e91]:
+              - link "#95A2A0" [ref=e92] [cursor=pointer]:
+                - /url: /shots?color=95A2A0
+            - listitem [ref=e93]:
+              - link "#A7C3B6" [ref=e94] [cursor=pointer]:
+                - /url: /shots?color=A7C3B6
+          - link "Download color palette" [ref=e95] [cursor=pointer]:
+            - /url: /shots/4205936-Testimonials/colors.aco
+        - generic [ref=e99]:
+          - link [ref=e103] [cursor=pointer]:
+            - /url: https://cdn.dribbble.com/userupload/22589716/file/original-6e03082fca2c445903067bf3ce7ff2af.gif
+          - paragraph [ref=e106]: Testimonial concept for the new website design.
+        - generic [ref=e107]:
+          - link [ref=e110] [cursor=pointer]:
+            - /url: /BinuPaul
+            - generic [ref=e111]:
+              - img "Binu Paul" [ref=e112]
+              - generic: Online
+          - link "Binu Paul" [ref=e114] [cursor=pointer]:
+            - /url: /BinuPaul
+          - link "Get in touch" [ref=e116] [cursor=pointer]:
+            - /url: /signups/new
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - heading "More by Binu Paul" [level=4] [ref=e120]
+            - link "View profile" [ref=e121] [cursor=pointer]:
+              - /url: /BinuPaul
+          - generic [ref=e122]:
+            - listitem [ref=e124]
+            - listitem [ref=e126]
+            - listitem [ref=e128]
+            - listitem [ref=e130]
+      - generic [ref=e136]:
+        - button "View comments 2" [ref=e137] [cursor=pointer]:
+          - generic: View comments
+          - generic [ref=e140]: "2"
+        - button "Share actions" [ref=e141] [cursor=pointer]
+        - button "Detail actions" [ref=e144] [cursor=pointer]
+  - contentinfo [ref=e148]:
+    - generic [ref=e149]:
+      - generic [ref=e150]:
+        - 'link "Dribbble: the community for graphic design Back to home page" [ref=e151] [cursor=pointer]':
+          - /url: /
+          - 'img "Dribbble: the community for graphic design" [ref=e152]'
+          - generic: Back to home page
+        - list [ref=e154]:
+          - listitem [ref=e155]:
+            - link "For designers" [ref=e156] [cursor=pointer]:
+              - /url: /for-designers
+          - listitem [ref=e157]:
+            - link "Hire talent" [ref=e158] [cursor=pointer]:
+              - /url: /hiring
+          - listitem [ref=e159]:
+            - link "Inspiration" [ref=e160] [cursor=pointer]:
+              - /url: /shots/popular
+          - listitem [ref=e161]:
+            - link "Advertising" [ref=e162] [cursor=pointer]:
+              - /url: /advertise
+          - listitem [ref=e163]:
+            - link "Blog" [ref=e164] [cursor=pointer]:
+              - /url: /stories
+          - listitem [ref=e165]:
+            - link "About" [ref=e166] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e167]:
+            - link "Careers" [ref=e168] [cursor=pointer]:
+              - /url: /careers
+          - listitem [ref=e169]:
+            - link "Support" [ref=e170] [cursor=pointer]:
+              - /url: /contact
+        - generic [ref=e171]:
+          - link "X" [ref=e172] [cursor=pointer]:
+            - /url: http://x.com/dribbble
+          - link "Facebook" [ref=e175] [cursor=pointer]:
+            - /url: http://facebook.com/dribbble
+          - link "Instagram" [ref=e178] [cursor=pointer]:
+            - /url: http://instagram.com/dribbble
+          - link "Pinterest" [ref=e181] [cursor=pointer]:
+            - /url: http://www.pinterest.com/dribbble/
+      - generic [ref=e184]:
+        - list [ref=e185]:
+          - listitem [ref=e186]: © 2026 Dribbble
+          - listitem [ref=e187]:
+            - link "Terms" [ref=e188] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=e189]:
+            - link "Privacy" [ref=e190] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=e191]:
+            - link "Cookies" [ref=e192] [cursor=pointer]:
+              - /url: /cookie-policy
+        - list [ref=e193]:
+          - listitem [ref=e194]:
+            - link "Jobs" [ref=e195] [cursor=pointer]:
+              - /url: /directories/jobs
+          - listitem [ref=e196]:
+            - link "Tags" [ref=e197] [cursor=pointer]:
+              - /url: /tags
+          - listitem [ref=e198]:
+            - link "Places" [ref=e199] [cursor=pointer]:
+              - /url: /places
+          - listitem [ref=e200]:
+            - link "Resources" [ref=e201] [cursor=pointer]:
+              - /url: /resources
+  - generic:
+    - link "close":
+      - /url: "#"
+  - iframe [ref=e202]:
+    

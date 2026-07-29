@@ -12,11 +12,19 @@
 
 <div class="sf-site" id="sf-site">
 
+	<!--
+		Top bar wrapper. It is `display: contents` by default, so on every page
+		except the homepage the announcement and header lay out exactly as if it
+		were not here. On the homepage it becomes a fixed bar that starts hidden
+		and slides in once the visitor scrolls.
+	-->
+	<div class="sf-topbar" id="sf-topbar">
+
 	<!-- Announcement Bar -->
 	<div class="sf-announcement" id="sf-announcement">
 		<div class="sf-container">
 			<p class="sf-announcement__text">
-				<?php echo esc_html__( 'Free delivery on orders over ৳2,500 | Custom sizing available', 'snazzy-floret' ); ?>
+				<?php echo esc_html__( 'Free delivery on orders over $75 CAD | Custom sizing available', 'snazzy-floret' ); ?>
 			</p>
 			<button class="sf-announcement__close" aria-label="<?php esc_attr_e( 'Close announcement', 'snazzy-floret' ); ?>">
 				<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -105,6 +113,8 @@
 			</div>
 		</div>
 	</header>
+
+	</div><!-- /.sf-topbar -->
 
 	<!-- Mobile Drawer -->
 	<div class="sf-mobile-drawer" id="sf-mobile-drawer" aria-hidden="true">

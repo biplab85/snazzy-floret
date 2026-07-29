@@ -1,0 +1,277 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: Free delivery on orders over $75 CAD | Custom sizing available
+      - button "Close announcement" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - link "Snazzy Floret" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost/sklentr/snazzy-floret/
+          - img "Snazzy Floret" [ref=e14]
+        - navigation "Primary navigation" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Saree" [ref=e18] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+            - listitem [ref=e19]:
+              - link "Regular Wear" [ref=e20] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+            - listitem [ref=e21]:
+              - link "Party Wear" [ref=e22] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+            - listitem [ref=e23]:
+              - link "Handmade" [ref=e24] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+            - listitem [ref=e25]:
+              - link "Digital Prints" [ref=e26] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+        - generic [ref=e27]:
+          - button "Search" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+          - button "Cart" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - generic [ref=e36]: "2"
+          - link "Account" [ref=e37] [cursor=pointer]:
+            - /url: http://localhost/sklentr/snazzy-floret/my-account/
+            - img [ref=e38]
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - button:
+            - img
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+                - text: Saree
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+                - text: Regular Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+                - text: Party Wear
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+                - text: Handmade
+            - listitem:
+              - link:
+                - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+                - text: Digital Prints
+    - main [ref=e41]:
+      - article [ref=e43]:
+        - heading "Checkout" [level=1] [ref=e44]
+        - generic [ref=e47]:
+          - form "Checkout" [ref=e49]:
+            - group "Contact information" [ref=e50]:
+              - generic [ref=e51]: Contact information
+              - generic [ref=e53]:
+                - heading "Contact information" [level=2] [ref=e54]
+                - link "Log in" [ref=e55] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/my-account/?redirect_to=http%3A%2F%2Flocalhost%2Fsklentr%2Fsnazzy-floret%2Fcheckout%2F%3Fv%3D3
+              - generic [ref=e57]:
+                - generic [ref=e58]:
+                  - textbox "Email address" [ref=e59]
+                  - generic [ref=e60]: Email address
+                - generic [ref=e61]:
+                  - generic [ref=e62]:
+                    - textbox "Create a password" [ref=e63]:
+                      - /placeholder: ••••••••
+                    - generic [ref=e64]: Create a password
+                    - generic [ref=e65]:
+                      - generic [ref=e66]: Password strength
+                      - meter [ref=e67]
+                    - button "Show password" [ref=e68] [cursor=pointer]:
+                      - img [ref=e69]
+                  - generic [ref=e72]:
+                    - textbox "Confirm password" [ref=e73]:
+                      - /placeholder: ••••••••
+                    - generic: Confirm password
+                    - button "Show password" [ref=e74] [cursor=pointer]:
+                      - img [ref=e75]
+            - group "Shipping address" [ref=e78]:
+              - generic [ref=e79]: Shipping address
+              - heading "Shipping address" [level=2] [ref=e82]
+              - generic [ref=e83]:
+                - generic [ref=e86]:
+                  - generic [ref=e89]:
+                    - generic [ref=e90]: Country/Region
+                    - combobox "Country/Region" [ref=e91] [cursor=pointer]:
+                      - option "Select a country/region" [disabled]
+                      - option "Canada" [selected]
+                    - img
+                  - generic [ref=e92]:
+                    - textbox "First name" [ref=e93]
+                    - generic [ref=e94]: First name
+                  - generic [ref=e95]:
+                    - textbox "Last name" [ref=e96]
+                    - generic [ref=e97]: Last name
+                  - generic [ref=e98]:
+                    - textbox "Address" [ref=e99]
+                    - generic [ref=e100]: Address
+                  - button "+ Add apartment, suite, etc." [ref=e101] [cursor=pointer]
+                  - textbox [ref=e102]
+                  - generic [ref=e103]:
+                    - textbox "City" [ref=e104]
+                    - generic [ref=e105]: City
+                  - generic [ref=e108]:
+                    - generic [ref=e109]: Province
+                    - combobox "Province" [ref=e110] [cursor=pointer]:
+                      - option "Select a province" [disabled]
+                      - option "Alberta"
+                      - option "British Columbia"
+                      - option "Manitoba"
+                      - option "New Brunswick"
+                      - option "Newfoundland and Labrador"
+                      - option "Northwest Territories"
+                      - option "Nova Scotia"
+                      - option "Nunavut"
+                      - option "Ontario" [selected]
+                      - option "Prince Edward Island"
+                      - option "Quebec"
+                      - option "Saskatchewan"
+                      - option "Yukon Territory"
+                    - img
+                  - generic [ref=e111]:
+                    - textbox "Postal code" [ref=e112]
+                    - generic [ref=e113]: Postal code
+                  - generic [ref=e114]:
+                    - textbox "Phone (optional)" [ref=e115]
+                    - generic [ref=e116]: Phone (optional)
+                - generic [ref=e118] [cursor=pointer]:
+                  - checkbox "Use same address for billing" [checked] [ref=e119]
+                  - img
+                  - generic [ref=e120]: Use same address for billing
+            - group "Shipping options" [ref=e121]:
+              - generic [ref=e122]: Shipping options
+              - heading "Shipping options" [level=2] [ref=e125]
+              - status [ref=e131]: Enter a shipping address to view shipping options.
+            - group "Payment options" [ref=e132]:
+              - generic [ref=e133]: Payment options
+              - heading "Payment options" [level=2] [ref=e136]
+              - generic "Loading payment options…" [ref=e138]
+            - generic [ref=e147] [cursor=pointer]:
+              - checkbox "Add a note to your order" [ref=e148]
+              - generic [ref=e149]: Add a note to your order
+            - generic [ref=e151]:
+              - text: By proceeding with your purchase you agree to our Terms and Conditions and
+              - link "Privacy Policy" [ref=e152] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+            - generic [ref=e154]:
+              - link "Return to Cart" [ref=e155] [cursor=pointer]:
+                - /url: http://localhost/sklentr/snazzy-floret/cart/
+                - img [ref=e156]
+                - text: Return to Cart
+              - button "Place Order" [ref=e158] [cursor=pointer]:
+                - generic [ref=e160]: Place Order
+          - generic [ref=e162]:
+            - heading "Order summary" [level=2] [ref=e164]
+            - generic [ref=e165]:
+              - generic "Loading products in cart…" [ref=e167]
+              - heading "Add coupons" [level=2] [ref=e186]:
+                - button "Add coupons" [ref=e187] [cursor=pointer]:
+                  - img [ref=e188]
+                  - text: Add coupons
+              - generic [ref=e190]:
+                - generic [ref=e192]:
+                  - generic [ref=e193]: Subtotal
+                  - generic "Loading price…" [ref=e194]
+                - generic [ref=e197]:
+                  - generic [ref=e198]: Delivery
+                  - generic "Loading price…" [ref=e199]
+                - generic [ref=e201]:
+                  - generic [ref=e202]: HST
+                  - generic "Loading price…" [ref=e203]
+              - generic [ref=e205]:
+                - generic [ref=e206]: Total
+                - generic "Loading price…" [ref=e207]
+    - contentinfo [ref=e208]:
+      - generic [ref=e209]:
+        - img "Snazzy Floret" [ref=e210]
+        - generic [ref=e212]:
+          - heading "Get 20% off your first order" [level=2] [ref=e213]
+          - paragraph [ref=e214]: Join our email list for exclusive offers and the latest news.
+          - generic [ref=e215]:
+            - textbox "Enter your email" [ref=e216]
+            - button "Subscribe" [ref=e217] [cursor=pointer]:
+              - img [ref=e218]
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - generic [ref=e222]:
+            - heading "Shop" [level=3] [ref=e223]
+            - list [ref=e224]:
+              - listitem [ref=e225]:
+                - link "Digital Prints" [ref=e226] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/digital-prints/
+              - listitem [ref=e227]:
+                - link "Handmade" [ref=e228] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/handmade/
+              - listitem [ref=e229]:
+                - link "Saree" [ref=e230] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/saree/
+              - listitem [ref=e231]:
+                - link "Party wear" [ref=e232] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/party-wear/
+              - listitem [ref=e233]:
+                - link "Regular wear" [ref=e234] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/product-category/regular-wear/
+          - generic [ref=e235]:
+            - heading "Customer Care" [level=3] [ref=e236]
+            - list [ref=e237]:
+              - listitem [ref=e238]:
+                - link "FAQ" [ref=e239] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/faq/
+              - listitem [ref=e240]:
+                - link "Shipping" [ref=e241] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/shipping/
+              - listitem [ref=e242]:
+                - link "Contact" [ref=e243] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/contact/
+          - generic [ref=e244]:
+            - heading "Information" [level=3] [ref=e245]
+            - list [ref=e246]:
+              - listitem [ref=e247]:
+                - link "Returns & Refunds" [ref=e248] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/returns-refunds/
+              - listitem [ref=e249]:
+                - link "Privacy policy" [ref=e250] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/privacy-policy/
+              - listitem [ref=e251]:
+                - link "About us" [ref=e252] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/about/
+          - generic [ref=e253]:
+            - heading "Get in Touch" [level=3] [ref=e254]
+            - list [ref=e255]:
+              - listitem [ref=e256]:
+                - link "+880 1621-008533" [ref=e257] [cursor=pointer]:
+                  - /url: tel:+8801621008533
+                  - img [ref=e258]
+                  - text: +880 1621-008533
+              - listitem [ref=e260]:
+                - link "snazzyfloret@gmail.com" [ref=e261] [cursor=pointer]:
+                  - /url: mailto:snazzyfloret@gmail.com
+                  - img [ref=e262]
+                  - text: snazzyfloret@gmail.com
+            - generic [ref=e265]:
+              - link "Facebook" [ref=e266] [cursor=pointer]:
+                - /url: https://www.facebook.com/snazzyfloret
+                - img [ref=e267]
+              - link "Instagram" [ref=e269] [cursor=pointer]:
+                - /url: https://www.instagram.com/snazzyfloret
+                - img [ref=e270]
+              - link "WhatsApp" [ref=e273] [cursor=pointer]:
+                - /url: https://wa.me/8801621008533
+                - img [ref=e274]
+        - generic:
+          - generic:
+            - generic: SNAZZY FLORET
+            - generic: SNAZZY FLORET
+      - paragraph [ref=e278]: © 2026 Snazzy Floret. All rights reserved.
+  - paragraph [ref=e279]: Notifications
+  - generic [ref=e281]: 0 shipping options were found.
+  - status [ref=e282]

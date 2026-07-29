@@ -92,7 +92,7 @@
 		if (minVal || maxVal) {
 			hasFilters = true;
 			var priceLabel = 'Price: ';
-			var sym = (typeof sfShopFilters !== 'undefined' && sfShopFilters.currencySymbol) ? sfShopFilters.currencySymbol : '৳';
+			var sym = (typeof sfShopFilters !== 'undefined' && sfShopFilters.currencySymbol) ? sfShopFilters.currencySymbol : '$';
 			if (minVal && maxVal) priceLabel += sym + minVal + ' — ' + sym + maxVal;
 			else if (minVal) priceLabel += 'From ' + sym + minVal;
 			else priceLabel += 'Up to ' + sym + maxVal;

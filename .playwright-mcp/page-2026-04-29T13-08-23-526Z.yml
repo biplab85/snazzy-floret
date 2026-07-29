@@ -1,0 +1,963 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Main menu":
+      - link "Skip to main content" [ref=e3] [cursor=pointer]:
+        - /url: "#wpbody-content"
+      - link "Skip to toolbar" [ref=e4] [cursor=pointer]:
+        - /url: "#wp-toolbar"
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Dashboard" [ref=e9] [cursor=pointer]:
+            - /url: index.php
+            - generic [ref=e10]: 
+            - generic [ref=e11]: Dashboard
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - link "Home" [ref=e14] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=e15]:
+              - link "Updates 2" [ref=e16] [cursor=pointer]:
+                - /url: update-core.php
+                - text: Updates
+                - generic [ref=e17]: "2"
+        - listitem [ref=e18]
+        - listitem [ref=e20]:
+          - link "Posts" [ref=e21] [cursor=pointer]:
+            - /url: edit.php
+            - generic [ref=e22]: 
+            - generic [ref=e23]: Posts
+          - list [ref=e24]:
+            - listitem [ref=e25]:
+              - link "All Posts" [ref=e26] [cursor=pointer]:
+                - /url: edit.php
+            - listitem [ref=e27]:
+              - link "Add Post" [ref=e28] [cursor=pointer]:
+                - /url: post-new.php
+            - listitem [ref=e29]:
+              - link "Categories" [ref=e30] [cursor=pointer]:
+                - /url: edit-tags.php?taxonomy=category
+            - listitem [ref=e31]:
+              - link "Tags" [ref=e32] [cursor=pointer]:
+                - /url: edit-tags.php?taxonomy=post_tag
+        - listitem [ref=e33]:
+          - link "Media" [ref=e34] [cursor=pointer]:
+            - /url: upload.php
+            - generic [ref=e35]: 
+            - generic [ref=e36]: Media
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "Library" [ref=e39] [cursor=pointer]:
+                - /url: upload.php
+            - listitem [ref=e40]:
+              - link "Add Media File" [ref=e41] [cursor=pointer]:
+                - /url: media-new.php
+        - listitem [ref=e42]:
+          - link "Pages" [ref=e43] [cursor=pointer]:
+            - /url: edit.php?post_type=page
+            - generic [ref=e44]: 
+            - generic [ref=e45]: Pages
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - link "All Pages" [ref=e48] [cursor=pointer]:
+                - /url: edit.php?post_type=page
+            - listitem [ref=e49]:
+              - link "Add Page" [ref=e50] [cursor=pointer]:
+                - /url: post-new.php?post_type=page
+        - listitem [ref=e51]:
+          - link "Comments" [ref=e52] [cursor=pointer]:
+            - /url: edit-comments.php
+            - generic [ref=e53]: 
+            - generic [ref=e54]: Comments
+        - listitem [ref=e55]
+        - listitem [ref=e57]:
+          - link "WooCommerce" [ref=e58] [cursor=pointer]:
+            - /url: admin.php?page=wc-admin
+            - generic [ref=e60]: WooCommerce
+          - list [ref=e61]:
+            - listitem [ref=e62]:
+              - link "Home" [ref=e63] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin
+            - listitem [ref=e64]:
+              - link "Orders 10" [ref=e65] [cursor=pointer]:
+                - /url: admin.php?page=wc-orders
+                - text: Orders
+                - generic [ref=e66]: "10"
+            - listitem [ref=e67]:
+              - link "Customers" [ref=e68] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/customers
+            - listitem [ref=e69]:
+              - link "Coupons" [ref=e70] [cursor=pointer]:
+                - /url: admin.php?page=coupons-moved
+            - listitem [ref=e71]:
+              - link "Reports" [ref=e72] [cursor=pointer]:
+                - /url: admin.php?page=wc-reports
+            - listitem [ref=e73]:
+              - link "Settings" [ref=e74] [cursor=pointer]:
+                - /url: admin.php?page=wc-settings
+            - listitem [ref=e75]:
+              - link "Status" [ref=e76] [cursor=pointer]:
+                - /url: admin.php?page=wc-status
+            - listitem [ref=e77]:
+              - link "Extensions" [ref=e78] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/extensions
+        - listitem [ref=e79]:
+          - link "Products" [ref=e80] [cursor=pointer]:
+            - /url: edit.php?post_type=product
+            - generic [ref=e81]: 
+            - generic [ref=e82]: Products
+          - list [ref=e83]:
+            - listitem [ref=e84]:
+              - link "All Products" [ref=e85] [cursor=pointer]:
+                - /url: edit.php?post_type=product
+            - listitem [ref=e86]:
+              - link "Add new product" [ref=e87] [cursor=pointer]:
+                - /url: post-new.php?post_type=product
+            - listitem [ref=e88]:
+              - link "Brands" [ref=e89] [cursor=pointer]:
+                - /url: edit-tags.php?taxonomy=product_brand&post_type=product
+            - listitem [ref=e90]:
+              - link "Categories" [ref=e91] [cursor=pointer]:
+                - /url: edit-tags.php?taxonomy=product_cat&post_type=product
+            - listitem [ref=e92]:
+              - link "Tags" [ref=e93] [cursor=pointer]:
+                - /url: edit-tags.php?taxonomy=product_tag&post_type=product
+            - listitem [ref=e94]:
+              - link "Attributes" [ref=e95] [cursor=pointer]:
+                - /url: edit.php?post_type=product&page=product_attributes
+            - listitem [ref=e96]:
+              - link "Reviews" [ref=e97] [cursor=pointer]:
+                - /url: edit.php?post_type=product&page=product-reviews
+        - listitem [ref=e98]:
+          - link "Payments" [ref=e99] [cursor=pointer]:
+            - /url: admin.php?page=wc-settings&tab=checkout&from=PAYMENTS_MENU_ITEM
+            - generic [ref=e101]: Payments
+        - listitem [ref=e102]:
+          - link "Analytics" [ref=e103] [cursor=pointer]:
+            - /url: admin.php?page=wc-admin&path=/analytics/overview
+            - generic [ref=e104]: 
+            - generic [ref=e105]: Analytics
+          - list [ref=e106]:
+            - listitem [ref=e107]:
+              - link "Overview" [ref=e108] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/analytics/overview
+            - listitem [ref=e109]:
+              - link "Products" [ref=e110] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/analytics/products
+            - listitem [ref=e111]:
+              - link "Revenue" [ref=e112] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/analytics/revenue
+            - listitem [ref=e113]:
+              - link "Orders" [ref=e114] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/analytics/orders
+            - listitem [ref=e115]:
+              - link "Variations" [ref=e116] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/analytics/variations
+            - listitem [ref=e117]:
+              - link "Categories" [ref=e118] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/analytics/categories
+            - listitem [ref=e119]:
+              - link "Coupons" [ref=e120] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/analytics/coupons
+            - listitem [ref=e121]:
+              - link "Taxes" [ref=e122] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/analytics/taxes
+            - listitem [ref=e123]:
+              - link "Downloads" [ref=e124] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/analytics/downloads
+            - listitem [ref=e125]:
+              - link "Stock" [ref=e126] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/analytics/stock
+            - listitem [ref=e127]:
+              - link "Settings" [ref=e128] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/analytics/settings
+        - listitem [ref=e129]:
+          - link "Marketing" [ref=e130] [cursor=pointer]:
+            - /url: admin.php?page=wc-admin&path=/marketing
+            - generic [ref=e131]: 
+            - generic [ref=e132]: Marketing
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - link "Overview" [ref=e135] [cursor=pointer]:
+                - /url: admin.php?page=wc-admin&path=/marketing
+            - listitem [ref=e136]:
+              - link "Coupons" [ref=e137] [cursor=pointer]:
+                - /url: edit.php?post_type=shop_coupon
+        - listitem [ref=e138]
+        - listitem [ref=e140]:
+          - link "Appearance" [ref=e141] [cursor=pointer]:
+            - /url: themes.php
+            - generic [ref=e142]: 
+            - generic [ref=e143]: Appearance
+          - list [ref=e144]:
+            - listitem [ref=e145]:
+              - link "Themes" [ref=e146] [cursor=pointer]:
+                - /url: themes.php
+            - listitem [ref=e147]:
+              - link "Patterns" [ref=e148] [cursor=pointer]:
+                - /url: site-editor.php?p=/pattern
+            - listitem [ref=e149]:
+              - link "Customize" [ref=e150] [cursor=pointer]:
+                - /url: customize.php?return=%2Fsklentr%2Fsnazzy-floret%2Fwp-admin%2Fpost.php%3Fpost%3D194%26action%3Dedit
+            - listitem [ref=e151]:
+              - link "Widgets" [ref=e152] [cursor=pointer]:
+                - /url: widgets.php
+            - listitem [ref=e153]:
+              - link "Menus" [ref=e154] [cursor=pointer]:
+                - /url: nav-menus.php
+            - listitem [ref=e155]:
+              - link "Theme File Editor" [ref=e156] [cursor=pointer]:
+                - /url: theme-editor.php
+        - listitem [ref=e157]:
+          - link "Plugins 2" [ref=e158] [cursor=pointer]:
+            - /url: plugins.php
+            - generic [ref=e159]: 
+            - generic [ref=e160]:
+              - text: Plugins
+              - generic [ref=e161]: "2"
+          - list [ref=e162]:
+            - listitem [ref=e163]:
+              - link "Installed Plugins" [ref=e164] [cursor=pointer]:
+                - /url: plugins.php
+            - listitem [ref=e165]:
+              - link "Add Plugin" [ref=e166] [cursor=pointer]:
+                - /url: plugin-install.php
+            - listitem [ref=e167]:
+              - link "Plugin File Editor" [ref=e168] [cursor=pointer]:
+                - /url: plugin-editor.php
+        - listitem [ref=e169]:
+          - link "Users" [ref=e170] [cursor=pointer]:
+            - /url: users.php
+            - generic [ref=e171]: 
+            - generic [ref=e172]: Users
+          - list [ref=e173]:
+            - listitem [ref=e174]:
+              - link "All Users" [ref=e175] [cursor=pointer]:
+                - /url: users.php
+            - listitem [ref=e176]:
+              - link "Add User" [ref=e177] [cursor=pointer]:
+                - /url: user-new.php
+            - listitem [ref=e178]:
+              - link "Profile" [ref=e179] [cursor=pointer]:
+                - /url: profile.php
+        - listitem [ref=e180]:
+          - link "Tools" [ref=e181] [cursor=pointer]:
+            - /url: tools.php
+            - generic [ref=e182]: 
+            - generic [ref=e183]: Tools
+          - list [ref=e184]:
+            - listitem [ref=e185]:
+              - link "Available Tools" [ref=e186] [cursor=pointer]:
+                - /url: tools.php
+            - listitem [ref=e187]:
+              - link "Import" [ref=e188] [cursor=pointer]:
+                - /url: import.php
+            - listitem [ref=e189]:
+              - link "Export" [ref=e190] [cursor=pointer]:
+                - /url: export.php
+            - listitem [ref=e191]:
+              - link "Site Health 1" [ref=e192] [cursor=pointer]:
+                - /url: site-health.php
+                - text: Site Health
+                - generic [ref=e193]: "1"
+            - listitem [ref=e194]:
+              - link "Export Personal Data" [ref=e195] [cursor=pointer]:
+                - /url: export-personal-data.php
+            - listitem [ref=e196]:
+              - link "Erase Personal Data" [ref=e197] [cursor=pointer]:
+                - /url: erase-personal-data.php
+            - listitem [ref=e198]:
+              - link "Scheduled Actions" [ref=e199] [cursor=pointer]:
+                - /url: tools.php?page=action-scheduler
+            - listitem [ref=e200]:
+              - link "Yoast Redirects" [ref=e201] [cursor=pointer]:
+                - /url: tools.php?page=wpseo_redirects_tools
+        - listitem [ref=e202]:
+          - link "Settings" [ref=e203] [cursor=pointer]:
+            - /url: options-general.php
+            - generic [ref=e204]: 
+            - generic [ref=e205]: Settings
+          - list [ref=e206]:
+            - listitem [ref=e207]:
+              - link "General" [ref=e208] [cursor=pointer]:
+                - /url: options-general.php
+            - listitem [ref=e209]:
+              - link "Writing" [ref=e210] [cursor=pointer]:
+                - /url: options-writing.php
+            - listitem [ref=e211]:
+              - link "Reading" [ref=e212] [cursor=pointer]:
+                - /url: options-reading.php
+            - listitem [ref=e213]:
+              - link "Discussion" [ref=e214] [cursor=pointer]:
+                - /url: options-discussion.php
+            - listitem [ref=e215]:
+              - link "Media" [ref=e216] [cursor=pointer]:
+                - /url: options-media.php
+            - listitem [ref=e217]:
+              - link "Permalinks" [ref=e218] [cursor=pointer]:
+                - /url: options-permalink.php
+            - listitem [ref=e219]:
+              - link "Privacy" [ref=e220] [cursor=pointer]:
+                - /url: options-privacy.php
+        - listitem [ref=e221]
+        - listitem [ref=e223]:
+          - link "Yoast SEO" [ref=e224] [cursor=pointer]:
+            - /url: admin.php?page=wpseo_dashboard
+            - generic [ref=e226]: Yoast SEO
+          - list [ref=e227]:
+            - listitem [ref=e228]:
+              - link "General" [ref=e229] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_dashboard
+            - listitem [ref=e230]:
+              - link "Settings" [ref=e231] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_page_settings
+            - listitem [ref=e232]:
+              - link "Integrations" [ref=e233] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_integrations
+            - listitem [ref=e234]:
+              - link "Tools" [ref=e235] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_tools
+            - listitem [ref=e236]:
+              - link "Academy" [ref=e237] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_page_academy
+            - listitem [ref=e238]:
+              - link "Plans" [ref=e239] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_licenses
+            - listitem [ref=e240]:
+              - link "Workouts Premium" [ref=e241] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_workouts
+                - text: Workouts
+                - generic [ref=e242]: Premium
+            - listitem [ref=e243]:
+              - link "Redirects Premium" [ref=e244] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_redirects
+                - text: Redirects
+                - generic [ref=e245]: Premium
+            - listitem [ref=e246]:
+              - link "Support" [ref=e247] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_page_support
+            - listitem [ref=e248]:
+              - link "Upgrade" [ref=e249] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_upgrade_sidebar
+                - generic [ref=e251]: Upgrade
+            - listitem [ref=e252]:
+              - link "AI Brand Insights" [ref=e253] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_brand_insights
+                - generic [ref=e255]: AI Brand Insights
+        - listitem [ref=e257]:
+          - button "Collapse Main menu" [expanded] [ref=e258] [cursor=pointer]:
+            - generic [ref=e260]: Collapse Menu
+    - generic [ref=e261]:
+      - generic [ref=e262]:
+        - navigation "Toolbar":
+          - menu:
+            - group [ref=e263]:
+              - menuitem "About WordPress" [ref=e264] [cursor=pointer]:
+                - generic [ref=e266]: About WordPress
+            - group [ref=e267]:
+              - menuitem "Snazzy Floret" [ref=e268] [cursor=pointer]
+            - group [ref=e269]:
+              - menuitem "Live" [ref=e270] [cursor=pointer]
+            - group [ref=e271]:
+              - menuitem "2 updates available" [ref=e272] [cursor=pointer]:
+                - generic [ref=e274]: "2"
+                - generic [ref=e275]: 2 updates available
+            - group [ref=e276]:
+              - menuitem "0 Comments in moderation" [ref=e277] [cursor=pointer]:
+                - generic [ref=e279]: "0"
+                - generic [ref=e280]: 0 Comments in moderation
+            - group [ref=e281]:
+              - menuitem "New" [ref=e282] [cursor=pointer]:
+                - generic [ref=e284]: New
+            - group [ref=e285]:
+              - menuitem "View product" [ref=e286] [cursor=pointer]
+            - group [ref=e287]:
+              - menuitem "SEO" [ref=e288] [cursor=pointer]:
+                - generic [ref=e290]: SEO
+                - generic [ref=e292]: Not available
+              - text: Premium Premium
+          - menu [ref=e293]:
+            - group [ref=e294]:
+              - menuitem "Howdy, admin" [ref=e295] [cursor=pointer]
+      - generic [ref=e297]:
+        - heading "Edit Product" [level=1] [ref=e298]
+        - generic [ref=e299]:
+          - heading "Store Activity" [level=2] [ref=e300]
+          - complementary "Store Activity" [ref=e301]:
+            - tablist [ref=e302]:
+              - tab "Activity unread activity" [ref=e303] [cursor=pointer]:
+                - img [ref=e304]
+                - text: Activity
+                - generic [ref=e307]: unread activity
+      - main [ref=e310]:
+        - generic [ref=e311]:
+          - generic [ref=e312]:
+            - button "Screen Options" [ref=e314] [cursor=pointer]
+            - button "Help" [ref=e316] [cursor=pointer]
+          - generic [ref=e319]:
+            - heading "Edit product" [level=1] [ref=e320]
+            - link "Add new product" [ref=e321] [cursor=pointer]:
+              - /url: http://localhost/sklentr/snazzy-floret/wp-admin/post-new.php?post_type=product
+            - generic [ref=e322]:
+              - link "Dismiss" [ref=e323] [cursor=pointer]:
+                - /url: /sklentr/snazzy-floret/wp-admin/post.php?post=194&action=edit&wc-hide-notice=no_secure_connection&_wc_notice_nonce=d4aab30551
+              - paragraph [ref=e324]:
+                - text: Your store does not appear to be using a secure connection. We highly recommend serving your entire website over an HTTPS connection to help keep customer data secure.
+                - link "Learn more here." [ref=e325] [cursor=pointer]:
+                  - /url: https://woocommerce.com/document/ssl-and-https/
+            - generic [ref=e326]:
+              - link "Dismiss" [ref=e327] [cursor=pointer]:
+                - /url: /sklentr/snazzy-floret/wp-admin/post.php?post=194&action=edit&wc-hide-notice=maxmind_license_key&_wc_notice_nonce=d4aab30551
+              - paragraph [ref=e328]:
+                - strong [ref=e329]: Geolocation has not been configured.
+              - paragraph [ref=e330]:
+                - text: You must enter a valid license key on the
+                - link "MaxMind integration settings page" [ref=e331] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/wp-admin/admin.php?page=wc-settings&tab=integration&section=maxmind_geolocation
+                - text: in order to use the geolocation service. If you do not need geolocation for shipping or taxes, you should change the default customer location on the
+                - link "general settings page" [ref=e332] [cursor=pointer]:
+                  - /url: http://localhost/sklentr/snazzy-floret/wp-admin/admin.php?page=wc-settings&tab=general
+                - text: .
+            - generic [ref=e334]:
+              - generic:
+                - generic [ref=e335]:
+                  - generic [ref=e336]:
+                    - generic [ref=e337]:
+                      - generic: Product name
+                      - textbox "Product name" [ref=e338]: Tussar Silk Saree — Handwoven
+                      - link "Skip to Editor" [ref=e339] [cursor=pointer]:
+                        - /url: "#content"
+                    - generic [ref=e341]:
+                      - strong [ref=e342]: "Permalink:"
+                      - link "http://localhost/sklentr/snazzy-floret/product/tussar-silk-saree-handwoven/" [ref=e344] [cursor=pointer]:
+                        - /url: http://localhost/sklentr/snazzy-floret/product/tussar-silk-saree-handwoven/
+                      - text: ‎
+                      - button "Edit permalink" [ref=e346] [cursor=pointer]: Edit
+                  - generic [ref=e347]:
+                    - heading "Product description" [level=2] [ref=e348]:
+                      - generic [ref=e349]: Product description
+                    - generic [ref=e350]:
+                      - generic [ref=e351]:
+                        - generic [ref=e352]:
+                          - button "Add Media" [ref=e353] [cursor=pointer]: Add Media
+                          - generic "Describe this product. What makes it unique? What are its most important features?" [ref=e355]: 
+                        - generic [ref=e356]:
+                          - button "Visual" [pressed] [ref=e357] [cursor=pointer]
+                          - button "Code" [ref=e358] [cursor=pointer]
+                      - application [ref=e360]:
+                        - generic [ref=e361]:
+                          - group [ref=e362]:
+                            - toolbar [ref=e364]:
+                              - group [ref=e366]:
+                                - generic [ref=e367]:
+                                  - button "Paragraph" [ref=e368] [cursor=pointer]:
+                                    - button "Paragraph" [ref=e369]:
+                                      - generic [ref=e370]: Paragraph
+                                  - button "Bold (Ctrl+B)" [ref=e372] [cursor=pointer]:
+                                    - button [ref=e373]
+                                  - button "Italic (Ctrl+I)" [ref=e375] [cursor=pointer]:
+                                    - button [ref=e376]
+                                  - button "Bulleted list (Shift+Alt+U)" [ref=e378] [cursor=pointer]:
+                                    - button [ref=e379]
+                                  - button "Numbered list (Shift+Alt+O)" [ref=e381] [cursor=pointer]:
+                                    - button [ref=e382]
+                                  - button "Blockquote (Shift+Alt+Q)" [ref=e384] [cursor=pointer]:
+                                    - button [ref=e385]
+                                  - button "Align left (Shift+Alt+L)" [ref=e387] [cursor=pointer]:
+                                    - button [ref=e388]
+                                  - button "Align center (Shift+Alt+C)" [ref=e390] [cursor=pointer]:
+                                    - button [ref=e391]
+                                  - button "Align right (Shift+Alt+R)" [ref=e393] [cursor=pointer]:
+                                    - button [ref=e394]
+                                  - button "Insert/edit link (Ctrl+K)" [ref=e396] [cursor=pointer]:
+                                    - button [ref=e397]
+                                  - button "Insert Read More tag (Shift+Alt+T)" [ref=e399] [cursor=pointer]:
+                                    - button [ref=e400]
+                                  - button "Toolbar Toggle (Shift+Alt+Z)" [ref=e402] [cursor=pointer]:
+                                    - button [ref=e403]
+                          - group [ref=e405]:
+                            - iframe [ref=e406]:
+                              - paragraph [ref=f3e2]: Pure handwoven Tussar silk saree, naturally golden in tone. The pallu carries a contrasting woven border and small motif work. Soft enough for daily draping, dressy enough for a wedding. Comes with an unstitched blouse piece in matching tone.
+                    - text: "Word count: 39 Last edited on April 22, 2026 at 10:53 am"
+                - generic [ref=e408]:
+                  - generic [ref=e409]:
+                    - generic [ref=e410]:
+                      - heading "Publish" [level=2] [ref=e411]
+                      - generic [ref=e412]:
+                        - button "Move up" [disabled] [ref=e413]:
+                          - generic [ref=e414]: Move up
+                        - button "Move down" [ref=e416] [cursor=pointer]:
+                          - generic [ref=e417]: Move down
+                        - 'button "Toggle panel: Publish" [expanded] [ref=e419] [cursor=pointer]':
+                          - generic [ref=e420]: "Toggle panel: Publish"
+                    - generic [ref=e423]:
+                      - generic [ref=e424]:
+                        - link "Preview Changes (opens in a new tab)" [ref=e426] [cursor=pointer]:
+                          - /url: http://localhost/sklentr/snazzy-floret/product/tussar-silk-saree-handwoven/?preview=true
+                          - text: Preview Changes
+                          - generic [ref=e427]: (opens in a new tab)
+                        - generic [ref=e428]:
+                          - generic [ref=e429]:
+                            - text: "Status: Published"
+                            - button "Edit status" [ref=e430] [cursor=pointer]:
+                              - text: Edit
+                              - generic [ref=e431]: Edit status
+                          - generic [ref=e432]:
+                            - text: "Visibility: Public"
+                            - button "Edit visibility" [ref=e433] [cursor=pointer]:
+                              - text: Edit
+                              - generic [ref=e434]: Edit visibility
+                          - generic [ref=e435]:
+                            - generic [ref=e436]: "Published on: Apr 22, 2026 at 10:26"
+                            - button "Edit date and time" [ref=e437] [cursor=pointer]:
+                              - text: Edit
+                              - generic [ref=e438]: Edit date and time
+                          - generic [ref=e439]:
+                            - generic [ref=e442]:
+                              - link "SEO analysis:" [ref=e443] [cursor=pointer]:
+                                - /url: "#yoast-seo-analysis-collapsible-metabox"
+                              - strong [ref=e444]: Not available
+                            - generic [ref=e447]:
+                              - link "Readability analysis:" [ref=e448] [cursor=pointer]:
+                                - /url: "#yoast-readability-analysis-collapsible-metabox"
+                              - strong [ref=e449]: Not available
+                          - generic [ref=e450]:
+                            - text: "Catalog visibility:"
+                            - strong [ref=e451]: Shop and search results
+                            - link "Edit" [ref=e452] [cursor=pointer]:
+                              - /url: "#catalog-visibility"
+                      - generic [ref=e453]:
+                        - link "Copy to a new draft" [ref=e455] [cursor=pointer]:
+                          - /url: http://localhost/sklentr/snazzy-floret/wp-admin/edit.php?post_type=product&action=duplicate_product&post=194&_wpnonce=8bb6b6e443
+                        - link "Move to Trash" [ref=e457] [cursor=pointer]:
+                          - /url: http://localhost/sklentr/snazzy-floret/wp-admin/post.php?post=194&action=trash&_wpnonce=149269988b
+                        - button "Update" [ref=e459] [cursor=pointer]
+                  - generic [ref=e460]:
+                    - generic [ref=e461]:
+                      - heading "Product image" [level=2] [ref=e462]
+                      - generic [ref=e463]:
+                        - button "Move up" [ref=e464] [cursor=pointer]:
+                          - generic [ref=e465]: Move up
+                        - button "Move down" [ref=e467] [cursor=pointer]:
+                          - generic [ref=e468]: Move down
+                        - 'button "Toggle panel: Product image" [expanded] [ref=e470] [cursor=pointer]':
+                          - generic [ref=e471]: "Toggle panel: Product image"
+                    - generic [ref=e473]:
+                      - paragraph [ref=e474]:
+                        - link [ref=e475] [cursor=pointer]:
+                          - /url: http://localhost/sklentr/snazzy-floret/wp-admin/media-upload.php?post_id=194&type=image&TB_iframe=1
+                        - 'generic "For best results, upload JPEG or PNG files that are 1000 by 1000 pixels or larger. Maximum upload file size: 2 MB." [ref=e476]': 
+                      - paragraph [ref=e477]: Click the image to edit or update
+                      - paragraph [ref=e478]:
+                        - link "Remove product image" [ref=e479] [cursor=pointer]:
+                          - /url: "#"
+                  - generic [ref=e480]:
+                    - generic [ref=e481]:
+                      - heading "Product gallery" [level=2] [ref=e482]
+                      - generic [ref=e483]:
+                        - button "Move up" [ref=e484] [cursor=pointer]:
+                          - generic [ref=e485]: Move up
+                        - button "Move down" [ref=e487] [cursor=pointer]:
+                          - generic [ref=e488]: Move down
+                        - 'button "Toggle panel: Product gallery" [expanded] [ref=e490] [cursor=pointer]':
+                          - generic [ref=e491]: "Toggle panel: Product gallery"
+                    - generic [ref=e493]:
+                      - list [ref=e495]:
+                        - listitem [ref=e496]: 
+                        - listitem [ref=e497]: 
+                        - listitem [ref=e498]: 
+                      - paragraph [ref=e499]:
+                        - link "Add product gallery images" [ref=e500] [cursor=pointer]:
+                          - /url: "#"
+                        - 'generic "For best results, upload JPEG or PNG files that are 1000 by 1000 pixels or larger. Maximum upload file size: 2 MB." [ref=e501]': 
+                  - generic [ref=e502]:
+                    - generic [ref=e503]:
+                      - heading "Product categories" [level=2] [ref=e504]
+                      - generic [ref=e505]:
+                        - button "Move up" [ref=e506] [cursor=pointer]:
+                          - generic [ref=e507]: Move up
+                        - button "Move down" [ref=e509] [cursor=pointer]:
+                          - generic [ref=e510]: Move down
+                        - 'button "Toggle panel: Product categories" [expanded] [ref=e512] [cursor=pointer]':
+                          - generic [ref=e513]: "Toggle panel: Product categories"
+                    - generic [ref=e516]:
+                      - list [ref=e517]:
+                        - listitem [ref=e518]:
+                          - link "All categories" [ref=e519] [cursor=pointer]:
+                            - /url: "#product_cat-all"
+                        - listitem [ref=e520]:
+                          - link "Most Used" [ref=e521] [cursor=pointer]:
+                            - /url: "#product_cat-pop"
+                      - list [ref=e523]:
+                        - listitem [ref=e524]:
+                          - generic [ref=e525]:
+                            - checkbox "Digital Prints" [ref=e526] [cursor=pointer]
+                            - text: Digital Prints
+                        - listitem [ref=e527]:
+                          - generic [ref=e528]:
+                            - checkbox "Family Matching" [ref=e529] [cursor=pointer]
+                            - text: Family Matching
+                        - listitem [ref=e530]:
+                          - generic [ref=e531]:
+                            - checkbox "Handmade" [checked] [ref=e532] [cursor=pointer]
+                            - text: Handmade
+                        - listitem [ref=e533]:
+                          - generic [ref=e534]:
+                            - checkbox "Office Wear" [ref=e535] [cursor=pointer]
+                            - text: Office Wear
+                        - listitem [ref=e536]:
+                          - generic [ref=e537]:
+                            - checkbox "Party Wear" [ref=e538] [cursor=pointer]
+                            - text: Party Wear
+                        - listitem [ref=e539]:
+                          - generic [ref=e540]:
+                            - checkbox "Regular Wear" [ref=e541] [cursor=pointer]
+                            - text: Regular Wear
+                        - listitem [ref=e542]:
+                          - generic [ref=e543]:
+                            - checkbox "Saree" [ref=e544] [cursor=pointer]
+                            - text: Saree
+                        - listitem [ref=e545]:
+                          - generic [ref=e546]:
+                            - checkbox "Uncategorized" [ref=e547] [cursor=pointer]
+                            - text: Uncategorized
+                      - link "+ Add new category" [ref=e549] [cursor=pointer]:
+                        - /url: "#product_cat-add"
+                  - generic [ref=e550]:
+                    - generic [ref=e551]:
+                      - heading "Product tags" [level=2] [ref=e552]
+                      - generic [ref=e553]:
+                        - button "Move up" [ref=e554] [cursor=pointer]:
+                          - generic [ref=e555]: Move up
+                        - button "Move down" [ref=e557] [cursor=pointer]:
+                          - generic [ref=e558]: Move down
+                        - 'button "Toggle panel: Product tags" [expanded] [ref=e560] [cursor=pointer]':
+                          - generic [ref=e561]: "Toggle panel: Product tags"
+                    - generic [ref=e563]:
+                      - generic [ref=e564]:
+                        - generic [ref=e565]:
+                          - generic [ref=e566]:
+                            - generic [ref=e567]: Add new tag
+                            - combobox "Add new tag" [ref=e568]
+                            - button "Add" [ref=e569] [cursor=pointer]
+                          - paragraph [ref=e570]: Separate tags with commas
+                        - list
+                      - paragraph [ref=e571]:
+                        - button "Choose from the most used tags" [ref=e572] [cursor=pointer]
+                  - generic [ref=e573]:
+                    - generic [ref=e574]:
+                      - heading "Brands" [level=2] [ref=e575]
+                      - generic [ref=e576]:
+                        - button "Move up" [ref=e577] [cursor=pointer]:
+                          - generic [ref=e578]: Move up
+                        - button "Move down" [ref=e580] [cursor=pointer]:
+                          - generic [ref=e581]: Move down
+                        - 'button "Toggle panel: Brands" [expanded] [ref=e583] [cursor=pointer]':
+                          - generic [ref=e584]: "Toggle panel: Brands"
+                    - generic [ref=e587]:
+                      - list [ref=e588]:
+                        - listitem [ref=e589]:
+                          - link "All Brands" [ref=e590] [cursor=pointer]:
+                            - /url: "#product_brand-all"
+                        - listitem [ref=e591]:
+                          - link "Most Used" [ref=e592] [cursor=pointer]:
+                            - /url: "#product_brand-pop"
+                      - generic [ref=e593]:
+                        - list
+                      - link "+ Add New Brand" [ref=e595] [cursor=pointer]:
+                        - /url: "#product_brand-add"
+                - generic [ref=e597]:
+                  - generic [ref=e598]:
+                    - generic [ref=e599]:
+                      - heading "Yoast SEO" [level=2] [ref=e600]
+                      - generic [ref=e601]:
+                        - button "Move up" [ref=e602] [cursor=pointer]:
+                          - generic [ref=e603]: Move up
+                        - button "Move down" [ref=e605] [cursor=pointer]:
+                          - generic [ref=e606]: Move down
+                        - 'button "Toggle panel: Yoast SEO" [expanded] [ref=e608] [cursor=pointer]':
+                          - generic [ref=e609]: "Toggle panel: Yoast SEO"
+                    - generic [ref=e612]:
+                      - tablist "Yoast SEO" [ref=e614]:
+                        - tab "SEO" [selected] [ref=e615] [cursor=pointer]:
+                          - img [ref=e617]
+                          - text: SEO
+                        - tab "Readability" [ref=e619] [cursor=pointer]:
+                          - img [ref=e621]
+                          - generic [ref=e623]: Readability
+                        - tab "Schema" [ref=e624] [cursor=pointer]: Schema
+                        - tab " Social" [ref=e626] [cursor=pointer]:
+                          - generic [ref=e627]: 
+                          - text: Social
+                      - tabpanel "SEO" [ref=e628]:
+                        - generic [ref=e629]:
+                          - generic [ref=e632]:
+                            - generic [ref=e633]:
+                              - generic [ref=e634]:
+                                - text: Focus keyphrase
+                                - link " Help on choosing the perfect focus keyphrase (Opens in a new browser tab)" [ref=e635] [cursor=pointer]:
+                                  - /url: https://yoa.st/focus-keyword?php_version=8.3&platform=wordpress&platform_version=6.9.4&software=free&software_version=27.4&days_active=3&user_language=en_US
+                                  - text: 
+                                  - generic [ref=e636]: Help on choosing the perfect focus keyphrase
+                                  - generic [ref=e637]: (Opens in a new browser tab)
+                              - textbox "Focus keyphrase" [ref=e639]
+                            - link "Get related keyphrases (Opens in a new browser tab)" [ref=e642] [cursor=pointer]:
+                              - /url: https://oauth.semrush.com/oauth2/authorize?ref=1513012826&client_id=yoast&redirect_uri=https%3A%2F%2Foauth.semrush.com%2Foauth2%2Fyoast%2Fsuccess&response_type=code&scope=user.id
+                              - text: Get related keyphrases
+                              - generic [ref=e643]: (Opens in a new browser tab)
+                          - generic [ref=e645]:
+                            - heading "Search appearance" [level=2] [ref=e646]:
+                              - button "Search appearance" [expanded] [ref=e647] [cursor=pointer]:
+                                - generic [ref=e649]: Search appearance
+                                - img [ref=e650]
+                            - generic [ref=e656]:
+                              - generic [ref=e657]:
+                                - paragraph [ref=e658]: Want an enhanced Google preview of how your WooCommerce products look in the search results?
+                                - link "Unlock with Yoast WooCommerce SEO" [ref=e659] [cursor=pointer]:
+                                  - /url: https://yoa.st/product-google-preview-metabox?php_version=8.3&platform=wordpress&platform_version=6.9.4&software=free&software_version=27.4&days_active=3&user_language=en_US
+                                  - img [ref=e660]
+                                  - text: Unlock with Yoast WooCommerce SEO
+                              - generic [ref=e662]:
+                                - generic [ref=e663]: Determine how your post should look in the search results.
+                                - generic [ref=e665]:
+                                  - generic [ref=e666]: Google preview
+                                  - group [ref=e667]:
+                                    - generic [ref=e668]: Mobile
+                                    - 'switch "Google preview: Switch to desktop preview. Currently showing mobile preview." [ref=e669] [cursor=pointer]':
+                                      - generic [ref=e670]: "Google preview: Switch to desktop preview. Currently showing mobile preview."
+                                      - generic:
+                                        - generic:
+                                          - img
+                                    - generic [ref=e671]: Desktop
+                                - generic [ref=e673]:
+                                  - generic [ref=e674]:
+                                    - generic [ref=e675]: "Url preview:"
+                                    - generic [ref=e677] [cursor=pointer]:
+                                      - generic [ref=e679]:
+                                        - generic [ref=e680]: Snazzy Floret
+                                        - text: localhost
+                                      - img [ref=e681]
+                                    - generic [ref=e683]: "SEO title preview:"
+                                    - generic [ref=e686] [cursor=pointer]: Tussar Silk Saree — Handwoven - Snazzy Floret
+                                  - generic [ref=e687]:
+                                    - generic [ref=e688]: "Meta description preview:"
+                                    - generic [ref=e690] [cursor=pointer]: Please provide a meta description by editing the snippet below. If you don’t, Google will try to find a relevant part of your post to show in the search results.
+                                - generic [ref=e692]:
+                                  - generic [ref=e693]:
+                                    - generic [ref=e694] [cursor=pointer]: SEO title
+                                    - generic [ref=e696]:
+                                      - button "Insert variable" [ref=e697] [cursor=pointer]
+                                      - button "Generate SEO title" [disabled] [ref=e699]:
+                                        - img [ref=e700]
+                                        - text: Generate SEO title
+                                    - combobox "SEO title" [ref=e705]:
+                                      - generic [ref=e708]:
+                                        - generic [ref=e710] [cursor=pointer]: Title
+                                        - generic [ref=e713] [cursor=pointer]: Page
+                                        - generic [ref=e716] [cursor=pointer]: Separator
+                                        - generic [ref=e719] [cursor=pointer]: Site title
+                                  - progressbar [ref=e721]
+                                  - generic [ref=e722] [cursor=pointer]: Slug
+                                  - textbox "Slug" [ref=e724]: tussar-silk-saree-handwoven
+                                  - generic [ref=e725]:
+                                    - generic [ref=e726] [cursor=pointer]: Meta description
+                                    - generic [ref=e728]:
+                                      - button "Insert variable" [ref=e729] [cursor=pointer]
+                                      - button "Generate meta description" [disabled] [ref=e731]:
+                                        - img [ref=e732]
+                                        - text: Generate meta description
+                                    - combobox "Meta description" [ref=e737]
+                                  - progressbar [ref=e741]
+                          - heading "SEO analysis Enter a focus keyphrase to calculate the SEO score" [level=2] [ref=e744]:
+                            - button "SEO analysis Enter a focus keyphrase to calculate the SEO score" [ref=e745] [cursor=pointer]:
+                              - img [ref=e746]
+                              - generic [ref=e749]:
+                                - text: SEO analysis
+                                - generic [ref=e750]: Enter a focus keyphrase to calculate the SEO score
+                              - img [ref=e751]
+                          - button "Add related keyphrase Premium" [ref=e758] [cursor=pointer]:
+                            - img [ref=e759]
+                            - generic [ref=e761]: Add related keyphrase
+                            - generic [ref=e762]:
+                              - img [ref=e763]
+                              - generic [ref=e765]: Premium
+                          - button "Track SEO performance" [ref=e768] [cursor=pointer]:
+                            - generic [ref=e769]: Track SEO performance
+                            - img [ref=e770]
+                          - button "Internal linking suggestions Premium" [ref=e774] [cursor=pointer]:
+                            - generic [ref=e775]: Internal linking suggestions
+                            - generic [ref=e776]:
+                              - img [ref=e777]
+                              - generic [ref=e779]: Premium
+                          - heading "Cornerstone content" [level=2] [ref=e782]:
+                            - button "Cornerstone content" [ref=e783] [cursor=pointer]:
+                              - generic [ref=e785]: Cornerstone content
+                              - img [ref=e786]
+                          - heading "Advanced" [level=2] [ref=e793]:
+                            - button "Advanced" [ref=e794] [cursor=pointer]:
+                              - generic [ref=e796]: Advanced
+                              - img [ref=e797]
+                          - heading "Insights" [level=2] [ref=e804]:
+                            - button "Insights" [ref=e805] [cursor=pointer]:
+                              - generic [ref=e807]: Insights
+                              - img [ref=e808]
+                      - text: 
+                  - generic [ref=e813]:
+                    - generic [ref=e814]:
+                      - heading "Product data — Simple product Simple – covers the vast majority of any products you may sell. Simple products are shipped and have no options. For example, a book. Virtual Downloadable" [level=2] [ref=e815]:
+                        - text: Product data
+                        - generic [ref=e816]:
+                          - text: —
+                          - generic [ref=e817]:
+                            - combobox "Simple – covers the vast majority of any products you may sell. Simple products are shipped and have no options. For example, a book." [ref=e818] [cursor=pointer]:
+                              - option "Simple product" [selected]
+                              - option "Grouped product"
+                              - option "External/Affiliate product"
+                              - option "Variable product"
+                            - generic "Simple – covers the vast majority of any products you may sell. Simple products are shipped and have no options. For example, a book." [ref=e819]: 
+                          - generic [ref=e820]:
+                            - checkbox "Virtual" [ref=e821] [cursor=pointer]
+                            - text: Virtual
+                          - generic [ref=e822]:
+                            - checkbox "Downloadable" [ref=e823] [cursor=pointer]
+                            - text: Downloadable
+                      - generic [ref=e824]:
+                        - button "Move up" [ref=e825] [cursor=pointer]:
+                          - generic [ref=e826]: Move up
+                        - button "Move down" [ref=e828] [cursor=pointer]:
+                          - generic [ref=e829]: Move down
+                        - 'button "Toggle panel: Product data" [expanded] [ref=e831] [cursor=pointer]':
+                          - generic [ref=e832]: "Toggle panel: Product data"
+                    - generic [ref=e835]:
+                      - list [ref=e836]:
+                        - listitem [ref=e837]:
+                          - link "General" [ref=e838] [cursor=pointer]:
+                            - /url: "#general_product_data"
+                        - listitem [ref=e839]:
+                          - link "Inventory" [ref=e840] [cursor=pointer]:
+                            - /url: "#inventory_product_data"
+                        - listitem [ref=e841]:
+                          - link "Shipping" [ref=e842] [cursor=pointer]:
+                            - /url: "#shipping_product_data"
+                        - listitem [ref=e843]:
+                          - link "Linked Products" [ref=e844] [cursor=pointer]:
+                            - /url: "#linked_product_data"
+                        - listitem [ref=e845]:
+                          - link "Attributes" [ref=e846] [cursor=pointer]:
+                            - /url: "#product_attributes"
+                        - text: 
+                        - listitem [ref=e847]:
+                          - link "Advanced" [ref=e848] [cursor=pointer]:
+                            - /url: "#advanced_product_data"
+                        - listitem [ref=e849]:
+                          - link "Get more options" [ref=e850] [cursor=pointer]:
+                            - /url: "#marketplace_suggestions"
+                      - generic [ref=e851]:
+                        - generic [ref=e852]:
+                          - paragraph [ref=e853]:
+                            - generic [ref=e854]: Regular price ($ CAD)
+                            - textbox "Regular price ($ CAD)" [ref=e855]:
+                              - /placeholder: ""
+                              - text: "5200"
+                          - paragraph [ref=e856]:
+                            - generic [ref=e857]: Sale price ($ CAD)
+                            - textbox "Sale price ($ CAD)" [ref=e858]:
+                              - /placeholder: ""
+                              - text: "4400"
+                            - link "Schedule" [ref=e860] [cursor=pointer]:
+                              - /url: "#"
+                          - text: 
+                        - text:  
+                        - generic [ref=e861]:
+                          - paragraph [ref=e862]:
+                            - generic [ref=e863]: Tax status
+                            - generic "Define whether or not the entire product is taxable, or just the cost of shipping it." [ref=e864]: 
+                            - combobox "Tax status" [ref=e865] [cursor=pointer]:
+                              - option "Taxable" [selected]
+                              - option "Shipping only"
+                              - option "None"
+                          - paragraph [ref=e866]:
+                            - generic [ref=e867]: Tax class
+                            - generic "Choose a tax class for this product. Tax classes are used to apply different tax rates specific to certain types of product." [ref=e868]: 
+                            - combobox "Tax class" [ref=e869] [cursor=pointer]:
+                              - option "Standard" [selected]
+                              - option "Reduced rate"
+                              - option "Zero rate"
+                      - text:                      
+                  - generic [ref=e870]:
+                    - generic [ref=e871]:
+                      - heading "Product short description Summarize this product in 1-2 short sentences. We’ll show it at the top of the page." [level=2] [ref=e872]:
+                        - text: Product short description
+                        - generic "Summarize this product in 1-2 short sentences. We’ll show it at the top of the page." [ref=e873]: 
+                      - generic [ref=e874]:
+                        - button "Move up" [ref=e875] [cursor=pointer]:
+                          - generic [ref=e876]: Move up
+                        - button "Move down" [ref=e878] [cursor=pointer]:
+                          - generic [ref=e879]: Move down
+                        - 'button "Toggle panel: Product short description" [expanded] [ref=e881] [cursor=pointer]':
+                          - generic [ref=e882]: "Toggle panel: Product short description"
+                    - generic [ref=e885]:
+                      - generic [ref=e886]:
+                        - button "Add Media" [ref=e888] [cursor=pointer]: Add Media
+                        - generic [ref=e890]:
+                          - button "Visual" [pressed] [ref=e891] [cursor=pointer]
+                          - button "Code" [ref=e892] [cursor=pointer]
+                      - application [ref=e894]:
+                        - generic [ref=e895]:
+                          - group [ref=e898]:
+                            - toolbar [ref=e900]:
+                              - group [ref=e902]:
+                                - generic [ref=e903]:
+                                  - button "Paragraph" [ref=e904] [cursor=pointer]:
+                                    - button "Paragraph" [ref=e905]:
+                                      - generic [ref=e906]: Paragraph
+                                  - button "Bold (Ctrl+B)" [ref=e908] [cursor=pointer]:
+                                    - button [ref=e909]
+                                  - button "Italic (Ctrl+I)" [ref=e911] [cursor=pointer]:
+                                    - button [ref=e912]
+                                  - button "Bulleted list (Shift+Alt+U)" [ref=e914] [cursor=pointer]:
+                                    - button [ref=e915]
+                                  - button "Numbered list (Shift+Alt+O)" [ref=e917] [cursor=pointer]:
+                                    - button [ref=e918]
+                                  - button "Blockquote (Shift+Alt+Q)" [ref=e920] [cursor=pointer]:
+                                    - button [ref=e921]
+                                  - button "Align left (Shift+Alt+L)" [ref=e923] [cursor=pointer]:
+                                    - button [ref=e924]
+                                  - button "Align center (Shift+Alt+C)" [ref=e926] [cursor=pointer]:
+                                    - button [ref=e927]
+                                  - button "Align right (Shift+Alt+R)" [ref=e929] [cursor=pointer]:
+                                    - button [ref=e930]
+                                  - button "Insert/edit link (Ctrl+K)" [ref=e932] [cursor=pointer]:
+                                    - button [ref=e933]
+                                  - button "Insert Read More tag (Shift+Alt+T)" [ref=e935] [cursor=pointer]:
+                                    - button [ref=e936]
+                                  - button "Fullscreen" [ref=e938] [cursor=pointer]:
+                                    - button [ref=e939]
+                                  - button "Toolbar Toggle (Shift+Alt+Z)" [ref=e941] [cursor=pointer]:
+                                    - button [ref=e942]
+                          - group [ref=e944]:
+                            - iframe [ref=e945]:
+                              - paragraph [ref=f4e2]: Handwoven Tussar silk saree with a natural gold sheen and contrasting pallu.
+                          - group [ref=e946]:
+                            - generic [ref=e951]: 
+                  - generic [ref=e952]:
+                    - generic [ref=e953]:
+                      - heading "Reviews" [level=2] [ref=e954]
+                      - generic [ref=e955]:
+                        - button "Move up" [ref=e956] [cursor=pointer]:
+                          - generic [ref=e957]: Move up
+                        - button "Move down" [ref=e959] [cursor=pointer]:
+                          - generic [ref=e960]: Move down
+                        - 'button "Toggle panel: Reviews" [expanded] [ref=e962] [cursor=pointer]':
+                          - generic [ref=e963]: "Toggle panel: Reviews"
+                    - generic [ref=e965]:
+                      - paragraph [ref=e966]:
+                        - button "Add Comment" [ref=e967] [cursor=pointer]
+                      - paragraph [ref=e968]: No comments yet.
+  - generic: Tussar Silk Saree — Handwoven
+  - text:          
+  - status [ref=e972]
+  - text:  
+  - status [ref=e973]
+  - text:          
+  - status [ref=e974]
+  - text:  
